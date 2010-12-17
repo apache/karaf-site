@@ -1,0 +1,9 @@
+---
+title: Site
+page_version: 2
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+This page contains the main navigation links to the parts which make up the Site layout.
+
+{children}

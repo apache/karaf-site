@@ -1,0 +1,34 @@
+---
+title: Team
+page_version: 19
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+This page lists who we are. By all means add yourself to the list - lets sort it in alphabetical order
+
+h3. Committers
+
+|| Name || ID || PMC || Organisation ||
+| Ioannis Canellos | iocanel |(/)| [Upstream S.A.|http://corp.upstreamsystems.com/] |
+| Hiram Chirino | chirino | | [FuseSource|http://fusesource.com/] |
+| Chris Custine | ccustine | (/) | [FuseSource|http://fusesource.com/] |
+| [?ukasz Dywicki|http://blog.code-house.org] | | | [Code-House|http://code-house.org] | 
+| Freeman Fang | ffang | (/) |  [FuseSource|http://fusesource.com/] |
+| Jarek Gawor | jgawor | (/) | [IBM|http://www.ibm.com] |
+| [Jamie Goodyear|http://icodebythesea.blogspot.com] | jgoodyear | (/) | [FuseSource|http://fusesource.com/] |
+| David Jencks | djencks | (/) | [IBM|http://www.ibm.com] |
+| Alex Karasulu | akarasulu | (/) | |
+| [Charles Moulliard|http://cmoulliard.blogspot.com] | cmoulliard | (/) | [FuseSource|http://fusesource.com/] |
+| Achim Nierbeck | | | |
+| [Guillaume Nodet|http://gnodet.blogspot.com] | gnodet | (/) | [FuseSource|http://fusesource.com/] |
+| Jean-Baptiste Onofré | jbonofre | (/) | [Fimasys|http://www.fimasys.com] |
+| James Strachan | jstrachan | | [FuseSource|http://fusesource.com/] |
+| Adrian Trenaman | | | [FuseSource|http://fusesource.com/] | 
+| Gert Vanthienen | gertv | (/) | [FuseSource|http://fusesource.com/] |
+
+h3. Contributors
+
+|| Name || Organisation ||
+| [Lars Heinemann|http://lhein.blogspot.com/] | [FuseSource |http://fusesource.com/]|
+| Andreas Pieber| |
+

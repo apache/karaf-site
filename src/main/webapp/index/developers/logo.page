@@ -1,0 +1,12 @@
+---
+title: Logo
+page_version: 3
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+h1. Logo
+
+The current logo is available from this page in [PNG|^karaf-logo.png] and [SVG|^karaf-logo.svg] format.
+
+!karaf-logo.png!
+

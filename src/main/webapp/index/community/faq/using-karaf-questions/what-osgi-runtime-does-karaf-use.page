@@ -1,0 +1,12 @@
+---
+title: What OSGi runtime does Karaf use
+page_version: 1
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+h2. What OSGi runtime does Karaf use?
+
+Karaf can use either [Apache Felix Framework|http://felix.apache.org/site/apache-felix-framework.html] or [Eclipse Equinox|http://www.eclipse.org/equinox/].
+You can [easily choose|How do I choose between Felix and Equinox] which framework you want.
+
+Note that [Apache Felix|http://felix.apache.org/] has a number of subprojects related to OSGi and Karaf embeds a lot of those subprojects, whether you choose Felix Framework or Eclipse Equinox has the underlying OSGi runtime.

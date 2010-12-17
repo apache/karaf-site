@@ -1,0 +1,50 @@
+---
+title: Navigation
+page_version: 7
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+h3. [Overview|Karaf Overview]
+
+- [Home|Index]
+- [Getting Started|2. Quick Start]
+- [FAQ]
+- [Download]
+
+h3. [Documentation]
+
+- [Users' Guide|Karaf Users' Guide]
+
+h3. Search
+
+{html}
+<form action="http://www.google.com/cse" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="015244613624489049845:je3sq-6gx0y" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="25" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
+{html}
+
+h3. [Community]
+
+- [Support]
+- [Contributing]
+- [Discussion Forums]
+- [Mailing Lists]
+- [News]
+- [Articles]
+- [Site]
+- [Team]
+
+h3. [Developers]
+
+- [Developer Guide|Developers]
+- [Source]
+- [Building]
+- [JavaDoc]
+- [IRC Room] 
+- [Maven Reports|http://karaf.apache.org/maven/index.html]

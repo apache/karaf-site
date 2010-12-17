@@ -1,0 +1,65 @@
+---
+title: Index
+page_version: 12
+page_creator: gnodet
+page_modifier: pieber
+--- pipeline:conf
+{section}
+{column}
+Apache Karaf is a small OSGi based runtime which provides a lightweight container onto which various components and applications can be deployed.
+
+Here is a short list of features supported by the Karaf:
+{include: Karaf Features}
+
+!karaf2.png!
+{column}
+{column}
+{center}
+*[Download Karaf 2.1.2|Karaf 2.1.2 Release]*
+[!karaf-box.png|width=256!|Download]
+{center}
+{html}
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#karaf',
+  interval: 6000,
+  title: 'What do people say about',
+  subject: 'Karaf',
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#5b8fbe',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+{html}
+{column}
+{section}
+
+
+h2. News
+
+{blog-posts:5}
+----
+[More News|News]

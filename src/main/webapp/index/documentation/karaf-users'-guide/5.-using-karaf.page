@@ -1,0 +1,15 @@
+---
+title: 5. Using Karaf
+page_version: 4
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+{scrollbar}
+{anchor:top}
+
+h1. 5. Using Karaf
+
+{children:all}
+
+[#top]
+{scrollbar}

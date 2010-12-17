@@ -1,0 +1,108 @@
+---
+title: Board Reports
+page_version: 14
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+h1. Board reports
+
+Reports submitted to the Apache Board
+
+h2. December 2010
+{code}
+Apache Karaf provides higher level features and services 
+specifically designed for creating OSGi-based servers.
+
+Community
+=========
+We've voted in 3 new committers:
+ * Adrian Trenaman
+ * Achim Nierbeck
+ * ?ukasz Dywicki
+One committer has been invited to the PMC:
+ * Ioannis Cannellos
+
+Development
+===========
+Two releases have been voted on:
+ * Apache Karaf 2.1.1 on November 14th, 2010
+ * Apache Karaf 2.1.2 on November 25th, 2010
+
+We're working towards the 2.2.0 release, currently
+targetted  for January. It has been delayed because
+we're waiting for Aries to release a new version.
+
+We've voted a new logo and are discussing a possible 
+web site design change.  We're also planning to move
+out of confluence for the website, possibly using
+Scalate.
+
+Branding
+========
+ * project website basics: home page is ok
+ * website nav links: we're missing nearly all the links 
+   but the one to the main ASF web site
+ * trademarks: not really compliant here
+ * logo: not really compliant yet
+ * metadata: we have a registered doap file
+
+Issues for board consideration
+==============================
+None so far.  The community is growing and healthy.
+We have currently two active contributors that aren't yet
+committers.
+{code}
+
+h2. September 2010
+
+{code}
+Community
+=========
+We added the following committers:
+ *  Hiram Chirino
+ *  James Strachan
+ *  Ioannis Canellos
+James and Hiram were committers before we moved to TLP and asked 
+to get their committership back, so they've been voted in back.  
+Ioannis is a new Apache committer.
+We also have other active contributors, so we expect some new
+committers in the coming months.
+
+Development
+===========
+No releases this month so far, but development continues towards 
+our next point release of Karaf, with attention coming from users 
+testing new features and suggesting improvements. We expect to 
+release this new version before the end of the month.
+
+
+Issues for board consideration
+==============================
+None so far.  The community is growing and healthy.
+{code}
+
+h2. August 2010
+
+{code}
+Since the last July report, Apache Karaf 2.0.0 has been released.
+
+Several patches have been supplied by contributors, but due to the 
+holiday season, development has slowed down a bit during the past 
+weeks.
+{code}
+
+h2. July 2010
+
+{code}
+It has been only a few weeks since the Karaf TLP has been established,
+but the activity level is very high.   All resources have been set up
+by infra (thx) and we have moved the opened JIRA issues and svn tree
+from Felix to Karaf.
+
+We've already received some patches from non developers, so I expect
+the community to grow very soon.
+
+We haven't released anything yet, and we're waiting for trunk to 
+stabilize before releasing a 2.0 (new major version due to package
+renaming).
+{code}

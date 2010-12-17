@@ -1,0 +1,20 @@
+---
+title: Discussion Forums
+page_version: 4
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+h2. Discussion Forums
+
+Before posting you might want to read the [Tips for getting help].
+
+Many users prefer to use online forums rather than joining a mail list which can lead to lots more email traffic so we use the online forums at [Nabble forums|http://karaf.922171.n3.nabble.com/] which also work with our [Mailing Lists] so that both stay completely in sync. Use either the mailing lists or online forums, its completely up to you.
+
+h3. [Karaf Forums|http://karaf.922171.n3.nabble.com/]
+
+* [Karaf User Forum|http://karaf.922171.n3.nabble.com/Karaf-User-f930749.html]
+* [Karaf Developer Forum|http://karaf.922171.n3.nabble.com/Karaf-Dev-f930721.html]
+
+h3. Mailing Lists
+
+If you prefer to use a mailing list instead then check out our [Mailing Lists]. Note that the Forums and [Mailing Lists] are kept in sync so its your choice which you use.
