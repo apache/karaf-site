@@ -172,8 +172,12 @@
                 </executions>
                 <configuration>
                     <remoteServerId>people.apache.org</remoteServerId>
-                    <remoteServerUrl>scp://people.apache.org/www/karaf.apache.org/
-                    </remoteServerUrl>
+                    <remoteServerUrl>scp://people.apache.org/www/karaf.apache.org/</remoteServerUrl>
+                    <url>https://cwiki.apache.org/confluence/rpc/xmlrpc</url>
+                    <space>KARAF</space>
+                    <user>${confluence.user}</user>
+                    <password>${confluence.password}</password>
+                    <target>${basedir}/src/main/webapp</target>
                 </configuration>
                 <dependencies>
                     <dependency>
