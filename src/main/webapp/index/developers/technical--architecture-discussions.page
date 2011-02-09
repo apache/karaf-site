@@ -1,0 +1,12 @@
+---
+title: Technical & Architecture Discussions
+page_version: 1
+page_creator: nanthrax
+page_modifier: nanthrax
+--- pipeline:conf
+This page hosts all open discussions and brainstorming around technical implementations and/or architecture design.
+
+The current topics are:
+- Clustering and Karaf nodes state sync
+- Feature livecycle and update
+- Karaf profiles

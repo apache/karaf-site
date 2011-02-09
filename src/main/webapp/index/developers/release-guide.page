@@ -1,6 +1,6 @@
 ---
 title: Release Guide
-page_version: 9
+page_version: 12
 page_creator: gnodet
 page_modifier: jgoodyear
 --- pipeline:conf
@@ -9,11 +9,21 @@ h1. How to create and announce a Karaf release.
 h3. Required tools, practices and resources
 
 * Use Maven 2.0.11 or greater.
-* JDK 1.5 (We try to maintain compatibility)
+* JDK 1.5 if version < 3.0.0, JDK 1.6 otherwise.
 * Install [princexml|http://www.princexml.com/] 7.1 for manual generation.
 * Each and every release must be [SIGNED|http://www.apache.org/dev/release-signing.html]
 * Your public key should also be cross-signed by other Apache committers (not required, but suggested)
 * Make sure you have all Apache servers defined in your [settings.xml|http://maven.apache.org/developers/committer-settings.html]
+
+h3. Versioning
+
+Sample versioning:
+|| SNAPSHOT || RELEASE||
+|1.0.0-SNAPSHOT | 1.0.0|
+|1.1.0-SNAPSHOT | 1.1.0|
+|1.1.1-SNAPSHOT | 1.1.1|
+|1.1.2-SNAPSHOT | 1.1.2|
+|2.0.0-SHAPSHOT | 2.0.0|
 
 h3. Prepare
 
@@ -49,6 +59,43 @@ Your settings.xml should look like:
     ...
   </servers>
 </settings>
+{code}
+
+h3. Community awareness message(s).
+
+In the lead up towards a release candidate the user base should be given some notification.
+
+In the case of dot zero release a new maintenance branch may be created with trunk continuing new development. The maintenance branch may be used for stabilization of the code base before a release candidate is cut. A notification message to the dev & user lists may be warranted.
+
+{code}
+To: "Karaf Developers List" <dev@karaf.apache.org>
+Subject: [NOTICE] Karaf trunk branched to create X.Y.0 maintenance branch. 
+
+Hi,
+
+We've just branched off X.Y.0 from trunk and started to stabilize it; latest artifacts are
+available via apache-snapshot repo... simply add the following repo to your pom,
+change the version to and provide us with feedback.
+
+<<insert short description of the reason for branching here>>
+
+Thanks,
+
+-The Karaf team
+{code}
+
+A few weeks later the following message would be sent:
+
+{code}
+To: "Karaf Developers List" <dev@karaf.apache.org>
+Subject: [UPDATE] Karaf X.Y.0 release branch status.
+
+Hi,
+
+Thanks for all your feedback; we've fixed XX bugs/problems on the release branch
+and will start a release about next week; Thanks again for all your contributions.
+
+-The Karaf Team
 {code}
 
 h3. Staging the Release Candidate

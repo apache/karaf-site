@@ -1,8 +1,8 @@
 ---
 title: Navigation
-page_version: 7
+page_version: 9
 page_creator: gnodet
-page_modifier: gnodet
+page_modifier: nanthrax
 --- pipeline:conf
 h3. [Overview|Karaf Overview]
 
@@ -43,8 +43,8 @@ h3. [Community]
 h3. [Developers]
 
 - [Developer Guide|Developers]
+- [Roadmap]
 - [Source]
 - [Building]
 - [JavaDoc]
-- [IRC Room] 
-- [Maven Reports|http://karaf.apache.org/maven/index.html]
+- [IRC Room]

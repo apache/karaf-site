@@ -6,4 +6,4 @@ page_modifier: gnodet
 --- pipeline:conf
 h1. Logo proposals
 
-!karaf_logos.png!
+!/images/karaf_logos.png!

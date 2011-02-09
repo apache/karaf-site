@@ -1,0 +1,55 @@
+---
+title: Roadmap
+page_version: 5
+page_creator: nanthrax
+page_modifier: pieber
+--- pipeline:conf
+h1. Roadmap
+
+This page gathers open discussions regarding the Karaf roadmap.
+
+It's a place where all Karaf developers could share ideas before opening the corresponding Jira tasks.
+
+h2. Karaf profiles
+
+There where some discussions here that Karaf profiles might should be merged into features/kar concept...
+
+h2. JAAS easy configuration
+
+h2. Karaf Enterprise Repository
+
+The problem with the current way is that you have to remember the links of the different features. Instead we could manage a repo where does links could be entered. This way we could simply search them by name. Interesting extensions to this feature are also provided on the Karaf mailing list including commands to download the kar files but not installing them (download them while you're online, but install/uninstall them while you're offline)
+
+Some additional idea on the mailing list was to make the features available without versions. This means you can either install a feature without any version (repo:install xyz) or with a specific version (xyz/1). We can use mvn for this again.
+
+The enterprise repository could be a simply .xml file which is read by karaf and e.g. provided via karaf.apache.org/repository.xml. This xml could follow a structure like:
+
+{code}
+<repo>
+  <feature>
+    <id>standard</id>
+    <desc>Very basic feature extensions for Karaf such as OBR, SSH and Soring</desc>
+    <url>mvn:org.apache.karaf/apache-karaf</url>
+    <!-- Optionally if not using mvn and still want to provide multible versions -->
+    <versions>
+
+    </versions>
+  </feature>
+</repo>
+{code}
+
+Based on this we can either create a homepage presenting the different features with a short description of the file. The possible versions could be retrieved via  maven-metadata.xml. The different features could be retrieved from the features.xml then including a description of each feature.
+
+A different method could be (if we assume everything is available via maven) to query some maven repos for classifier:features which should return all feature files in all versions from all artifacts. I think we should be able to create such a list quite efficient (if the m2 repos react fast enough and are indexed) to create this at runtime using a command such as repo:listfeatures
+
+h2. Pre\- and Post processing gogo scripts for features
+
+To add config files, libs and other settings, in addition to bundles, features should provide post and pre processing of a gogo script which can does the additional setup.
+
+h2. Minimize dependencies and distributions
+
+Currently a lot of different dependencies are directly included in Karaf. Instead we should minimize the Kernel again and rather provide additional projects for e.g. spring or at best "export" the features/kar configs into projects like aries, cxf, camel, ...
+
+h2. karaf-maven-plugin with at least run, distribution and kar
+
+While there are many possible goals here I think a run, distribution and kar goal would be the most important. The run-goal should unzip an assembly and execute the .sh/.bin files depending on your system, distribution should simply build a distribution out of lots of kar files which describe e.g. branding, features, configs, ...) but at best with nothing else required. If this is not possible giving only config, lib and some kind of "additional" directories would be also great here. For kar we simply package jar bundles and features.xml files. It may also include config files and other things required for setup.
