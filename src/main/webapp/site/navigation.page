@@ -1,6 +1,6 @@
 ---
 title: Navigation
-page_version: 10
+page_version: 11
 page_creator: gnodet
 page_modifier: gnodet
 --- pipeline:conf
@@ -47,3 +47,10 @@ h3. [Developers]
 - [Source]
 - [Building]
 - [IRC Room]
+
+h3. [ASF|http://www.apache.org/]
+
+- [License|http://www.apache.org/licenses/]
+- [Sponsorship|http://www.apache.org/foundation/sponsorship.html]
+- [Thanks|http://www.apache.org/foundation/thanks.html]
+- [Security|http://www.apache.org/security/]
