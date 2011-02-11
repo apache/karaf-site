@@ -139,7 +139,20 @@ mvn release:perform
 # Verify the staged artifacts 
 ** If you click on your repository, a tree view will appear below. You can then browse the contents to ensure the artifacts are as you expect them. Pay particular attention to the existence of *.asc (signature) files. If you don't like the content of the repository, right click your repository and choose Drop. You can then rollback your release (see Canceling the Release) and repeat the process
 ** Note the staging repository URL (especially the number at the end of the URL) you will need this in your vote email
-
+# Upload the manual
+{code}
+cd manual ; mvn scalate:deploy
+{code}
+# Update the web site with the following:
+** add a news section on the website at {{src/main/webapp/index/community/news/}} and a link to it in {{src/main/webapp/index.page}} (only keep a few news on that one) and {{src/main/webapp/index/community/news.page}}
+** add the new schemas (if any) in {{src/main/webapp/xmlns}}
+** create a page for the release in {{src/main/webapp/download/karaf-xxx-release}} with the release notes and jira issues
+** update the download page in {{src/main/webapp/download.page}} to point to that page (only the latest of it branch should appear on the download page)
+** move the older version of the same branch to the {{src/main/webapp/download/archives.page}} page
+** update the documentation page with {{src/main/webapp/documentation.page}} to point to the latest manual and schemas
+** commit the changes
+** ?? should we do that in a branch and merge it later to trunk when the release is published, still need to be discussed related to how / if we maintain branches for the website ??
+** ?? maybe include a pointer to the website trunk or branch in the vote email so that people can check the future website / release notes ??
 
 h3. Starting the vote
 
@@ -211,10 +224,9 @@ If the vote passes:
 # delete the old release from the Karaf dist directory (it's archived)
 # login to https://repository.apache.org with your Apache SVN credentials. Click on Staging. Find your closed staging repository, right click on it and choose Promote. Select the Releases repository from the drop-down list and click Promote.
 # next click on Repositories, select the Releases repository and validate that your artifacts are all there
-# update the news section on the website at news
-# update the download page on the website at downloads to point to the new release.
+# deploy the updated web site
 
-For the last two tasks, it's better to give the mirrors some time to distribute the uploaded artifacts (one day should be fine). This ensures that once the website (news and download page) is updated, people can actually download the artifacts.
+For the last task, it's better to give the mirrors some time to distribute the uploaded artifacts (one day should be fine). This ensures that once the website (news and download page) is updated, people can actually download the artifacts.
 
 h3. Update JIRA
 
@@ -223,10 +235,12 @@ Go to Admin section on the Karaf JIRA and mark the X.Y.Z version as released - c
 h3. Announcing the Karaf Release
 
 {code}
-To: "Karaf Developers List" <dev@karaf.apache.org>
-Subject: [ANN] Karaf version X.Y.Z Released
+To: "Karaf Users List" <user@karaf.apache.org>
+Subject: [ANN] Apache Karaf version X.Y.Z Released
 
-The Karaf team is pleased to announce the release of Karaf version X.Y.Z
+The Apache Karaf team is pleased to announce the release of Karaf version X.Y.Z
+
+Apache Karaf is a small OSGi distribution which provides a ready to use container for server side applications.
 
 <<insert short description of important updates>>
 
@@ -236,7 +250,7 @@ This release is available from http://karaf.apache.org/downloads and Maven:
 
   <dependency>
     <groupId>org.apache.karaf</groupId>
-    <artifactId>org.apache.karaf.XXX</artifactId>
+    <artifactId>apache-karaf</artifactId>
     <version>X.Y.Z</version>
   </dependency>
 
@@ -246,16 +260,11 @@ Release Notes:
 
 Enjoy!
 
--The Karaf team
+-The Apache Karaf team
 {code}
 
-Remember to forward this announcement to users@karaf.apache.org - try not to cross-post (CC announcements to both user and dev lists.
+Remember to forward this announcement to dev@karaf.apache.org - try not to cross-post (CC announcements to both user and dev lists).
 
-h4. Add blog entry to Karaf news.
+h4. Send an announce to announce@apache.org
 
-Please add a simple blog entry to the Karaf news feed, you may use the following format:
-{code}
-The Karaf team is pleased to announce the availability of Karaf X.Y.Z.
-This release includes a number of new features, improvements and bug fixes. (Adjust to reflect motivation behind release)
-For more information, please see the release notes.
-{code}
+Send the same announce but without the detailed release notes from JIRA to announce@apache.org from an @apache.org email address.
