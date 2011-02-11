@@ -1,0 +1,11 @@
+---
+title: news-2010-11-14
+page_version: 3
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+h1. Jamie Goodyear posted on Nov 14, 2010\\Karaf 2.1.1 released
+
+The Karaf team is pleased to announce the availability of [Karaf 2.1.1|http://karaf.apache.org/download.html].
+This release of Apache Karaf is based off of the 2.1.x series branch, representing an update to Apache Karaf 2.1.0. It contains multiple bug fixes, while introducing a minimal number of changes to dependencies from our last release.
+For more information, please see the [release notes|http://karaf.apache.org/karaf-211-release.html].

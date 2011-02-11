@@ -1,0 +1,15 @@
+---
+title: 6.4. Embedding Karaf
+page_version: 3
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+{scrollbar}
+{anchor:top}
+
+h1. 6.4. Embedding Karaf
+
+TODO: an example of embedding Karaf inside a web application is provided in the distribution
+
+[#top]
+{scrollbar}

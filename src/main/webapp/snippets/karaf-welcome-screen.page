@@ -1,0 +1,20 @@
+---
+title: Karaf welcome screen
+page_version: 5
+page_creator: gnodet
+page_modifier: nanthrax
+--- pipeline:conf
+{code:borderStyle=solid}
+        __ __                  ____      
+       / //_/____ __________ _/ __/      
+      / ,<  / __ `/ ___/ __ `/ /_        
+     / /| |/ /_/ / /  / /_/ / __/        
+    /_/ |_|\__,_/_/   \__,_/_/         
+
+  Apache Felix Karaf (2.1.2)
+
+Hit '<tab>' for a list of available commands
+and '[cmd] --help' for help on a specific command.
+
+karaf@root> 
+{code}

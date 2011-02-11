@@ -1,0 +1,58 @@
+---
+title: Karaf Users' Guide in one page
+page_version: 20
+page_creator: fdiotalevi
+page_modifier: gnodet
+--- pipeline:conf
+{div:class=title}
+!/images/karaf-logos.png!
+\\
+\\
+\\
+\\
+Apache Karaf
+Users' Guide
+\\
+\\
+\\
+\\
+{div}
+
+{div:class=copyright-section}
+Copyright 2010 The Apache Software Foundation
+{div}
+
+
+{div:class=toc-title}
+Table of contents
+{div}
+
+{toc:maxLevel=1}
+
+{include:1. Overview}
+{include:2. Quick Start}
+{include:2.1. Quick Start (Source)}
+{include:3. Installation}
+{include:4. Understanding Karaf}
+{include:4.1. Console and Commands}
+{include:4.2. Remote Console}
+{include:4.3. Logging system}
+{include:4.4. Deployer}
+{include:4.5. Security framework}
+{include:4.6. Provisioning}
+{include:4.7. Administration}
+{include:4.8. Configuration}
+{include:5. Using Karaf}
+{include:5.1. Troubleshooting, Debugging and Profiling}
+{include:5.2. Developping applications}
+{include:5.3. Creating bundles for third party dependencies}
+{include:6. Advanced uses}
+{include:6.1. Extending the console}
+{include:6.2. Building custom distributions}
+{include:6.3. Programmatically connect to the console}
+{include:6.4. Embedding Karaf}
+{include:6.5. Deploying security providers}
+{include:6.6. Installing additional features}
+{include:6.7. Configuring Failover Deployments}
+{include:7. Optional Features}
+{include:7.1. Enabling Colorized Console Output On Windows}

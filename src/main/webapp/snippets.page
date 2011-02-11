@@ -1,0 +1,9 @@
+---
+title: Snippets
+page_version: 1
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+A list of small pages to be included at several locations.
+
+{children}

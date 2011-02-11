@@ -1,0 +1,11 @@
+---
+title: Developers
+page_version: 2
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+h2. Developers
+
+The following section contains developer related links for Apache Karaf
+
+{children:depth=3} 

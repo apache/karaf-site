@@ -1,0 +1,10 @@
+---
+title: Articles
+page_version: 4
+page_creator: jgoodyear
+page_modifier: gnodet
+--- pipeline:conf
+h2. Presentations
+
+* [JUG Poitou Charents - Apache, OSGi and Karaf|http://www.slideshare.net/gnodet/jug-poitou-charentes-apache-osgi-and-karaf]
+* [OSGi with Apache Felix Karaf|http://www.anova.be/files/OSGi%20with%20Apache%20Felix%20Karaf.pdf]

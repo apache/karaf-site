@@ -1,0 +1,68 @@
+---
+title: Karaf 1.6.0 Release
+page_version: 4
+page_creator: gnodet
+page_modifier: gnodet
+--- pipeline:conf
+Note that this version has been released under the Apache Felix project, before Karaf graduated as a top level project, which explains the references to the FELIX issue tracker.
+
+h2. Download
+
+Download links can be found in the [Download] page.
+
+h2. Release notes - Karaf - Version 1.6.0
+
+Apache Felix Karaf 1.6.0 was released on May 27th 2010
+
+This release includes these fixes/improvements:
+
+h3. Bug
+
+[FELIX-2129|http://issues.apache.org/jira/browse/FELIX-2129] - Possible hang with slave instances of Karaf when using Oracle JDBC lock.
+[FELIX-2130|http://issues.apache.org/jira/browse/FELIX-2130] - Failover Clustering Mechanism - Database shutdown / loss results in all Karaf instances becoming Active on restart of that DB
+[FELIX-2169|http://issues.apache.org/jira/browse/FELIX-2169] - Improve dev:show-tree performance and avoid NPE for installed bundle
+[FELIX-2191|http://issues.apache.org/jira/browse/FELIX-2191] - Drop-in deployment of feature descriptor with spring-dm bundles fails
+[FELIX-2196|http://issues.apache.org/jira/browse/FELIX-2196] - Karaf uses old version of Aries artifacts
+[FELIX-2270|http://issues.apache.org/jira/browse/FELIX-2270] - Don't install jaas.boot bundle, its in the startup classpath
+[FELIX-2295|http://issues.apache.org/jira/browse/FELIX-2295] - Referenced service throws UndeclaredThrowableException instead of real one
+[FELIX-2310|http://issues.apache.org/jira/browse/FELIX-2310] - Karaf framework environment is not set correctly
+[FELIX-2311|http://issues.apache.org/jira/browse/FELIX-2311] - Remove the Bootstrap class which is not needed anymore
+[FELIX-2319|http://issues.apache.org/jira/browse/FELIX-2319] - The order of the list of boot features is not used when installing the features
+[FELIX-2326|http://issues.apache.org/jira/browse/FELIX-2326] - NullPointerException thrown from PropertiesLoginModule if a user doesn't exist in the properties file
+[FELIX-2343|http://issues.apache.org/jira/browse/FELIX-2343] - Features maven plugin does not honor local and remote repository overrides
+[FELIX-2347|http://issues.apache.org/jira/browse/FELIX-2347] - Configurations on features should not override existing configurations
+
+h3. Improvement
+
+[FELIX-1921|http://issues.apache.org/jira/browse/FELIX-1921] - Provide a way to configure the host used for karaf ssh server
+[FELIX-2058|http://issues.apache.org/jira/browse/FELIX-2058] - The Oracle, MySql and default jdbc lock classes should inherit from a common base class
+[FELIX-2109|http://issues.apache.org/jira/browse/FELIX-2109] - OBR should support matching resources for a given requirement
+[FELIX-2110|http://issues.apache.org/jira/browse/FELIX-2110] - The resolver should be able to resolve for some requirements in addition to resources
+[FELIX-2113|http://issues.apache.org/jira/browse/FELIX-2113] - Add obr:find and obr:resolve to find matching resources and show the resolution output
+[FELIX-2193|http://issues.apache.org/jira/browse/FELIX-2193] - add-features-to-repo goal of features-maven-plugin should be able to download dependencies if necessary
+[FELIX-2237|http://issues.apache.org/jira/browse/FELIX-2237] - ^C should interrupt the thread
+[FELIX-2239|http://issues.apache.org/jira/browse/FELIX-2239] - features-maven-plugin validate goal should be able to use configurable config.properties
+[FELIX-2278|http://issues.apache.org/jira/browse/FELIX-2278] - refactor features-maven-plugin to use Parser/Clause/VersionRange from utils
+[FELIX-2280|http://issues.apache.org/jira/browse/FELIX-2280] - To much code duplication in DefaultJDBCLock, OracleJDBCLock and MySQLJDBCLock
+[FELIX-2293|http://issues.apache.org/jira/browse/FELIX-2293] - features-maven-plugin validate should support specify the feature repositories from the maven plugin configure
+[FELIX-2297|http://issues.apache.org/jira/browse/FELIX-2297] - features-maven-plugin validate goal should be able to use configurable jre version
+[FELIX-2312|http://issues.apache.org/jira/browse/FELIX-2312] - Support for ext and endorsed directories
+[FELIX-2314|http://issues.apache.org/jira/browse/FELIX-2314] - Improve logging support
+[FELIX-2315|http://issues.apache.org/jira/browse/FELIX-2315] - Upgrade to felix web console 3.0.0
+[FELIX-2320|http://issues.apache.org/jira/browse/FELIX-2320] - Override default Karaf shell prompt
+[FELIX-2327|http://issues.apache.org/jira/browse/FELIX-2327] - Disable and delay Jline terminal initialization
+[FELIX-2329|http://issues.apache.org/jira/browse/FELIX-2329] - Improve the URL handling in features-maven-plugin regarding the add-features-to-repo goal
+[FELIX-2330|http://issues.apache.org/jira/browse/FELIX-2330] - Uninstall, refresh, and resolve osgi shell commands do not support multiple bundle ids
+
+h3. Task
+
+[FELIX-1990|http://issues.apache.org/jira/browse/FELIX-1990] - Use aries blueprint / jmx
+
+h3. Known issues
+
+* When starting Apache Felix Karaf, you can see this warning message (cfr. [FELIX-2360|http://issues.apache.org/jira/browse/FELIX-2360])
+{code}
+bin/karaf: 326: [[: not found 
+{code}
+
+* A child instance created by admin:create might not be accessible using the admin:connect command, but the instance is fully operational and can be accessed with a normal ssh client (ssh localhost -p <child instance ssh port number> -l karaf) (cfr. [FELIX-2361|http://issues.apache.org/jira/browse/FELIX-2361])
