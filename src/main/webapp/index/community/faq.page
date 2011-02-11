@@ -1,6 +1,6 @@
 ---
 title: FAQ
-page_version: 3
+page_version: 4
 page_creator: gnodet
 page_modifier: gnodet
 --- pipeline:conf
@@ -10,10 +10,17 @@ Here are a list of commonly asked questions and answers. If you have any questio
 
 We [welcome contributions|Contributing] and this entire website is a [wiki that you can edit|How does the website work] so please join in and help us make the documentation better!
 
-h3. [General Questions]
+h3. General Questions
 
-{include:General Questions}
+* [How Do I Become A Committer]
+* [How Do I Edit The Website]
+* [How Does The Website Work]
+* [What Is Karaf]
+* [What Is The License]
 
-h3. [Using Karaf Questions]
 
-{include:Using Karaf Questions}
+h3. Using Karaf Questions
+
+* [How Do I Choose Between Felix And Equinox]
+* [How Do I Restart From A Clean State]
+* [What Osgi Runtime Does Karaf Use]
