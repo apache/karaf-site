@@ -4,4 +4,18 @@ page_version: 1
 page_creator: gnodet
 page_modifier: gnodet
 --- pipeline:conf
-{children}
+h1. Community
+
+This section contains information for all the community.
+
+* [Articles]
+* [Board Reports]
+* [Contributing]
+* [Discussion Forums]
+* [Download]
+* [Faq]
+* [Mailing Lists]
+* [News]
+* [Support]
+* [Team]
+* [Tips For Getting Help]
