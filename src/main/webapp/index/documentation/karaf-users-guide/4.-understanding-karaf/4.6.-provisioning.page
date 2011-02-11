@@ -1,8 +1,8 @@
 ---
 title: 4.6. Provisioning
-page_version: 24
+page_version: 25
 page_creator: gnodet
-page_modifier: christian schneider
+page_modifier: nanthrax
 --- pipeline:conf
 {scrollbar}
 {anchor:top}
@@ -81,7 +81,7 @@ This configuration file contains two properties:
 * {{featuresBoot}}: a comma separated list of features to install at startup
 * {{featuresRepositories}}: a comma separated list of feature repositories to load at startup
 
-This configuration file is of interest if you plan to distribute Apache Karaf distribution which includes pre-installed features.  Such a process is detailed in the [6.2. Building custom distributions] section.
+This configuration file is of interest if you plan to distribute Apache Karaf distribution which includes pre-installed features.  Such a process is detailed in the [6.2. Custom distributions] section.
 
 h2. Repositories
 

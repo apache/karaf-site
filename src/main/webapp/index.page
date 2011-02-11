@@ -1,8 +1,8 @@
 ---
 title: Index
-page_version: 13
+page_version: 15
 page_creator: gnodet
-page_modifier: nanthrax
+page_modifier: gnodet
 --- pipeline:conf
 {section}
 {column}
@@ -60,6 +60,8 @@ new TWTR.Widget({
 
 h2. News
 
-{blog-posts:5}
+{include:news-2011-01-11}
+{include:news-2010-11-25}
+{include:news-2010-11-14}
 ----
 [More News|News]

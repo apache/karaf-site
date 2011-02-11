@@ -1,9 +1,14 @@
 ---
 title: News
-page_version: 1
+page_version: 3
 page_creator: gnodet
 page_modifier: gnodet
 --- pipeline:conf
 h2. News
 
-{blog-posts:20}
+{include:news-2011-01-11}
+{include:news-2010-11-25}
+{include:news-2010-11-14}
+{include:news-2010-09-24}
+{include:news-2010-07-23}
+{include:news-2010-06-16}
