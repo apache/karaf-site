@@ -1,6 +1,6 @@
 ---
 title: 6.2. Custom distributions
-page_version: 7
+page_version: 8
 page_creator: gnodet
 page_modifier: nanthrax
 --- pipeline:conf
@@ -109,14 +109,107 @@ For instance, the Maven POM could look like:
           </execution>
         </executions>
       </plugin>
-      <!-- TODO complete with dependency plugin section -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>copy</goal>
+            </goals>
+            <configuration>
+               <!-- Define here the artifacts which should be considered in the assembly -->
+               <!-- For instance, the branding jar -->
+               <artifactItems>
+                 <artifactItem>
+                    <groupId>my.groupId</groupId>
+                    <artifactId>my.branding.id</artifactId>
+                    <version>1.0</version>
+                    <outputDirectory>target/dependencies</outputDirectory>
+                    <destFileName>mybranding.jar</destFileName>
+                 </artifactItem>
+               </artifactItems>
+            </configuration>
+          </execution>
+          <execution>
+            <!-- Uncompress the standard Karaf distribution -->
+            <id>unpack</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <configuration>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>org.apache.karaf</groupId>
+                  <artifactId>apache-karaf</artifactId>
+                  <type>tar.gz</type>
+                  <outputDirectory>target/dependencies</outputDirectory>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>bin</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <descriptors>
+                <descriptor>src/main/descriptors/bin.xml</descriptor>
+              </descriptors>
+              <appendAssemblyId>false</appendAssemblyId>
+              <tarLongFileMode>gnu</tarLongFileMode>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 
 </project>
 {code}
 
+The Maven POM will download the Karaf standard distribution and prepares resources to be processed by the Maven assembly plugin.
+
+Your Maven project structure should look like:
+
+* pom.xml: the previous POM file
+* src/main/descriptors/bin.xml: the assembly maven plugin descriptor (see below)
+* src/main/filtered-resources: contains all files where some maven properties should be replaced/filtered. Typically, it contains the features descriptor and configuration files.
+* src/main/distribution: contains all raw files which will be copied into your custom distribution.
+
+For instance, {{src/main/filtered-resources}} could contains:
+* {{my-features.xml}} where maven properties will be replaced
+* {{etc/org.apache.karaf.features.cfg}} file containing your my-features descriptor:
+{code}
+#
+# Comma separated list of features repositories to register by default
+#
+featuresRepositories=mvn:org.apache.karaf/apache-karaf/${karaf.version}/xml/features,mvn:my.groupId/my-features/${project.version}/xml/features
+
+#
+# Comma separated list of features to install at startup
+#
+featuresBoot=config,ssh,management,my-feature
+{code}
+
+
+
 TODO Complete
+
+h2. Roadmap
+
+A distribution goal is in preparation in the next Karaf 
 
 h2. Custom distribution examples
 

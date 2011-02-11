@@ -1,9 +1,22 @@
 ---
 title: Documentation
-page_version: 2
+page_version: 3
 page_creator: gnodet
 page_modifier: gnodet
 --- pipeline:conf
 h1. Documentation
 
-{children}
+h2. Karaf 2.2.x manual
+
+* [Karaf Manual|http://karaf.apache.org/manual/2.1.99-SNAPSHOT/index.html]
+
+h2. Karaf 2.1.x manual
+
+* [Karaf Users' Guide|https://cwiki.apache.org/KARAF/karaf-users-guide.html]
+* [Karaf Users' Guide in one page|https://cwiki.apache.org/KARAF/karaf-users-guide-in-one-page.html]
+
+h2. XML Schemas
+
+* [Karaf Features v1.0.0|http://karaf.apache.org/xmlns/features/v1.0.0]
+* [Karaf JAAS v1.0.0|http://karaf.apache.org/xmlns/jaas/v1.0.0]
+* [Karaf Shell v1.0.0|http://karaf.apache.org/xmlns/shell/v1.0.0]

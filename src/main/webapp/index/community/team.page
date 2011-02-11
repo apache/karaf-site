@@ -1,6 +1,6 @@
 ---
 title: Team
-page_version: 24
+page_version: 25
 page_creator: gnodet
 page_modifier: gnodet
 --- pipeline:conf
@@ -9,23 +9,23 @@ This page lists who we are. By all means add yourself to the list - lets sort it
 h3. Committers
 
 || Name || ID || PMC || Organisation ||
-| Ioannis Canellos | iocanel |(/)| [Upstream S.A.|http://corp.upstreamsystems.com/] |
-| Hiram Chirino | chirino | | [FuseSource|http://fusesource.com/] |
-| Chris Custine | ccustine | (/) | [FuseSource|http://fusesource.com/] |
+| Ioannis Canellos | iocanel | !/images/check.gif! | [Upstream S.A.|http://corp.upstreamsystems.com/] |
+| Hiram Chirino    | chirino | | [FuseSource|http://fusesource.com/] |
+| Chris Custine    | ccustine | !/images/check.gif! | [FuseSource|http://fusesource.com/] |
 | [Łukasz Dywicki|http://blog.code-house.org] | | | [Code-House|http://code-house.org] | 
-| Freeman Fang | ffang | (/) |  [FuseSource|http://fusesource.com/] |
-| Jarek Gawor | jgawor | (/) | [IBM|http://www.ibm.com] |
-| [Jamie Goodyear|http://icodebythesea.blogspot.com] | jgoodyear | (/) | |
-| David Jencks | djencks | (/) | [IBM|http://www.ibm.com] |
-| Alex Karasulu | akarasulu | (/) | |
-| [Charles Moulliard|http://cmoulliard.blogspot.com] | cmoulliard | (/) | [FuseSource|http://fusesource.com/] |
-| Achim Nierbeck | anierbeck | (/) | |
-| [Guillaume Nodet|http://gnodet.blogspot.com] | gnodet | (/) | [FuseSource|http://fusesource.com/] |
-| Jean-Baptiste Onofré | jbonofre | (/) | [Fimasys|http://www.fimasys.com] |
-| Andreas Pieber| pieber | (/) | |
+| Freeman Fang | ffang | !/images/check.gif! |  [FuseSource|http://fusesource.com/] |
+| Jarek Gawor | jgawor | !/images/check.gif! | [IBM|http://www.ibm.com] |
+| [Jamie Goodyear|http://icodebythesea.blogspot.com] | jgoodyear | !/images/check.gif! | |
+| David Jencks | djencks | !/images/check.gif! | [IBM|http://www.ibm.com] |
+| Alex Karasulu | akarasulu | !/images/check.gif! | |
+| [Charles Moulliard|http://cmoulliard.blogspot.com] | cmoulliard | !/images/check.gif! | [FuseSource|http://fusesource.com/] |
+| Achim Nierbeck | anierbeck |!/images/check.gif! | |
+| [Guillaume Nodet|http://gnodet.blogspot.com] | gnodet | !/images/check.gif! | [FuseSource|http://fusesource.com/] |
+| Jean-Baptiste Onofré | jbonofre | !/images/check.gif! | [Fimasys|http://www.fimasys.com] |
+| Andreas Pieber| pieber | !/images/check.gif! | |
 | James Strachan | jstrachan | | [FuseSource|http://fusesource.com/] |
 | Adrian Trenaman | | | [FuseSource|http://fusesource.com/] | 
-| Gert Vanthienen | gertv | (/) | [FuseSource|http://fusesource.com/] |
+| Gert Vanthienen | gertv | !/images/check.gif! | [FuseSource|http://fusesource.com/] |
 
 h3. Contributors
 

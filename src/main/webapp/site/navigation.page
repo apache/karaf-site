@@ -1,6 +1,6 @@
 ---
 title: Navigation
-page_version: 14
+page_version: 15
 page_creator: gnodet
 page_modifier: gnodet
 --- pipeline:conf
@@ -11,7 +11,7 @@ h3. [Overview|Karaf Overview]
 - [FAQ]
 - [Download]
 
-h3. [Documentation|http://karaf.apache.org/manual/2.1.99-SNAPSHOT]
+h3. [Documentation]
 
 - [Users' Guide|http://karaf.apache.org/manual/2.1.99-SNAPSHOT/users-guide/index.html]
 - [Developer Guide|http://karaf.apache.org/manual/2.1.99-SNAPSHOT/developers-guide/index.html]

@@ -10,7 +10,7 @@ do
 	if [[ -f $i ]]
 	then
 		echo $i
-		perl -i -p -e 's/\!([^\/]*\.png)/\!\/images\/\1/' $i
+		perl -i -p -e 's/\!([^\/]*\.png|[^\/]*\.gif)/\!\/images\/\1/' $i
 	fi
 done
 echo "================================="
