@@ -8,3 +8,5 @@ h2. How do I restart from a clean state?
 
 Restarting Karaf from a clean state is very easy as Karaf stores all its working files in the {{data}} directory.
 Removing this directory and starting Karaf should bring you in the original state.
+
+You can also pass the {{clean}} argument on the command line to have it delete the {{data}} directory before starting.
