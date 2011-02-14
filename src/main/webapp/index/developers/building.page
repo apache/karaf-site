@@ -6,7 +6,7 @@ page_modifier: gnodet
 --- pipeline:conf
 h2. Building 
 
-Camel uses [Maven|http://maven.apache.org/] as its build tool. If you don't fancy using Maven you can use your IDE directly or [Download] a distribution or JAR.
+Karaf uses [Maven|http://maven.apache.org/] as its build tool. If you don't fancy using Maven you can use your IDE directly or [Download] a distribution or JAR.
 
 h3. Prequisites
 
@@ -63,7 +63,7 @@ mvn eclipse:add-maven-repo -Declipse.workspace=/path/to/the/workspace/
 {code}
 
 h3. Building source jars
-If you want to build jar files with the source code, that for instance Eclipse can important so you can debug the Camel code as well. Then you can run this command from the camel root folder:
+If you want to build jar files with the source code, that for instance Eclipse can important so you can debug the Karaf code as well. Then you can run this command from the karaf root folder:
 {code}
 mvn clean source:jar install -Dtest=false
 {code}
