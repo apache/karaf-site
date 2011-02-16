@@ -10,7 +10,7 @@ Download links can be found in the [Download] page.
 
 h2. Release Notes - Karaf - Version 2.2.0
 
-This release of Apache Karaf contains a multitude of new features, improvements, and bug fixes.  Some highlights include many new or updated commands, a LDAP JAAS module with login support, an updated feature service, a feature for Aries transaction, JPA & JNDI modules, expanded documentation, and new versions of most dependencies. For more detail please see the change log below.
+This release of Apache Karaf contains a multitude of new features, improvements, and bug fixes.  Some highlights include many new or updated commands, a LDAP JAAS module with login support, an updated feature service, a feature for Aries transaction, JPA & JNDI modules, expanded documentation, and new versions of most dependencies. The help system and manual have also undergone major updates. For more detail please see the change log below.
 
 h3. Sub-task
  * [KARAF-392|https://issues.apache.org/jira/browse/KARAF-392] - Ability to use features-maven-plugin:add-features-to-repo without specifying features
