@@ -75,6 +75,7 @@ h3. Bug
  * [KARAF-458|https://issues.apache.org/jira/browse/KARAF-458] - Fix the karaf shell to look nice within Eclipse console
  * [KARAF-472|https://issues.apache.org/jira/browse/KARAF-472] - features-maven-plugin: TAB-characters in feature-repository lead to resolution-errors in add-features-to-repo
  * [KARAF-480|https://issues.apache.org/jira/browse/KARAF-480] - Minor ansi issue with admin:rename command
+ * [KARAF-485|https://issues.apache.org/jira/browse/KARAF-485] - Karaf MBean not registered.
 
 h3. Improvement
  * [KARAF-5|https://issues.apache.org/jira/browse/KARAF-5] - \[karaf\] admin:create should support a -r, --rmi-registry-port option to allow the RMI registry port to be configured 
