@@ -1,0 +1,11 @@
+---
+title: news-2011-01-11
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. Jamie Goodyear posted on Feb 28, 2011\\Karaf 2.2.0 released
+
+The Karaf team is pleased to announce the availability of [Karaf 2.2.0|Karaf 2.2.0 Release].
+This release of Apache Karaf contains a multitude of new features, improvements, and bug fixes.  Some highlights include many new or updated commands, a LDAP JAAS module with login support, an updated feature service, a feature for Aries transaction, JPA & JNDI modules, expanded documentation, and new versions of most dependencies.  The help system and manual have also undergone major updates. Please note that if you are using pax-exam with scanFeatures that you also have to upgrade pax-exam to the latest version.
+For more information, please see the [release notes|index/community/download/karaf-2.1.4-release.html].
