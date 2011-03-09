@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Karaf 2.2.0
 page_version: 15
 page_creator: gnodet
 page_modifier: gnodet
@@ -65,5 +65,4 @@ h2. News
 {include:news-2011-01-11}
 {include:news-2010-11-25}
 {include:news-2010-11-14}
-----
-[More News|News]
+{include:news-2010-09-24}

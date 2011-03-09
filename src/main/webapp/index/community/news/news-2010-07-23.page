@@ -6,6 +6,6 @@ page_modifier: gnodet
 --- pipeline:conf
 h1. Jamie Goodyear posted on Jul 23, 2010\\Karaf 2.0.0 released
 
-The Karaf team is pleased to announce the availability of [Karaf 2.0.0|http://karaf.apache.org/download.html].
+The Karaf team is pleased to announce the availability of [Karaf 2.0.0|download/karaf-2.0.0-release.html].
 This release is our first as a top level apache project, and includes a number of new features, improvements and bug fixes.
-For more information, please see the [release notes|http://karaf.apache.org/karaf-200-release.html].
+For more information, please see the [release notes|download/karaf-2.0.0-release.html].
