@@ -19,12 +19,8 @@ h3. Binary Distribution
 
 h3. Source Distribution
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-2.1.5-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.1.5/apache-karaf-2.1.5-src.zip]|[PGP|http://www.apache.org/dist/karaf/2.
-1.5/apache-karaf-2.1.5-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.5-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.
-5-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.1.5-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.1.5/apache-karaf-2.1.5-src.tar.gz]|[PGP|http://www.apache.o
-rg/dist/karaf/2.1.5/apache-karaf-2.1.5-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.5-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2
-.1.5/apache-karaf-2.1.5-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-2.1.5-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.1.5/apache-karaf-2.1.5-src.zip] | [PGP|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.5-src.zip.asc] | [SHA1|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.5-src.zip.sha1] | [MD5|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.5-src.zip.md5] |
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.1.5-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.1.5/apache-karaf-2.1.5-src.tar.gz] | [PGP|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.5-src.tar.gz.asc] | [SHA1|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.5-src.tar.gz.sha1] | [MD5|http://www.apache.org/dist/karaf/2.1.5/apache-karaf-2.1.5-src.tar.gz.md5] |
 
 h2. Karaf 2.1.4
 
