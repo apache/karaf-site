@@ -11,9 +11,15 @@ Karaf uses [Maven|http://maven.apache.org/] as its build tool. If you don't fanc
 h3. Prequisites
 
 *Required:*
-* Download and [install Maven|http://maven.apache.org/download.html]. (Currently Maven 2.2.1 is used to build the official releases)
+Karaf 2.1.x and Karaf 2.2.x:
+* Download and [install Maven 2.2.1|http://maven.apache.org/download.html]
 * Get the latest [Source] 
 * Java 1.5
+
+Karaf 3.0.0 and later:
+* Download and [install Maven 3.0.3|http://maven.apache.org/download.html]
+* Get the latest [Source]
+* Java 1.6
 
 *Optional:*
 * [Prince|http://www.princexml.com/download/] should be in the executable PATH to generate the PDF documentation
@@ -35,6 +41,12 @@ mvn install
 h3. Doing a Quick Build
 
 The following avoids running all the unit test cases, we just skip the test running phase and not the building part
+{code}
+mvn -Dmaven.test.skip=true clean install
+{code}
+
+or
+
 {code}
 mvn -DskipTests clean install 
 {code}
