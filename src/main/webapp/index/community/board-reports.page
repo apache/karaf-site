@@ -8,6 +8,38 @@ h1. Board reports
 
 Reports submitted to the Apache Board
 
+h2. June 2011
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+
+Community
+=========
+We've votes a new committer:
+   * Christian Schneider
+
+Development
+===========
+Apache Karaf Cellar is a clustering solution based on Hazelcast for Karaf.
+It has been added as a Karaf sub-project.
+The following new releases haven been voted:
+   * Apache Karaf 2.2.0
+   * Apache Karaf 2.2.1
+   * Apache Karaf 2.1.5
+Karaf manuals (user guide and developer guide) are generated in the build
+using Scalate.
+The website is also managed using Scalate.
+A new logo for Karaf has been voted and is used.
+We are working on a bunch of enhancements in Karaf 3.0.0.
+Branding
+========
+ * trademarks: not really compliant here
+ * logo: a Karaf logo is now in use
+ * metadata: we have a registered doap file
+
+Issues for board consideration
+==============================
+None so far.  The community is growing and healthy.
 h2. December 2010
 {code}
 Apache Karaf provides higher level features and services 
