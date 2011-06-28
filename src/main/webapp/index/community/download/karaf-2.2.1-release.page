@@ -52,7 +52,7 @@ h3. Bug
  * [KARAF-630|https://issues.apache.org/jira/browse/KARAF-630] - SpringDeploymentListenerTest fails on IBM JDK builds with No Class Def Found Error
  * [KARAF-632|https://issues.apache.org/jira/browse/KARAF-632] - Itests failures
 
-** Dependency upgrade
+h3. Dependency upgrade
  * [KARAF-590|https://issues.apache.org/jira/browse/KARAF-590] - Upgrade to pax-logging 1.6.2
  * [KARAF-591|https://issues.apache.org/jira/browse/KARAF-591] - Upgrade aopalliance ServiceMix bundle ito 1.0_5
  * [KARAF-592|https://issues.apache.org/jira/browse/KARAF-592] - Upgrade asm ServiceMix bundle to 3.3_2
@@ -64,7 +64,7 @@ h3. Bug
  * [KARAF-598|https://issues.apache.org/jira/browse/KARAF-598] - Upgrade junit ServiceMix bundle to 4.7_3
  * [KARAF-613|https://issues.apache.org/jira/browse/KARAF-613] - Upgrade to Blueprint 0.3.1
 
-** Improvement
+h3. Improvement
  * [KARAF-461|https://issues.apache.org/jira/browse/KARAF-461] - dev:create-dump command should generate a cleaner zip file name
  * [KARAF-476|https://issues.apache.org/jira/browse/KARAF-476] - The admin-command should be extended to handle RMI-server-port settings
  * [KARAF-483|https://issues.apache.org/jira/browse/KARAF-483] - pax-web jetty.xml configfile should contain default security realm
@@ -89,11 +89,11 @@ h3. Bug
  * [KARAF-603|https://issues.apache.org/jira/browse/KARAF-603] - Add 'karaf-framework' feature to describe core Karaf bundles
  * [KARAF-606|https://issues.apache.org/jira/browse/KARAF-606] - JAAS: Allow LDAPLoginModule to supply role "DN" from LDAP group search
 
-** New Feature
+h3. New Feature
  * [KARAF-463|https://issues.apache.org/jira/browse/KARAF-463] - Add chapter for Pax Web and the OSGi HttpService
  * [KARAF-605|https://issues.apache.org/jira/browse/KARAF-605] - Add param to Gogo Argument and Option to override default value with specific value
 
-** Task
+h3. Task
  * [KARAF-489|https://issues.apache.org/jira/browse/KARAF-489] - Upgrade pax-logging to 1.6.1
  * [KARAF-492|https://issues.apache.org/jira/browse/KARAF-492] - Upgrade Karaf to version 1.0.2 of pax-web
  * [KARAF-500|https://issues.apache.org/jira/browse/KARAF-500] - Upgrade to Jetty 7.3.1
