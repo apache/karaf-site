@@ -4,6 +4,10 @@ page_version: 4
 page_creator: jgoodyear
 page_modifier: gnodet
 --- pipeline:conf
+h2. Articles on Apache Karaf
+
+* [One Year of Apache Karaf|http://www.infoq.com/news/2011/06/apache-karaf]
+
 h2. Presentations
 
 * [JUG Poitou Charents - Apache, OSGi and Karaf|http://www.slideshare.net/gnodet/jug-poitou-charentes-apache-osgi-and-karaf]
@@ -13,3 +17,16 @@ h2. Presentations
 h2. Tutorials
 
 * [Karaf Tutorial Part 1 - Installation and First application|http://www.liquid-reality.de/x/DIBZ]
+
+h2. Apache Karaf Cellar
+
+* [Apache Karaf Cellar - an overview|http://iocanel.blogspot.com/2011/05/apache-karaf-cellar.html]
+
+h2. Apache Karaf Bloggers
+
+* [Guillaume Nodet's Blog|http://gnodet.blogspot.com/]
+* [Jean-Baptiste Onofré's Blog|http://blog.nanthrax.net/]
+* [I Code by the Sea|http://icodebythesea.blogspot.com/]
+* [Ioannis Canellos Blog|http://iocanel.blogspot.com]
+* [The Code-House Blog|http://blog.code-house.org/]
+* [Christian Schneider´s Blog|http://www.liquid-reality.de]
