@@ -1,0 +1,11 @@
+---
+title: Sub-projects
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. Sub-projects
+
+This section contains information about Karaf sub-projects.
+
+* [Cellar]

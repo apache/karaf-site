@@ -1,0 +1,62 @@
+---
+title: Cellar Download
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h2. Latest Releases
+{section}
+
+{column:width=20%}
+{div:style=padding-right:20px;float:left;}
+!/images/karaf-box.png|width=256!
+{div}
+{column}
+
+{column:width=80%}
+{div:style=min-height:200px}
+
+Grab these releases while they are hot!
+
+The latest release is [Karaf Cellar 2.2.1 Release|download/karaf-cellar-2.2.1-release.html].
+
+Releases:
+
+{div}
+{column}
+
+{section}
+
+
+h2. Getting the latest distributions
+{info:title=The URLs below use redirection}
+The above URLs use the Apache Mirror system to redirect you to a suitable mirror for your download. Some users have experienced issues with some versions of browsers (e.g. some Safari browsers). If the download doesn't seem to work for you from the above URL then try using [Mozilla Firefox|http://www.mozilla.com/en-US/firefox/]
+{info}
+h2. Karaf Cellar 2.2.1
+
+[Release Notes|download/karaf-cellar-2.2.1-release.html]
+
+h3. Direct Installation 
+
+Simply install the Karaf Cellar feature into your running Karaf instance:
+
+{code}
+karaf@root> features:addurl mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.2.1/xml/features
+karaf@root> features:install cellar
+{code}
+
+You're ready to use Karaf Cellar clustering.
+
+h3. Source Distribution
+
+||Description||Download Link|| || || ||
+|Windows Source Distribution| [apache-karaf-cellar-2.2.1-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.1/apache-karaf-cellar-2.2.1-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.1/apache-karaf-cellar-2.2.1-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.1/apache-karaf-cellar-2.2.1-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.1/apache-karaf-cellar-2.2.1-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.1-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.1/apache-karaf-cellar-2.2.1-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.1/apache-karaf-cellar-2.2.1-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.1/apache-karaf-cellar-2.2.1-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.1/apache-karaf-cellar-2.2.1-src.tar.gz.md5]|
+
+h2. Keys
+The {{KEYS}} used to sign the release can be found [here|http://www.apache.org/dist/karaf/KEYS].
+
+h2. Snapshots
+If you want to give a try to the latest snapshots, they are available at the following location:
+  https://repository.apache.org/content/groups/snapshots-group/org/apache/karaf/cellar/apache-karaf-cellar/
+

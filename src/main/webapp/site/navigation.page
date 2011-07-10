@@ -49,6 +49,13 @@ h3. [Developers]
 - [Site]
 - [Wiki|https://cwiki.apache.org/confluence/display/KARAF]
 
+h3. [Subprojects]
+
+- [Cellar]
+-- [Download|/index/subprojects/cellar/download.html]
+-- [User Guide|http://karaf.apache.org/cellar/manual/2.2.1/user-guide/index.html]
+-- [Architecture Guide|http://karaf.apache.org/cellar/manual/2.2.1/architecture-guide/index.html]
+
 h3. [ASF|http://www.apache.org/]
 
 - [License|http://www.apache.org/licenses/]

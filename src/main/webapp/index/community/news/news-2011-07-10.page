@@ -1,0 +1,11 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. Jean-Baptiste Onofré posted on July 10, 2011\\Karaf Cellar 2.2.1 released
+
+The Karaf team is pleased to announce the availability of [Karaf Cellar 2.2.1|index/community/download/karaf-cellar-2.2.1-release.html].
+This is the first release of Apache Karaf Cellar. Karaf Cellar is clustering solution for Apache Karaf powered by Hazelcast.
+Karaf Cellar allows you to manage a cluster of Karaf instances, provising synchronisation between instances.
+For more information, please see the [release notes|index/community/download/karaf-cellar-2.2.1-release.html].
