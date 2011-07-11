@@ -13,8 +13,8 @@ h3. [Overview|Karaf Overview]
 
 h3. [Documentation]
 
-- [Users' Guide|http://karaf.apache.org/manual/2.2.3-SNAPSHOT/users-guide/index.html]
-- [Developer Guide|http://karaf.apache.org/manual/2.2.3-SNAPSHOT/developers-guide/index.html]
+- Users' Guide ([HTML|http://karaf.apache.org/manual/2.2.2/users-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.2/manual-2.2.2.pdf])
+- Developer Guide ([HTML|http://karaf.apache.org/manual/2.2.2/developers-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.2/manual-2.2.2.pdf])
 
 h3. Search
 
@@ -53,8 +53,8 @@ h3. [Subprojects]
 
 - [Cellar]
 -- [Download|/index/subprojects/cellar/download.html]
--- [User Guide|http://karaf.apache.org/manual/cellar/2.2.2-SNAPSHOT/user-guide/index.html]
--- [Architecture Guide|http://karaf.apache.org/manual/cellar/2.2.2-SNAPSHOT/architecture-guide/index.html]
+-- User Guide ([HTML|http://karaf.apache.org/manual/cellar/2.2.1/user-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.1/manual-2.2.1.pdf])
+-- Architecture Guide ([HTML|http://karaf.apache.org/manual/cellar/2.2.1/architecture-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.1/manual-2.2.1.pdf])
 
 h3. [ASF|http://www.apache.org/]
 
