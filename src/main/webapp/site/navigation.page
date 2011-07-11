@@ -53,8 +53,8 @@ h3. [Subprojects]
 
 - [Cellar]
 -- [Download|/index/subprojects/cellar/download.html]
--- [User Guide|http://karaf.apache.org/cellar/manual/2.2.1/user-guide/index.html]
--- [Architecture Guide|http://karaf.apache.org/cellar/manual/2.2.1/architecture-guide/index.html]
+-- [User Guide|http://karaf.apache.org/manual/manual/2.2.2-SNAPSHOT/user-guide/index.html]
+-- [Architecture Guide|http://karaf.apache.org/manual/cellar/2.2.2-SNAPSHOT/architecture-guide/index.html]
 
 h3. [ASF|http://www.apache.org/]
 
