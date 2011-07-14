@@ -17,6 +17,7 @@ h2. Presentations
 h2. Tutorials
 
 * [Karaf Tutorial Part 1 - Installation and First application|http://www.liquid-reality.de/x/DIBZ]
+* [Combining Karaf Features, PAX URL, and Maven to deploy a plain JAR as an OSGi bundle|http://davidvaleri.wordpress.com/2010/08/13/combining-karaf-features-pax-url-and-maven-to-deploy-a-plain-jar-as-an-osgi-bundle/]
 
 h2. Apache Karaf Cellar
 
