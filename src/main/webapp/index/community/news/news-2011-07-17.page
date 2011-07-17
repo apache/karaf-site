@@ -7,4 +7,4 @@ h1. Jamie Goodyear posted on July 17, 2011\\Karaf 2.1.6 released
 
 The Karaf team is pleased to announce the availability of [Karaf 2.1.6|index/community/download/karaf-2.1.6-release.html].
 This release of Apache Karaf is based off of the 2.1.x series branch, representing an update to Apache Karaf 2.1.5 and the last planned patch to the 2.1.x branch. It contains a few small bug fixes and improvements, including; updated branding-console documentation, a new warning on osgi:shutdown to avoid inadvertently shutting down the container, and a correction to the Oracle JDBC locking mechanism behavior when the locking table is empty.
-For more information, please see the [release notes|index/community/download/karaf-2.1.5-release.html].
+For more information, please see the [release notes|index/community/download/karaf-2.1.6-release.html].
