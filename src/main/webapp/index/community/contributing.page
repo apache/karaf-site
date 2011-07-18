@@ -1,16 +1,16 @@
 ---
 title: Contributing
-page_version: 6
+page_version: 7
 page_creator: gnodet
-page_modifier: gnodet
+page_modifier: jbonofre
 --- pipeline:conf
 There are many ways you can help make Karaf a better piece of software - please dive in and help\!
 
-Try surf the documentation - if somethings confusing or not clear, let us know.  Download the code & try it out and see what you think. Browse the source code. Got an itch to scratch, want to tune some operation or add some feature?
+Try browsing the documentation - if something's confusing or not clear, let us know. Download the code & try it out and see what you think. Browse the source code. Got an itch to scratch, want to tune some operation or add some feature?
 
-Want to do some hacking on Karaf? Try surfing the our [issue tracker|http://issues.apache.org/jira/browse/KARAF] for open issues or features that need to be implemented, take ownership of an issue and try fix it.
+Want to do some hacking on Karaf? Try surfing the our [issue tracker|http://issues.apache.org/jira/browse/KARAF] for open issues or features that need to be implemented. Take ownership of an issue and try fix it.
 
-If you'd rather a more gentle introduction to working on the Karaf project, how about you try look at the
+If you'd rather have a more gentle introduction to working on the Karaf project, try looking at the
 {link:test coverage report|http://nemo.sonar.codehaus.org/project/index/XXXX} and help us get it even more green by supplying more test cases to get us closer to 100% coverage.
 
 h2. Getting in touch
@@ -22,21 +22,19 @@ There are various ways of communicating with the Karaf community.
 
 h2. Improving the documentation
 
-Documentation is massively important to help users make the most of Apache Karaf and its probably the area that needs the most help\!
+Documentation is massively important to help users make the most of Apache Karaf and it's probably the area that needs the most help\!
 
 So if you are interested in helping the documentation effort; whether its just to fix a page here or there, correct a link or even write a tutorial or improve what documentation is already there please do dive in and help\!
 
-All of the documentation is stored on the wiki. See [How does the website work] or [How do I edit the website] for more details.
-
-To be able to edit the wiki you need to mail the [dev list|Mailing Lists] asking for an account (to prevent spam we only offer access to the wiki by folks sending mail to the mailing list).
+See [How does the website work] or [How do I edit the website] for more details.
 
 h2. If you find a bug or problem
 
 Please raise a new issue in our [issue tracker|http://issues.apache.org/jira/browse/KARAF]
 
-If you can create a JUnit test case then your issue is more likely to be resolved quicker.
+If you can create a JUnit test case then your issue is more likely to be resolved quickly.
 
-Then we can add your issue to Subversion and then we'll know when its really fixed and we can ensure that the problem stays fixed in future releases.
+Also, we can add your test case to Subversion and then we'll know when it's really fixed and we can ensure that the problem stays fixed in future releases.
 
 h2. Working on the code
 
@@ -50,7 +48,7 @@ Build the project.
 {code}
 mvn install
 {code}
-PS: You might need to build multiple times (if you get a build error) because sometimes maven fails to download all the files.
+PS: You might need to build multiple times (if you get a build error) because sometimes Maven fails to download all the files.
 
 Then import the projects into your workspace.
 

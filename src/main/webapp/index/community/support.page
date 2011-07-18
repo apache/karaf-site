@@ -1,8 +1,8 @@
 ---
 title: Support
-page_version: 2
+page_version: 3
 page_creator: gnodet
-page_modifier: gnodet
+page_modifier: jbonofre
 --- pipeline:conf
 h2. Getting Help
 
@@ -14,26 +14,26 @@ If you are experiencing problems using Karaf then please report your problem to 
 
 h3. How to get help
 
-Before you report a problem you might want to read the [FAQ]. 
+Before you report a problem you might want to read the [FAQ].
 Whenever you are reporting a problem please be sure to include as much information as possible; the more we know the more chance of a quicker resolution.
 
-* *which version of the software*
+* *Which Karaf version you're using*
 * what platform and JDK?
-* any particulary container being used - if so what version
-* stack traces generally really help! If in doubt include the whole thing; often exceptions get wrapped in other exceptions and the exception right near the bottom explains the actual error, not the first few lines at the top. It's very easy for us to skim-read past unnecessary parts of a stack trace.
-* log output can be useful too; sometimes [enabling DEBUG logging|How do I change the logging] can help
-* your code & configuration files are often useful
-* did it work before, what have you changed to break it
-* try upgrading to the latest release and see if its fixed in that release
-* try the latest SNAPSHOT to see if its fixed in that release
-* search the user forum to see if has been discussed before
-* see the knowns issues section in the release notes
-* and check the [issue tracker|http://issues.apache.org/jira/browse/KARAF] if the issue already have been reported
+* The particular OSGi container being used - if so what version
+* Stack traces generally really help! If in doubt include the whole thing; often exceptions get wrapped in other exceptions and the exception right near the bottom explains the actual error, not the first few lines at the top. It's very easy for us to skim-read past unnecessary parts of a stack trace.
+* Log output can be useful too; sometimes [enabling DEBUG logging|How do I change the logging] can help
+* Your code & configuration files are often useful. Be careful not to send us anything of a sensitive nature.
+* Did it work before, what have you changed to break it?
+* Try upgrading to the latest release and see if it's fixed in that release
+* Try the latest SNAPSHOT to see if it's fixed in that release
+* Search the user forum to see if has been discussed before
+* See the Known Issues section in the Release Notes for the Karaf version you're using
+* Check the [issue tracker|http://issues.apache.org/jira/browse/KARAF] to see if the issue already have been reported
 
 h3. How to get help faster
 
-We can help you much quicker if you try the following
+We may be able to help you much more quickly if you try the following
 
-* provide us with a JUnit test case that demonstrates your issue. e.g. if you think you've found a bug, can you create a test case to demonstrate the bug?
-* [submit a patch|Contributing] fixing the bug! (We also buy you beer when we meet you if you submit bug fixes :) )
-* for memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it's huge) to the JIRA we can normally fix things much faster. e.g. you could run [jmap|http://java.sun.com/j2se/1.5.0/docs/tooldocs/share/jmap.html]/[jhat|http://java.sun.com/javase/6/docs/technotes/tools/share/jhat.html], JProfiler or YourKit on your code and send us the output. To find memory leaks it's quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what's wrong from that.
+* Provide us with a JUnit test case that demonstrates your issue. e.g. if you think you've found a bug, can you create a test case to demonstrate the bug?
+* [Submit a patch|Contributing] fixing the bug! (We also buy you beer when we meet you if you submit bug fixes :) )
+* For memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it's huge) to the JIRA we can normally fix things much quickly. E.g. you could run [jmap|http://java.sun.com/j2se/1.5.0/docs/tooldocs/share/jmap.html]/[jhat|http://java.sun.com/javase/6/docs/technotes/tools/share/jhat.html], JProfiler or YourKit on your code and send us the output. To find memory leaks it's quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what's wrong from that.
