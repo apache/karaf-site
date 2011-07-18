@@ -1,8 +1,8 @@
 ---
 title: Source
-page_version: 3
+page_version: 4
 page_creator: gnodet
-page_modifier: jgoodyear
+page_modifier: jbonofre
 --- pipeline:conf
 h2. Web Browsing of SVN
 
@@ -17,15 +17,6 @@ Or to browse the source tree directly:
 {panel}
 https://svn.apache.org/repos/asf/karaf/trunk/
 {panel}
-
-h3. Web Browing Using FishEye 
-
-A hearty thanks to [Atlassian|http://atlassian.com/] for providing [FishEye|http://cenqua.com/fisheye/] hosting for Karaf. Below is the URL to browse the Subversion repo via FishEye: 
-
-{panel}
-http://fisheye6.cenqua.com/browse/karaf
-{panel}
-
 
 h2. Checking out from SVN
 
