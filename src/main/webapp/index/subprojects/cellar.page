@@ -21,7 +21,7 @@ h2. Quick Start
 To install and start Cellar into your running Karaf instance, you have to install the Cellar feature:
 
 {code}
-karaf@root> features:addurl mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.2.1/xml/features
+karaf@root> features:addurl mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.2.2/xml/features
 karaf@root> features:install cellar
 {code}
 

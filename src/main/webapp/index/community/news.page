@@ -6,6 +6,7 @@ page_modifier: gnodet
 --- pipeline:conf
 h2. News
 
+{include:news-2011-08-08}
 {include:news-2011-07-17}
 {include:news-2011-07-10}
 {include:news-2011-07-03}
