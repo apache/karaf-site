@@ -1,6 +1,6 @@
 ---
 title: Documentation
-page_version: 4
+page_version: 5
 page_creator: gnodet
 page_modifier: jbonofre
 --- pipeline:conf
@@ -8,7 +8,7 @@ h1. Documentation
 
 h2. Karaf 2.2.x manual
 
-* [Karaf Manual|http://karaf.apache.org/manual/2.2.2/index.html]
+* [Karaf Manual|http://karaf.apache.org/manual/latest-2.2.x/index.html]
 
 h2. Karaf 2.1.x manual
 

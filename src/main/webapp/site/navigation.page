@@ -1,20 +1,20 @@
 ---
 title: Navigation
-page_version: 15
+page_version: 16
 page_creator: gnodet
-page_modifier: gnodet
+page_modifier: jbonofre
 --- pipeline:conf
 h3. [Overview|Karaf Overview]
 
 - [Home|Index]
-- [Getting Started|http://karaf.apache.org/manual/2.2.2/quick-start.html]
+- [Getting Started|http://karaf.apache.org/manual/latest-2.2.x/quick-start.html]
 - [FAQ]
 - [Download|/index/community/download.html]
 
 h3. [Documentation]
 
-- Users' Guide ([HTML|http://karaf.apache.org/manual/2.2.2/users-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.2/manual-2.2.2.pdf])
-- Developer Guide ([HTML|http://karaf.apache.org/manual/2.2.2/developers-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.2/manual-2.2.2.pdf])
+- Users' Guide ([HTML|http://karaf.apache.org/manual/latest-2.2.x/users-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.2/manual-2.2.2.pdf])
+- Developer Guide ([HTML|http://karaf.apache.org/manual/latest-2.2.x/developers-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.2/manual-2.2.2.pdf])
 
 h3. Search
 
@@ -52,8 +52,8 @@ h3. [Subprojects]
 
 - [Cellar]
 -- [Download|/index/subprojects/cellar/download.html]
--- User Guide ([HTML|http://karaf.apache.org/manual/cellar/2.2.2/user-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
--- Architecture Guide ([HTML|http://karaf.apache.org/manual/cellar/2.2.2/architecture-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
+-- User Guide ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/user-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
+-- Architecture Guide ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/architecture-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
 
 h3. [ASF|http://www.apache.org/]
 
