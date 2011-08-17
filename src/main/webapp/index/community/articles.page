@@ -1,11 +1,13 @@
 ---
 title: Articles
-page_version: 4
+page_version: 5
 page_creator: jgoodyear
-page_modifier: gnodet
+page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Adding custom log-appender to Pax Logging|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=201]
+* [What's new in Apache Karaf Cellar 2.2.2|http://blog.nanthrax.net/2011/08/apache-karaf-cellar-2-2-2-release]
 * [One Year of Apache Karaf|http://www.infoq.com/news/2011/06/apache-karaf]
 
 h2. Presentations
