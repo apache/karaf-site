@@ -22,7 +22,6 @@ h3. Bug
  * [KARAF-760|https://issues.apache.org/jira/browse/KARAF-760] - MInor time rendering bug
  * [KARAF-766|https://issues.apache.org/jira/browse/KARAF-766] - Wrong help for features:install
  * [KARAF-769|https://issues.apache.org/jira/browse/KARAF-769] - Update NOTICE file to mention JSW
- * [KARAF-776|https://issues.apache.org/jira/browse/KARAF-776] - jclouds features require OSS Sonatype repository
  * [KARAF-796|https://issues.apache.org/jira/browse/KARAF-796] - Editing Pax Web Configuration Via Karaf Console
  * [KARAF-800|https://issues.apache.org/jira/browse/KARAF-800] - karaf does not start when using java7
  * [KARAF-809|https://issues.apache.org/jira/browse/KARAF-809] - MainStartTest fails on WinXP
@@ -58,7 +57,6 @@ h3. Bug
  * [KARAF-795|https://issues.apache.org/jira/browse/KARAF-795] - Kar builder uses a different version for easymock then the rest of the project
  * [KARAF-802|https://issues.apache.org/jira/browse/KARAF-802] - Upgrade mail bundle version to 1.4.4.
  * [KARAF-803|https://issues.apache.org/jira/browse/KARAF-803] - Add JDK7 compile support to 2.2.x source build
- * [KARAF-807|https://issues.apache.org/jira/browse/KARAF-807] - Add a features name to the karaf-cellar features.xml
  * [KARAF-808|https://issues.apache.org/jira/browse/KARAF-808] - Remove author attribute tags from Karaf source code
  * [KARAF-813|https://issues.apache.org/jira/browse/KARAF-813] - Install Pax URL OBR with the OBR feature
  * [KARAF-817|https://issues.apache.org/jira/browse/KARAF-817] - Allow to set Karaf window name via parameter
