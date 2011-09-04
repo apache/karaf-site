@@ -6,5 +6,5 @@ page_modifier: jgoodyear
 h1. Jamie Goodyear posted on September 1, 2011\\Karaf 2.2.3 released
 
 The Karaf team is pleased to announce the availability of [Karaf 2.2.3|index/community/download/karaf-2.2.3-release.html].
-This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.2. It contains bug fixes identified in the prior release, and introduces improvements including; Optional JDK 7 support, a spring-jms feature, and a macro allowing users to identify the contents of a specific config file. Several dependencies were also updated, bringing Jetty to version 7.4.5.v20110725, Eclispe Equinox to 4.6.2.R36x_v20110210, and Pax web to 1.0.6.
+This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.2. It contains bug fixes identified in the prior release, and introduces improvements including; Optional JDK 7 support, a spring-jms feature, and a macro allowing users to identify the contents of a specific config file. Several dependencies were also updated, bringing Jetty to version 7.4.5.v20110725, Eclispe Equinox to 3.6.2.R36x_v20110210, and Pax web to 1.0.6.
 For more information, please see the [release notes|index/community/download/karaf-2.2.3-release.html].
