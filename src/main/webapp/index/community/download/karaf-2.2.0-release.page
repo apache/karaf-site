@@ -189,7 +189,7 @@ h3. Task
  * [KARAF-411|https://issues.apache.org/jira/browse/KARAF-411] - Upgrade to jetty 7.2.2.v20101205
  * [KARAF-427|https://issues.apache.org/jira/browse/KARAF-427] - Use slf4j as default logger
  * [KARAF-431|https://issues.apache.org/jira/browse/KARAF-431] - Add documentation around remote management via JMX
- * [KARAF-433|https://issues.apache.org/jira/browse/KARAF-431] - Add documentation about KAR archive format and deployer
+ * [KARAF-433|https://issues.apache.org/jira/browse/KARAF-433] - Add documentation about KAR archive format and deployer
  * [KARAF-434|https://issues.apache.org/jira/browse/KARAF-434] - Add wrap deployer description in the deployer section of the Karaf user guide
  * [KARAF-435|https://issues.apache.org/jira/browse/KARAF-435] - Add diagnostic documentation (dev:create-dump, etc) in the Karaf User Guide
  * [KARAF-437|https://issues.apache.org/jira/browse/KARAF-437] - Document jre.properties tuning
