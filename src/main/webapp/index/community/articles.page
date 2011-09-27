@@ -20,6 +20,7 @@ h2. Tutorials
 
 * [Karaf Tutorial Part 1 - Installation and First application|http://www.liquid-reality.de/x/DIBZ]
 * [Karaf Tutorial Part 2 - Using the Configuration Admin Service|http://www.liquid-reality.de/x/G4Be]
+* [Karaf Tutorial Part 3 - Improving configuration editing using the OSGI Metatype Service|http://www.liquid-reality.de/x/KoBe]
 * [Combining Karaf Features, PAX URL, and Maven to deploy a plain JAR as an OSGi bundle|http://davidvaleri.wordpress.com/2010/08/13/combining-karaf-features-pax-url-and-maven-to-deploy-a-plain-jar-as-an-osgi-bundle/]
 * Blocking system.exit in OSGi on Karaf [part1|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=67] [part2|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=82] [part3|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=94] [part4|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=101]
 
