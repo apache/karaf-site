@@ -31,7 +31,7 @@ h3. Bug
  * [KARAF-826|https://issues.apache.org/jira/browse/KARAF-826] - KarArtifactInstaller should look for "features" classifier in place of "feature"
  * [KARAF-827|https://issues.apache.org/jira/browse/KARAF-827] - Karaf Web deployer (Pax-Web) always tries to deploy the deploy/README file
 
-.h3 Dependency upgrade
+h3. Dependency upgrade
  * [KARAF-757|https://issues.apache.org/jira/browse/KARAF-757] - upgrade to jetty 7.4.4.v20110707
  * [KARAF-768|https://issues.apache.org/jira/browse/KARAF-768] - Upgrade to Eclipse Equinox 3.6.2.R36x_v20110210
  * [KARAF-775|https://issues.apache.org/jira/browse/KARAF-775] - upgrade to pax web 1.0.5
@@ -41,7 +41,7 @@ h3. Bug
  * [KARAF-833|https://issues.apache.org/jira/browse/KARAF-833] - Upgrade to Pax Web 1.0.6
  * [KARAF-834|https://issues.apache.org/jira/browse/KARAF-834] - Upgrade to Spring 3.0.6 - in std. features.xml
 
-.h3 Improvement
+h3. Improvement
  * [KARAF-645|https://issues.apache.org/jira/browse/KARAF-645] - Add a flag to suppress --help Option output on
  * [KARAF-667|https://issues.apache.org/jira/browse/KARAF-667] - Improve error message when OBR resolution fails due to invalid URLs
  * [KARAF-698|https://issues.apache.org/jira/browse/KARAF-698] - Technical edits to User's Guide
@@ -64,9 +64,9 @@ h3. Bug
  * [KARAF-829|https://issues.apache.org/jira/browse/KARAF-829] - Support of Java 7
  * [KARAF-840|https://issues.apache.org/jira/browse/KARAF-840] - specify javax.annotation packages version to 1.1.0 for jre-1.6 as Annotation 1.1 Spec is used for Java 6
 
-.h3 New Feature
+h3. New Feature
  * [KARAF-696|https://issues.apache.org/jira/browse/KARAF-696] - Add a macro allowing users to identify the contents of a specific config file.
  * [KARAF-835|https://issues.apache.org/jira/browse/KARAF-835] - Provide a spring-jms feature
 
-.h3 Task
+h3. Task
  * [KARAF-673|https://issues.apache.org/jira/browse/KARAF-673] - Page failover.html contains invalid configuration properties
