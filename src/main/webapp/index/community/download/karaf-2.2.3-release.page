@@ -1,12 +1,12 @@
 ---
 title: Karaf 2.2.3 Release
-page_version: 2
+page_version: 3
 page_creator: jgoodyear
 page_modifier: jbonofre
 --- pipeline:conf
 h2. Download
 
-Download links can be found in the [Download] page.
+Download links can be found in the [Download|/index/community/download.html] page.
 
 h2. Release Notes - Karaf - Version 2.2.3
 
