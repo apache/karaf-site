@@ -157,6 +157,7 @@ cd manual ; mvn scalate:deploy
 ** add a news section on the website at {{src/main/webapp/index/community/news/}} and a link to it in {{src/main/webapp/index.page}} (only keep a few news on that one) and {{src/main/webapp/index/community/news.page}}
 ** add the new schemas (if any) in {{src/main/webapp/xmlns}}
 ** create a page for the release in {{src/main/webapp/download/karaf-xxx-release}} with the release notes and jira issues
+** update dependencies table {{src/main/webapp/index/documentation/karaf-dependencies}}
 ** update the download page in {{src/main/webapp/download.page}} to point to that page (only the latest of it branch should appear on the download page)
 ** move the older version of the same branch to the {{src/main/webapp/download/archives.page}} page
 ** update the documentation page with {{src/main/webapp/documentation.page}} to point to the latest manual and schemas
