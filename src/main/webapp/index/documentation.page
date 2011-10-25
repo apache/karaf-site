@@ -15,6 +15,10 @@ h2. Karaf 2.1.x manual
 * [Karaf Users' Guide|https://cwiki.apache.org/KARAF/karaf-users-guide.html]
 * [Karaf Users' Guide in one page|https://cwiki.apache.org/KARAF/karaf-users-guide-in-one-page.html]
 
+h2. Karaf Dependency Tables
+* [Karaf 2.2.x dependencies.|documentation/karaf-dependencies/karaf-deps-2.2.x.html]
+* [Karaf 2.1.x dependencies.|documentation/karaf-dependencies/karaf-deps-2.1.x.html]
+
 h2. XML Schemas
 
 * [Karaf Features v1.0.0|http://karaf.apache.org/xmlns/features/v1.0.0]

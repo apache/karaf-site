@@ -1,0 +1,9 @@
+---
+title: Karaf Dependencies 2.2.x 
+page_version: 2
+page_creator: jgoodyear
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. Karaf Dependencies 2.2.x
+
+The below table describes the dependencies included in Apache Karaf 2.2.x builds.
