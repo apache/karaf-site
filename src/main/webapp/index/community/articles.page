@@ -25,6 +25,7 @@ h2. Tutorials
 * [Combining Karaf Features, PAX URL, and Maven to deploy a plain JAR as an OSGi bundle|http://davidvaleri.wordpress.com/2010/08/13/combining-karaf-features-pax-url-and-maven-to-deploy-a-plain-jar-as-an-osgi-bundle/]
 * Blocking system.exit in OSGi on Karaf [part1|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=67] [part2|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=82] [part3|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=94] [part4|http://nierbeck.de/cgi-bin/weblog_basic/index.php?p=101]
 * [Running aspects under OSGi 4.2 with Karaf.|http://dywicki.pl/2011/11/running-aspects-under-osgi-4-2-with-karaf/]
+* [Run a Google Web Toolkit 2 project on Apache Karaf/ServiceMix|http://cmoulliard.blogspot.com/2011/12/run-google-web-toolkit-2-project-on.html]
 
 h2. Apache Karaf Cellar
 
