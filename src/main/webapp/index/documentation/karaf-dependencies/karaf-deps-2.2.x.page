@@ -12,11 +12,11 @@ The below table describes the dependencies included in Apache Karaf 2.2.x builds
 | aopalliance.bundle | 1.0_4 | 1.0_5 | 1.0_5 | 1.0_5 | 1.0_5 | 1.0_5 |
 | asm.bundle | 3.3_1 | 3.3_2 | 3.3_2 | 3.3_2 | 3.3_2 | 3.3_2 |
 | cglib.bundle | 2.1_3_6 | 2.1_3_7 | 2.1_3_7 | 2.1_3_7 | 2.1_3_7 | 2.1_3_7 |
-| commons-beanutils.bundle | n/a | n/a | n/a | n/a | 1.8.2_2 | 1.8.2_2 |
-| commons-codec.bundle | 1.3_3 | 1.3_4 | 1.3_4 | 1.3_4 | 1.3_4 | 1.3_4 |
-| commons-collections.bundle | 3.2.1_1 | 3.2.1_2 | 3.2.1_2 | 3.2.1_2 | 3.2.1_2 | 3.2.1_2 |
+| commons-beanutils.bundle | n/a | n/a | n/a | n/a | 1.8.2_2 | 1.8.3 |
+| commons-codec.bundle | 1.3_3 | 1.3_4 | 1.3_4 | 1.3_4 | 1.3_4 | 1.6 |
+| commons-collections.bundle | 3.2.1_1 | 3.2.1_2 | 3.2.1_2 | 3.2.1_2 | 3.2.1_2 | 3.2.1 |
 | commons-fileupload | 1.1.1 | 1.1.1 | 1.1.1 | 1.1.1 | 1.1.1 | 1.1.1 |
-| commons-lang.bundle | 2.4_4 | 2.4_5 | 2.4_5 | 2.4_5 | 2.4_5 | 2.4_5 |
+| commons-lang.bundle | 2.4_4 | 2.4_5 | 2.4_5 | 2.4_5 | 2.4_5 | 2.6 |
 | depends-maven-plugin | 1.0 | 1.0 | 1.0 | 1.0 | 1.2 | 1.2 |
 | icu4j | n/a | n/a | n/a | n/a | 4.8.1.1 | 4.8.1.1 |
 | jasypt.bundle | 1.7_1 | 1.7_3 | 1.7_3 | 1.7_3 | 1.7_3 | 1.8_1 |
