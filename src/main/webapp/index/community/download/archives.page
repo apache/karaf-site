@@ -8,6 +8,20 @@ h1. Releases history
 
 {toc:minLevel=2|maxLevel=2}
 
+h2. Karaf 2.2.4
+
+[Release Notes|download/karaf-2.2.4-release.html]
+
+h3. Binary Distribution
+||Description||Download Link|| || || ||
+|Windows Distribution| [apache-karaf-2.2.4.zip|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4.zip]|[PGP|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4.zip.md5]|
+|Unix/Linux/Cygwin Distribution| [apache-karaf-2.2.4.tar.gz|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.2.4-apache-karaf-2.2.4.tar.gz.md5]|
+
+h3. Source Distribution
+||Description||Download Link|| || || ||
+|Windows Source Distribution| [apache-karaf-2.2.4-src.zip|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.zip]|[PGP|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.2.4-src.tar.gz|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.tar.gz.md5]|
+
 h2. Karaf 2.2.3
 
 [Release Notes|download/karaf-2.2.3-release.html]

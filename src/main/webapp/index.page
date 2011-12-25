@@ -1,5 +1,5 @@
 ---
-title: Karaf 2.2.4
+title: Karaf 2.2.5
 page_version: 16
 page_creator: gnodet
 page_modifier: jbonofre
@@ -15,8 +15,8 @@ Here is a short list of features supported by the Karaf:
 {column}
 {column}
 {center}
-*[Download Karaf 2.2.4|index/community/download.html#Karaf2.2.4]*
-[!/images/karaf-box.png|width=256!|index/community/download.html#Karaf2.2.4]
+*[Download Karaf 2.2.5|index/community/download.html#Karaf2.2.5]*
+[!/images/karaf-box.png|width=256!|index/community/download.html#Karaf2.2.5]
 {center}
 {html}
 <script src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -60,9 +60,9 @@ new TWTR.Widget({
 
 h2. News
 
+{include:news-2011-12-25}
 {include:news-2011-10-16}
 {include:news-2011-09-01}
 {include:news-2011-08-08}
 {include:news-2011-07-17}
 {include:news-2011-07-10}
-{include:news-2011-07-03}
