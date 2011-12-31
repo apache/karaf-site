@@ -8,6 +8,12 @@ h2. Download
 
 Download links can be found in the [Download|/index/community/download.html] page.
 
+h2. Documentation
+
+- Manual ([HTML|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.4/manual-2.2.4.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.4/manual-2.2.4.pdf])
+-- Users Guide ([HTML|http://karaf.apache.org/manual/2.2.4/users-guide/index.html])
+-- Developers Guide ([HTML|http://karaf.apache.org/manual/2.2.4/developers-guide/index.html])
+
 h2. Release Notes - Karaf - Version 2.2.4
 
 This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.3. It contains bug fixes identified in the prior release, and introduces improvements including; significant improvements to KAR support, and new MBeans (such as Dev, HTTP, Log, OBR, Bundles, Services and System). Several dependencies were also updated, bringing Apache Felix Gogo to version 0.10.0, and Pax Web to 1.0.7. For more detail please see the change log below.

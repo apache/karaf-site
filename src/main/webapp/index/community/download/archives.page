@@ -22,6 +22,11 @@ h3. Source Distribution
 |Windows Source Distribution| [apache-karaf-2.2.4-src.zip|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.zip]|[PGP|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.zip.md5]|
 |Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.2.4-src.tar.gz|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.2.4/apache-karaf-2.2.4-src.tar.gz.md5]|
 
+h3. Manual
+||Description||Download Link||
+|HTML Manual| [manual-2.2.4.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.4/manual-2.2.4.html] |
+|PDF Manual| [manual-2.2.4.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.4/manual-2.2.4.pdf] |
+
 h2. Karaf 2.2.3
 
 [Release Notes|download/karaf-2.2.3-release.html]
