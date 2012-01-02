@@ -1,6 +1,6 @@
 ---
 title: Navigation
-page_version: 17
+page_version: 18
 page_creator: gnodet
 page_modifier: jbonofre
 --- pipeline:conf
@@ -53,8 +53,15 @@ h3. [Subprojects]
 
 - [Cellar]
 -- [Download|/index/subprojects/cellar/download.html]
+-- [Source|/index/subprojects/cellar/source.html]
+-- [Building|/index/subprojects/cellar/building.html]
 -- User Guide ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/user-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
 -- Architecture Guide ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/architecture-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
+
+- [WebConsole]
+-- [Download|/index/subprojects/webconsole/download.html]
+-- [Source|/index/subprojects/webconsole/source.html]
+-- [Building|/index/subprojects/webconsole/building.html]
 
 h3. [ASF|http://www.apache.org/]
 

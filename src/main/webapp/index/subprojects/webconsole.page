@@ -7,8 +7,21 @@ page_modifier: jbonofre
 
 h2. Karaf WebConsole
 
-TODO
+Karaf WebConsole is a refactoring of the Felix WebConsole. Karaf WebConsole is powered by Apache Wicket, in a pure OSGi way using Pax Wicket.
+
+Thanks to Wicket and OSGi, Karaf WebConsole is highly configurable and extendable allowing legacy projects to provide WebConsole extensions.
 
 h2. Quick Start
 
-TODO
+To install and start WebConsole into a running Karaf instance, you have to intall the WebConsole feature:
+
+{code}
+karaf@root> feature:add-url mvn:org.apache.karaf.webconsole/features/1.0.0-SNAPSHOT/xml/features
+karaf@root> feature:install webconsole-wicket
+{code}
+
+You can open the WebConsole CMS URL in your browser:
+
+{code}
+http://localhost:8181/cms
+{code}
