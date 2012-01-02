@@ -6,13 +6,13 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Building 
 
-Karaf Cellar uses [Maven|http://maven.apache.org/] as its build tool.
+Karaf WebConsole uses [Maven|http://maven.apache.org/] as its build tool.
 
 h3. Prequisites
 
 *Required:*
 * Download and [install Maven 3.0.x|http://maven.apache.org/download.html]
-* Get the latest [Source|/subproject/cellar/source.html] 
+* Get the latest [Source|/subproject/webconsole/source.html] 
 * Java 1.r65
 
 h3. A normal build
