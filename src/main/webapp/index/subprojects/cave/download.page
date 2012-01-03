@@ -1,0 +1,27 @@
+---
+title: Cave Download
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h2. Latest Releases
+{section}
+
+{column:width=20%}
+{div:style=padding-right:20px;float:left;}
+!/images/karaf-box.png|width=256!
+{div}
+{column}
+
+{column:width=80%}
+{div:style=min-height:200px}
+
+Karaf Cave has not been released yet.
+
+h2. Keys
+The {{KEYS}} used to sign the release can be found [here|http://www.apache.org/dist/karaf/KEYS].
+
+h2. Snapshots
+If you want to give a try to the latest snapshots, they are available at the following location:
+  https://repository.apache.org/content/groups/snapshots-group/org/apache/karaf/cave
+
