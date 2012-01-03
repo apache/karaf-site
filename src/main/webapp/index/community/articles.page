@@ -6,6 +6,8 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Apache Karaf 2011 Millesime|http://blog.nanthrax.net/2012/01/apache-karaf-2011-millesime/]
+* [Coming in Karaf 3.0: new KAR service, command, and management|http://blog.nanthrax.net/2011/12/coming-in-karaf-3-0-new-kar-service-command-management/]
 * [Overview on Apache Karaf, Pax Web, and Camel archetypes|http://blog.nanthrax.net/2011/12/overview-on-apache-karaf-pax-web-and-camel-archetypes/]
 * [Do you know Apache Karaf Maven plugins ?|http://blog.nanthrax.net/2011/12/do-you-know-the-apache-karaf-maven-plugins/]
 * [Apache Karaf moved to OSGi r4.3|http://blog.nanthrax.net/2011/11/apache-karaf-moved-to-osgi-r4-3/]
