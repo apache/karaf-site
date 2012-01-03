@@ -16,7 +16,7 @@ h2. Quick Start
 To install and start WebConsole into a running Karaf instance, you have to intall the WebConsole feature:
 
 {code}
-karaf@root> feature:add-url mvn:org.apache.karaf.webconsole/features/1.0.0-SNAPSHOT/xml/features
+karaf@root> feature:add-url mvn:org.apache.karaf.webconsole/apache-karaf-webconsole/0.3.0-SNAPSHOT/xml/features
 karaf@root> feature:install webconsole-wicket
 {code}
 
