@@ -6,7 +6,7 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Building 
 
-Karaf Cave uses [Maven|http://maven.apache.org/] as its build tool.
+Karaf EIK uses [Maven|http://maven.apache.org/] as its build tool.
 
 h3. Prequisites
 
@@ -32,29 +32,6 @@ or
 
 {code}
 mvn -DskipTests clean install 
-{code}
-
-h3. Using an IDE
-
-If you prefer to use an IDE then you can auto-generate the IDE's project files using maven plugins. e.g.
-
-{code}
-mvn eclipse:eclipse
-{code}
-
-or
-
-{code}
-mvn idea:idea
-{code} 
-
-h4. Importing into Eclipse
-
-If you have not already done so, you will need to make Eclipse aware of the Maven repository so that it can build everything. In the preferences, go to Java->Build Path->Classpath and define a new Classpath Variable named M2_REPO that points to your local Maven repository (i.e., {{~/.m2/repository}} on Unix and {{c:\Documents and Settings\<user>\.m2\repository}} on Windows).
-
-You can also get Maven to do this for you:
-{code}
-mvn eclipse:add-maven-repo -Declipse.workspace=/path/to/the/workspace/ 
 {code}
 
 h3. Building source jars

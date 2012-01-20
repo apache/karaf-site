@@ -6,7 +6,7 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Karaf Cave
 
-provides an OSGi Bundle Repository (OBR) and Karaf
+Karaf Cave provides an OSGi Bundle Repository (OBR) and Karaf
 Features Repository (KFR).
 
 OBR provides a service that can automatically install a bundle, with its deployment dependencies, from a bundle

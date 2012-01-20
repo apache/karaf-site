@@ -64,6 +64,11 @@ h3. [Subprojects]
 -- User Guide ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/user-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
 -- Architecture Guide ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/architecture-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
 
+- [EIK]
+-- [Download|/index/subprojects/eik/download.html]
+-- [Source|/index/subprojects/eik/source.html]
+-- [Building|/index/subprojects/eik/building.html]
+
 - [WebConsole]
 -- [Download|/index/subprojects/webconsole/download.html]
 -- [Source|/index/subprojects/webconsole/source.html]
