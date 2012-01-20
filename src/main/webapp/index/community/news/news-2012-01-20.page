@@ -1,0 +1,10 @@
+---
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. Jean-Baptiste Onofré posted on January 20, 2012\\New Karaf sub-projects
+
+The Karaf team is pleased to announce three new sub-projects: [Cave|/index/subprojects/cave.html], [EIK|/index/subprojects/eik.html], [WebConsole|/index/subprojects/webconsole.html].
+Take a look on the sub-project pages to have more information.
+We are working to provide a first release of these projects, but the sources are already available.
