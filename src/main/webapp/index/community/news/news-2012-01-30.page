@@ -1,0 +1,10 @@
+---
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. Jean-Baptiste Onofré posted on January 20, 2012\\Karaf Cellar 2.2.3 released
+
+The Karaf tema is pleased to announce the availability of [Karaf Cellar 2.2.3|index/subprojects/cellar/download/karaf-cellar-2.2.3-release.html].
+This release of Apache Karaf Cellar is based off of the 2.2.x series branch, representing an update to Apache Karaf Cellar 2.2.2. It contains bug fixes identified in the prior release, and introduces improvements including: cluster group support for bundles, full access on the Hazelcast configuration file, update to Hazelcast 1.9.4.6 and jclouds 1.3.1, first DOSGi support, new samples including usage with Apache Camel, OBR support in clusters.
+For more information, please see the [release notes|index/subprojects/cellar/download/karaf-cellar-2.2.3-release.html].
