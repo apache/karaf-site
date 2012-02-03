@@ -39,6 +39,7 @@ h2. Tutorials
 
 h2. Apache Karaf Cellar
 
+* [Communication between two remote Camel routes with Karaf Cellar|http://blog.nanthrax.net/2012/02/communication-between-two-remote-camel-routes-using-karaf-cellar/]
 * [Apache Karaf Cellar and DOSGi|http://blog.nanthrax.net/2011/11/apache-karaf-cellar-and-dosgi/]
 * [What's new in Apache Karaf Cellar 2.2.2|http://blog.nanthrax.net/2011/08/apache-karaf-cellar-2-2-2-release]
 * [Apache Karaf Cellar - an overview|http://iocanel.blogspot.com/2011/05/apache-karaf-cellar.html]
