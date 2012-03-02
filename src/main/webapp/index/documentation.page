@@ -24,4 +24,9 @@ h2. XML Schemas
 
 * [Karaf Features v1.0.0|http://karaf.apache.org/xmlns/features/v1.0.0]
 * [Karaf JAAS v1.0.0|http://karaf.apache.org/xmlns/jaas/v1.0.0]
+* [Karaf JAAS v1.1.0|http://karaf.apache.org/xmlns/jaas/v1.1.0]
+* [Karaf Jasypt v1.0.0|http://karaf.apache.org/xmlns/jasypt/v1.0.0]
 * [Karaf Shell v1.0.0|http://karaf.apache.org/xmlns/shell/v1.0.0]
+* [Karaf Shell v1.1.0|http://karaf.apache.org/xmlns/shell/v1.1.0]
+* [Karaf Spring Deployer v1.0.0|http://karaf.apache.org/xmlns/deployer/spring/v1.0.0]
+* [Karaf Blueprint Deployer v1.0.0|http://karaf.apache.org/xmlns/deployer/spring/v1.0.0]
