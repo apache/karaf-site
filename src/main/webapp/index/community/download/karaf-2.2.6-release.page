@@ -66,6 +66,8 @@ h3. Bug
  * [KARAF-1284|https://issues.apache.org/jira/browse/KARAF-1284] - Karaf bundle archetype maven bundle plugin configuration is missing "instructions" tags.
  * [KARAF-1298|https://issues.apache.org/jira/browse/KARAF-1298] - dev:watch does not work in some cases
  * [KARAF-1304|https://issues.apache.org/jira/browse/KARAF-1304] - Quick help text for features:info command is erroneous
+ * [KARAF-1318|https://issues.apache.org/jira/browse/KARAF-1318] - User bundles are treated as system bundles
+ * [KARAF-1323|https://issues.apache.org/jira/browse/KARAF-1323] - Testfailures in source package
 
 h3. Dependency upgrade
  * [KARAF-1151|https://issues.apache.org/jira/browse/KARAF-1151] - Upgrade to Spring 3.0.7.RELEASE
