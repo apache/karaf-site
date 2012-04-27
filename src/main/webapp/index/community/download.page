@@ -18,10 +18,10 @@ h2. Latest Releases
 
 Grab these releases while they are hot!
 
-The latest release is [Karaf 2.2.6 Release|download/karaf-2.2.6-release.html].
+The latest release is [Karaf 2.2.7 Release|download/karaf-2.2.7-release.html].
 
 Releases:
-* [#Karaf 2.2.6]
+* [#Karaf 2.2.7]
 
 {div}
 {column}
@@ -33,26 +33,26 @@ h2. Getting the latest distributions
 {info:title=The URLs below use redirection}
 The above URLs use the Apache Mirror system to redirect you to a suitable mirror for your download. Some users have experienced issues with some versions of browsers (e.g. some Safari browsers). If the download doesn't seem to work for you from the above URL then try using [Mozilla Firefox|http://www.mozilla.com/en-US/firefox/]
 {info}
-h2. Karaf 2.2.6
+h2. Karaf 2.2.7
 
-[Release Notes|download/karaf-2.2.6-release.html]
+[Release Notes|download/karaf-2.2.7-release.html]
 
 h3. Binary Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Distribution| [apache-karaf-2.2.6.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.2.6/apache-karaf-2.2.6.zip]|[PGP|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6.zip.md5]|
-|Unix/Linux/Cygwin Distribution| [apache-karaf-2.2.6.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.2.6/apache-karaf-2.2.6.tar.gz]|[PGP|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2.2.6-apache-karaf-2.2.6.tar.gz.md5]|
+|Windows Distribution| [apache-karaf-2.2.7.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.2.7/apache-karaf-2.2.7.zip]|[PGP|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7.zip.md5]|
+|Unix/Linux/Cygwin Distribution| [apache-karaf-2.2.7.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.2.7/apache-karaf-2.2.7.tar.gz]|[PGP|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2.2.7-apache-karaf-2.2.7.tar.gz.md5]|
 
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-2.2.6-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.2.6/apache-karaf-2.2.6-src.zip]|[PGP|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.2.6-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.2.6/apache-karaf-2.2.6-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2.2.6/apache-karaf-2.2.6-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-2.2.7-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.2.7/apache-karaf-2.2.7-src.zip]|[PGP|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.2.7-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.2.7/apache-karaf-2.2.7-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2.2.7/apache-karaf-2.2.7-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
-|HTML Manual| [manual-2.2.6.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.6/manual-2.2.6.html] |
-|PDF Manual| [manual-2.2.6.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.6/manual-2.2.6.pdf] |
+|HTML Manual| [manual-2.2.7.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.7/manual-2.2.7.html] |
+|PDF Manual| [manual-2.2.7.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.7/manual-2.2.7.pdf] |
 
 h2. Keys
 The {{KEYS}} used to sign the release can be found [here|http://www.apache.org/dist/karaf/KEYS].
