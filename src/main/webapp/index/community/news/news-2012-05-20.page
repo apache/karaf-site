@@ -1,0 +1,10 @@
+---
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. Jean-Baptiste Onofre posted on May 20, 2012\\Karaf Cellar 2.2.4 released
+
+The Karaf team is pleased to announce the availability of [Karaf Cellar 2.2.4|index/subprojects/cellar/download/karaf-cellar-2.2.4-release.html].
+This release of Apache Karaf Cellar is considered a high priority update for users of Apache Karaf Cellar 2.2.3. It includes a lot of bug fixes and new features. 
+For more information, please see the [release notes|index/subprojects/cellar/download/karaf-cellar-2.2.4-release.html].
