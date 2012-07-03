@@ -9,7 +9,8 @@ The following mailing lists are available. Before posting you might want to read
 h2. Mailing Lists
 
 || List Name || Address || Subscribe || Unsubscribe || Archive || Nabble (Online Forums) ||
-| Karaf User List | user@karaf.apache.org | [Subscribe|mailto:user-subscribe@karaf.apache.org] | [Unsubscribe|mailto:user-unsubscribe@camel.apache.org] | [Archive|http://mail-archives.apache.org/mod_mbox/karaf-user/] | [Nabble|http://karaf.922171.n3.nabble.com/Karaf-User-f930749.html] |
+| Karaf User List | user@karaf.apache.org | [Subscribe|mailto:user-subscribe@karaf.apache.org] | [Unsubscribe|mailto:user-unsubscribe@karaf.apache.org] | [Archive|http://mail-archives.apache.org/mod_mbox/karaf-user/] | [Nabble|http://karaf.922171.n3.nabble.com/Karaf-User-f930749.html] |
+ard+Reports
 | Karaf Developer List | dev@karaf.apache.org | [Subscribe|mailto:dev-subscribe@karaf.apache.org] | [Unsubscribe|mailto:dev-unsubscribe@karaf.apache.org] | [Archive|http://mail-archives.apache.org/mod_mbox/karaf-dev/] | [Nabble|http://karaf.922171.n3.nabble.com/Karaf-Dev-f930721.html] |
 | Karaf Commits List | commits@karaf.apache.org | [Subscribe|mailto:commits-subscribe@karaf.apache.org] | [Unsubscribe|mailto:commits-unsubscribe@karaf.apache.org] | [Archive|http://mail-archives.apache.org/mod_mbox/karaf-commits/] | [Nabble|http://www.nabble.com/xxx.html] |
 | Karaf Issues List | issues@karaf.apache.org | [Subscribe|mailto:issues-subscribe@karaf.apache.org] | [Unsubscribe|mailto:issues-unsubscribe@karaf.apache.org] | [Archive|http://mail-archives.apache.org/mod_mbox/karaf-issues/] | [Nabble|http://www.nabble.com/xxx.html] |
