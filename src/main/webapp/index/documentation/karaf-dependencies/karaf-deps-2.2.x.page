@@ -78,5 +78,5 @@ The below table describes the dependencies included in Apache Karaf 2.2.x builds
 | spring2 | 2.5.6.SEC02 | 2.5.6.SEC02 | 2.5.6.SEC02 | 2.5.6.SEC02 | 2.5.6.SEC02 | 2.5.6.SEC02 | 2.5.6.SEC02 | 2.5.6.SEC02 | 2.5.6.SEC02 | 2.5.6.SEC02 |
 | spring | 3.0.5.RELEASE | 3.0.5.RELEASE | 3.0.5.RELEASE | 3.0.6.RELEASE | 3.0.6.RELEASE | 3.0.6.RELEASE | 3.0.7.RELEASE | 3.0.7.RELEASE | 3.0.7.RELEASE | 3.0.7.RELEASE |
 | sshd | 0.5.0 | 0.5.0 | 0.5.0 | 0.5.0 | 0.5.0 | 0.5.0 | 0.5.0 | 0.5.0 | 0.7.0 | 0.7.0 |
-| xbean | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 |
-| javax.mail | 1.4.3 | 1.4.3 | 1.4.3 | 1.4.4 | 1.4.4 | 1.4.4 | 1.4.4 | 1.4.4 | 1.4.4 |
+| xbean | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.7 | 3.11.1 | 
+| javax.mail | 1.4.3 | 1.4.3 | 1.4.3 | 1.4.4 | 1.4.4 | 1.4.4 | 1.4.4 | 1.4.4 | 1.4.4 | 1.4.4 |
