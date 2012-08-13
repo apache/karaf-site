@@ -1,0 +1,23 @@
+---
+title: Karaf 2.2.9 Release
+page_version: 3
+page_creator: jgoodyear
+page_modifier: jbonofre
+--- pipeline:conf
+h2. Download
+
+Download links can be found in the [Download|/index/community/download.html] page.
+
+h2. Documentation
+
+- Manual ([HTML|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.9/manual-2.2.9.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.9/manual-2.2.9.pdf])
+-- Users Guide ([HTML|http://karaf.apache.org/manual/2.2.9/users-guide/index.html])
+-- Developers Guide ([HTML|http://karaf.apache.org/manual/2.2.9/developers-guide/index.html])
+
+h2. Release Notes - Karaf - Version 2.2.9
+
+  This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.8. It contains bug fixes identified in the prior release, and introduces improvements including; A new JDBC lock implementation for Postgre, a fix for using version with the wrap protocol, and renaming command-watch to watch. Several dependences were also updated, bringing Felix Framework to 3.2.2, pax-logging to 1.6.9, slf4j to 1.6.6, xbean to 3.11.1, aries proxy to 0.3.1, and a multitude of updates to maven plugins.
+  For more detail please see the change log below.
+
+h3. Bug
+ * [KARAF-536|https://issues.apache.org/jira/browse/KARAF-536] - Backspace no longer works in Putty after using 'connect' command to connect to other instance, and commands are printed in only 2 columns.
