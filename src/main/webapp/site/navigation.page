@@ -13,7 +13,7 @@ h3. [Overview|Karaf Overview]
 
 h3. [Documentation]
 
-- Manual ([HTML|http://karaf.apache.org/manual/latest-2.2.x/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.8/manual-2.2.8.pdf])
+- Manual ([HTML|http://karaf.apache.org/manual/latest-2.2.x/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.2.9/manual-2.2.9.pdf])
 -- Users' Guide ([HTML|http://karaf.apache.org/manual/latest-2.2.x/users-guide/index.html])
 -- Developer Guide ([HTML|http://karaf.apache.org/manual/latest-2.2.x/developers-guide/index.html])
 
