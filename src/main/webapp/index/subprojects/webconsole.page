@@ -20,8 +20,8 @@ karaf@root> feature:add-url mvn:org.apache.karaf.webconsole/apache-karaf-webcons
 karaf@root> feature:install webconsole-wicket
 {code}
 
-You can open the WebConsole CNS URL in your browser:
+You can open the WebConsole in your browser:
 
 {code}
-http://localhost:8181/cns
+http://localhost:8181/console
 {code}
