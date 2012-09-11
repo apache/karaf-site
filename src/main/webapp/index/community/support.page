@@ -37,3 +37,7 @@ We may be able to help you much more quickly if you try the following
 * Provide us with a JUnit test case that demonstrates your issue. e.g. if you think you've found a bug, can you create a test case to demonstrate the bug?
 * [Submit a patch|Contributing] fixing the bug! (We also buy you beer when we meet you if you submit bug fixes :) )
 * For memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it's huge) to the JIRA we can normally fix things much quickly. E.g. you could run [jmap|http://java.sun.com/j2se/1.5.0/docs/tooldocs/share/jmap.html]/[jhat|http://java.sun.com/javase/6/docs/technotes/tools/share/jhat.html], JProfiler or YourKit on your code and send us the output. To find memory leaks it's quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what's wrong from that.
+
+h3. Commercial Support
+
+This is an open source project, so the amount of time we have available to help resolve your issue is often limited as all help is provided on a volunteer basis. If you want to get priority help, need to get up to speed quickly, require some training or mentoring, or need full 24 x 7 production support you could contact one of the following companies with [Commercial] Karaf Offerings.
