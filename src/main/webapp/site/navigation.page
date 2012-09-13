@@ -53,26 +53,26 @@ h3. [Developers]
 h3. [Subprojects]
 
 - [Cave]
--- [Download|/index/subprojects/cave/download.html]
--- [Source|/index/subprojects/cave/source.html]
--- [Building|/index/subprojects/cave/building.html]
+-- [Download|cave-download]
+-- [Source|cave-source]
+-- [Building|cave-building]
 
 - [Cellar]
--- [Download|/index/subprojects/cellar/download.html]
--- [Source|/index/subprojects/cellar/source.html]
--- [Building|/index/subprojects/cellar/building.html]
+-- [Download|cellar-download]
+-- [Source|cellar-source]
+-- [Building|cellar-building]
 -- User Guide ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/user-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
 -- Architecture Guide ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/architecture-guide/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
 
 - [EIK]
--- [Download|/index/subprojects/eik/download.html]
--- [Source|/index/subprojects/eik/source.html]
--- [Building|/index/subprojects/eik/building.html]
+-- [Download|eik-download]
+-- [Source|eik-source]
+-- [Building|eik-building]
 
 - [WebConsole]
--- [Download|/index/subprojects/webconsole/download.html]
--- [Source|/index/subprojects/webconsole/source.html]
--- [Building|/index/subprojects/webconsole/building.html]
+-- [Download|wc-download]
+-- [Source|wc-source]
+-- [Building|wc-building]
 
 h3. [ASF|http://www.apache.org/]
 
