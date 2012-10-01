@@ -8,12 +8,13 @@ h2. Commercial Karaf Offerings
 
 Apache Karaf is a widely used project. As such, several companies have built products and services around Karaf. This page is dedicated to providing descriptions of those offerings and links to more information. Companies are definitely encouraged to update this page directly or send a mail to the Karaf PMC with a description of your offerings and we can update the page. The products and services listed on this page are provided for information use only to our users. The Karaf PMC does not endorse or recommend any of the products or services on this page. See below for information about what is appropriate to add to the page.
 
+h3. Talend
+
+[Talend|http://www.talend.com] uses and contributes on Apache Karaf. The Talend Runtime is based on Karaf. Talend has a dedicated [team|http://coders.talend.com] for the Apache projects. This team provides consulting, training, specific development, and support on Karaf (and other Apache projects).
+
 h3. FuseSource
 
 h3. Savoir Technologies, Inc
 
 [Savoir Technologies, Inc|http://www.savoirtech.com] provides enterprise consulting, training and support for Karaf and a host of other Apache service containers. Savoir can provide best practice mentoring for developing with Karaf, as well as architectural/design reviews, troubleshooting and SOA infrastructure implementations.
-
-h3. Talend
-
 
