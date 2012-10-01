@@ -23,5 +23,5 @@ The {{KEYS}} used to sign the release can be found [here|http://www.apache.org/d
 
 h2. Snapshots
 If you want to give a try to the latest snapshots, they are available at the following location:
-  https://repository.apache.org/content/groups/snapshots-group/org/apache/karaf/cave
+  https://repository.apache.org/content/groups/snapshots-group/org/apache/karaf/eik
 

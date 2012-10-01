@@ -51,4 +51,4 @@ git svn rebase
 
 h2. Building the code
 
-To then build the code see [Building|/index/subprojects/eik/building.html].
+To then build the code see [Building|/index/subprojects/eik/eik-building.html].
