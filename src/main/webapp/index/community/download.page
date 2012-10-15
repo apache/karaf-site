@@ -59,12 +59,6 @@ The latest 2.2.x release is [Karaf 2.2.9 Release|download/karaf-2.2.9-release.ht
 Releases:
 * [#Karaf 2.2.9]
 
-{div}
-{column}
-
-{section}
-
-
 h2. Getting the latest distributions
 {info:title=The URLs below use redirection}
 The above URLs use the Apache Mirror system to redirect you to a suitable mirror for your download. Some users have experienced issues with some versions of browsers (e.g. some Safari browsers). If the download doesn't seem to work for you from the above URL then try using [Mozilla Firefox|http://www.mozilla.com/en-US/firefox/]
