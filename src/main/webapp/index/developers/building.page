@@ -11,6 +11,12 @@ Karaf uses [Maven|http://maven.apache.org/] as its build tool. If you don't fanc
 h3. Prequisites
 
 *Required:*
+Karaf 2.3.x
+* Download and [install Maven 2.2.1|http://maven.apache.org/download.html]
+* Get the latest [Source]
+* Java 1.6
+
+*Required:*
 Karaf 2.1.x and Karaf 2.2.x:
 * Download and [install Maven 2.2.1|http://maven.apache.org/download.html]
 * Get the latest [Source] 

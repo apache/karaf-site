@@ -6,6 +6,7 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. News
 
+{include:news-2012-10-15}
 {include:news-2012-09-03}
 {include:news-2012-08-18}
 {include:news-2012-06-25}
