@@ -1,0 +1,12 @@
+---
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. Jean-Baptiste Onofré posted on December 06, 2012\\Karaf Cellar 2.2.5 released!
+
+The Karaf team is pleased to announce the availability of [Karaf Cellar 2.2.5|index/subprojects/cellar/download/karaf-cellar-2.2.5-release.html].
+
+This release of Apache Karaf Cellar is based off of the 2.2.x series branch, representing a major update to Apache Karaf Cellar 2.2.4. It contains a lot of bug fixes and some important new features.
+Especially, the bundle and configuration synchronization mechanism have been improved, the local node state (group, producers, consumers, handlers) is now persistent, the cluster commands and MBeans haven been improved, including the addition of cluster:sync command.
+For more information, please see the [release notes|index/subprojects/cellar/download/karaf-cellar-2.2.5-release.html].

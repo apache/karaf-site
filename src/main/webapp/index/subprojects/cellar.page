@@ -1,6 +1,6 @@
 ---
 title: Cellar
-page_version: 4
+page_version: 5
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -21,7 +21,7 @@ h2. Quick Start
 To install and start Cellar into your running Karaf instance, you have to install the Cellar feature:
 
 {code}
-karaf@root> feature:add-url mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.2.4/xml/features
+karaf@root> feature:add-url mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.2.5/xml/features
 karaf@root> feature:install cellar
 {code}
 
