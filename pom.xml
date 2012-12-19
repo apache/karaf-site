@@ -25,7 +25,7 @@
     <parent>
         <groupId>org.apache.karaf</groupId>
         <artifactId>karaf</artifactId>
-        <version>2.2.5</version>
+        <version>2.2.9</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -276,6 +276,7 @@
                             org.apache.commons.logging;provider=paxlogging;resolution:=optional,
                             org.apache.log4j;provider=paxlogging;resolution:=optional,
                             org.slf4j;provider=paxlogging;resolution:=optional;version="[1.5,2)",
+                            *
                         </Import-Package>
                         <Bundle-ClassPath>.,WEB-INF/classes</Bundle-ClassPath>
                         <Embed-Directory>WEB-INF/lib</Embed-Directory>
@@ -283,6 +284,19 @@
                         <Embed-Transitive>true</Embed-Transitive>
                         <Webapp-Context>/karaf-doc</Webapp-Context>
                     </instructions>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-publish-plugin</artifactId>
+                <version>1.0-beta-2</version>
+                <configuration>
+                    <checkinComment>[scm-publish] Updating main website contents</checkinComment>
+                    <pubScmUrl>scm:svn:https://svn.apache.org/repos/asf/karaf/site/production</pubScmUrl>
+                    <content>${project.build.directory}/sitegen</content>
+                    <ignorePathsToDelete>
+                        <ignorePathToDelete>docs/**</ignorePathToDelete>
+                    </ignorePathsToDelete>
                 </configuration>
             </plugin>
         </plugins>
