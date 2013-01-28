@@ -27,7 +27,7 @@ To install and start Cave into a running Karaf instance, you have to install the
 
 {code}
 karaf@root> features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
-karaf@root> features:install cave-server
+karaf@root> features:install cave-obr-server
 {code}
 
 You're ready to use Cave server. Take a look on the user guide.
