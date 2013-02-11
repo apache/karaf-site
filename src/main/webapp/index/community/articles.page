@@ -6,6 +6,7 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Multiple HTTP connectors in Karaf|http://blog.nanthrax.net/2013/02/multiple-http-connectors-in-apache-karaf/]
 * [xmppgtalk shell connector for Karaf and Gogo shell|http://spring-java-ee.blogspot.de/2012/02/xmppgtalk-shell-connector-for-apache.html]
 * [Create custom log4j appender for Karaf and Pax Logging|http://blog.nanthrax.net/2012/12/create-custom-log4j-appender-for-karaf-and-pax-logging/]
 * [How to enable HTTPs certificate client auth with Karaf|http://blog.nanthrax.net/2012/12/how-to-enable-https-certificate-client-auth-with-karaf/]
