@@ -1,11 +1,12 @@
 ---
 title: Articles
-page_version: 5
+page_version: 6
 page_creator: jgoodyear
 page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Load balancing with Apache Karaf Cellar, and mod_proxy_balancer|http://blog.nanthrax.net/2013/02/load-balancing-with-apache-karaf-cellar-and-mod_proxy_balancer/]
 * [Multiple HTTP connectors in Karaf|http://blog.nanthrax.net/2013/02/multiple-http-connectors-in-apache-karaf/]
 * [xmppgtalk shell connector for Karaf and Gogo shell|http://spring-java-ee.blogspot.de/2012/02/xmppgtalk-shell-connector-for-apache.html]
 * [Create custom log4j appender for Karaf and Pax Logging|http://blog.nanthrax.net/2012/12/create-custom-log4j-appender-for-karaf-and-pax-logging/]
