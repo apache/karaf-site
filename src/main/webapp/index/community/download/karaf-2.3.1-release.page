@@ -16,6 +16,7 @@ h2. Documentation
 
 h2. Release Notes - Karaf - Version 2.3.1
 
+  In this patch update to the 2.3.x line contains multiple bug fixes, improvements, and dependency updates including; an upgrade to OSGi spec 4.3.1, Spring 3.1.4.RELEASE, Pax Exam 2.6.0, Pax Web 1.1.12, Jetty 7.6.8.v20121106, Aries Blueprint Core 1.1.0, and fixes to the LDAP login module, improved failover lock logic, removes a console shutdown -f hang, and adds a jre-1.8 to jre.properties. 
   For more detail please see the change log below.
 
 h3. Bug
