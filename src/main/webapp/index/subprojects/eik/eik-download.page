@@ -1,6 +1,6 @@
 ---
 title: EIK Download
-page_version: 1
+page_version: 2
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -16,7 +16,28 @@ h2. Latest Releases
 {column:width=80%}
 {div:style=min-height:200px}
 
-Karaf EIK has not been released yet.
+The latest release is [Karaf EIK 0.9.0 Release|download/karaf-eik-0.9.0-release.html].
+
+h2. Karaf EIK 0.9.0
+
+[Release Notes|download/karaf-eik-0.9.0-release.html]
+
+h3. Direct Installation
+
+Download the EIK repository zip archive from Central:
+http://repo.maven.apache.org/maven2/org/apache/karaf/eik/features/org.apache.karaf.eik.repository/0.9.0/org.apache.karaf.eik.repository-0.9.0.zip
+
+Uncompress the repository zip archive on your system, in the folder of your choice.
+
+In Eclipse, pick up this folder in the following menu:
+
+*Select Help > Install new software > Add.. > Local...*
+
+h3. Source Distribution
+
+||Description||Download Link|| || || ||
+|Windows Source Distribution| [apache-karaf-eik-0.9.0-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-eik-0.9.0-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.md5]|
 
 h2. Keys
 The {{KEYS}} used to sign the release can be found [here|http://www.apache.org/dist/karaf/KEYS].

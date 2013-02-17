@@ -1,6 +1,6 @@
 ---
 title: EIK
-page_version: 1
+page_version: 2
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -26,4 +26,14 @@ Notable features include:
 -- all Eclipse plugins are presented as an OBR
 
 h2. Quick Start
+
+Download the EIK repository zip archive from Central.
+For instance, download:
+http://repo.maven.apache.org/maven2/org/apache/karaf/eik/features/org.apache.karaf.eik.repository/0.9.0/org.apache.karaf.eik.repository-0.9.0.zip
+
+Uncompress the repository zip archive on your system, in the folder of your choice.
+
+In Eclipse, pick up this folder in the following menu:
+
+*Select Help > Install new software > Add.. > Local...*
 

@@ -1,0 +1,51 @@
+---
+title: Karaf EIK 0.9.0 Release
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h2. Download
+
+Download links can be found in the [Download|/index/subprojects/cellar/cellar-download.html] page.
+
+h2. Release Notes - Karaf EIK - Version 0.9.0
+
+This release is the first Karaf EIK release.
+
+To install EIK in your Eclipse environment:
+
+Download the EIK repository zip archive from Central.
+For instance, download:
+http://repo.maven.apache.org/maven2/org/apache/karaf/eik/features/org.apache.karaf.eik.repository/0.9.0/org.apache.karaf.eik.repository-0.9.0.zip
+
+Uncompress the repository zip archive on your system, in the folder of your choice.
+
+In Eclipse, pick up this folder in the following menu:
+
+*Select Help > Install new software > Add.. > Local...*
+
+h3. Dependency upgrade
+    * [KARAF-2055] - Upgrade to Apache POM 12
+
+h3. Question
+    * [KARAF-1988] - Add commons-lang as EIK dependency
+    * [KARAF-2018] - org.apache.karaf.eik.app
+
+h3. Task
+    * [KARAF-1800] - Improve documentation EIK Building
+    * [KARAF-1847] - remove org.osgi.jmx
+    * [KARAF-1848] - remove old reference attribute
+    * [KARAF-1885] - Add src distribution
+    * [KARAF-1922] - Upgrade org.apache.aries.jmx.core from 0.3 to 1.0.0
+    * [KARAF-1929] - make pom.xml m2e friendly
+    * [KARAF-1950] - Eik pde archetype for Camel
+    * [KARAF-1961] - EIk source code cleanup from info* package
+    * [KARAF-1962] - Remove smk plugins and feature
+    * [KARAF-1969] - Remove org.apache.karaf.eik.p2.feature, org.apache.servicemix.kernel.main
+    * [KARAF-1970] - Minor Refactoring
+    * [KARAF-1979] - check manifest commons.collection in eik
+    * [KARAF-1980] - Stream Resources cleanup
+    * [KARAF-1985] - update eik build file
+    * [KARAF-1995] - Eik support matrix
+    * [KARAF-1996] - Refactoring org.apache.karaf.eik.update
+

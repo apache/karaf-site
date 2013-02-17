@@ -1,0 +1,12 @@
+---
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. Jean-Baptiste Onofré posted on February 17, 2013\\Karaf EIK 0.9.0 released
+
+The Karaf team is pleased to announce the availability of [Karaf EIK 0.9.0|index/subprojects/eik/download/karaf-eik-0.9.0-release.html].
+
+This is the first release of Karaf EIK, allowing you to integrate Karaf in your Eclipse environment.
+
+For more information, please see the [release notes|index/subprojects/eik/download/karaf-eik-0.9.0-release.html].
