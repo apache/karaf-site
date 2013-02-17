@@ -68,6 +68,8 @@ h3. [Subprojects]
 -- [Download|eik-download]
 -- [Source|eik-source]
 -- [Building|eik-building]
+-- User Guide ([HTML|http://karaf.apache.org/manual/eik/0.9.0/user-guide/index.html])
+-- Developer Guide ([HTML|http://karaf.apache.org/manual/eik/0.9.0/developers-guide/index.html])
 
 - [WebConsole]
 -- [Download|wc-download]
