@@ -125,7 +125,6 @@ h3. Task
  * [KARAF-2129|https://issues.apache.org/jira/browse/KARAF-2129] - more svn:ignores setttings
  * [KARAF-2156|https://issues.apache.org/jira/browse/KARAF-2156] - Upgrade aries utils
  * [KARAF-2161|https://issues.apache.org/jira/browse/KARAF-2161] - Incorrect LGPL license info in Notices file
- * [KARAF-2198|https://issues.apache.org/jira/browse/KARAF-2198] - Remove new features from karaf-2.3.x branch
 
 h3. Test
  * [KARAF-2082|https://issues.apache.org/jira/browse/KARAF-2082] - Jasypt unit tests fail
