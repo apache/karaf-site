@@ -39,7 +39,7 @@ If you are a committer, just commit your changes.
 
 To deploy your modifications, you need to run the following command:
 {code}
-mvn scalate:deploy
+mvn clean install scm-publish:publish-scm
 {code}
 
 
