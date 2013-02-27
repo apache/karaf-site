@@ -20,11 +20,12 @@ h2. Release Notes - Karaf - Version 2.3.1
   For more detail please see the change log below.
 
 h3. Bug
+ * [KARAF-1278|https://issues.apache.org/jira/browse/KARAF-1278] - Comands: History does not work, can not edit current comand
+ * [KARAF-1327|https://issues.apache.org/jira/browse/KARAF-1327] - Client: can't execute alias command
+ * [KARAF-1386|https://issues.apache.org/jira/browse/KARAF-1386] - feature install war fails if http-whiteboard is already installed
  * [KARAF-1715|https://issues.apache.org/jira/browse/KARAF-1715] - Occasional freeze on feature:install webconsole
  * [KARAF-1748|https://issues.apache.org/jira/browse/KARAF-1748] - Karaf startup fails with NullPointerException when logfile can't be written
  * [KARAF-1770|https://issues.apache.org/jira/browse/KARAF-1770] - Unable to feature:install webconsole under apache-karaf minimal package
- * [KARAF-1851|https://issues.apache.org/jira/browse/KARAF-1851] - inconsistent FeaturesNamespaces versions
- * [KARAF-1887|https://issues.apache.org/jira/browse/KARAF-1887] - Make integration tests more reliable by making sure the boot is finished
  * [KARAF-1914|https://issues.apache.org/jira/browse/KARAF-1914] - SSH client authentication randomly fails
  * [KARAF-1921|https://issues.apache.org/jira/browse/KARAF-1921] - Upgrade to Spring 3.1.x for Karaf 2.3.x
  * [KARAF-1936|https://issues.apache.org/jira/browse/KARAF-1936] - LDAPLoginModule not working in 2.3.0 due to missing import of javax.net.SocketFactory
@@ -60,6 +61,10 @@ h3. Bug
  * [KARAF-2143|https://issues.apache.org/jira/browse/KARAF-2143] - Remove Jetty JUL logger configuration
  * [KARAF-2154|https://issues.apache.org/jira/browse/KARAF-2154] - Entering an empty command removes previous command in history
  * [KARAF-2171|https://issues.apache.org/jira/browse/KARAF-2171] - Start Karaf as service shows 'Activator' error in wrapper.log
+ * [KARAF-2190|https://issues.apache.org/jira/browse/KARAF-2190] - Karaf itest fails on fast machine
+ * [KARAF-2192|https://issues.apache.org/jira/browse/KARAF-2192] - Karaf obr:listURl and obr:list tests fail on faster boxes
+ * [KARAF-2206|https://issues.apache.org/jira/browse/KARAF-2206] - The container fails to start correctly with IBM Java 6
+ * [KARAF-2209|https://issues.apache.org/jira/browse/KARAF-2209] - Allow overriding system properties
 
 h3. Dependency upgrade
  * [KARAF-1801|https://issues.apache.org/jira/browse/KARAF-1801] - slf4j 1.7.0 (historical record)
@@ -88,6 +93,7 @@ h3. Dependency upgrade
  * [KARAF-2157|https://issues.apache.org/jira/browse/KARAF-2157] - Upgrade to Aries Util 1.1.0
  * [KARAF-2162|https://issues.apache.org/jira/browse/KARAF-2162] - Upgrade to Pax Web 1.1.12
  * [KARAF-2184|https://issues.apache.org/jira/browse/KARAF-2184] - Upgrade to Spring 3.1.4.RELEASE
+ * [KARAF-2208|https://issues.apache.org/jira/browse/KARAF-2208] - Upgrade to Aries JPA Blueprint 1.0.1
 
 h3. Improvement
  * [KARAF-1129|https://issues.apache.org/jira/browse/KARAF-1129] - Allow configuring rmi Registry host as well as port
@@ -119,6 +125,7 @@ h3. Task
  * [KARAF-2129|https://issues.apache.org/jira/browse/KARAF-2129] - more svn:ignores setttings
  * [KARAF-2156|https://issues.apache.org/jira/browse/KARAF-2156] - Upgrade aries utils
  * [KARAF-2161|https://issues.apache.org/jira/browse/KARAF-2161] - Incorrect LGPL license info in Notices file
+ * [KARAF-2198|https://issues.apache.org/jira/browse/KARAF-2198] - Remove new features from karaf-2.3.x branch
 
 h3. Test
  * [KARAF-2082|https://issues.apache.org/jira/browse/KARAF-2082] - Jasypt unit tests fail
