@@ -8,6 +8,28 @@ h1. Releases history
 
 {toc:minLevel=2|maxLevel=2}
 
+h2. Karaf 2.3.0
+
+[Release Notes| download/karaf-2.3.0-release.html]
+
+h3. Binary Distribution
+
+||Description||Download Link|| || || ||
+|Windows Distribution| [apache-karaf-2.3.0.zip|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0.zip]|[PGP|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0.zip.md5]|
+|Unix/Linux/Cygwin Distribution| [apache-karaf-2.3.0.tar.gz|http://archive.apache.org/dyn/closer.cgi/karaf/2.3.0/apache-karaf-2.3.0.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.0-apache-karaf-2.3.0.tar.gz.md5]|
+
+h3. Source Distribution
+
+||Description||Download Link|| || || ||
+|Windows Source Distribution| [apache-karaf-2.3.0-src.zip|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0-src.zip]|[PGP|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.0-src.tar.gz|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.0/apache-karaf-2.3.0-src.tar.gz.md5]|
+
+h3. Manual
+||Description||Download Link||
+|HTML Manual| [manual-2.3.0.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.3.0/manual-2.3.0.html] |
+|PDF Manual| [manual-2.3.0.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.3.0/manual-2.3.0.pdf] |
+
+
 h2. Karaf 2.2.9
 
 [Release Notes|download/karaf-2.2.9-release.html]
