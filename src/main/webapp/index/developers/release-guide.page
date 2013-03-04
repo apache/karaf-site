@@ -14,6 +14,7 @@ h3. Required tools, practices and resources
 * Each and every release must be [SIGNED|http://www.apache.org/dev/release-signing.html]
 * Your public key should also be cross-signed by other Apache committers (not required, but suggested)
 * Make sure you have all Apache servers defined in your [settings.xml|http://maven.apache.org/developers/committer-settings.html]
+* Subversion client 1.7.8 or above.
 
 h3. Versioning
 
@@ -164,6 +165,7 @@ cd manual ; mvn scalate:deploy
 ** commit the changes
 ** ?? should we do that in a branch and merge it later to trunk when the release is published, still need to be discussed related to how / if we maintain branches for the website ??
 ** ?? maybe include a pointer to the website trunk or branch in the vote email so that people can check the future website / release notes ??
+** Website update on site project, execute mvn clean install scm-publish:publish-scm -Dusername= -Dpassword=
 
 h3. Starting the vote
 
