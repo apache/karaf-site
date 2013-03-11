@@ -1,0 +1,109 @@
+---
+title: Karaf Dependencies 3.0.x
+page_version: 2
+page_creator: jgoodyear
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. Karaf Dependencies 3.0.x
+
+The below table describes the dependencies included in Apache Karaf 2.3.x builds.
+
+Note: Karaf 2.3.1 versions provided for upgrade path considerations.
+
+|| Karaf Version || 2.3.1 || 3.0.0.RC1 || 
+| aopalliance.bundle | 1.0_6 |
+| asm.bundle | 4.1 |
+| bndlib | 1.50.0 |
+| cglib.bundle | 2.2.2_1 |
+| commons-beanutils.bundle | 1.8.3 |
+| commons-codec.bundle | 1.7 |
+| commons-collections.bundle | 3.2.1 |
+| commons-compress | 1.4.1 |
+| commons-fileupload | 1.2.2 |
+| commons-io | 2.4 |
+| commons-lang.bundle | 2.6 |
+| depends-maven-plugin | 1.2 |
+| icu4j | N/A |
+| injection | 1.0 |
+| jasypt.bundle | 1.9.0_1 |
+| jetty | 7.6.8.v20121106 |
+| junit | 4.10 |
+| junit.bundle | 4.10_1 |
+| geronimo.activation | n/a |
+| geronimo.jms-spec | 1.1.1 |
+| geronimo.jpa-spec | 1.1 |
+| geronimo.jta-spec | 1.1.1 |
+| geronimo.servlet | 1.2 |
+| easymock | 3.1 |
+| equinox | 3.8.0.v20120529-1548 |
+| felix.bundlerepository | 1.6.6 |
+| felix.configadmin | 1.6.0 |
+| felix.fileinstall | 3.2.6 |
+| felix.framework | 4.0.3 |
+| felix.gogo | 0.10.0 |
+| felix.plugin | 2.3.7 |
+| felix.utils | 1.2.0 |
+| felix.webconsole | 4.0.0 |
+| felix.metatype | 1.0.6 |
+| felix.eventadmin | 1.3.2 |
+| felix.eventadmin-plugin | 1.0.2 |
+| felix.obr | 1.0.2 |
+| felix.scr | 1.6.2 |
+| aries.application | 1.0.0 |
+| aries.application.api | 1.0.0 |
+| aries.application.management | 1.0.0 |
+| aries.blueprint | 1.0.1 |
+| aries.blueprint.api | 1.0.0 |
+| aries.blueprint.core | 1.1.0 |
+| aries.blueprint.cm | 1.0.1 |
+| aries.jmx.api | 1.1.0 |
+| aries.jmx.core | 1.1.1 |
+| aries.jmx.blueprint | n/a |
+| aries.jmx.blueprint.api | 1.1.0 |
+| aries.jmx.blueprint.core | 1.1.0 |
+| aries.jpa | 1.0.1 |
+| aries.jpa.api | 1.0.0 |
+| aries.jpa.container | 1.0.0 |
+| aries.jpa.context | 1.0.1 |
+| aries.jpa.blueprint | 1.0.0 |
+| aries.jndi | 1.0.0 |
+| aries.jndi.api | 1.0.0 |
+| aries.jndi.core | n/a |
+| aries.jndi.rmi | n/a |
+| aries.jndi.url | n/a |
+| aries.jndi.legacy | n/a |
+| aries.proxy | 1.0.1 |
+| aries.proxy.api | 1.0.0 |
+| aries.transaction | 1.0.1 |
+| aries.transaction.blueprint | 1.0.0 |
+| aries.transaction.manager | 1.0.1 |
+| aries.transaction.wrappers | n/a |
+| aries.transaction.jdbc | 1.0.0 |
+| aries.util | 1.1.0 |
+| jansi | 1.9 |
+| jline | 2.9 |
+| jsw | 3.2.3 |
+| log4j | 1.2.17 |
+| maven | 2.0.9 |
+| mina | 2.0.7 |
+| osgi | 4.3.1 |
+| pax.base | 1.4.0 |
+| pax.exam | 2.6.0 |
+| pax.logging | 1.7.0 |
+| pax.runner | 1.7.6 |
+| pax.url | 1.3.5 |
+| pax.web | 1.1.12 |
+| pax.tinybundles | 1.3.0 |
+| plexus.utils | 2.1 |
+| portlet-api | 2.0 |
+| servicemix.specs | 2.2.0 |
+| servlet.api | 2.5 |
+| slf4j | 1.7.2 |
+| spring.osgi | 1.2.1 |
+| spring2 | 2.5.6.SEC03 |
+| spring | 3.0.7.RELEASE |
+| spring31 | 3.1.4.RELEASE |
+| sshd | 0.8.0 |
+| struts | 1.3.10_1 |
+| xbean | 3.12 |
+| javax.mail | 1.4.5 |
