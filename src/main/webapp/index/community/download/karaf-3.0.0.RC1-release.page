@@ -20,6 +20,11 @@ h2. Release Notes - Karaf - Version 3.0.0.RC1
 
   Apache Karaf 3.0.0.RC1 represents a major refactoring of the project, and includes numerous new features. We ask that users provide the community with their feed back so that the full Apache Karaf 3.0.0 release can be as feature complete and stable as possible.
 
+h2. Known Issues the community is working on resolving:
+
+  * Minimal Distribution: Instance script appears to be broken.
+  * When using in an offline (no internet) connection some commands do not appear to be available. These commands tend to appear after the container has been running for a while.
+
   For more detail please see the change log below.
 
 h3. Sub-task

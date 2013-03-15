@@ -1,0 +1,13 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. Jamie Goodyear posted on March 15, 2013\\Karaf 3.0.0.RC1 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 3.0.0.RC1|index/community/download/karaf-3.0.0.RC1-release.html].
+
+ !! This is a technology preview release of Apache Karaf, and should NOT be considered a production ready version !!
+
+Apache Karaf 3.0.0.RC1 represents a major refactoring of the project, and includes numerous new features. We ask that users provide the community with their feed back so that the full Apache Karaf 3.0.0 release can be as feature complete and stable as possible.
+For more information, please see the [release notes|index/community/download/karaf-3.0.0.RC1-release.html].
