@@ -297,6 +297,8 @@
                     <ignorePathsToDelete>
                         <ignorePathToDelete>docs/**</ignorePathToDelete>
                     </ignorePathsToDelete>
+                    <tryUpdate>true</tryUpdate>
+		    <skipDeletedFiles>true</skipDeletedFiles>
                 </configuration>
             </plugin>
         </plugins>
