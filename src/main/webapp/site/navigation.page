@@ -61,12 +61,13 @@ h3. [Subprojects]
 -- [Download|cellar-download]
 -- [Source|cellar-source]
 -- [Building|cellar-building]
--- Documentation ([HTML|http://repo.maven.apache.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.html]|[PDF|http://repo.maven.apache.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
+-- Documentation ([HTML|http://karaf.apache.org/manual/cellar/latest-2.2.x/index.html]|[PDF|http://repo.maven.apache.org/maven2/org/apache/karaf/cellar/manual/2.2.2/manual-2.2.2.pdf])
 
 - [EIK]
 -- [Download|eik-download]
 -- [Source|eik-source]
 -- [Building|eik-building]
+-- Documentation ([HTML|http://karaf.apache.org/manual/eik/latest/index.html])
 
 - [WebConsole]
 -- [Download|wc-download]
