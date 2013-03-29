@@ -23,7 +23,9 @@ h2. Articles on Apache Karaf
 * [Adding additional ServletContext to Pax Web|http://notizblog.nierbeck.de/2011/05/adding-additional-servletcontext-in-pax-web/]
 * [One Year of Apache Karaf|http://www.infoq.com/news/2011/06/apache-karaf]
 * [Apache Karaf Child Instances, what are they, and why should I use them?|http://icodebythesea.blogspot.com/2011/11/apache-karaf-child-instances-what-are.html]
-* [From Eclipse Tycho to Apache Karaf: the easy way!|http://eclipsesource.com/blogs/2012/08/22/from-eclipse-tycho-to-apache-karaf-the-easy-way/]]
+* [From Eclipse Tycho to Apache Karaf: the easy way!|http://eclipsesource.com/blogs/2012/08/22/from-eclipse-tycho-to-apache-karaf-the-easy-way/]
+* [RAP Application in Karaf with Felix and PAX-WEB|http://developer.eclipsesource.com/slides/deploy-and-manage-rap-applications/#/6] The required RAP Apache Karaf archive described in the article can be found [here|https://hudson.eclipse.org/hudson/job/rap-head-incubator-osgi-packaging/].
+
 
 h2. Presentations
 
