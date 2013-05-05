@@ -6,6 +6,7 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Integration in the cloude with Apache Karaf, Cellar and Camel|http://notizblog.nierbeck.de/2013/04/integration-in-the-cloude-with-camel-karaf-and-cellar/]
 * [Load balancing with Apache Karaf Cellar, and mod_proxy_balancer|http://blog.nanthrax.net/2013/02/load-balancing-with-apache-karaf-cellar-and-mod_proxy_balancer/]
 * [Multiple HTTP connectors in Karaf|http://blog.nanthrax.net/2013/02/multiple-http-connectors-in-apache-karaf/]
 * [xmppgtalk shell connector for Karaf and Gogo shell|http://spring-java-ee.blogspot.de/2012/02/xmppgtalk-shell-connector-for-apache.html]
