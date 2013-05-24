@@ -1,6 +1,6 @@
 ---
 title: Source
-page_version: 1
+page_version: 2
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -17,6 +17,12 @@ Or to browse the source tree directly:
 {panel}
 https://svn.apache.org/repos/asf/karaf/cellar/trunk/
 {panel}
+
+Currently, Cellar has several branches:
+
+* trunk: Cellar 3.0.x serie
+* cellar-2.3.x: Cellar 2.3.x serie
+* cellar-2.2.x: Cellar 2.2.x serie
 
 h2. Checking out from SVN
 
