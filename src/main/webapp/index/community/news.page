@@ -1,11 +1,12 @@
 ---
 title: News
-page_version: 9
+page_version: 10
 page_creator: gnodet
 page_modifier: jbonofre
 --- pipeline:conf
 h2. News
 
+{include:news-2013-07-01}
 {include:news-2013-05-23}
 {include:news-2013-03-15}
 {include:news-2013-03-03}

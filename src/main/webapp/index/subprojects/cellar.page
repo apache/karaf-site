@@ -1,6 +1,6 @@
 ---
 title: Cellar
-page_version: 6
+page_version: 7
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -14,14 +14,18 @@ Here is a short list of provided features:
 - Discovery: each Karaf Cellar node is discovered automatically by the others. You can use multicast or unicast for discovery.
 - Cluster group: a Karaf Cellar node could be part of one or more cluster group. Each Karaf unit (features, config, etc) is targeted to a group.
 - Distributed Configuration Admin: Karaf Cellar distributes the configuration data. The distribution is event-driven and filtered by cluster group.
-- Distributed Features Service: Karaf Cellar distributes the features and repositories information. It's also event-driven. 
+- Distributed Features: Karaf Cellar distributes the features and repositories information. It's also event-driven. 
+- Distributed Bundles: Karaf Cellar distributes the bundles, on an event-driven base.
+- Local event distribution (optional): cellar-eventadmin feature provides broadcast of the local events to the cluster.
+- Distributed OSGi (optional): cellar-dosgi provides support of Distributed OSGi, allowing to call an OSGi service present on a remote node.
+- WebConsole (optional): cellar-webconsole provides Karaf WebConsole plugins, allowing you to monitore and administrate your cluster using your browser.
 
 h2. Quick Start
 
 To install and start Cellar into your running Karaf instance, you have to install the Cellar feature:
 
 {code}
-karaf@root> feature:add-url mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.3.0/xml/features
+karaf@root> feature:add-url mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.3.1/xml/features
 karaf@root> feature:install cellar
 {code}
 
