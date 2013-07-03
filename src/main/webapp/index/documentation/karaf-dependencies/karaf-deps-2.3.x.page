@@ -97,7 +97,7 @@ Note: Karaf 2.2.9 versions provided for upgrade path considerations.
 | pax.tinybundles | 1.3.0 | 1.3.0 | 1.3.0 | 1.3.0 |
 | plexus.utils | 2.1 | 2.1 | 2.1 | 2.1 |
 | portlet-api | n/a | 2.0 | 2.0 | 2.0 |
-| servicemix.specs | 2.0.0 | 2.1.0 | 2.2.0 | 2.3-SNAPSHOT UPDATE THIS |
+| servicemix.specs | 2.0.0 | 2.1.0 | 2.2.0 | 2.2.0 |
 | servlet.api | 2.5 | 2.5 | 2.5 | 2.5 |
 | slf4j | 1.6.6 | 1.6.6 | 1.7.2 | 1.7.2 |
 | spring.osgi | 1.2.1 | 1.2.1 | 1.2.1 | 1.2.1 |
