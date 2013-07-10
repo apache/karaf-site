@@ -1,0 +1,11 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. Jamie Goodyear posted on July 10, 2013\\Karaf 2.3.2 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 2.3.2|index/community/download/karaf-2.3.2-release.html].
+
+In this patch update to the 2.3.x line contains multiple bug fixes, improvements, and dependency updates including; restored IBM Java compatibility, DirectoryWatcher for deploy folder now waits for framework start level to reach 60, BundleWatcher now waits for refresh to be finished before updating another bundle, CXF DOSGI feature now included in Karaf repos config, HTTP feature now installs a default web config file, and dependency updates to Spring 3.2.3.RELEASE, Pax Web 1.1.14, Aries Transaction Blueprint 1.0.1, and Pax Url 1.3.6.
+For more information, please see the [release notes|index/community/download/karaf-2.3.2-release.html].
