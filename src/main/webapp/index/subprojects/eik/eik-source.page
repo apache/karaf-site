@@ -1,6 +1,6 @@
 ---
 title: Source
-page_version: 1
+page_version: 2
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -38,14 +38,11 @@ https://svn.apache.org/repos/asf/karaf/eik/branches/
 
 h2. Using GIT-SVN
 
-A git-svn mirror is available.
-
 {code}
-PROJECT_NAME="karaf-eik"
-git clone git://git.apache.org/"$PROJECT_NAME"
-cd "$PROJECT_NAME"/.git; wget http://git.apache.org/authors.txt; cd ..
+git svn init --prefix=origin/ --trunk=trunk --branches=branches --tags=tags https://svn.apache.org/repos/asf/karaf/eik eik
+git svn fetch --log-window-size 20000
+cd eik/.git; wget http://git.apache.org/authors.txt; cd ..
 git config svn.authorsfile ".git/authors.txt"
-git svn init --prefix=origin/ --tags=tags --trunk=trunk --branches=branches https://svn.apache.org/repos/asf/"$PROJECT_NAME"
 git svn rebase
 {code}
 
