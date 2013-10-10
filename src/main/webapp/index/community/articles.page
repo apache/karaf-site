@@ -6,6 +6,11 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Coming in Karaf 3.0.0: subshell and completion mode|http://blog.nanthrax.net/2013/10/coming-in-karaf-3-0-0-subshell-and-completion-mode/]
+* [Coming in Karaf 3.0.0: JAAS users, groups, roles, and ACLs|http://blog.nanthrax.net/2013/10/coming-in-karaf-3-0-0-jaas-users-groups-roles-and-acls/]
+* [Karaf and Pax Web: disabling reverse lookup|http://blog.nanthrax.net/2013/09/karaf-and-pax-web-disabling-reverse-lookup/]
+* [Pax Logging: loggers log level|http://blog.nanthrax.net/2013/09/pax-logging-loggers-log-level/]
+* [Apache Hadoop and Karaf, Article 1: Karaf as HDFS client|http://blog.nanthrax.net/2013/07/apache-hadoop-and-karaf-article-1-karaf-as-hdfs-client/]
 * [Bind certain Web-Applications to specific HttpConnectors II|http://notizblog.nierbeck.de/2013/05/bind-certain-web-applications-to-specific-httpconnectors-ii/]
 * [Bind certain Web-Applications to specific HttpConnectors|http://notizblog.nierbeck.de/2013/01/bind-certain-web-applications-to-specific-httpconnectors/]
 * [Integration in the cloude with Apache Karaf, Cellar and Camel|http://notizblog.nierbeck.de/2013/04/integration-in-the-cloude-with-camel-karaf-and-cellar/]
