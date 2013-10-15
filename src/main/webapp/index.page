@@ -1,6 +1,6 @@
 ---
 title: Karaf 2.3.3
-page_version: 20
+page_version: 21
 page_creator: gnodet
 page_modifier: jbonofre
 --- pipeline:conf
@@ -61,6 +61,7 @@ new TWTR.Widget({
 
 h2. News
 
+{include:news-2013-10-14}
 {include:news-2013-09-20}
 {include:news-2013-07-10}
 {include:news-2013-07-01}
@@ -73,4 +74,3 @@ h2. News
 {include:news-2012-12-06}
 {include:news-2012-10-15}
 {include:news-2012-09-03}
-{include:news-2012-08-18}
