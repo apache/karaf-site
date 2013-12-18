@@ -6,6 +6,9 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Coming in Karaf 3.0.0: new enterprise JDBC feature|http://blog.nanthrax.net/2013/12/coming-in-karaf-3-0-0-new-enterprise-jdbc-feature/]
+* [Coming in Karaf 3.0.0: new enterprise JNDI feature|http://blog.nanthrax.net/2013/12/coming-in-karaf-3-0-0-new-enterprise-jndi-feature/]
+* [Coming in Karaf 3.0.0: RBAC support for OSGi services and console commands|http://blog.nanthrax.net/2013/12/coming-in-karaf-3-0-0-rbac-support-for-osgi-services-and-console-commands/]
 * [Coming in Karaf 3.0.0: subshell and completion mode|http://blog.nanthrax.net/2013/10/coming-in-karaf-3-0-0-subshell-and-completion-mode/]
 * [Coming in Karaf 3.0.0: JAAS users, groups, roles, and ACLs|http://blog.nanthrax.net/2013/10/coming-in-karaf-3-0-0-jaas-users-groups-roles-and-acls/]
 * [Karaf and Pax Web: disabling reverse lookup|http://blog.nanthrax.net/2013/09/karaf-and-pax-web-disabling-reverse-lookup/]
@@ -38,7 +41,7 @@ h2. Articles on Apache Karaf
 
 h2. Presentations
 
-* [JUG Poitou Charents - Apache, OSGi and Karaf|http://www.slideshare.net/gnodet/jug-poitou-charentes-apache-osgi-and-karaf]
+* [JUG Poitou Charentes - Apache, OSGi and Karaf|http://www.slideshare.net/gnodet/jug-poitou-charentes-apache-osgi-and-karaf]
 * [OSGi with Apache Felix Karaf|http://www.anova.be/files/OSGi%20with%20Apache%20Felix%20Karaf.pdf]
 * [Apache Karaf OSGi runtime in action (video)|http://www.dzone.com/links/video_apache_karaf_demo_osgi_runtime_in_action.html]
 
