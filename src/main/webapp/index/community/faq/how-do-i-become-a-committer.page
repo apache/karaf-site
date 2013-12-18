@@ -27,15 +27,16 @@ Firstly add yourself to the [Team] page
 
 Now go read the instructions on the [new committers guide|http://www.apache.org/dev/new-committers-guide.html]. Its also worth viewing http://www.apache.org/dev.
 
-h3. Enabling your SVN account
+h3. Enabling your GIT account
 
-Once you've got your Apache account working you need to enable SVN access; See this document for details of using *svnpasswd*
+Once you've got your Apache account working you need to enable GIT access; See these documents for details
 
+http://git.apache.org
 http://www.apache.org/dev/committers.html
 
-h3. Configuring SVN
+h3. Configuring GIT
 
-You should follow [this guide|http://www.apache.org/dev/svn-eol-style.txt] to setup your EOL settings.
+You should follow [this guide|http://wiki.apache.org/general/GitAtApache] to get details about Git at Apache.
 
 h3. Getting Karma in JIRA and Confluence
 

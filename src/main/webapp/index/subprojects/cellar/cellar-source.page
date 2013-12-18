@@ -4,55 +4,34 @@ page_version: 2
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
-h2. Web Browsing of SVN
+h2. Web Browsing of Git
 
-To browse  via the web use the ViewVC interface:
-
-{panel}
-http://svn.apache.org/viewvc/karaf/cellar/trunk/
-{panel}
-
-Or to browse the source tree directly:
+To browse via the Web, you can use the main Git site:
 
 {panel}
-https://svn.apache.org/repos/asf/karaf/cellar/trunk/
+https://git-wip-us.apache.org/repos/asf?p=karaf-cellar.git;a=summary
 {panel}
 
-Currently, Cellar has several branches:
-
-* trunk: Cellar 3.0.x serie
-* cellar-2.3.x: Cellar 2.3.x serie
-* cellar-2.2.x: Cellar 2.2.x serie
-
-h2. Checking out from SVN
+h2. Cloning from Git
 
 {code}
-svn co https://svn.apache.org/repos/asf/karaf/cellar/trunk cellar
+git clone https://git-wip-us.apache.org/repos/asf/karaf-cellar.git cave
 {code}
 
-Only project developers can commit to the SVN tree via this method.  SSH must be installed on your client machine. Enter your site password when prompted.
-
-h3. SVN and Eclipse
-
-See [this article|http://www-128.ibm.com/developerworks/library/os-ecl-subversion/index.html] for getting started guides. Basically you need [subclipse|http://subclipse.tigris.org]
+Only project developers can commit to the git repository.
 
 h3. Branches
 
-We use the trunk for the next main release; then we use a branch for any bug fixes on the previous major release. You can look at all branches here
-
-https://svn.apache.org/repos/asf/karaf/cellar/branches/
-
-h2. Using GIT-SVN
-
-A git-svn mirror is available.
+We use the master for the next main release; then we use a branch for any bug fixes on the previous major release. You can look at all branches here
 
 {code}
-PROJECT_NAME="karaf-cellar"
-git clone git://git.apache.org/"$PROJECT_NAME"
-cd "$PROJECT_NAME"/.git; wget http://git.apache.org/authors.txt; cd ..
-git config svn.authorsfile ".git/authors.txt"
-git svn init --prefix=origin/ --tags=tags --trunk=trunk --branches=branches https://svn.apache.org/repos/asf/"$PROJECT_NAME"
-git svn rebase
+git branch -a
+{code}
+
+And switch to a given branch:
+
+{code}
+git checkout branch_name
 {code}
 
 h2. Building the code

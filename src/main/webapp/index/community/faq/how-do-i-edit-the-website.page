@@ -46,7 +46,7 @@ mvn clean install scm-publish:publish-scm
 h3. Manuals
 
 After a release, the corresponding manual should be uploaded and the [documentation] updated.
-Uploading the manual can be done by checking out the associated tag and running {{mvn scalate:deploy}} inside the {{manual}} svn director.
+Uploading the manual can be done by checking out the associated tag and running {{mvn scalate:deploy}} inside the {{manual}} module.
 
 h3. Wiki
 

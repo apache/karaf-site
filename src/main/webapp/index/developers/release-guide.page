@@ -48,20 +48,20 @@ Your settings.xml should look like:
     <!-- To publish a snapshot of some part of Maven -->
     <server>
       <id>apache.snapshots.https</id>
-      <username> <!-- YOUR APACHE SVN USERNAME --> </username>
-      <password> <!-- YOUR APACHE SVN PASSWORD --> </password>
+      <username> <!-- YOUR APACHE USERNAME --> </username>
+      <password> <!-- YOUR APACHE PASSWORD --> </password>
     </server>
     <!-- To stage a release of some part of Maven -->
     <server>
       <id>apache.releases.https</id>
-      <username> <!-- YOUR APACHE SVN USERNAME --> </username>
-      <password> <!-- YOUR APACHE SVN PASSWORD --> </password>
+      <username> <!-- YOUR APACHE USERNAME --> </username>
+      <password> <!-- YOUR APACHE PASSWORD --> </password>
     </server>
     <!-- To deploy the manual -->
     <server>
         <id>people.apache.org</id>
-        <username> <!-- YOUR APACHE SVN USERNAME --> </username>
-        <password> <!-- YOUR APACHE SVN PASSWORD --> </password>
+        <username> <!-- YOUR APACHE USERNAME --> </username>
+        <password> <!-- YOUR APACHE PASSWORD --> </password>
     </server>
     ...
   </servers>
@@ -109,7 +109,7 @@ h3. Staging the Release Candidate
 
 # Grab the latest source
 {code}
-svn co https://svn.apache.org/repos/asf/karaf/trunk
+git clone https://svn.apache.org/repos/asf/karaf.git
 {code}
 # Prepare your POMs for release:
 ## make sure there is no snapshots in the POMs to be released
@@ -146,7 +146,7 @@ mvn release:perform -Pmanual
 ** The release will automatically be inserted into a temporary staging repository for you, see the [Nexus staging|http://www.sonatype.com/books/nexus-book/reference/staging.html] documentation for full details
 ** You can continue to use mvn release:prepare and mvn release:perform on other sub-projects as necessary on the same machine and they will be combined in the same staging repository
 # Close the staging repository
-** Login to https://repository.apache.org using your Apache SVN credentials. Click on Staging on the left. Then click on org.apache.karaf in the list of repositories. In the panel below you should see an open repository that is linked to your username and IP. Right click on this repository and select Close. This will close the repository from future deployments and make it available for others to view. If you are staging multiple releases together, skip this step until you have staged everything
+** Login to https://repository.apache.org using your Apache credentials. Click on Staging on the left. Then click on org.apache.karaf in the list of repositories. In the panel below you should see an open repository that is linked to your username and IP. Right click on this repository and select Close. This will close the repository from future deployments and make it available for others to view. If you are staging multiple releases together, skip this step until you have staged everything
 # Verify the staged artifacts 
 ** If you click on your repository, a tree view will appear below. You can then browse the contents to ensure the artifacts are as you expect them. Pay particular attention to the existence of *.asc (signature) files. If you don't like the content of the repository, right click your repository and choose Drop. You can then rollback your release (see Canceling the Release) and repeat the process
 ** Note the staging repository URL (especially the number at the end of the URL) you will need this in your vote email
@@ -225,8 +225,8 @@ h3. Canceling the Release
 
 If the vote fails, or you decide to redo the release:
 
-# remove the release tag from Subversion (svn del ...)
-# login to https://repository.apache.org using your Apache SVN credentials. Click on Staging on the left. Then click on org.apache.karaf in the list of repositories. In the panel below you should see a closed repository that is linked to your username and IP (if it's not yet closed you need to right click and select Close). Right click on this repository and select Drop.
+# remove the release tag from Git (git tag -d ...)
+# login to https://repository.apache.org using your Apache credentials. Click on Staging on the left. Then click on org.apache.karaf in the list of repositories. In the panel below you should see a closed repository that is linked to your username and IP (if it's not yet closed you need to right click and select Close). Right click on this repository and select Drop.
 # rollback the version in the pom.xml and commit any fixes you need to make
 
 h3. Promoting the Release
@@ -235,7 +235,7 @@ If the vote passes:
 
 # copy the released artifacts to the Karaf dist directory (/x1/www/www.apache.org/dist/karaf) on people.apache.org
 # delete the old release from the Karaf dist directory (it's archived)
-# login to https://repository.apache.org with your Apache SVN credentials. Click on Staging. Find your closed staging repository, right click on it and choose Promote. Select the Releases repository from the drop-down list and click Promote.
+# login to https://repository.apache.org with your Apache credentials. Click on Staging. Find your closed staging repository, right click on it and choose Promote. Select the Releases repository from the drop-down list and click Promote.
 # next click on Repositories, select the Releases repository and validate that your artifacts are all there
 # deploy the updated web site
 

@@ -40,7 +40,7 @@ h2. Working on the code
 
 Grab the [Source] and create a project in your IDE. e.g. if you are using Eclipse the following should do the trick...
 {code}
-svn co https://svn.apache.org/repos/asf/karaf/trunk karaf
+git clone https://git-wip-us.apache.org/repos/asf/karaf.git karaf
 cd karaf
 mvn eclipse:eclipse
 {code}
@@ -64,7 +64,7 @@ diff -u Main.java.orig Main.java >> patchfile.txt
 {code}
 or
 {code}
-svn diff Main.java >> patchfile.txt
+git diff Main.java >> patchfile.txt
 {code}
 
 h2. Submitting patches
