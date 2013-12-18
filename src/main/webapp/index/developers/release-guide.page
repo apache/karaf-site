@@ -109,7 +109,7 @@ h3. Staging the Release Candidate
 
 # Grab the latest source
 {code}
-git clone https://svn.apache.org/repos/asf/karaf.git
+git clone https://git-wip-us.apache.org/repos/asf/karaf.git
 {code}
 # Prepare your POMs for release:
 ## make sure there is no snapshots in the POMs to be released
