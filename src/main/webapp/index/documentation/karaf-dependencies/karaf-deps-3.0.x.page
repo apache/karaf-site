@@ -41,7 +41,7 @@ Note: Karaf 2.3.1 versions provided for upgrade path considerations.
 | felix.configadmin | 1.6.0 | 1.6.0 | 1.8.0 |
 | felix.fileinstall | 3.2.6 | 3.2.6 | 3.2.6 |
 | felix.framework | 4.0.3 | 4.0.3 | 4.3.2 |
-| felix.gogo | 0.10.0 | 0.10.0 | 0.11-0-SNAPSHOT |
+| felix.gogo | 0.10.0 | 0.10.0 | 0.10.0 |
 | felix.plugin | 2.3.7 | 2.3.7 | 2.4.0 |
 | felix.utils | 1.2.0 | 1.2.0 | 1.4.0 |
 | felix.webconsole | 4.0.0 | 4.0.0 | 4.2.0 |
@@ -90,11 +90,11 @@ Note: Karaf 2.3.1 versions provided for upgrade path considerations.
 | osgi.compendium | n/a | 4.3.1 | 5.0.0 |
 | org.json | n/a | n/a | 20131018 |
 | pax.base | 1.4.0 |  1.4.0 | 1.4.0 |
-| pax.exam | 2.6.0 | 2.6.0 | 3.4.0-SNAPSHOT |
+| pax.exam | 2.6.0 | 2.6.0 | 3.4.0 |
 | pax.logging | 1.7.0 | 1.7.0 | 1.7.1 |
 | pax.runner | 1.7.6 | 1.7.6 | n/a |
 | pax.url | 1.3.5 | 1.5.2 | 1.6.0 |
-| pax.web | 1.1.12 | 3.0.0.M3 | 3.0.4-SNAPSHOT |
+| pax.web | 1.1.12 | 3.0.0.M3 | 3.0.5 |
 | pax.tinybundles | 1.3.0 | 1.0.0 | 2.0.0 |
 | plexus.utils | 2.1 | n/a | n/a |
 | portlet-api | 2.0 | 2.0 | 2.0 |
@@ -109,5 +109,6 @@ Note: Karaf 2.3.1 versions provided for upgrade path considerations.
 | sshd | 0.8.0 | 0.8.0 | 0.9.0 |
 | struts | 1.3.10_1 | 1.3.10_1 | 1.3.10_1 |
 | xbean | 3.12 | 3.12 | 3.16 |
+| xerces | n/a | n/a | 2.11.0 |
 | javax.mail | 1.4.5 | 1.4.5 | 1.4.5 |
 | http.feature | n/a | n/a | [3,4) |
