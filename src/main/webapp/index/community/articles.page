@@ -1,11 +1,12 @@
 ---
 title: Articles
-page_version: 7
+page_version: 8
 page_creator: jgoodyear
 page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Coming in Karaf 3.0.0: new enterprise JPA (OpenJPA, Hibernate) and CDI (OpenWebBeans, JBoss Weld) features|http://blog.nanthrax.net/2013/12/coming-in-karaf-3-0-0-new-enterprise-jpa-openjpa-hibernate-and-cdi-openwebbeans-jboss-weld-features/]
 * [Coming in Karaf 3.0.0: new enterprise JDBC feature|http://blog.nanthrax.net/2013/12/coming-in-karaf-3-0-0-new-enterprise-jdbc-feature/]
 * [Coming in Karaf 3.0.0: new enterprise JNDI feature|http://blog.nanthrax.net/2013/12/coming-in-karaf-3-0-0-new-enterprise-jndi-feature/]
 * [Coming in Karaf 3.0.0: RBAC support for OSGi services and console commands|http://blog.nanthrax.net/2013/12/coming-in-karaf-3-0-0-rbac-support-for-osgi-services-and-console-commands/]
