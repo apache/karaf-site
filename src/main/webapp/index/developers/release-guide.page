@@ -68,6 +68,8 @@ Your settings.xml should look like:
 </settings>
 {code}
 
+Your git environment should have your user.name, user.email, and user.password set.
+
 h3. Community awareness message(s).
 
 In the lead up towards a release candidate the user base should be given some notification.
