@@ -1,12 +1,423 @@
 ---
 title: Board Reports
-page_version: 14
+page_version: 15
 page_creator: gnodet
-page_modifier: gnodet
+page_modifier: jbonofre
 --- pipeline:conf
 h1. Board reports
 
 Reports submitted to the Apache Board
+
+h2. December 2013
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+Indicators during the last 3 months:
+- Download: 27,430 downloads (Karaf distributions without the subprojects like Cellar, all branches) between September, 1 and October, 31 (waiting update for November statistics).
+- User mailing list: 408 messages between September, 1 and November, 21.
+- Dev mailing list: 243 messages between September, 1 and November, 21.
+- Commits: 340 commits between September, 1 and November, 22.
+ 
+Two new committers have been elected in October, 2013: Jon Anstey, David Bosschaert
+Last committers addition: October 21, 2013
+Last PMC addition: September 05, 2012
+ 
+Development
+===========
+The following new releases have been voted:
+- Apache Karaf Cellar 2.3.2 (October 14, 2013)
+- Apache Karaf 2.3.3 (September 20, 2013)
+ 
+A new major release (Apache Karaf 3.0.0) is planned to be released end of November, beginning of December.
+ 
+We asked to migrate to git:
+https://issues.apache.org/jira/browse/INFRA-6708
+ 
+It's in progress but takes time.
+ 
+Issues for board consideration
+==============================
+None so far
+{code}
+
+h2. September 2013
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+Indicators during the last 3 months:
+- Download: 44,166 downloads (Karaf distributions without the subprojects like Cellar, all branches) between June, 1 and August, 31.
+- User mailing list: 367 messages between June, 1 and August, 31.
+- Dev mailing list: 229 messages between June, 1 and August, 31.
+- Commits: 284 commits between June, 1 and August, 31.
+ 
+Last committers addition: February 11, 2013
+Last PMC addition: September 05, 2012
+ 
+Development
+===========
+The following new releases have been voted:
+- Apache Karaf 2.3.2 (July 10, 2013)
+- Apache Karaf Cellar 2.3.1 (July 1, 2013)
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
+
+h2. June 2013
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+Indicators during the last 3 months:
+- Download: 38,730 downloads (Karaf distributions without the subprojects like Cellar, all branches) between March, 1 and May, 31.
+- User mailing list: 516 messages between March, 1 and May, 31.
+- Dev mailing list: 383 messages between March, 1 and May, 31.
+- Commits: 414 commits between March, 1 and May, 31.
+ 
+Last committers addition: February 11, 2013
+Last PMC addition: September 05, 2012
+ 
+Development
+===========
+The following new releases have been voted:
+- Apache Karaf 3.0.0.RC1 (March 15, 2013)
+- Apache Karaf 2.2.11 (April 30, 2013)
+- Apache Karaf Cellar 2.2.6 (May 23, 2013)
+- Apache Karaf Cellar 2.3.0 (May 23, 2013)
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
+
+h2. March 2013
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+Indicators during the last 3 months:
+- Download: 31,490 downloads (all distributions, all branches) between December, 1 and February, 28.
+- User mailing list: 557 messages between December, 1 and February, 28.
+- Dev mailing list: 382 messages between December, 1 and February, 28.
+- Commits: 621 commits between December, 1 and February, 28.
+ 
+We are pleased to count two new committers elected in February:
+- Filippo Balicchia
+- Christoph Grtischenberger
+ 
+Development
+===========
+The following new releases have been voted:
+* Apache Karaf 2.3.1
+* Apache Karaf EIK 0.9.0
+ 
+We are inline to release Karaf 3.0.0.RC1, and a first Cellar release on the 2.3.x branch.
+ 
+A new branch has been created (karaf-2.x) in order to prepare next Karaf 2.4.0.
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
+
+h2. December 2012
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+Indicators during the last 3 months:
+- Download: 36,624 downloads (all distributions, all branches) between September, 1 and November, 30.
+- User mailing list: 574 messages between September, 1 and November, 30.
+- Dev mailing list: 459 messages between September, 1 and November, 30.
+- Commits: 607 commits between September, 1 and November, 30.
+ 
+A couple of talks have been provided during ApacheCon EU and W-JAX Germany. These talks introduced Karaf and Cellar.
+ 
+Development
+===========
+The following new releases have been voted:
+* Apache Karaf 2.3.0 (major update to a new Karaf branch)
+* Apache Karaf Cellar 2.2.5
+ 
+Due to a major issue in Apache Aries Blueprint 1.0.1, we decided to postpone Karaf 3.0-RC1 to include the Aries fix.
+ 
+We've resumed the work on EIK (Eclipse Integration for Karaf) in order to provide a first EIK release soon.
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
+
+h2. September 2012
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+Indicators during the last 3 months:
+- Download: around 15,000 distribution downloads
+- User mailing list: 666 messages
+- Dev mailing list: 542 messages
+- Commits: 1110 commits
+ 
+We organized a Karaf 2nd birthday concall to discussed about the Karaf and Karaf subprojects activity and define the roadmap.
+ 
+Brian Topping (btopping) has been voted as a new Karaf committer.
+Lukasz Dywicki (ldywicki) has been voted as a new Karaf PMC member.
+ 
+Development
+===========
+The following new releases have been voted:
+* Apache Karaf 2.2.8
+* Apache Karaf 2.2.9
+ 
+Karaf 2.3.0 is on the way, a first release is planned for September.
+ 
+We also plan to release Karaf 3.0-RC1 during October.
+ 
+Karaf WebConsole development resumed, the plan is to include WebConsole in Karaf 3.0.
+ 
+We're also progressing on the other Karaf sub-projects (Cellar and EIK).
+ 
+The Karaf community continues to help other Apache projects to support Karaf.
+ 
+Branding
+========
+As commented in the latest board report, this section will be removed from the next reports.
+ * project website basics: ok
+ * website nav links: ok
+ * trademarks: ok
+ * logo: ok
+ * metadata: ok
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
+
+h2. June 2012
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+Indicators during the last 3 months:
+- Download: around 12,000 distribution downloads
+- User mailing list: 424 messages
+- Dev mailing list: 495 messages
+- Commits: 758 commits
+ 
+Development
+===========
+The following new releases have been voted:
+* Apache Karaf 2.2.6
+* Apache Karaf 2.2.7
+* Apache Karaf Cellar 2.2.4
+ 
+We made progresses on the stabilization of the Karaf 3.0 next release.
+ 
+A stabilization branch is going to be create including a 3.0-beta pre-release.
+ 
+Web Site
+=======
+A new website has been deployed including minor updates and bug fixes.
+ 
+Branding
+========
+ * project website basics: ok
+ * website nav links: ok
+ * trademarks: ok
+ * logo: ok
+ * metadata: ok
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
+
+h2. March 2012
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+The Karaf community continues to provide help to others Apache
+projects (Whirr, Archiva, etc) in order to increase the Karaf
+adoption.
+ 
+We welcome a new committer: Stephen Evanchik. Stephen already signed
+the ICLA. His account should be setup soon.
+Stephan made the donation to EIK (see below).
+ 
+We are discussing about mentoring a GSoC project.
+ 
+Some indicators during the last 3 months:
+- Download: around 14,000 distribution downloads
+- User mailing list: 718 messages
+- Dev mailing list: 706 messages
+- Commits: 742
+ 
+Development
+===========
+The following new releases have been voted:
+* Apache Karaf 2.2.5
+* Apache Karaf Cellar 2.2.3
+ 
+We made progresses on the stabilization of the Karaf 3.0 next release.
+A karaf-3.0.x branch will be cut off soon in order to prepare a first RC.
+ 
+A new Karaf sub-project has been created: EIK (Eclipse Integration for
+Karaf), which allows to run Karaf directly into the Eclipse IDE.
+ 
+Web Site
+=======
+A new version of the website has been deployed to give more visibility to
+the Karaf sub-projects.
+ 
+Branding
+========
+ * project website basics: ok
+ * website nav links: ok
+ * trademarks: ok
+ * logo: ok
+ * metadata: ok
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
+
+h2. December 2011
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+Guillaume Nodet and Jean-Baptiste Onofré were presents at
+the ApacheCon.
+Two talks were related to Karaf.
+ 
+Several projects are interested to use Karaf.
+ 
+The Karaf community starts to help others projects to be OSGi
+compliant (work started on Apache Archiva and Apache Whirr).
+ 
+Development
+============
+A new release has been voted:
+* Apache Karaf 2.2.4
+ 
+We are now focusing on Karaf 3.0 release (lot of fixes, cleanups
+and enhancements in progress).
+ 
+We also included a new testing framework based on Pax Exam (part
+of the Karaf tooling).
+ 
+The resources for the sub-projects will be created soon (website, etc).
+ 
+Web Site
+========
+We published a new web site to fix some typo mistakes and update the
+online documentation.
+The site will be updated soon to announce and give visibility
+to the new sub-projects.
+ 
+Branding
+========
+ * project website basics: ok
+ * website nav links: ok
+ * trademarks: ok
+ * logo: we added the TM mention on the logo, and provide new "powered by Karaf" logo
+ * metadata: ok
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
+
+h2. September 2011
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+ 
+Community
+=========
+The community has changed a bit:
+   * Christian Schneider has been voted in as a committer
+ 
+We can note an increase of projects powered by Karaf.
+Apache ServiceMix and Apache Geronimo already use Karaf.
+We're discussing with Apache Directory about the usage of Karaf.
+ 
+Development
+===========
+Four releases have been voted:
+* Apache Karaf 2.1.6
+* Apache Karaf 2.2.1
+* Apache Karaf 2.2.2
+* Apache Karaf 2.2.3
+ 
+NB: we turned Apache Karaf 2.1.x branch in End Of Life mode. Apache Karaf 2.1.6 is the latest version on this branch.
+ 
+We created the first Apache Karaf sub-project: Apache Karaf Cellar.
+Apache Karaf Cellar is a cluster and cloud solution for Apache Karaf, powered by Hazelcast and jclouds.
+We already released:
+ * Apache Karaf Cellar 2.2.1
+ * Apache Karaf Cellar 2.2.2
+We started OBR broadcast and DOSGi implementation. It should be included in Apache Karaf Cellar 2.2.3.
+ 
+We can note that two Karaf sub-projects have been started in sandbox and promoted as Karaf sub-projects:
+* Karaf WebConsole based on Pax-Wicket. This new console is very extend-able and highly pluggable. The purpose is to provide a complete enterprise administration and monitoring console, including a new look'n feel, and give a way for others projects (like ServiceMix, CXF or Camel for instance), to provide their own branding and modules.
+  http://svn.apache.org/repos/asf/karaf/webconsole/
+* Karaf Cave is an OBR server implementation, including storage, OBR metadata generation, Maven proxy support, REST API, etc. It will also aim to be a KFR (Karaf Feature Repository) and KAR (KAR Repository).
+  http://svn.apache.org/repos/asf/karaf/cave/
+ 
+We are also discussing with the author of EIK (Eclipse Integration for Karaf) to become a new Karaf sub-project (http://code.google.com/a/eclipselabs.org/p/eik/).
+ 
+Web Site
+=========
+Web site has been updated to provide visibility to sub-projects such as Apache Karaf Cellar.
+We also gave more visibility to the documentation, allowing to download the PDF format of our guides.
+ 
+Branding
+========
+ * project website basics: ok
+ * website nav links: ok
+ * trademarks: ok
+ * logo: we added the TM mention on the logo, and provide new "powered by Karaf" logo
+ * metadata: ok
+ 
+Issues for board consideration
+==============================
+None so far. 
+{code}
 
 h2. June 2011
 {code}
