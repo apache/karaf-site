@@ -1,21 +1,36 @@
 ---
 title: Navigation
-page_version: 18
+page_version: 19
 page_creator: gnodet
 page_modifier: jbonofre
 --- pipeline:conf
 h3. [Overview|Karaf Overview]
 
 - [Home|Index]
-- [Getting Started|http://karaf.apache.org/manual/latest-2.3.x/quick-start.html]
+- [Getting Started|http://karaf.apache.org/manual/latest/quick-start.html]
 - [FAQ]
 - [Download|/index/community/download.html]
 
 h3. [Documentation]
 
-- Manual ([HTML|http://karaf.apache.org/manual/latest-2.3.x/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.3.0/manual-2.3.0.pdf])
--- [User Guide | http://karaf.apache.org/manual/latest-2.3.x/users-guide/index.html]
--- [Developer Guide | http://karaf.apache.org/manual/latest-2.3.x/developers-guide/index.html]
+- Karaf 3.0.x
+-- [Overview|http://karaf.apache.org/manual/latest/overview.html]
+-- [Quickstart|http://karaf.apache.org/manual/latest/quick-start.html]
+-- [Update notes|http://karaf.apache.org/manual/latest/update-notes.html]
+-- [Dependencies Matrix|http://karaf.apache.org/index/documentation/karaf-dependencies/karaf-deps-3.0.x.html]
+-- [Manual|http://karaf.apache.org/manual/latest/index.html]
+--- [User Guide|http://karaf.apache.org/manual/latest/users-guide/index.html]
+--- [Developer Guide|http://karaf.apache.org/manual/latest/developers-guide/index.html]
+--- [Commands reference|http://karaf.apache.org/manual/latest/commands/commands.html]
+
+- Karaf 2.3.x
+-- [Overview|http://karaf.apache.org/manual/latest-2.3.x/overview.html]
+-- [Quickstart|http://karaf.apache.org/manual/latest-2.3.x/quick-start.html]
+-- [Dependencies Matrix|http://karaf.apache.org/index/documentation/karaf-dependencies/karaf-deps-2.3.x.html]
+-- Manual ([HTML|http://karaf.apache.org/manual/latest-2.3.x/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.3.0/manual-2.3.0.pdf])
+--- [User Guide|http://karaf.apache.org/manual/latest-2.3.x/users-guide/index.html]
+--- [Developer Guide|http://karaf.apache.org/manual/latest-2.3.x/developers-guide/index.html]
+--- [Commands reference|http://karaf.apache.org/manual/latest-2.3.x/commands/commands.html]
 
 h3. Search
 
