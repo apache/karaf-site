@@ -10,22 +10,23 @@ Karaf uses [Maven|http://maven.apache.org/] as its build tool. If you don't fanc
 
 h3. Prequisites
 
+*Required*
+Karaf 3.0.x
+* Download and [install Maven 3.0.x|http://maven.apache.org/download.html]
+* Get the latest [Source]
+* Java 1.6 (1.7 recommended)
+
 *Required:*
 Karaf 2.3.x
-* Download and [install Maven 2.2.1|http://maven.apache.org/download.html]
+* Download and [install Maven 3.0.x|http://maven.apache.org/download.html]
 * Get the latest [Source]
-* Java 1.6
+* Java 1.7
 
 *Required:*
 Karaf 2.1.x and Karaf 2.2.x:
-* Download and [install Maven 2.2.1|http://maven.apache.org/download.html]
+* Download and [install Maven 2.2.x|http://maven.apache.org/download.html]
 * Get the latest [Source] 
 * Java 1.5
-
-Karaf 3.0.0 and later:
-* Download and [install Maven 3.0.3|http://maven.apache.org/download.html]
-* Get the latest [Source]
-* Java 1.6 (1.7 recommended)
 
 *Optional:*
 * [Prince|http://www.princexml.com/download/] should be in the executable PATH to generate the PDF documentation
