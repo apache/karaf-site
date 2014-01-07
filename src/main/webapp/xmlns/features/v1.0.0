@@ -31,9 +31,9 @@ Karaf features mechanism. For documentation please visit the
     <xs:complexType name="features">
         <xs:annotation>
             <xs:documentation><![CDATA[
-Root element of Feature definition. It contains optional attribute for
-designating from which repository this feature should be loaded. The Karaf
-shell will show the repository name when displaying information about the feature.
+Root element of the Feature definition. It contains an optional attribute for
+designating the name of the repository of this feature. The Karaf shell will
+show the repository name when displaying information about the feature.
             ]]></xs:documentation>
         </xs:annotation>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -65,7 +65,7 @@ Definition of the Feature.
             <xs:element name="details" minOccurs="0" type="xs:string">
                 <xs:annotation>
                     <xs:documentation><![CDATA[
-The help shown for this feature when using the feature:info console command.
+The help text shown for this feature when using the feature:info console command.
                     ]]>
                     </xs:documentation>
                 </xs:annotation>
@@ -97,12 +97,13 @@ If true, marks that the feature should start automatically when placed in the de
         <xs:attribute name="start-level" type="xs:int">
              <xs:annotation>
                 <xs:documentation><![CDATA[
-Set this attribute to have an OSGi start level for this feature different
+Set this attribute to have an OSGi start level for the bundles in this feature different
 from the default start level defined in Karaf's config.properties.
                 ]]>
                 </xs:documentation>
              </xs:annotation>
          </xs:attribute>
+         <xs:attribute name="region" type="xs:string"/>
     </xs:complexType>
 
     <xs:complexType name="bundle">
@@ -118,14 +119,15 @@ Deployable element to install.
                         <xs:documentation><![CDATA[
 Set this attribute to have an OSGi start level for this bundle different
 from the default start level defined in Karaf's config.properties.
+
                         ]]>
                         </xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="start" type="xs:boolean">
+                <xs:attribute name="start" type="xs:boolean" default="true">
                     <xs:annotation>
                         <xs:documentation><![CDATA[
-If false, leaves bundle in resolved start rather than the default active state.
+If false, leaves the bundle in resolved state rather than the default active state.
                         ]]>
                         </xs:documentation>
                     </xs:annotation>
@@ -133,7 +135,7 @@ If false, leaves bundle in resolved start rather than the default active state.
                 <xs:attribute name="dependency" type="xs:boolean">
                     <xs:annotation>
                         <xs:documentation><![CDATA[
-Mark bundle as a dependency for the resolver.
+Mark this bundle as a dependency for the resolver.
                         ]]>
                         </xs:documentation>
                     </xs:annotation>
@@ -181,7 +183,7 @@ Additional configuration files which should be created during feature installati
                 <xs:attribute name="finalname" type="xs:string" use="required">
                     <xs:annotation>
                         <xs:documentation><![CDATA[
-The final destination path and name for the configuration file.
+The final destination path and name for the configuration file (relative to the KARAF_BASE).
                         ]]></xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
@@ -211,7 +213,7 @@ Feature name should be non empty string.
     <xs:simpleType name="resolver">
         <xs:annotation>
             <xs:documentation><![CDATA[
-Resolver to use. Karaf will look for OSGi service which have following properties:
+Resolver to use. Karaf will look for OSGi service which has following properties:
 objectClass: org.apache.karaf.features.Resolver
 name: the value
             ]]></xs:documentation>
@@ -232,7 +234,6 @@ command line or as part of the org.apache.karaf.features.cfg.
             <xs:minLength value="1" />
         </xs:restriction>
     </xs:simpleType>
-
     <xs:element name="features" type="tns:features" />
 
 </xs:schema>
