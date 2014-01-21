@@ -71,12 +71,13 @@ h3. [Subprojects]
 -- [Download|cave-download]
 -- [Source|cave-source]
 -- [Building|cave-building]
+-- Documentation ([HTML|http://karaf.apache.org/manual/cave/latest/index.html])
 
 - [Cellar]
 -- [Download|cellar-download]
 -- [Source|cellar-source]
 -- [Building|cellar-building]
--- Documentation ([HTML|http://karaf.apache.org/manual/cellar/latest-2.3.x/index.html]|[PDF|http://repo.maven.apache.org/maven2/org/apache/karaf/cellar/manual/2.3.2/manual-2.2.2.pdf])
+-- Documentation ([HTML|http://karaf.apache.org/manual/cellar/latest/index.html])
 
 - [EIK]
 -- [Download|eik-download]
