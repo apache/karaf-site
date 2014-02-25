@@ -12,7 +12,7 @@ h3. Prequisites
 
 *Required:*
 * Download and [install Maven 3.0.x|http://maven.apache.org/download.html]
-* Get the latest [Source|/subproject/cave/source.html] 
+* Get the latest [Source|/index/subprojects/cave/cave-source.html] 
 * Java 1.7
 
 h3. A normal build

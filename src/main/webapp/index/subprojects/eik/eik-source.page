@@ -15,7 +15,7 @@ https://git-wip-us.apache.org/repos/asf?p=karaf-eik.git;a=summary
 h2. Cloning from Git
 
 {code}
-git clone https://git-wip-us.apache.org/repos/asf/karaf-eik.git cave
+git clone https://git-wip-us.apache.org/repos/asf/karaf-eik.git eik
 {code}
 
 Only project developers can commit to the git repository.
