@@ -21,10 +21,9 @@ h2. Documentation
 
 h2. Release Notes - Karaf - Version 3.0.1
 
+  This is an update patch for Apache Karaf 3.0.0, containing many bug fixes, dependency updates, and improvements. New feature highlights include: the addition of Pax CDI to Karaf enterprise feature, monitoring etc/user.properties with Felix fileInstall, and adding MSSQL datasource type. It is recommended that users update their deployment after reviewing the changelog below.
 
-  For more detail please see the change log below.
-
-** Bug
+h3. Bug
  * [KARAF-482|https://issues.apache.org/jira/browse/KARAF-482] - Maven 3 archetypes itests issue
  * [KARAF-1074|https://issues.apache.org/jira/browse/KARAF-1074] - features-maven-plugin collects wrong artifacts
  * [KARAF-1075|https://issues.apache.org/jira/browse/KARAF-1075] - pid is set as the factorypid when creating a factory configuration instance from the feature file
@@ -89,7 +88,7 @@ h2. Release Notes - Karaf - Version 3.0.1
  * [KARAF-2851|https://issues.apache.org/jira/browse/KARAF-2851] - The FeaturesService can sometime loose the repository list
  * [KARAF-2880|https://issues.apache.org/jira/browse/KARAF-2880] - jms:* commands don't consume messages
 
-** Dependency upgrade
+h3. Dependency upgrade
  * [KARAF-2081|https://issues.apache.org/jira/browse/KARAF-2081] - Upgrade to JUnit 4.11
  * [KARAF-2643|https://issues.apache.org/jira/browse/KARAF-2643] - Upgrade to Felix FileInstall 3.2.8
  * [KARAF-2644|https://issues.apache.org/jira/browse/KARAF-2644] - Upgrade to Felix Utils 1.4.2
@@ -129,7 +128,7 @@ h2. Release Notes - Karaf - Version 3.0.1
  * [KARAF-2869|https://issues.apache.org/jira/browse/KARAF-2869] - Upgrade to Pax CDI 0.7.0
  * [KARAF-2893|https://issues.apache.org/jira/browse/KARAF-2893] - Upgrade to Pax Web 3.1.0
 
-** Improvement
+h3. Improvement
  * [KARAF-452|https://issues.apache.org/jira/browse/KARAF-452] - Support bundle id ranges, symbolic name/version, and regex in shell start/stop etc commands
  * [KARAF-711|https://issues.apache.org/jira/browse/KARAF-711] - Add documentation how to update Karaf
  * [KARAF-1223|https://issues.apache.org/jira/browse/KARAF-1223] - Support mvn:* urls in karaf-maven-plugin:features-create-kar
@@ -168,14 +167,14 @@ h2. Release Notes - Karaf - Version 3.0.1
  * [KARAF-2857|https://issues.apache.org/jira/browse/KARAF-2857] - Add Solaris x86_64 support to wrapper
  * [KARAF-2883|https://issues.apache.org/jira/browse/KARAF-2883] - Use better version range in Spring features
 
-** New Feature
+h3. New Feature
  * [KARAF-2658|https://issues.apache.org/jira/browse/KARAF-2658] - Include Pax CDI 0.6.0 repository in Karaf enterprise features
  * [KARAF-2760|https://issues.apache.org/jira/browse/KARAF-2760] - monitor etc/user.properties change with felix FileInstaller
  * [KARAF-2848|https://issues.apache.org/jira/browse/KARAF-2848] - Add MSSQL datasource type
 
-** Task
+h3. Task
  * [KARAF-2767|https://issues.apache.org/jira/browse/KARAF-2767] - Update to commons-fileupload 1.3.1
  * [KARAF-2844|https://issues.apache.org/jira/browse/KARAF-2844] - Sync skipTests and invoker.skip
 
-** Test
+h3. Test
  * [KARAF-2680|https://issues.apache.org/jira/browse/KARAF-2680] - Add new itests
