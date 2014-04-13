@@ -1,0 +1,19 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. Jamie Goodyear posted on April 12, 2014\\Karaf 2.3.5 and 3.0.1 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 2.3.5|index/community/download/karaf-2.3.5-release.html] and [Karaf 3.0.1|index/community/download/karaf-3.0.1-release.html].
+
+
+h2. Apache Karaf 2.3.5
+
+This is an update patch for Apache Karaf 2.3.4, containing many bug fixes, dependency updates, and improvements. New feature highlights include: monitoring etc/user.properties with Felix fileInstall, and adding MSSQL datasource type.
+For more information, please see the [release notes|index/community/download/karaf-2.3.5-release.html].  
+
+h2. Apache Karaf 3.0.1
+
+This is an update patch for Apache Karaf 3.0.0, containing many bug fixes, dependency updates, and improvements. New feature highlights include: the addition of Pax CDI to Karaf enterprise feature, monitoring etc/user.properties with Felix fileInstall, and adding MSSQL datasource type.
+For more information, please see the [release notes|index/community/download/karaf-3.0.1-release.html].
