@@ -1,12 +1,12 @@
 ---
 title: Karaf Dependencies 3.0.x
-page_version: 2
+page_version: 3
 page_creator: jgoodyear
-page_modifier: jgoodyear
+page_modifier: jbonofre
 --- pipeline:conf
 h1. Karaf Dependencies 3.0.x
 
-The below table describes the dependencies included in Apache Karaf 2.3.x builds.
+The below table describes the dependencies included in Apache Karaf 3.0.x builds.
 
 Note: Karaf 2.3.1 versions provided for upgrade path considerations.
 
@@ -43,7 +43,8 @@ Note: Karaf 2.3.1 versions provided for upgrade path considerations.
 | felix.bundlerepository | 1.6.6 | 1.6.6 | 1.6.6 | 1.6.6 |
 | felix.configadmin | 1.6.0 | 1.6.0 | 1.8.0 | 1.6.0 |
 | felix.fileinstall | 3.2.6 | 3.2.6 | 3.2.6 | 3.2.8 |
-| felix.framework | 4.0.3 | 4.0.3 | 4.3.2 | 4.2.1 |
+| felix.framework | 4.0.3 | 4.0.3 | 4.2.1 | 4.2.1 |
+| felix.framework.security | N/A | N/A | 2.2.0 | 2.2.0 |
 | felix.gogo | 0.10.0 | 0.10.0 | 0.10.0 | 0.10.0 |
 | felix.plugin | 2.3.7 | 2.3.7 | 2.4.0 | 2.4.0 |
 | felix.utils | 1.2.0 | 1.2.0 | 1.4.0 | 1.6.0 |
