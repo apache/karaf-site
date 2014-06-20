@@ -1,6 +1,6 @@
 ---
 title: Navigation
-page_version: 19
+page_version: 20
 page_creator: gnodet
 page_modifier: jbonofre
 --- pipeline:conf
@@ -11,9 +11,11 @@ h3. [Overview|Karaf Overview]
 - [FAQ]
 - [Download|/index/community/download.html]
 
-h3. [Documentation]
+h3. Releases
 
-- Karaf 3.0.x
+- [Schedule|/index/community/releases-schedule.html]
+
+- 3.0.x
 -- [Overview|http://karaf.apache.org/manual/latest/overview.html]
 -- [Quickstart|http://karaf.apache.org/manual/latest/quick-start.html]
 -- [Update notes|http://karaf.apache.org/manual/latest/update-notes.html]
@@ -23,7 +25,7 @@ h3. [Documentation]
 --- [Developer Guide|http://karaf.apache.org/manual/latest/developers-guide/index.html]
 --- [Commands reference|http://karaf.apache.org/manual/latest/commands/commands.html]
 
-- Karaf 2.3.x
+- 2.3.x
 -- [Overview|http://karaf.apache.org/manual/latest-2.3.x/overview.html]
 -- [Quickstart|http://karaf.apache.org/manual/latest-2.3.x/quick-start.html]
 -- [Dependencies Matrix|http://karaf.apache.org/index/documentation/karaf-dependencies/karaf-deps-2.3.x.html]
@@ -63,7 +65,6 @@ h3. [Developers]
 - [Building|/index/developers/building.html]
 - [IRC Room]
 - [Wiki|https://cwiki.apache.org/confluence/display/KARAF]
-- [Roadmap|https://cwiki.apache.org/confluence/display/KARAF/Roadmap]
 
 h3. [Subprojects]
 

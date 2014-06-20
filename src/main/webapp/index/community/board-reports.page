@@ -8,6 +8,65 @@ h1. Board reports
 
 Reports submitted to the Apache Board
 
+h2. June 2014
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+
+Community
+=========
+The talk "Apache Karaf in real life" has been provided by a committer during the latest ApacheCon NA 2014.
+Talks have been submitted by different committers for the next ApacheCon Europe 2014.
+
+We can note a couple of books available (or in preparation) about Karaf and its sub-projects (Cellar, Cave, EIK).
+There have been three articles in the german JavaMagazin about Karaf 3.0 in April, Mai and June. 
+
+We started to work on the next Karaf 4.0.0 branch including a lot of new features and improvements.
+
+Last committers addition: October 21, 2013
+Last PMC addition: September 05, 2012
+
+Development
+===========
+The following new releases have been voted:
+- Apache Karaf 3.0.1 (maintenance release) (April 13, 2014)
+- Apache Karaf 2.3.5 (maintenance release) (April 13, 2014)
+We plan to release a Karaf 3.0.2 version (especially for Java8 support) and Cellar 3.0.0 version (for full support of Karaf 3.0.x branch) in the coming weeks.
+
+Issues for board consideration
+==============================
+None so far.
+{code}
+
+h2. March 2014
+
+{code}
+Apache Karaf provides higher level features and services
+specifically designed for creating OSGi-based servers.
+
+Community
+=========
+The new Karaf 3.0.0 has been a good message to the community.
+The website has been a bit polished to give more visibility to the documentation of the two active Karaf branches.
+
+Last committers addition: October 21, 2013
+Last PMC addition: September 05, 2012
+
+Development
+===========
+The following new releases have been voted:
+- Apache Karaf 3.0.0 (major new version) (December 24, 2013)
+- Apache Karaf Cave 2.3.0 (first release of the Maven/OBR repository) (January 21, 2014)
+- Apache Karaf 2.3.4 (maintenance release) (February 17, 2014)
+
+Apache Karaf and all subprojects have moved to git (thanks INFRA for that).
+
+Issues for board consideration
+==============================
+None so far.
+{code}
+
 h2. December 2013
 
 {code}
