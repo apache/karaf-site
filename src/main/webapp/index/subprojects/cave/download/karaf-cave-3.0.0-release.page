@@ -1,10 +1,17 @@
 ---
-title: Cave
-page_version: 3
+title: Karaf Cave 3.0.0 Release
+page_version: 1
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
-h2. Karaf Cave
+h2. Download
+
+Download links can be found in the [Download|/index/subprojects/cave/cave-download.html] page.
+
+h2. Release Notes - Karaf Cave - Version 3.0.0
+
+This release of Apache Karaf Cave is the first one of the 3.0.x series branch.
+It's fully compatible with Karaf 3.0.x version, and contains major improvements and bug fixes.
 
 Karaf Cave provides an OSGi Bundle Repository (OBR), simple Maven repository, and Karaf Features Repository (KFR).
 
@@ -21,13 +28,25 @@ Apache Karaf Cave provides the following features:
 - "External" repository proxy: you can proxy an existing repository (like a Maven one) into a Cave repository. In that case, the artifacts are still resident on the proxied repository, Cave handles the OBR metadata. Cave supports file: and http: like URL, it means that Cave is able to browse a remote HTTP Maven repository.
 - "External" repository population: you can populate your local Cave repository from an external repository.  It means that Cave browse the external repository URL (file: or http:), looking for OSGi bundles in the artifacts, and copy the bundles in the Cave repository storage.
 
-h2. Quick Start
-
-To install and start Cave into a running Karaf instance, you have to install the Cave server feature:
+To install Cave into your running Karaf instance, just install the Cave Server feature:
 
 {code}
 karaf@root()> feature:repo-add mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0/xml/features
 karaf@root()> feature:install cave-server
 {code}
 
-You're ready to use Cave server. Take a look on the user guide.
+h3. Bug
+    * [KARAF-3081] - Cave management doesn't start
+
+h3. Dependency upgrade
+    * [KARAF-3076] - Upgrade to jsoup 1.7.3
+    * [KARAF-3077] - Align dependencies with Karaf 3.0.1
+    * [KARAF-3078] - Upgrade to CXF 3.0.0
+    * [KARAF-3080] - Upgrade to httpclient 4.3.4
+
+h3. Improvement
+    * [KARAF-1027] - Have cave:update-repository work with proxy repositories
+    * [KARAF-1056] - Enhancements to cave:upload-artifact command
+    * [KARAF-3082] - Upgrade to shell 1.1.0 and new package
+    * [KARAF-3083] - Don't display stack trace when the repositories.properties doesn't exist
+    * [KARAF-3084] - Remove CXF dependency

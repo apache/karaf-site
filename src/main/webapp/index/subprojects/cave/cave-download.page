@@ -1,6 +1,6 @@
 ---
 title: Cave Download
-page_version: 2
+page_version: 3
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -16,7 +16,28 @@ h2. Latest Releases
 {column:width=80%}
 {div:style=min-height:200px}
 
-The latest release is [Karaf Cave 2.3.0 Release|download/karaf-cave-2.3.0-release.html].
+The latest release is [Karaf Cave 3.0.0 Release|download/karaf-cave-3.0.0-release.html].
+
+h2. Karaf Cave 3.0.0
+
+[Release Notes|download/karaf-cave-3.0.0-release.html]
+
+h3. Direct Installation
+
+Simple install the Karaf Cave Server feature into your running Karaf 3.0.x instance:
+
+{code}
+karaf@root()> feature:repo-add mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0/xml/features
+karaf@root()> feature:install cave-server
+{code}
+
+You're ready to use Karaf Cave.
+
+h3. Source Distribution
+
+||Description||Download Link|| || || ||
+|Windows Source Distribution| [apache-karaf-cave-3.0.0-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cave-3.0.0-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cave/3.0.0/apache-karaf-cave-3.0.0-src.tar.gz.md5]|
 
 h2. Karaf Cave 2.3.0
 
@@ -24,7 +45,7 @@ h2. Karaf Cave 2.3.0
 
 h3. Direct Installation
 
-Simple install the Karaf Cave Server feature into your running Karaf instance:
+Simple install the Karaf Cave Server feature into your running Karaf 2.3.x instance:
 
 {code}
 karaf@root> features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/2.3.0/xml/features

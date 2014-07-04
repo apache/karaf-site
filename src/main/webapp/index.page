@@ -60,6 +60,7 @@ new TWTR.Widget({
 
 
 h2. News
+{include:news-2014-07-04}
 {include:news-2014-06-27}
 {include:news-2014-06-20}
 {include:news-2014-04-13}
@@ -69,4 +70,3 @@ h2. News
 {include:news-2013-12-18}
 {include:news-2013-10-14}
 {include:news-2013-09-20}
-{include:news-2013-07-10}
