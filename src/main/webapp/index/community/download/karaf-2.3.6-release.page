@@ -16,7 +16,8 @@ h2. Documentation
 
 h2. Release Notes - Karaf - Version 2.3.6
 
-  This is an update patch for Apache Karaf 2.3.5, containing many bug fixes, dependency updates, and improvements. New feature highlights include: monitoring etc/user.properties with Felix fileInstall, and adding MSSQL datasource type. It is recommended that users update their deployment after reviewing the changelog below.
+This is an update patch for Apache Karaf 2.3.5, containing many bug fixes, dependency updates, and improvements. New feature highlights include: Automatically create data sources from configuration files, add backing engine serivce for org.apache.karaf.jaas.modules.publickey.PublickeyLoginModule, add a flag to bin/client so that it can read private key from a specified location, and Provide shell:env command.
+
 
 h3. Bug
  * [KARAF-1018|https://issues.apache.org/jira/browse/KARAF-1018] - using auto-complete (TAB key) on commands that don't take Arguments/Options throws IndexOutOfBoundsException. 
