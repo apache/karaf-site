@@ -6,6 +6,7 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [JavaMagazin Articles (in German)|http://notizblog.nierbeck.de/2014/08/javamagazin-articles-online/]
 * [Apache Syncope backend with Apache Karaf|http://blog.nanthrax.net/2014/08/apache-syncope-backend-with-apache-karaf/]
 * [Apache Karaf, Camel, ActiveMQ with Falcon for Hadoop CDC solution|http://blog.nanthrax.net/2014/03/hadoop-cdc-and-processes-notification-with-apache-falcon-apache-activemq-and-apache-camel/]
 * [Apache Karaf, Cellar, Camel, ActiveMQ monitoring with ELK (ElasticSearch, Logstash, and Kibana)|http://blog.nanthrax.net/2014/03/apache-karaf-cellar-camel-activemq-monitoring-with-elk-elasticsearch-logstash-and-kibana/]
