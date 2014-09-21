@@ -29,6 +29,7 @@ h2. Karaf 2.1.x manual
 
 h2. Karaf Dependency Tables
 * [Karaf 3.0.x dependencies.|documentation/karaf-dependencies/karaf-deps-3.0.x.html]
+* [Karaf 2.4.x dependencies.|documentation/karaf-dependencies/karaf-deps-2.4.x.html]
 * [Karaf 2.3.x dependencies.|documentation/karaf-dependencies/karaf-deps-2.3.x.html]
 * [Karaf 2.2.x dependencies.|documentation/karaf-dependencies/karaf-deps-2.2.x.html]
 * [Karaf 2.1.x dependencies.|documentation/karaf-dependencies/karaf-deps-2.1.x.html]
