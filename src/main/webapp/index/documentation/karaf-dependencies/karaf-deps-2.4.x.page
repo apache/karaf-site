@@ -1,14 +1,14 @@
 ---
-title: Karaf Dependencies 2.3.x
+title: Karaf Dependencies 2.4.x
 page_version: 2
 page_creator: jgoodyear
 page_modifier: jgoodyear
 --- pipeline:conf
-h1. Karaf Dependencies 2.3.x
+h1. Karaf Dependencies 2.4.x
 
-The below table describes the dependencies included in Apache Karaf 2.3.x builds.
+The below table describes the dependencies included in Apache Karaf 2.4.x builds.
 
-Note: Karaf 2.2.9 versions provided for upgrade path considerations.
+Note: Karaf 2.3.8 versions provided for upgrade path considerations.
 
 || Karaf Version || 2.3.8 || 2.4.0 ||
 | aopalliance.bundle | 1.0_6 | 1.0_6 |

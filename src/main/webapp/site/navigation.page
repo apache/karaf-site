@@ -25,6 +25,15 @@ h3. Releases
 --- [Developer Guide|http://karaf.apache.org/manual/latest/developers-guide/index.html]
 --- [Commands reference|http://karaf.apache.org/manual/latest/commands/commands.html]
 
+- 2.4.x
+-- [Overview|http://karaf.apache.org/manual/latest-2.4.x/overview.html]
+-- [Quickstart|http://karaf.apache.org/manual/latest-2.4.x/quick-start.html]
+-- [Dependencies Matrix|http://karaf.apache.org/index/documentation/karaf-dependencies/karaf-deps-2.4.x.html]
+-- Manual ([HTML|http://karaf.apache.org/manual/latest-2.4.x/index.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.4.0/manual-2.4.0.pdf])
+--- [User Guide|http://karaf.apache.org/manual/latest-2.4.x/users-guide/index.html]
+--- [Developer Guide|http://karaf.apache.org/manual/latest-2.4.x/developers-guide/index.html]
+--- [Commands reference|http://karaf.apache.org/manual/latest-2.4.x/commands/commands.html]
+
 - 2.3.x
 -- [Overview|http://karaf.apache.org/manual/latest-2.3.x/overview.html]
 -- [Quickstart|http://karaf.apache.org/manual/latest-2.3.x/quick-start.html]
