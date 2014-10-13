@@ -1,0 +1,11 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. The Apache Karaf Team posted on October 13, 2014\\Karaf 3.0.2 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 3.0.2|index/community/download/karaf-3.0.2-release.html].
+
+This is an update patch for Apache Karaf 3.0.x, containing many bug fixes, dependency updates, and improvements. New features highlights include: Support of !$ to recall the last command argument, a command to display bundle id, and automatically create data sources from configuration files.
+For more information, please see the [release notes|index/community/download/karaf-3.0.2-release.html].
