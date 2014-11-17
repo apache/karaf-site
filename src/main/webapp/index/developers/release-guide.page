@@ -247,6 +247,18 @@ h3. Update JIRA
 
 Go to Admin section on the Karaf JIRA and mark the X.Y.Z version as released - create version X.Y.Z+1, if that hasn't already been done.
 
+h3. Update dist
+
+Apache Dist use scm pubsub system to publish the released artifact to different mirrors.
+
+The Karaf (and subprojects) dist pubsub location is on svn:
+
+{code}
+https://dist.apache.org/repos/dist/release/karaf/
+{code}
+
+In order to publish the release artifacts, you have to commit in this svn location. It will trigger the sync of dist mirrors.
+
 h3. Announcing the Karaf Release
 
 {code}
