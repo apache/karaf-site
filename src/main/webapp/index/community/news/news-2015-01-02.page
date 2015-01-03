@@ -1,0 +1,11 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. Jamie Goodyear posted on January 2, 2015\\Karaf 2.4.1 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 2.4.1|index/community/download/karaf-2.4.1-release.html].
+
+This is an update patch for Apache Karaf 2.4.x, containing many bug fixes, dependency updates, and improvements. New features highlights include: Regex support in features commands, added an option to uninstall transitive features, and renamed jpa feature as jpa/jpa20 and jpa21.
+For more information, please see the [release notes|index/community/download/karaf-2.4.1-release.html].
