@@ -25,11 +25,11 @@ h2. Cellar
 
 || Release Branch || Karaf || Status || Latest Version || Next Version || ETA ||
 | cellar-2.2.x | 2.2.x | EOL/NotActive | 2.2.6 | | |
-| cellar-2.3.x | 2.3.x | Previous Stable/In Maintenance | 2.3.2 | 2.3.3 | 2015/01/12 |
-| master (3.0.x) | 3.0.x | Current Stable/In Maintenance | 3.0.0 | 3.0.1 | 2014/01/12 |
+| cellar-2.3.x | 2.3.x | Previous Stable/In Maintenance | 2.3.2 | 2.3.3 | 2015/01/15 |
+| master (3.0.x) | 3.0.x | Current Stable/In Maintenance | 3.0.0 | 3.0.1 | 2014/01/15 |
 
 h2. Cave
 
 || Release Branch || Karaf || Status || Latest Version || Next Version || ETA ||
-| cave-2.x | 2.3.x | Previous Stable/In Maintenance | 2.3.0 | 2.3.1 | 2014/01/12 |
-| master (3.0.x) | 3.0.x | Current Stable/In Maintenance | 3.0.0 | 3.0.1 | 2014/01/12 |
+| cave-2.x | 2.3.x | Previous Stable/In Maintenance | 2.3.0 | 2.3.1 | 2014/01/15 |
+| master (3.0.x) | 3.0.x | Current Stable/In Maintenance | 3.0.0 | 3.0.1 | 2014/01/15 |
