@@ -24,9 +24,18 @@ h2. Quick Start
 
 To install and start Cellar into your running Karaf instance, you have to install the Cellar feature:
 
+If you use Karaf 3.x:
+
 {code}
-karaf@root()> feature:repo-add mvn:org.apache.karaf.cellar/apache-karaf-cellar/3.0.0/xml/features
+karaf@root()> feature:repo-add mvn:org.apache.karaf.cellar/apache-karaf-cellar/3.0.1/xml/features
 karaf@root()> feature:install cellar
+{code}
+
+If you use Karaf 2.x:
+
+{code}
+karaf@root()> features:addUrl mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.3.4/xml/features
+karaf@root()> features:install cellar
 {code}
 
 You're ready to use Cellar clustering. Take a look on the user guide.

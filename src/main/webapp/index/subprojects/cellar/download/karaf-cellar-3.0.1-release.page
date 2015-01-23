@@ -1,0 +1,67 @@
+---
+title: Karaf Cellar 3.0.1 Release
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h2. Download
+
+Download links can be found in the [Download|/index/subprojects/cellar/cellar-download.html] page.
+
+h2. Release Notes - Karaf Cellar - Version 3.0.1
+
+This release of Apache Karaf Cellar is the first one of the 3.0.x series.
+It's fully compatible with Karaf 3.0.x version, and contains major updates and bug fixes.
+
+Cellar is a clustering solution for Apache Karaf powered by Hazelcast.
+
+Cellar allows you to manage a cluster of Karaf instances, providing synchronisation between instances.
+
+Here is a short list of provided features:
+- Discovery: each Karaf Cellar node is discovered automatically by the others. You can use multicast or unicast for discovery.
+- Cluster group: a Karaf Cellar node could be part of one or more cluster group. Each Karaf unit (features, config, etc) is targeted to a group.
+- Distributed Configuration Admin: Karaf Cellar distributes the configuration data. The distribution is event-driven and filtered by cluster group.
+- Distributed Features: Karaf Cellar distributes the features and repositories information. It's also event-driven. 
+- Distributed Bundles: Karaf Cellar distributes the bundles, on an event-driven base.
+- Local event distribution (optional): cellar-eventadmin feature provides broadcast of the local events to the cluster.
+- Distributed OSGi (optional): cellar-dosgi provides support of Distributed OSGi, allowing to call an OSGi service present on a remote node.
+- WebConsole (optional): cellar-webconsole provides Karaf WebConsole plugins, allowing you to monitore and administrate your cluster using your browser.
+
+To install Cellar into your running Karaf instance, just install the Cellar feature:
+
+{code}
+karaf@root()> feature:repo-add mvn:org.apache.karaf.cellar/apache-karaf-cellar/3.0.1/xml/features
+karaf@root()> feature:install cellar
+{code}
+
+h3. Bug
+    * [KARAF-1474] - Fix Cellar itests
+    * [KARAF-1486] - When a new member enters a custom group, it does not install the features that should be installed in that group
+    * [KARAF-2250] - duplicated bundle found in cluster:bundle-list when cluster:bundle-install a bundle version like 1.02.12-SNAPSHOT.
+    * [KARAF-2288] - CellarFeaturesSynchronizer ignores the features.repository sync flag
+    * [KARAF-2490] - Cellar should maintain the resources deployment order on the cluster
+    * [KARAF-2597] - Overlap between features with the same name (but different versions) in Cellar FeaturesSynchronizer
+    * [KARAF-3337] - Cellar needs to blacklist configuration for "org.apache.aries.transaction" per default
+    * [KARAF-3442] - cluster:bundle-install raise a NPE if the bundle location is not correct
+
+h3. Dependency upgrade
+    * [KARAF-3294] - Upgrade to Hazelcast 3.3.4
+    * [KARAF-3296] - Upgrade to joda-time 2.5
+    * [KARAF-3297] - Upgrade to Felix BundleRepository 2.0.2
+    * [KARAF-3298] - Upgrade to Felix WebConsole 4.2.2
+    * [KARAF-3299] - Upgrade to Apache jclouds 1.8.1
+    * [KARAF-3300] - Upgrade to OSGi 5.0.0
+    * [KARAF-3301] - Upgrade to Aries Proxy API 1.0.1
+
+h3. Improvement
+    * [KARAF-1157] - Add new cluster:sync commands
+    * [KARAF-2168] - Rename sync property
+    * [KARAF-2169] - Introduce *.listener property
+    * [KARAF-2172] - Be able to define the priority between cluster data and local data
+    * [KARAF-2241] - Mark feature not distributable
+    * [KARAF-2242] - Easy listing of distributable features
+    * [KARAF-3341] - Blacklist "XML bundles" by default
+
+h3. New Feature
+    * [KARAF-1469] - User definition of excluded config properties
+    * [KARAF-3447] - Add cellar-kubernetes feature
