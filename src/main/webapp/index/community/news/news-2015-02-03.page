@@ -1,0 +1,11 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. The Apache Karaf Team posted on February 3, 2015\\Karaf 2.3.10 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 2.3.10|index/community/download/karaf-2.3.10-release.html].
+
+This is an update patch for Apache Karaf 2.3.x, containing several bug fixes, and a dependency update. Amoung them are a fix for when config:edit does not correctly handle configuration visibility for factory calls, when User name/password missing in connection factory created with jms:create, and when admin:stop Command Does Not Zero Out Root Container PID. This release contains an update to jandex in hibernate feature to avoid wrapping.
+For more information, please see the [release notes|index/community/download/karaf-2.3.10-release.html].
