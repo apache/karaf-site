@@ -21,13 +21,13 @@ Grab these releases while they are hot!
 The latest 4.0.x release is [Karaf 4.0.0.M1|download/karaf-4.0.0.M1-release.html].
 The latest 3.0.x release is [Karaf 3.0.3|download/karaf-3.0.3-release.html].
 The latest 2.4.x release is [Karaf 2.4.1 Release|download/karaf-2.4.1-release.html].
-The latest 2.3.x release is [Karaf 2.3.9 Release|download/karaf-2.3.9-release.html].
+The latest 2.3.x release is [Karaf 2.3.10 Release|download/karaf-2.3.10-release.html].
 
 Releases:
 * [#Karaf 4.0.0.M1]
 * [#Karaf 3.0.3]
 * [#Karaf 2.4.1]
-* [#Karaf 2.3.9]
+* [#Karaf 2.3.10]
 
 {div}
 {column}
@@ -102,26 +102,26 @@ h3. Manual
 |HTML Manual| [manual-2.4.1.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.4.1/manual-2.4.1.html] |
 |PDF Manual| [manual-2.4.1.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.4.1/manual-2.4.1.pdf] |
 
-h2. Karaf 2.3.9
+h2. Karaf 2.3.10
 
-[Release Notes|download/karaf-2.3.9-release.html]
+[Release Notes|download/karaf-2.3.10-release.html]
 
 h3. Binary Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Distribution| [apache-karaf-2.3.9.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.3.9/apache-karaf-2.3.9.zip]|[PGP|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9.zip.md5]|
-|Unix/Linux/Cygwin Distribution| [apache-karaf-2.3.9.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.3.9/apache-karaf-2.3.9.tar.gz]|[PGP|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2.3.9-apache-karaf-2.3.9.tar.gz.md5]|
+|Windows Distribution| [apache-karaf-2.3.10.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.3.10/apache-karaf-2.3.10.zip]|[PGP|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10.zip.md5]|
+|Unix/Linux/Cygwin Distribution| [apache-karaf-2.3.10.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.3.10/apache-karaf-2.3.10.tar.gz]|[PGP|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2.3.10-apache-karaf-2.3.10.tar.gz.md5]|
 
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-2.3.9-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.3.9/apache-karaf-2.3.9-src.zip]|[PGP|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.9-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.3.9/apache-karaf-2.3.9-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2.3.9/apache-karaf-2.3.9-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-2.3.10-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/2.3.10/apache-karaf-2.3.10-src.zip]|[PGP|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.10-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/2.3.10/apache-karaf-2.3.10-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/2.3.10/apache-karaf-2.3.10-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
-|HTML Manual| [manual-2.3.9.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.3.9/manual-2.3.9.html] |
-|PDF Manual| [manual-2.3.9.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.3.9/manual-2.3.9.pdf] |
+|HTML Manual| [manual-2.3.10.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.3.10/manual-2.3.10.html] |
+|PDF Manual| [manual-2.3.10.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/2.3.10/manual-2.3.10.pdf] |
 
 h2. Karaf 2.2.11
 
