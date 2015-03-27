@@ -1,10 +1,17 @@
 ---
-title: Cellar
-page_version: 10
+title: Karaf Cellar 2.3.5 Release
+page_version: 1
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
-h2. Karaf Cellar
+h2. Download
+
+Download links can be found in the [Download|/index/subprojects/cellar/cellar-download.html] page.
+
+h2. Release Notes - Karaf Cellar - Version 2.3.5
+
+This release of Apache Karaf Cellar is the third one of the 2.3.x series branch.
+It's fully compatible with Karaf 2.3.x version, and contains bug fixes.
 
 Cellar is a clustering solution for Apache Karaf powered by Hazelcast.
 
@@ -20,22 +27,20 @@ Here is a short list of provided features:
 - Distributed OSGi (optional): cellar-dosgi provides support of Distributed OSGi, allowing to call an OSGi service present on a remote node.
 - WebConsole (optional): cellar-webconsole provides Karaf WebConsole plugins, allowing you to monitore and administrate your cluster using your browser.
 
-h2. Quick Start
-
-To install and start Cellar into your running Karaf instance, you have to install the Cellar feature:
-
-If you use Karaf 3.x:
+To install Cellar into your running Karaf instance, just install the Cellar feature:
 
 {code}
-karaf@root()> feature:repo-add mvn:org.apache.karaf.cellar/apache-karaf-cellar/3.0.2/xml/features
-karaf@root()> feature:install cellar
+karaf@root> features:addurl mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.3.5/xml/features
+karaf@root> features:install cellar
 {code}
 
-If you use Karaf 2.x:
+h3. Bug
+    * [KARAF-3482] - 100% cpu usage
+    * [KARAF-3521] - Cellar Synchronizers should not uninstall local resources
+    * [KARAF-3523] - Default etc/org.apache.karaf.cellar.node.cfg contains a wrong property name
+    * [KARAF-3609] - Kubernetes/Cloud Service Discovery isn't working in Immutable applications
+    * [KARAF-3617] - Cellar config synchronizer creates the configuration but not the properties at sync time
 
-{code}
-karaf@root()> features:addUrl mvn:org.apache.karaf.cellar/apache-karaf-cellar/2.3.5/xml/features
-karaf@root()> features:install cellar
-{code}
-
-You're ready to use Cellar clustering. Take a look on the user guide.
+h3. Improvement
+    * [KARAF-3614] - Refactore features support for more reliable sync behavior
+    * [KARAF-3615] - Cluster bundles should keep the bundle ID
