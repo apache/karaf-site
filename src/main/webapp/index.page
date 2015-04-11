@@ -18,7 +18,7 @@ Here is a short list of features supported by the Karaf:
 *[Download Karaf 4.0.0.M2|index/community/download.html#Karaf4.0.0.M2]*
 *[Download Karaf 3.0.3|index/community/download.html#Karaf3.0.3]*
 *[Download Karaf 2.4.1|index/community/download.html#Karaf2.4.1]*
-*[Download Karaf 2.3.10|index/community/download.html#Karaf2.3.10]*
+*[Download Karaf 2.3.11|index/community/download.html#Karaf2.3.11]*
 [!/images/karaf-box.png|width=256!|index/community/download.html#Karaf3.0.3]
 {center}
 {html}
@@ -62,6 +62,7 @@ new TWTR.Widget({
 
 
 h2. News
+{include:news-2015-04-11}
 {include:news-2015-03-27}
 {include:news-2015-02-13}
 {include:news-2015-02-06}
@@ -73,4 +74,3 @@ h2. News
 {include:news-2014-10-14}
 {include:news-2014-10-13}
 {include:news-2014-09-20}
-{include:news-2014-09-19}

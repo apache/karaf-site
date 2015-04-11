@@ -5,6 +5,7 @@ page_creator: gnodet
 page_modifier: jbonofre
 --- pipeline:conf
 h2. News
+{include:news-2015-04-11}
 {include:news-2015-03-27}
 {include:news-2015-02-13}
 {include:news-2015-02-06}
