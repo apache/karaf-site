@@ -1,8 +1,8 @@
 ---
 title: IRC Room
-page_version: 2
+page_version: 3
 page_creator: gnodet
-page_modifier: gnodet
+page_modifier: jbonofre
 --- pipeline:conf
 h2. IRC
 
@@ -10,20 +10,20 @@ You can hang out on IRC with other Karaf developers and users.
 
 If you are using Mozilla you can just click on the IRC link
 
-* [#karaf at irc.codehaus.org|irc://irc.codehaus.org/karaf] 
+* [#apache-karaf at irc.freenode.net|irc://irc.freenode.net/apache-karaf] 
 
 
 h3. Using an IRC client
 
 Here are the connection details. For an IRC client we recommend [XChat|http://www.xchat.org/] or [XChatAqua|http://xchataqua.sourceforge.net/] on OS X
 
-| server | irc.codehaus.org |
+| server | irc.freenode.net |
 | port | 6667 |
-| room | #karaf |
+| room | #apache-karaf |
 
 h3. Web clients
 
 Try one of these
 
-* [irc.codehaus.org|http://irc.codehaus.org]
+* [kiwiirc.com|https://kiwiirc.com/]
 * [mibbit.com|http://www.mibbit.com/]
