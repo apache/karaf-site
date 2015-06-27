@@ -1,0 +1,13 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. The Apache Karaf Team posted on June 26, 2015\\Karaf 4.0.0 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 4.0.0|index/community/download/karaf-4.0.0-release.html].
+
+ Apache Karaf 4.0.0 is the first production ready version of the new 4.0.0 branch.
+ It's a major step forward, including a complete new features resolver, a large set of new features, improvements, and bug fixes.
+
+For more information, please see the [release notes|index/community/download/karaf-4.0.0-release.html].

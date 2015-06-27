@@ -6,6 +6,10 @@ page_modifier: jbonofre
 --- pipeline:conf
 h1. Documentation
 
+h2. Karaf 4.0.x manual
+
+* [Karaf 4.0.0 Manual|http://karaf.apache.org/manual/latest/index.html]
+
 h2. Karaf 3.0.x manual
 
 * [Karaf 3.0.0 Manual|http://karaf.apache.org/manual/latest/index.html]
@@ -28,6 +32,7 @@ h2. Karaf 2.1.x manual
 * [Karaf Users' Guide in one page|https://cwiki.apache.org/KARAF/karaf-users-guide-in-one-page.html]
 
 h2. Karaf Dependency Tables
+* [Karaf 3.0.x dependencies.|documentation/karaf-dependencies/karaf-deps-4.0.x.html
 * [Karaf 3.0.x dependencies.|documentation/karaf-dependencies/karaf-deps-3.0.x.html]
 * [Karaf 2.4.x dependencies.|documentation/karaf-dependencies/karaf-deps-2.4.x.html]
 * [Karaf 2.3.x dependencies.|documentation/karaf-dependencies/karaf-deps-2.3.x.html]

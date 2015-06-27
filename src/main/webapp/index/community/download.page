@@ -18,13 +18,13 @@ h2. Latest Releases
 
 Grab these releases while they are hot!
 
-The latest 4.0.x release is [Karaf 4.0.0.M3|download/karaf-4.0.0.M3-release.html].
+The latest 4.0.x release is [Karaf 4.0.0|download/karaf-4.0.0-release.html].
 The latest 3.0.x release is [Karaf 3.0.3|download/karaf-3.0.3-release.html].
 The latest 2.4.x release is [Karaf 2.4.2 Release|download/karaf-2.4.2-release.html].
 The latest 2.3.x release is [Karaf 2.3.11 Release|download/karaf-2.3.11-release.html].
 
 Releases:
-* [#Karaf 4.0.0.M3]
+* [#Karaf 4.0.0]
 * [#Karaf 3.0.3]
 * [#Karaf 2.4.2]
 * [#Karaf 2.3.11]
@@ -39,26 +39,26 @@ h2. Getting the latest distributions
 The above URLs use the Apache Mirror system to redirect you to a suitable mirror for your download. Some users have experienced issues with some versions of browsers (e.g. some Safari browsers). If the download doesn't seem to work for you from the above URL then try using [Mozilla Firefox|http://www.mozilla.com/en-US/firefox/]
 {info}
 
-h2. Karaf 4.0.0.M3
+h2. Karaf 4.0.0
 
-[Release Notes|download/karaf-4.0.0.M3-release.html]
+[Release Notes|download/karaf-4.0.0-release.html]
 
 h3. Binary Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Distribution| [apache-karaf-4.0.0.M3.zip|http://www.apache.org/dyn/closer.cgi/karaf/4.0.0.M3/apache-karaf-4.0.0.M3.zip]|[PGP|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3.zip.md5]|
-|Unix/Linux/Cygwin Distribution| [apache-karaf-4.0.0.M3.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/4.0.0.M3/apache-karaf-4.0.0.M3.tar.gz]|[PGP|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/4.0.0.M3-apache-karaf-4.0.0.M3.tar.gz.md5]|
+|Windows Distribution| [apache-karaf-4.0.0.zip|http://www.apache.org/dyn/closer.cgi/karaf/4.0.0/apache-karaf-4.0.0.zip]|[PGP|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0.zip.md5]|
+|Unix/Linux/Cygwin Distribution| [apache-karaf-4.0.0.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/4.0.0/apache-karaf-4.0.0.tar.gz]|[PGP|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/4.0.0-apache-karaf-4.0.0.tar.gz.md5]|
 
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-4.0.0.M3-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.zip]|[PGP|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0.M3-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-4.0.0-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/4.0.0/apache-karaf-4.0.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
-|HTML Manual| [manual-4.0.0.M3.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/4.0.0.M3/manual-4.0.0.M3.html] |
-|PDF Manual| [manual-4.0.0.M3.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/4.0.0.M3/manual-4.0.0.M3.pdf] |
+|HTML Manual| [manual-4.0.0.html|http://repo1.maven.org/maven2/org/apache/karaf/manual/4.0.0/manual-4.0.0.html] |
+|PDF Manual| [manual-4.0.0.pdf|http://repo1.maven.org/maven2/org/apache/karaf/manual/4.0.0/manual-4.0.0.pdf] |
 
 h2. Karaf 3.0.3
 

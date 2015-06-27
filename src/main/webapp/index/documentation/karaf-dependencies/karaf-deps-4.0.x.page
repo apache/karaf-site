@@ -1,0 +1,115 @@
+---
+title: Dependencies 4.0.x
+page_version: 3
+page_creator: jgoodyear
+page_modifier: jbonofre
+--- pipeline:conf
+h1. Karaf Dependencies 4.0.x
+
+The below table describes the dependencies included in Apache Karaf 4.0.x builds.
+
+Note: Karaf 3.0.3 versions provided for upgrade path considerations.
+
+|| Karaf Version || 3.0.3 || 4.0.0 ||
+| aopalliance.bundle | 1.0_6 | 1.0_6 |
+| asm.bundle | 5.0.3 | 5.0.3 |
+| bndlib | 2.3.0 | 2.4.0 |
+| cglib.bundle | 3.0_1 | 3.0_1 |
+| commons-beanutils.bundle | 1.9.2 | 1.9.2 |
+| commons-codec.bundle | 1.9 | 1.10 |
+| commons-collections.bundle | 3.2.1 | 3.2.1 |
+| commons-dbcp | 1.4 | 1.4_3 |
+| commons-fileupload | 1.3.1 | 1.3.1 |
+| commons-io | 2.4 | 2.4 |
+| commons-jexl | 2.1.1 | 2.1.1 |
+| commons-lang.bundle | 2.6 | 2.6 |
+| commons-pool | 1.6 | 1.6 |
+| depends-maven-plugin | 1.2 | 1.2 |
+| jasypt.bundle | 1.9.2_1 | 1.9.2_1 |
+| junit | 4.11 | 4.12 |
+| geronimo.jms-spec | 1.1.1 | 1.1.1 |
+| geronimo.jpa-spec | 1.1 | 1.1 |
+| geronimo.jta-spec | 1.1.1 | 1.1.1 |
+| geronimo.annotation-spec | 1.0.1 | n/a |
+| geronimo.jaspic-spec | 1.1 | n/a |
+| easymock | 3.2 | 3.3.1 |
+| equinox | 3.8.2.v20130124-134944 | 3.10.2.v20150203-1939 |
+| felix.bundlerepository | 2.0.2 | 2.0.4 |
+| felix.configadmin | 1.8.0 | 1.8.4 |
+| felix.fileinstall | 3.4.2 | 3.5.0 |
+| felix.framework | 4.2.1 | 5.0.1 |
+| felix.framework.security | 2.2.0 | 2.4.0 |
+| felix.gogo | 0.12.1 | 0.16.2 |
+| felix.plugin | 2.5.3 | 2.5.4 |
+| felix.utils | 1.6.0 | 1.8.0 |
+| felix.webconsole | 4.2.2 | 4.2.8 |
+| felix.metatype | 1.0.10 | 1.0.12 |
+| felix.eventadmin | 1.4.2 | 1.4.2 |
+| felix.eventadmin.webconsole.plugin | 1.1.0 | 1.1.2 |
+| felix.obr | 1.0.2 | 1.0.2 |
+| felix.scr | 1.8.2 | 1.8.2 |
+| felix.scr.annotation | 1.6.0 | 1.6.0 |
+| aries.application | 1.0.0 | 1.0.0 |
+| aries.application.api | 1.0.0 | 1.0.0 |
+| aries.application.management | 1.0.0 | 1.0.0 |
+| aries.blueprint | 1.0.1 | 1.0.1 |
+| aries.blueprint.api | 1.0.1 | 1.0.1 |
+| aries.blueprint.core | 1.4.2 | 1.4.3 |
+| aries.blueprint.core.compatibility | 1.0.0 | 1.0.0 |
+| aries.blueprint.cm | 1.0.5 | 1.0.6 |
+| aries.jmx.api | 1.1.1 | 1.1.1 |
+| aries.jmx.core | 1.1.2 | 1.1.3 |
+| aries.jmx.blueprint.api | 1.1.0 | 1.1.0 |
+| aries.jmx.blueprint.core | 1.1.0 | 1.1.0 |
+| aries.jmx.whiteboard | 1.0.0 | 1.0.0 |
+| aries.jpa | 1.0.2 | 2.0.0 |
+| aries.jpa.api | 1.0.2 | 1.0.2 |
+| aries.jpa.container | 1.0.2 | 1.0.2 |
+| aries.jpa.context | 1.0.4 | 1.0.4 |
+| aries.jpa.blueprint | 1.0.4 | 1.0.4 |
+| aries.jndi | 1.0.0 | 1.0.0 |
+| aries.jndi.api | 1.1.0 | 1.1.0 |
+| aries.proxy | 1.0.4 | 1.0.4 |
+| aries.proxy.api | 1.0.1 | 1.0.1 |
+| aries.transaction | 1.0.1 | 1.1.1 |
+| aries.transaction.blueprint | 1.0.1 | 1.0.2 |
+| aries.transaction.manager | 1.1.1 | 1.1.1 |
+| aries.transaction.jdbc | 2.0.0 | 2.1.1 |
+| aries.util | 1.1.0 | 1.1.0 |
+| gemini.blueprint | 1.0.0.RELEASE | 1.0.2.RELEASE |
+| hibernate.annotations.common | 3.3.0.ga | 3.3.0.ga |
+| hibernate.annotations | 3.4.0.GA | 3.4.0.GA |
+| hibernate.ejb | 3.4.0.GA | 3.4.0.GA |
+| hibernate3 | 3.3.2.GA | 3.3.2.GA |
+| hibernate42 | 4.2.15.Final | 4.2.15.Final |
+| hibernate43 | 4.3.6.Final | 4.3.6.Final |
+| hibernate.validator | 5.0.3.Final | 5.0.3.Final |
+| jansi | 1.11 | 1.11 |
+| jline | 2.12 | 2.12.1 |
+| jledit | 0.2.1 | 0.2.1 |
+| jsw | 3.2.3 | 3.2.3 |
+| log4j | 1.2.17 | 1.2.17 |
+| maven | 2.0.9 | 3.0.3 | 
+| mina | 2.0.7 | 2.0.7 |
+| osgi | 5.0.0 | 6.0.0 |
+| osgi.compendium | 5.0.0 | 5.0.0 |
+| org.json | 20140107 | 20140107 |
+| pax.base | 1.5.0 | 1.5.0 |
+| pax.exam | 4.4.0 | 4.5.0 |
+| pax.logging | 1.8.1 | 1.8.3 |
+| pax.url | 2.3.0 | 2.4.1 |
+| pax.web | 3.1.4 | 4.1.4 |
+| pax.tinybundles | 2.1.0 | 2.1.0 |
+| portlet-api | 2.0 | 2.0 |
+| servicemix.specs | 2.4.0 | 2.5.0 |
+| slf4j | 1.7.7 | 1.7.12 |
+| spring.osgi | 1.2.1 | 1.2.1 |
+| spring31 | 3.1.4.RELEASE | 3.1.4.RELEASE |
+| spring32 | 3.2.11.RELEASE_1 | 3.2.11.RELEASE_1 |
+| spring40 | 4.0.7.RELEASE_1 | 4.0.7.RELEASE_1 |
+| spring41 | n/a | 4.1.6.RELEASE_1 |
+| sshd | 0.12.0 | 0.14.0 |
+| struts | 1.3.10_1 | 1.3.10_1 |
+| xbean | 3.18 | 3.18 |
+| xerces | 2.11.0 | 2.11.0 |
+| javax.mail | 1.4.5 | 1.4.5 |
