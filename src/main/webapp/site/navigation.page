@@ -15,7 +15,7 @@ h3. Releases
 
 - [Schedule|/index/community/releases-schedule.html]
 
-- 3.0.x
+- 4.0.x
 -- [Overview|http://karaf.apache.org/manual/latest/overview.html]
 -- [Quickstart|http://karaf.apache.org/manual/latest/quick-start.html]
 -- [Update notes|http://karaf.apache.org/manual/latest/update-notes.html]
@@ -24,6 +24,16 @@ h3. Releases
 --- [User Guide|http://karaf.apache.org/manual/latest/users-guide/index.html]
 --- [Developer Guide|http://karaf.apache.org/manual/latest/developers-guide/index.html]
 --- [Commands reference|http://karaf.apache.org/manual/latest/commands/commands.html]
+
+- 3.0.x
+-- [Overview|http://karaf.apache.org/manual/latest-3.0.x/overview.html]
+-- [Quickstart|http://karaf.apache.org/manual/latest-3.0.x/quick-start.html]
+-- [Update notes|http://karaf.apache.org/manual/latest-3.0.x/update-notes.html]
+-- [Dependencies Matrix|http://karaf.apache.org/index/documentation/karaf-dependencies/karaf-deps-3.0.x.html]
+-- [Manual|http://karaf.apache.org/manual/latest-3.0.x/index.html]
+--- [User Guide|http://karaf.apache.org/manual/latest-3.0.x/users-guide/index.html]
+--- [Developer Guide|http://karaf.apache.org/manual/latest-3.0.x/developers-guide/index.html]
+--- [Commands reference|http://karaf.apache.org/manual/latest-3.0.x/commands/commands.html]
 
 - 2.4.x
 -- [Overview|]
@@ -88,6 +98,12 @@ h3. [Subprojects]
 -- [Source|cellar-source]
 -- [Building|cellar-building]
 -- Documentation ([HTML|http://karaf.apache.org/manual/cellar/latest/index.html])
+
+- [Decanter]
+-- [Download|decanter-download]
+-- [Source|decanter-source]
+-- [Building|decanter-building]
+-- Documentation ([HTML|http://karaf.apache.org/manual/decanter/latest/index.html])
 
 - [EIK]
 -- [Download|eik-download]
