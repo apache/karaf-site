@@ -1,0 +1,68 @@
+---
+title: Decanter
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h2. Karaf Decanter
+
+Decanter is a complete monitoring solution for Apache Karaf and related projects.
+
+It's composed by:
+- collectors retrieving monitored data (JMX metrics, log messages, ...)
+- a dispatcher powered by EventAdmin
+- appenders storing the monitored data (log, Elasticsearch, Cassandra, JDBC, ...)
+
+h2. Quick Start
+
+To install and start Decanter into your running Karaf instance, you have to install different Decanter features
+depending the data that you want to collect, and the storage/appender that you want to use.
+
+First you register the decanter features repository:
+
+{code}
+karaf@root()> feature:repo-add decanter
+{code}
+
+To harvest JMX metrics:
+
+{code}
+karaf@root()> feature:install decanter-collector-jmx
+{code}
+
+To harvest Camel exchanges and metrics:
+
+{code}
+karaf@root()> feature:install decanter-collector-camel
+{code}
+
+To harvest log messages:
+
+{code}
+karaf@root()> feature:install decanter-collector-log
+{code}
+
+To send the harvested/collected data into the log:
+
+{code}
+karaf@root()> feature:install decanter-appender-log
+{code}
+
+To store the harvested/collected data into elasticsearch:
+
+{code}
+karaf@root()> feature:install elasticsearch
+karaf@root()> feature:install decanter-appender-elasticsearch
+{code}
+
+To enable Kibana based dashboards on top of elasticsearch:
+
+{code}
+karaf@root()> feature:install kibana
+{code}
+
+To store the harvested/collected data into a JDBC backend:
+
+{code}
+karaf@root()> feature:install decanter-appender-jdbc
+{code}
