@@ -1,0 +1,11 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. The Apache Karaf Team posted on July 2, 2015\\Karaf 3.0.4 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 3.0.4|index/community/download/karaf-3.0.4-release.html].
+
+This is an update patch for Apache Karaf 3.0.x, containing many bug fixes, dependency updates, and improvements. New features highlights include: Jaas commands to create and list group, bundles in etc/statup.properties shouldn't be uninstalled through feature services, and more secure host SSH key by default.
+For more information, please see the [release notes|index/community/download/karaf-3.0.4-release.html].
