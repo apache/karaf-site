@@ -10,9 +10,10 @@ Download links can be found in the [Download|/index/community/download.html] pag
 
 h2. Documentation
 
-- Manual ([HTML|http://repo1.maven.org/maven2/org/apache/karaf/manual/4.0.0/manual-4.0.0.html]|[PDF|http://repo1.maven.org/maven2/org/apache/karaf/manual/4.0.0/manual-4.0.0.pdf])
--- Users Guide ([HTML|http://karaf.apache.org/manual/4.0.0/users-guide/index.html])
--- Developers Guide ([HTML|http://karaf.apache.org/manual/4.0.0/developers-guide/index.html])
+- [Manual|http://karaf.apache.org/manual/latest/index.html]
+-- [User Guide|http://karaf.apache.org/manual/latest/users-guide/index.html]
+-- [Developer Guide|http://karaf.apache.org/manual/latest/developers-guide/index.html]
+-- [Commands reference|http://karaf.apache.org/manual/latest/commands/commands.html]
 
 h2. Release Notes - Karaf - Version 4.0.0
 
