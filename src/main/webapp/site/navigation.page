@@ -19,7 +19,7 @@ h3. Releases
 -- [Overview|http://karaf.apache.org/manual/latest/overview.html]
 -- [Quickstart|http://karaf.apache.org/manual/latest/quick-start.html]
 -- [Update notes|http://karaf.apache.org/manual/latest/update-notes.html]
--- [Dependencies Matrix|http://karaf.apache.org/index/documentation/karaf-dependencies/karaf-deps-3.0.x.html]
+-- [Dependencies Matrix|http://karaf.apache.org/index/documentation/karaf-dependencies/karaf-deps-4.0.x.html]
 -- [Manual|http://karaf.apache.org/manual/latest/index.html]
 --- [User Guide|http://karaf.apache.org/manual/latest/users-guide/index.html]
 --- [Developer Guide|http://karaf.apache.org/manual/latest/developers-guide/index.html]
