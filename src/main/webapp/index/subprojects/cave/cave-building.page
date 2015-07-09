@@ -1,6 +1,6 @@
 ---
 title: Building
-page_version: 2
+page_version: 3
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -11,9 +11,9 @@ Karaf Cave uses [Maven|http://maven.apache.org/] as its build tool.
 h3. Prequisites
 
 *Required:*
-* Download and [install Maven 3.0.x|http://maven.apache.org/download.html]
+* Download and [install Maven 3.0.x|http://maven.apache.org/download.html] or greater
 * Get the latest [Source|/index/subprojects/cave/cave-source.html] 
-* Java 1.7
+* Java 1.7 or greater
 
 h3. A normal build
 
@@ -25,7 +25,7 @@ h3. Doing a Quick Build
 
 The following avoids running all the unit test cases, we just skip the test running phase and not the building part
 {code}
-mvn -Dmaven.test.skip=true clean install
+mvn clean install -DskipTests
 {code}
 
 or

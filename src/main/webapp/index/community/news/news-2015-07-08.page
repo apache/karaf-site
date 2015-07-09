@@ -1,0 +1,12 @@
+---
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. The Apache Karaf Team posted on July 8, 2015\\Karaf Cave 4.0.0 released!
+
+The Karaf team is pleased to announce the availability of [Karaf Cave 4.0.0|index/subprojects/cave/download/karaf-cave-4.0.0-release.html].
+
+This is a complete new Cave version, providing an implementation of OSGi Repository R5 specification. Take a look on the user guide for details.
+
+For more information, please see the [release notes|index/subprojects/cave/download/karaf-cave-4.0.0-release.html].

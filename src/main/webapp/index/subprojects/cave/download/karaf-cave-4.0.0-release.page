@@ -1,14 +1,24 @@
 ---
-title: Cave
-page_version: 4
+title: Karaf Cave 4.0.0 Release
+page_version: 1
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
-h2. Karaf Cave
+h2. Download
 
-Karaf Cave is an implementation of OSGi Repository R5 specification, providing a resources repository for the Karaf Features
-Resolver. It still provides an OBR server, but also a full Maven repository.
-It provides remote access via a HTTP service, and a REST API for management.
+Download links can be found in the [Download|/index/subprojects/cave/cave-download.html] page.
+
+h2. Release Notes - Karaf Cave - Version 4.0.0
+
+This release of Apache Karaf Cave is the first one of the 4.0.x series branch.
+It's fully compatible with Karaf 4.0.x version.
+
+It's a complete new version of Cave, providing an implementation of OSGi Repository R5 specification. This
+version is a complete refactoring of Cave.
+
+Apache Karaf Cave is an Apache Karaf subproject. It provides an implementation of the OSGi Repository specification, with
+additional feature such as a complete Maven repository support, a REST API for management, support of remote repository
+proxy.
 
 Cave deals with the requirements and capabilities of all artifacts.
 
@@ -27,13 +37,15 @@ URLs, it means that Cave is able to browse a remote HTTP Maven repository for in
 * Repository population: Cave is able to get artifacts present on an "external" repository (local file: or
 remote http:), looking for OSGi bundles, and copy the artifacts in the Cave repository storage.
 
-h2. Quick Start
-
-To install and start Cave into a running Karaf instance, you have to install the Cave server feature:
+To install Cave into your running Karaf instance, just install the Cave Server feature:
 
 {code}
 karaf@root()> feature:repo-add mvn:org.apache.karaf.cave/apache-karaf-cave/4.0.0/xml/features
 karaf@root()> feature:install cave-server
 {code}
 
-You're ready to use Cave server. Take a look on the user guide.
+h3. Bug
+    * [KARAF-3826] - cave:repository-create command fail if it's the first repository and with the -l option
+
+h3. New Feature
+    * [KARAF-3712] - Make cave usable with Karaf 4
