@@ -1,0 +1,11 @@
+---
+page_version: 2
+page_creator: jgoodyear 
+page_modifier: jgoodyear
+--- pipeline:conf
+h1. The Apache Karaf Team posted on July 12, 2015\\Karaf 2.4.3 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 2.4.3|index/community/download/karaf-2.4.3-release.html].
+
+This is an update patch for Apache Karaf 2.4.x, containing many bug fixes, dependency updates, and improvements. New feature highlights include: Support for Karaf 4 feature repositories in degraded mode, support for Pax-web 4.x, and updates to Felix FileInstall 3.5.0 and Felix ConfigAdmin 1.8.4.
+For more information, please see the [release notes|index/community/download/karaf-2.4.3-release.html].
