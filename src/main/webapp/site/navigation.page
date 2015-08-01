@@ -91,19 +91,25 @@ h3. [Subprojects]
 -- [Download|cave-download]
 -- [Source|cave-source]
 -- [Building|cave-building]
--- Documentation ([HTML|http://karaf.apache.org/manual/cave/latest/index.html])
+-- Documentation
+--- [Cave 4.x|http://karaf.apache.org/manual/cave/latest-4/index.html]
+--- [Cave 3.x|http://karaf.apache.org/manual/cave/latest-3/index.html]
+--- [Cave 2.x|http://karaf.apache.org/manual/cave/latest-2/index.html]
 
 - [Cellar]
 -- [Download|cellar-download]
 -- [Source|cellar-source]
 -- [Building|cellar-building]
--- Documentation ([HTML|http://karaf.apache.org/manual/cellar/latest/index.html])
+-- Documentation 
+--- [Cellar 3.x|http://karaf.apache.org/manual/cellar/latest-3/index.html]
+--- [Cellar 2.x|http://karaf.apache.org/manual/cellar/latest-2/index.html]
 
 - [Decanter]
 -- [Download|decanter-download]
 -- [Source|decanter-source]
 -- [Building|decanter-building]
--- Documentation ([HTML|http://karaf.apache.org/manual/decanter/latest/index.html])
+-- Documentation
+--- [Decanter 1.x|http://karaf.apache.org/manual/decanter/latest-1/index.html]
 
 - [EIK]
 -- [Download|eik-download]
