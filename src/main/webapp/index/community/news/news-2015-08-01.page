@@ -1,0 +1,12 @@
+---
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. The Apache Karaf Team posted on August 01, 2015\\Karaf Decanter 1.0.0 released!
+
+The Karaf team is pleased to announce the availability of [Karaf Decanter 1.0.0|index/subprojects/decanter/download/karaf-decanter-1.0.0-release.html].
+
+Apache Karaf Decanter 1.0.0 is the first release of Decanter, a complete monitoring and alerting solution for Karaf and related projects (like Camel, ActiveMQ, etc).
+
+For more information, please see the [release notes|index/subprojects/decanter/download/karaf-decanter-1.0.0-release.html].

@@ -1,12 +1,12 @@
 ---
 title: Decanter
-page_version: 1
+page_version: 2
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
 h2. Karaf Decanter
 
-Decanter is a complete monitoring solution for Apache Karaf and related projects.
+Decanter is a complete monitoring and alerting solution for Apache Karaf and related projects (like Camel, ActiveMQ, etc).
 
 It's composed by:
 - collectors retrieving monitored data (JMX metrics, log messages, ...)
@@ -21,7 +21,7 @@ depending the data that you want to collect, and the storage/appender that you w
 First you register the decanter features repository:
 
 {code}
-karaf@root()> feature:repo-add decanter
+karaf@root()> feature:repo-add mvn:org.apache.karaf.decanter/apache-karaf-decanter/1.0.0/xml/features
 {code}
 
 To harvest JMX metrics:
