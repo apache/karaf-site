@@ -22,7 +22,7 @@ h3. Source Distribution
 
 ||Description||Download Link|| || || ||
 |Windows Source Distribution| [apache-karaf-4.0.0-src.zip|http://archive.apache.org/dist.cgi/karaf/4.0.0/apache-karaf-4.0.0-src.zip]|[PGP|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0-src.tar.gz|http://archive.apache.org/dist/closer.cgi/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0-src.tar.gz|http://archive.apache.org/dist/closer.lua/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0/apache-karaf-4.0.0-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
@@ -43,7 +43,7 @@ h3. Source Distribution
 
 ||Description||Download Link|| || || ||
 |Windows Source Distribution| [apache-karaf-4.0.0.M3-src.zip|http://archive.apache.org/dist.cgi/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.zip]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0.M3-src.tar.gz|http://archive.apache.org/dist/closer.cgi/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0.M3-src.tar.gz|http://archive.apache.org/dist/closer.lua/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M3/apache-karaf-4.0.0.M3-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
@@ -64,7 +64,7 @@ h3. Source Distribution
 
 ||Description||Download Link|| || || ||
 |Windows Source Distribution| [apache-karaf-4.0.0.M2-src.zip|http://archive.apache.org/dist.cgi/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.zip]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0.M2-src.tar.gz|http://archive.apache.org/dist/closer.cgi/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.tar.gz.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0.M2-src.tar.gz|http://archive.apache.org/dist/closer.lua/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M2/apache-karaf-4.0.0.M2-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
@@ -85,7 +85,7 @@ h3. Source Distribution
 
 ||Description||Download Link|| || || ||
 |Windows Source Distribution| [apache-karaf-4.0.0.M1-src.zip|http://archive.apache.org/dist.cgi/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.zip]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0.M1-src.tar.gz|http://archive.apache.org/dist/closer.cgi/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.tar.gz.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-4.0.0.M1-src.tar.gz|http://archive.apache.org/dist/closer.lua/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/4.0.0.M1/apache-karaf-4.0.0.M1-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
@@ -340,7 +340,7 @@ h3. Source Distribution
 
 ||Description||Download Link|| || || ||
 |Windows Source Distribution| [apache-karaf-2.3.7-src.zip|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.zip]|[PGP|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.7-src.tar.gz|http://archive.apache.org/dyn/closer.cgi/karaf/2.3.7/apache-karaf-2.3.7-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.tar.gz.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.7-src.tar.gz|http://archive.apache.org/dyn/closer.lua/karaf/2.3.7/apache-karaf-2.3.7-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.7/apache-karaf-2.3.7-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
@@ -361,7 +361,7 @@ h3. Source Distribution
 
 ||Description||Download Link|| || || ||
 |Windows Source Distribution| [apache-karaf-2.3.6-src.zip|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.zip]|[PGP|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.6-src.tar.gz|http://archive.apache.org/dyn/closer.cgi/karaf/2.3.6/apache-karaf-2.3.6-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.tar.gz.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.6-src.tar.gz|http://archive.apache.org/dyn/closer.lua/karaf/2.3.6/apache-karaf-2.3.6-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.6/apache-karaf-2.3.6-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||
@@ -382,7 +382,7 @@ h3. Source Distribution
 
 ||Description||Download Link|| || || ||
 |Windows Source Distribution| [apache-karaf-2.3.5-src.zip|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.zip]|[PGP|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.zip.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.zip.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.5-src.tar.gz|http://archive.apache.org/dyn/closer.cgi/karaf/2.3.5/apache-karaf-2.3.5-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.tar.gz.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-2.3.5-src.tar.gz|http://archive.apache.org/dyn/closer.lua/karaf/2.3.5/apache-karaf-2.3.5-src.tar.gz]|[PGP|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.tar.gz.asc]|[SHA1|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.tar.gz.sha1]|[MD5|http://archive.apache.org/dist/karaf/2.3.5/apache-karaf-2.3.5-src.tar.gz.md5]|
 
 h3. Manual
 ||Description||Download Link||

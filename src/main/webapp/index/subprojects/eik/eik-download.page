@@ -36,8 +36,8 @@ In Eclipse, pick up this folder in the following menu:
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-eik-0.9.0-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-eik-0.9.0-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-eik-0.9.0-src.zip|http://www.apache.org/dyn/closer.lua/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-eik-0.9.0-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/eik/0.9.0/apache-karaf-eik-0.9.0-src.tar.gz.md5]|
 
 h2. Keys
 The {{KEYS}} used to sign the release can be found [here|http://www.apache.org/dist/karaf/KEYS].

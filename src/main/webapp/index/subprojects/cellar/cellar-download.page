@@ -68,8 +68,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-3.0.3-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-3.0.3-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-3.0.3-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-3.0.3-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.3/apache-karaf-cellar-3.0.3-src.tar.gz.md5]|
 
 h2. Karaf Cellar 3.0.2 (Karaf 3.0.x)
 
@@ -89,8 +89,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-3.0.2-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-3.0.2-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-3.0.2-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-3.0.2-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.2/apache-karaf-cellar-3.0.2-src.tar.gz.md5]|
 
 
 h2. Karaf Cellar 3.0.1 (Karaf 3.0.x)
@@ -111,8 +111,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-3.0.1-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-3.0.1-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-3.0.1-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-3.0.1-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.1/apache-karaf-cellar-3.0.1-src.tar.gz.md5]|
 
 h2. Karaf Cellar 3.0.0 (Karaf 3.0.x)
 
@@ -132,8 +132,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-3.0.0-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-3.0.0-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-3.0.0-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-3.0.0-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/3.0.0/apache-karaf-cellar-3.0.0-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.3.6
 
@@ -153,8 +153,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.3.6-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.6-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.3.6-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.6-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.6/apache-karaf-cellar-2.3.6-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.3.5
 
@@ -174,8 +174,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.3.5-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.5-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.3.5-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.5-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.5/apache-karaf-cellar-2.3.5-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.3.4
 
@@ -195,8 +195,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.3.4-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.4-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.3.4-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.4-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.4/apache-karaf-cellar-2.3.4-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.3.3
 
@@ -216,8 +216,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.3.3-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.3-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.3.3-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.3-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.3/apache-karaf-cellar-2.3.3-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.3.2
 
@@ -237,8 +237,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.3.2-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.2-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.3.2-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.2-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.2/apache-karaf-cellar-2.3.2-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.3.1
 
@@ -258,8 +258,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.3.1-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.1-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.3.1-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.1-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.1/apache-karaf-cellar-2.3.1-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.3.0
 
@@ -279,8 +279,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.3.0-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.0-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.3.0-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.3.0-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.3.0/apache-karaf-cellar-2.3.0-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.2.6
 
@@ -300,8 +300,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.2.6-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.6-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.2.6-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.6-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.6/apache-karaf-cellar-2.2.6-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.2.5
 
@@ -321,8 +321,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.2.5-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.5-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.2.5-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.5-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.5/apache-karaf-cellar-2.2.5-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.2.4
 
@@ -342,8 +342,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.2.4-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.4-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.2.4-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.4-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.4/apache-karaf-cellar-2.2.4-src.tar.gz.md5]|
 
 h2. Karaf Cellar 2.2.3
 
@@ -363,8 +363,8 @@ You're ready to use Karaf Cellar clustering.
 h3. Source Distribution
 
 ||Description||Download Link|| || || ||
-|Windows Source Distribution| [apache-karaf-cellar-2.2.3-src.zip|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.zip.md5]|
-|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.3-src.tar.gz|http://www.apache.org/dyn/closer.cgi/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.tar.gz.md5]|
+|Windows Source Distribution| [apache-karaf-cellar-2.2.3-src.zip|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.zip]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.zip.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.zip.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.zip.md5]|
+|Unix/Linux/Cygwin Source Distribution| [apache-karaf-cellar-2.2.3-src.tar.gz|http://www.apache.org/dyn/closer.lua/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.tar.gz]|[PGP|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.tar.gz.asc]|[SHA1|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.tar.gz.sha1]|[MD5|http://www.apache.org/dist/karaf/cellar/2.2.3/apache-karaf-cellar-2.2.3-src.tar.gz.md5]|
 
 h2. Keys
 The {{KEYS}} used to sign the release can be found [here|http://www.apache.org/dist/karaf/KEYS].
