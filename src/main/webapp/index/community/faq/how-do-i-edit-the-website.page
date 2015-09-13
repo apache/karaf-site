@@ -15,7 +15,7 @@ The web site consists of three main resources:
 
 h3. Main site
 
-The main website sources are located in svn at [{{https://svn.apache.org/repos/asf/karaf/site/trunk}}].  This source tree is a maven project that uses [Scalate|http://scalate.fusesource.org] as a templating engine.
+The main website sources are located in svn at [https://svn.apache.org/repos/asf/karaf/site/trunk].  This source tree is a maven project that uses [Scalate|https://scalate.github.io/scalate] as a templating engine.
 The easiest way to make some modifications to it is to run the following command:
 {code}
 mvn jetty:run -Plive
