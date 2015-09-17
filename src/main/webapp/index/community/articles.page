@@ -6,6 +6,10 @@ page_modifier: jbonofre
 --- pipeline:conf
 h2. Articles on Apache Karaf
 
+* [Creating a plugin system with Karaf and OSGi MicroServices|https://blog.doubleslash.de/creating-a-plugin-system-with-karaf-and-osgi-%C2%B5services/]
+* [Apache Karaf Christmas gifts: docker.io, profiles, and decanter|http://blog.nanthrax.net/2014/12/apache-karaf-christmas-gifts-docker-io-profiles-and-decanter/]
+* [Encrypt ConfigAdmin properties values in Apache Karaf|http://blog.nanthrax.net/2014/10/encrypt-configadmin-properties-values-in-apache-karaf/]
+* [MDC logging with Apache Karaf and Camel|http://blog.nanthrax.net/2014/08/mdc-logging-with-apache-karaf-and-camel/]
 * [JavaMagazin Articles (in German)|http://notizblog.nierbeck.de/2014/08/javamagazin-articles-online/]
 * [Apache Syncope backend with Apache Karaf|http://blog.nanthrax.net/2014/08/apache-syncope-backend-with-apache-karaf/]
 * [Apache Karaf, Camel, ActiveMQ with Falcon for Hadoop CDC solution|http://blog.nanthrax.net/2014/03/hadoop-cdc-and-processes-notification-with-apache-falcon-apache-activemq-and-apache-camel/]
@@ -92,6 +96,10 @@ h2. Apache Karaf Cellar
 h2. Apache Karaf Cave
 
 * [Apache Karaf Cave preview|http://blog.nanthrax.net/2011/08/apache-karaf-cave-preview/]
+
+h2. Apache Karaf Decanter
+
+* [Monitoring and alerting with Apache Karaf Decanter|http://blog.nanthrax.net/2015/07/monitoring-and-alerting-with-apache-karaf-decanter/]
 
 h2. Apache Karaf Bloggers
 
