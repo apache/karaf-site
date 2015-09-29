@@ -101,6 +101,7 @@ h3. [Subprojects]
 -- [Source|cellar-source]
 -- [Building|cellar-building]
 -- Documentation 
+--- [Cellar 4.x|http://karaf.apache.org/manual/cellar/latest-4/index.html]
 --- [Cellar 3.x|http://karaf.apache.org/manual/cellar/latest-3/index.html]
 --- [Cellar 2.x|http://karaf.apache.org/manual/cellar/latest-2/index.html]
 
