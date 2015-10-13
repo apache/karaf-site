@@ -19,7 +19,7 @@ h2. Karaf
 | karaf-2.3.x | 4.3 | 5 / 6 / 7 | Previous Stable/In Maintenance | 2.3.10 | 2.3.11 | |
 | karaf-2.4.x | 5 | 7 / 8 | Transition Stable between 2.3.x and 3.0.x/In Maintenance | 2.4.3 | 2.4.4 | |
 | karaf-3.0.x | 4.3 (partial 5 support) | 6 / 7 / 8 | Stable/In Maintenance | 3.0.5 | 3.0.6 | |
-| master (4.0.x) | 5 | 7 / 8 | Current Stable | 4.0.1 | 4.0.2 | 2015/10/08 |
+| master (4.0.x) | 5 | 7 / 8 | Current Stable | 4.0.2 | 4.0.3 | |
 
 h2. Cellar
 
@@ -27,7 +27,7 @@ h2. Cellar
 | cellar-2.2.x | 2.2.x | EOL/NotActive | 2.2.6 | | |
 | cellar-2.3.x | 2.3.x | Previous Stable/In Maintenance | 2.3.5 | 2.3.6 | |
 | cellar-3.0.x | 3.0.x | Current Stable/In Maintenance | 3.0.2 | 3.0.3 | |
-| master (4.0.x) | 4.0.x | Development | | 4.0.0 | 2015/09/25 |
+| master (4.0.x) | 4.0.x | Development | 4.0.0 | 4.0.1 | |
 
 h2. Cave
 
