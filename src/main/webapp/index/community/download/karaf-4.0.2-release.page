@@ -15,6 +15,11 @@ h2. Documentation
 -- [Developer Guide|http://karaf.apache.org/manual/latest/developers-guide/index.html]
 -- [Commands reference|http://karaf.apache.org/manual/latest/commands/commands.html]
 
+h2. Serious issue in this release
+
+- [Blueprint will shutdown bundles using JPA and @PersistenceContext after 5 minutes | https://issues.apache.org/jira/browse/ARIES-1430].
+The fix will be included in the next Karaf bugfix release. In the mean time you can replace the Aries blueprint core bundle with version 1.4.5 as soon as it is out.
+
 h2. Release Notes - Karaf - Version 4.0.2
 
  This is an update patch for Apache Karaf 4.0.x, containing many bug fixes, dependency updates, and improvements.
