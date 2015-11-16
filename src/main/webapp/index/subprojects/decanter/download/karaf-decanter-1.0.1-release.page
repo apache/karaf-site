@@ -1,0 +1,37 @@
+---
+title: Karaf Decanter 1.0.1 Release
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h2. Download
+
+Download links can be found in the [Download|/index/subprojects/decanter/decanter-download.html] page.
+
+h2. Release Notes - Karaf Decanter - Version 1.0.1
+
+This release is a maintenance release on the 1.x serie. It also brings new feature like the file collector.
+
+Decanter is a monitoring and alerting solution for Apache Karaf and related projects (ActiveMQ, Camel, etc) and applications running on it.
+
+See documentation for details.
+
+h3. Bug
+    * [KARAF-4061] - Decanter ElasticSearchAppender - NumberFormatException
+
+h3. Dependency upgrade
+    * [KARAF-4063] - Upgrade to elasticsearch 1.7.1
+    * [KARAF-4101] - Upgrade to elasticsearch 1.7.3
+
+h3. Improvement
+    * [KARAF-3979] - Be able to define a SLA check for a given type
+    * [KARAF-4008] - Add custom fields support in JMX collector
+    * [KARAF-4014] - Add a warning in Decanter System dashboard
+
+h3. New Feature
+    * [KARAF-3904] - Add elasticsearch eshead plugin in embedded instance
+    * [KARAF-3905] - Provide file collector (as in logstash)
+    * [KARAF-3815] - Decanter can't retrieve metrics for ObjectName containing white spaces
+    * [KARAF-3855] - Decanter JMX collector create bunch of threads
+    * [KARAF-3884] - ElasticsearchAppender sometimes throws NullPointer Exception when adding o.toString() to arrayBuilder
+    * [KARAF-3889] - The clusterName for the elasticsearch appender isn't an optional configuration as it should be. 

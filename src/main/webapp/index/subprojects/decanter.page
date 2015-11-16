@@ -1,6 +1,6 @@
 ---
 title: Decanter
-page_version: 2
+page_version: 3
 page_creator: jbonofre
 page_modifier: jbonofre
 --- pipeline:conf
@@ -21,7 +21,7 @@ depending the data that you want to collect, and the storage/appender that you w
 First you register the decanter features repository:
 
 {code}
-karaf@root()> feature:repo-add mvn:org.apache.karaf.decanter/apache-karaf-decanter/1.0.0/xml/features
+karaf@root()> feature:repo-add mvn:org.apache.karaf.decanter/apache-karaf-decanter/1.0.1/xml/features
 {code}
 
 To harvest JMX metrics:
@@ -30,16 +30,40 @@ To harvest JMX metrics:
 karaf@root()> feature:install decanter-collector-jmx
 {code}
 
-To harvest Camel exchanges and metrics:
+To harvest Camel metrics:
 
 {code}
 karaf@root()> feature:install decanter-collector-camel
 {code}
 
-To harvest log messages:
+To harvest all Camel exchanges:
+
+{code}
+karaf@root()> feature:install decanter-collector-camel-tracer
+{code}
+
+To harvest ActiveMQ metrics:
+
+{code}
+karaf@root()> feature:install decanter-collector-activemq
+{code}
+
+To harvest Karaf log messages:
 
 {code}
 karaf@root()> feature:install decanter-collector-log
+{code}
+
+To harvest data (like log messages) directly from files:
+
+{code}
+karaf@root()> feature:install decanter-collector-file
+{code}
+
+To harvest some system commands output:
+
+{code}
+karaf@root()> feature:install decanter-collector-system
 {code}
 
 To send the harvested/collected data into the log:
@@ -66,3 +90,35 @@ To store the harvested/collected data into a JDBC backend:
 {code}
 karaf@root()> feature:install decanter-appender-jdbc
 {code}
+
+To send the harvested/collected data into a JMS queue or topic:
+
+{code}
+karaf@root()> feature:install decanter-appender-jms
+{code}
+
+To send the harvested/collected data into a Camel route:
+
+{code}
+karaf@root()> feature:install decanter-appender-camel
+{code}
+
+To enable SLA/alerting and send alerts in the log:
+
+{code}
+karaf@root()> feature:install decanter-sla-log
+{code}
+
+To enable SLA/alerting and send alerts by e-mail:
+
+{code}
+karaf@root()> feature:install decanter-sla-email
+{code}
+
+To enable SLA/alerting and send alerts to a Camel route:
+
+{code}
+karaf@root()> feature:install decanter-sla-camel
+{code}
+
+See documentation for details on collectors, appenders, and alerting.

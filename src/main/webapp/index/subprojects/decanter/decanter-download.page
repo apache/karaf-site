@@ -19,15 +19,38 @@ h2. Latest Releases
 Grab these releases while they are hot!
 
 The latest release is:
-* [Karaf Decanter 1.0.0 Release|download/karaf-decanter-1.0.0-release.html]
+* [Karaf Decanter 1.0.1 Release|download/karaf-decanter-1.0.1-release.html]
 
 Releases:
+* [#Karaf Decanter 1.0.1]
 * [#Karaf Decanter 1.0.0]
 
 {div}
 {column}
 
 {section}
+
+h2. Karaf Decanter 1.0.1
+
+[Release Notes|download/karaf-decanter-1.0.1-release.html]
+
+h3. Direct Installation
+
+Simply register the Karaf Decanter features repository in your running Karaf instance:
+
+For Karaf 3.x and 4.x:
+
+{code}
+karaf@root()> feature:repo-add decanter 1.0.1
+{code}
+
+For Karaf 2.x:
+
+{code}
+karaf@root> features:chooseUrl decanter 1.0.1
+{code}
+
+See the documentation for the Decanter features to install depending of what you need.
 
 h2. Karaf Decanter 1.0.0
 
