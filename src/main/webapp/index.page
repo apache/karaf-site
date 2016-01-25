@@ -1,6 +1,6 @@
 ---
 title: Karaf 4.0.4
-page_version: 24
+page_version: 25
 page_creator: gnodet
 page_modifier: jbonofre
 --- pipeline:conf
@@ -19,8 +19,8 @@ Here is a short list of features supported by the Karaf:
 {center}
 *[Download Karaf 4.0.4|index/community/download.html#Karaf4.0.4]*
 *[Download Karaf 3.0.5|index/community/download.html#Karaf3.0.5]*
-*[Download Karaf 2.4.3|index/community/download.html#Karaf2.4.3]*
-*[Download Karaf 2.3.11|index/community/download.html#Karaf2.3.11]*
+*[Download Karaf 2.4.4|index/community/download.html#Karaf2.4.4]*
+*[Download Karaf 2.3.12|index/community/download.html#Karaf2.3.12]*
 [!/images/karaf-box.png|width=256!|index/community/download.html#Karaf4.0.4]
 {center}
 {html}
@@ -64,6 +64,7 @@ new TWTR.Widget({
 
 
 h2. News
+{include:news-2016-01-25}
 {include:news-2016-01-14}
 {include:news-2015-11-16}
 {include:news-2015-11-10}
@@ -75,4 +76,3 @@ h2. News
 {include:news-2015-07-12}
 {include:news-2015-07-08}
 {include:news-2015-07-02}
-{include:news-2015-06-26}

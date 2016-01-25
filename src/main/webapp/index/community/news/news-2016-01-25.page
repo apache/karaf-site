@@ -1,0 +1,11 @@
+---
+page_version: 1
+page_creator: jbonofre
+page_modifier: jbonofre
+--- pipeline:conf
+h1. The Apache Karaf Team posted on January 25, 2016\\Karaf 2.3.12 and 2.4.4 released!
+
+The Karaf team is pleased to announce the availability of [Karaf 2.3.12|index/community/download/karaf-2.3.12-release.html] and [Karaf 2.4.4|index/community/download/karaf-2.4.4-release.html].
+
+These releases are the last ones of the Karaf 2.3.x and 2.4.x series. We encourage all users to upgrade to new Karaf series.
+
