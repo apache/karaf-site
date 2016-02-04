@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html data-mobile-support="" data-search="" data-hero-banner="" data-platform-downloads="">
+<head>
+    <meta http-equiv="content-type" context="text/html; charset=UTF-8">
+    <title>Apache Karaf</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no"
+          id="Viewport" name="viewport">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round|Montserrat:400,700" rel="stylesheet"
+          type="text/css"/>
+    <link href="css/karaf.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+    <meta content="Apache Karaf" property="og:title">
+    <meta content="images/karaf.png" property="og:image">
+    <meta content="Upgrade to the Enterprise class platform. Karaf provides dual polymorphic container and application bootstrapping paradigms to the Enterprise. Focus on your business code and application, Karaf deals with the rest"
+          property="og:description">
+</head>
+<body>
+<div class="viewport">
+    <header class="navbar header--navbar">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <div class="karaf-logo--container">
+                    <a class="karaf-logo" href="index.html"><span></span></a>
+                </div>
+                <ul class="nav pull-right">
+                    <li class="navbar-link">
+                        <a href="download.html">Download</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="documentation.html">Documentation</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="community.html">Community</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="http://www.apache.org"><img src="images/apache-feather-tm.png" width="45px"/></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<br/>
+    <div class="container">
+        <div id="menu" class="desktop-only">
+            <h1>Community</h1>
+            <ul>
+                <li><a href="#resources">Resources</a>
+                    <ul>
+                        <li><a href="#mailinglists">Mailing Lists</a></li>
+                        <li><a href="#bugtracker">Bug Tracker, IRC, and CI</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contribute">Contribute</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#team">Team</a></li>
+            </ul>
+        </div>
+        <div id="content">
+        <h2 id="resources">Resources</h2>
+        <h3 id="mailinglists">Mailing Lists</h3>
+        <ul class="community">
+            <li>Users List [ <a href="mailto:user-subscribe@karaf.apache.org">subscribe</a> | <a href="http://mail-archives.apache.org/mod_mbox/karaf-user/">archives</a> | <a href="http://karaf.922171.n3.nabble.com/Karaf-User-f930749.html">online forum</a> ]</li>
+            <li>Developers List [ <a href="mailto:dev-subscribe@karaf.apache.org">subscribe</a> | <a href="http://mail-archives.apache.org/mod_mbox/karaf-dev/">archives</a> | <a href="http://karaf.922171.n3.nabble.com/Karaf-Dev-f930721.html">online forum</a> ]</li>
+            <li>Commits List [ <a href="mailto:commits-subscribe@karaf.apache.org">subscribe</a> | <a href="http://mail-archives.apache.org/mod_mbox/karaf-commits/">archives</a> ]</li>
+            <li>Issues List [ <a href="mailto:issues-subscribe@karaf.apache.org">subscribe</a> | <a href="http://mail-archives.apache.org/mod_mbox/karaf-issues/">archives</a> ]</li>
+        </ul>
+        <h3 id="bugtracker">Bug Tracker, IRC, and CI</h3>
+        <ul class="community">
+            <li><a href="https://issues.apache.org/jira/browse/KARAF">Jira</a></li>
+            <li><a href="https://builds.apache.org/view/H-L/view/Karaf/">Jenkins</a></li>
+            <li><a href="irc://irc.freenode.net/apache-karaf">#apache-karaf on Freenode</a></li>
+        </ul>
+        <h2 id="contribute">Contribute</h2>
+        There are many ways you can help make Karaf a better piece of software - please dive in and help!<br/>
+        <br/>
+        Try browsing the <a href="documentation.html">documentation</a> - if something's confusing or not clear, let us know.<br/>
+        <br/>
+        <a href="download.html">Download</a> the code & try it out and see what you think.<br/>
+        <br/>
+        <a href="https://github.com/apache/karaf">Browse the source code</a>. Got an itch to scratch, want to tune some operation or add some feature ?<br/>
+        <br/>
+        Want to do some hacking on Karaf? Try surfing the our <a href="https://issues.apache.org/jira/browse/KARAF">issue tracker</a> for open issues or features that need to be implemented. Take ownership of an issue and try fix it.<br/>
+        <br/>
+        If you'd rather have a more gentle introduction to working on the Karaf project, try looking at the test coverage report and help us get it even more green by supplying more test cases to get us closer to 100% coverage.
+        <h2 id="support">Support</h2>
+        If you are experiencing problems using Karaf then please report your problem to our <a href="https://issues.apache.org/jira/browse/KARAF">issue tracker</a>.
+        You may also find it useful to discuss your issues with the community on the mailing lists or IRC.<br/>
+        <h3>How to get help</h3>
+        Whenever you are reporting a problem please be sure to include as much information as possible; the more we know the more chance of a quicker resolution.
+        <ul class="community">
+            <li>which Karaf version you're using</li>
+            <li>what platform and JDK?</li>
+            <li>the particular OSGi container being used - if so what version</li>
+            <li>stack traces generally really help! If in doubt include the whole thing; often exceptions get wrapped in other exceptions and the exception right near the bottom explains the actual error, not the first few lines at the top. It's very easy for us to skim-read past unnecessary parts of a stack trace</li>
+            <li>log output can be useful too; sometimes enabling DEBUG logging can help</li>
+            <li>your code & configuration files are often useful. Be careful not to send us anything of a sensitive nature</li>
+            <li>did it work before, what have you changed to break it?</li>
+            <li>try upgrading to the latest release and see if it's fixed in that release</li>
+            <li>try the latest SNAPSHOT to see if it's fixed in that release</li>
+            <li>search the user mailing list to see if has been discussed before</li>
+            <li>check the issue tracker to see if the issue already have been reported</li>
+        </ul>
+        <h3>How to get help faster</h3>
+        We may be able to help you much more quickly if you try the following
+        <ul class="community">
+            <li>provide us with a JUnit test case that demonstrates your issue. e.g. if you think you've found a bug, can you create a test case to demonstrate the bug ?</li>
+            <li>submit a patch fixing the bug! (we also buy you beer when we meet you if you submit bug fixes :) )</li>
+            <li>for memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it's huge) to the JIRA we can normally fix things much quickly. E.g. you could run jmap/jhat, JProfiler or YourKit on your code and send us the output. To find memory leaks it's quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what's wrong from that</li>
+        </ul>
+        <h3>Commercial Support</h3>
+        Apache Karaf is a widely used project. As such, several companies have built products and services around Karaf.
+        Companies are definitely encouraged to update this page directly or send a mail to the Karaf PMC with a description of your offerings and we can update the page. The products and services listed on this page are provided for information use only to our users. The Karaf PMC does not endorse or recommend any of the products or services on this page.
+        <ul class="community">
+            <li><a href="https://www.codecentric.de/">Codecentric</a> provides consulting and training for Apache Karaf and related technologies e.g. Apache Camel, Apache ActiveMQ and CXF for the DACH region.</li>
+            <li><a href="http://www.savoirtech.com/">Savior Technologies, Inc</a> contributes and commits to the Apache Karaf project, while providing enterprise consulting, training and support for Karaf and a host of other Apache service containers. Savoir can provide best practice mentoring for developing with Karaf, as well as architectural/design reviews, troubleshooting and SOA infrastructure implementations.</li>
+            <li><a href="http://www.talend.com/">Talend</a> uses and contributes on Apache Karaf. The Talend Runtime is based on Karaf. Talend has a dedicated team for the Apache projects. This team provides consulting, training, specific development, and support on Karaf (and other Apache projects).</li>
+        </ul>
+        <h2 id="team">Team</h2>
+        <table border="1" width="90%">
+            <thead>
+                <td><b>Name</b></td>
+                <td><b>ID</b></td>
+                <td><b>PMC</b></td>
+                <td><b>Organisation</b></td>
+            </thead>
+            <tbody>
+            <tr>
+                <td>David Bosschaert</td>
+                <td>davidb</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="http://iocanel.blogspot.com/">Ioannis Canellos</a></td>
+                <td>iocanel</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.jboss.org/">JBoss</a></td>
+            </tr>
+            <tr>
+                <td>Hiram Chirino</td>
+                <td>chirino</td>
+                <td></td>
+                <td><a href="http://www.jboss.org/">JBoss</a></td>
+            </tr>
+            <tr>
+                <td>Chris Custine </td>
+                <td>ccustine</td>
+                <td><img src="images/check.gif"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="http://blog.code-house.org/">Łukasz Dywicki</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="http://freemanfang.blogspot.com/">Freeman Fang</a></td>
+                <td>ffang</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.jboss.org/">JBoss</a></td>
+            </tr>
+            <tr>
+                <td>Jarek Gawor</td>
+                <td>jgawor</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.ibm.com">IBM</a></td>
+            </tr>
+            <tr>
+                <td>Christoph Gritschenberger</td>
+                <td>christophg</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="http://icodebythesea.blogspot.com/">Jamie Goodyear</a></td>
+                <td>jgoodyear</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.savoirtech.com/">Savoir Technologies</a></td>
+            </tr>
+            <tr>
+                <td>David Jencks</td>
+                <td>djencks</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.ibm.com">IBM</a></td>
+            </tr>
+            <tr>
+                <td>Alex Karasulu</td>
+                <td>akarasulu</td>
+                <td><img src="images/check.gif"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="http://cmoulliard.blogspot.com/">Charles Moulliard</a></td>
+                <td>cmoulliard</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.jboss.org/">JBoss</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://notizblog.nierbeck.de/">Achim Nierbeck</a></td>
+                <td>anierbeck</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://codecentric.de/">Codecentric</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://gnodet.blogspot.com/">Guillaume Nodet</a></td>
+                <td>gnodet</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.jboss.org/">JBoss</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://blog.nanthrax.net">Jean-Baptiste Onofré</a></td>
+                <td>jbonofre</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.talend.com">Talend</a></td>
+            </tr>
+            <tr>
+                <td>Andreas Pieber</td>
+                <td>pieber</td>
+                <td><img src="images/check.gif"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>James Strachan</td>
+                <td>jstrachan</td>
+                <td></td>
+                <td><a href="http://www.jboss.org/">JBoss</a></td>
+            </tr>
+            <tr>
+                <td>Christian Schneider</td>
+                <td>cschneider</td>
+                <td></td>
+                <td><a href="http://www.talend.com">Talend</a></td>
+            </tr>
+            <tr>
+                <td>Adrian Trenaman</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Gert Vanthienen</td>
+                <td>gertv</td>
+                <td><img src="images/check.gif"/></td>
+                <td><a href="http://www.jboss.org/">JBoss</a></td>
+            </tr>
+            <tr>
+                <td>Brian Topping</td>
+                <td>btopping</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Heath Kesler</td>
+                <td>hkesler</td>
+                <td></td>
+                <td><a href="http://www.savoirtech.com/">Savoir Technologies</a></td>
+            </tr>
+            </tbody>
+        </table>
+        <br/><br/>
+            </div>
+    </div>
+    <div class="body--container container-fluid "></div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    &copy; <span>2015</span> <a href="http://www.apache.org">Apache Software Foundation</a> - <a href="privacy.html">Privacy Policy</a><br/>
+                    Apache Karaf, Karaf, Apache, the Apache feather logo, and the Apache Karaf project logo are trademarks of The Apache Software Foundation.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="scrim"></div>
+</div>
+</body>
+</html>

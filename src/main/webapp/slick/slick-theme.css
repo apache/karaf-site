@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 /* Slider */
 .slick-loading .slick-list
 {
@@ -29,8 +29,11 @@
 
     width: 20px;
     height: 20px;
-    margin-top: -10px;
     padding: 0;
+    margin-top: -10px\9; /*lte IE 8*/
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
 
     cursor: pointer;
 
@@ -120,7 +123,6 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
 
     display: block;
 
@@ -189,7 +191,7 @@
     text-align: center;
 
     opacity: .25;
-    color: black;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

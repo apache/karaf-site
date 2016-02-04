@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html data-mobile-support="" data-search="" data-hero-banner="" data-platform-downloads="">
+<head>
+    <meta http-equiv="content-type" context="text/html; charset=UTF-8">
+    <title>Apache Karaf</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no"
+          id="Viewport" name="viewport">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round|Montserrat:400,700" rel="stylesheet"
+          type="text/css"/>
+    <link href="css/karaf.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <meta content="Apache Karaf" property="og:title">
+    <meta content="images/karaf.png" property="og:image">
+    <meta content="Upgrade to the Enterprise class platform. Karaf provides dual polymorphic container and application bootstrapping paradigms to the Enterprise. Focus on your business code and application, Karaf deals with the rest"
+          property="og:description">
+</head>
+<body>
+<div class="viewport">
+
+    <h2>Apache Karaf Cave Installation</h2>
+
+    Apache Karaf Cave is a complete artifacts repository (OSGi Repository, OBR, Maven) solution for Apache Karaf Container.
+    <br/>
+    Cave can be directly installed on running Karaf Container instances. Take a look on the <a href="documentation.html">Karaf Cave documentation</a> for details.
+
+    <h3>On Karaf Cave 4.x (Cave 4.x)</h3>
+    <div class="code">
+        <pre>
+            feature:repo-add cave
+            feature:install cave
+        </pre>
+    </div>
+
+    <h3>On Karaf Cave 3.x (Cave 3.x)</h3>
+    <div class="code">
+        <pre>
+            feature:repo-add cave 3.x
+            feature:install cave
+        </pre>
+    </div>
+
+    <h3>On Karaf Container 2.x (Cave 2.x)</h3>
+    <div class="code">
+        <pre>
+            features:chooseUrl cave 2.x
+            features:install cave
+        </pre>
+    </div>
+
+</div>
+</body>
+</html>

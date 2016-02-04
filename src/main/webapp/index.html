@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html data-mobile-support="" data-search="" data-hero-banner="" data-platform-downloads="">
 <head>
-    <meta http-equiv="content-type" context="text/html; charset=UTF-8">
+    <meta http-equiv="content-type" context="text/html" charset="UTF-8">
     <title>Apache Karaf</title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no"
           id="Viewport" name="viewport">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round|Montserrat:400,700" rel="stylesheet"
           type="text/css"/>
     <link href="css/karaf.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <meta content="Apache Karaf" property="og:title">
     <meta content="images/karaf.png" property="og:image">
     <meta content="Upgrade to the Enterprise class platform. Karaf provides dual polymorphic container and application bootstrapping paradigms to the Enterprise. Focus on your business code and application, Karaf deals with the rest"
@@ -18,11 +18,11 @@
 </head>
 <body>
 <div class="viewport">
-    <header class="navbar header--navbar desktop-only">
+    <header class="navbar header--navbar">
         <div class="navbar-inner">
             <div class="container-fluid">
                 <div class="karaf-logo--container">
-                    <a class="karaf-logo" href="http://karaf.apache.org"><span></span></a>
+                    <a class="karaf-logo" href="index.html"><span></span></a>
                 </div>
                 <ul class="nav pull-right">
                     <li class="navbar-link">
@@ -38,7 +38,7 @@
                         <a href="community.html">Community</a>
                     </li>
                     <li class="navbar-link">
-                        <a href="apache.html">Apache</a>
+                        <a href="http://www.apache.org"><img src="images/apache-feather-tm.png" width="45px"/></a>
                     </li>
                 </ul>
             </div>
@@ -56,9 +56,11 @@
                             <h2 class="homepage-title">
                                 Upgrade to the Enterprise class platform.
                             </h2>
+
                             <div class="homepage-subtitle--container desktop-only">
                                 <div class="homepage-subtitle">
-                                    Karaf provides dual polymorphic container and application bootstrapping paradigms to the Enterprise.
+                                    Karaf provides dual polymorphic container and application bootstrapping paradigms to
+                                    the Enterprise.
                                 </div>
                                 <div class="homepage-subtitle">
                                     Focus on your business code and application, Karaf deals with the rest
@@ -73,117 +75,273 @@
                     <div class="row-fluid">
                         <div class="span4 key-feature--container">
                             <div class="key-feature--icon--container">
-                                <div class="key-feature--icon icon icon-modern-container"></div>
+                                <div class="key-feature--icon icon">
+                                    <img src="images/container.png" width="100px" height="100px"/>
+                                </div>
                             </div>
                             <h3 class="key-feature--title">Modern Container</h3>
 
                             <div class="key-feature--text">
-                                Karaf can be use standalone as a container, supporting a wide range of applications and technologies.
+                                Karaf can be use standalone as a container, supporting a wide range of applications and
+                                technologies.
                             </div>
                         </div>
                         <div class="span4 key-feature--container">
                             <div class="key-feature--icon--container">
-                                <div class="key-feature--icon icon icon-enterprise-ready"></div>
+                                <div class="key-feature--icon icon">
+                                    <img src="images/enterprise.png" width="100px" height="100px"/>
+                                </div>
                             </div>
                             <h3 class="key-feature--title">Enterprise Ready</h3>
 
                             <div class="key-feature--text">
-                                Karaf provides enterprise ready features: shell console, remote access, hot deployment, dynamic configuration and many more.
-                                karaf projects provide additional features like clustering, complete monitoring and alerting, application repository.
+                                Karaf provides enterprise ready features: shell console, remote access, hot deployment,
+                                dynamic configuration and many more.
+                                karaf projects provide additional features like clustering, complete monitoring and
+                                alerting, application repository.
                             </div>
                         </div>
                         <div class="span4 key-feature--container">
                             <div class="key-feature--icon--container">
-                                <div class="key-feature--icon icon icon-embedded-mode"></div>
+                                <div class="key-feature--icon icon">
+                                    <img src="images/cloud.png" width="100px" height="100px"/>
+                                </div>
                             </div>
-                            <h3 class="key-feature--title">Key turn embedded mode</h3>
+                            <h3 class="key-feature--title">Turnkey embedded mode</h3>
 
                             <div class="key-feature--text">
-                                Run anywhere (on any machine with Java, cloud, docker images) using karaf-boot and embedded mode.
+                                Run anywhere (on any machine with Java, cloud, docker images) using karaf-boot and
+                                embedded mode.
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="hero--banner">
-                <div class="slick">
-                <section style="..." class="news">
-                    <div class="banner--text">
-                        <h2 class="news--title">Karaf 4.0.3</h2>
+                <div class="slider single-item">
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
 
-                        <div class="banner--text">
-                            <div class="container-fluid">
-                                Karaf 4.0.3 has been released!
-                                This is an update patch for Apache Karaf 4.0.x, containing many bug fixes, dependency updates, and improvements.
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>The Karaf team is proud to announce the launch of our brand new website! (2/2/16)</b><br/>
+                                        After weeks of work, we are delighted to officially announce the launch of our new website.
+                                        Our goal is to provide a clear and up to date message about Apache Karaf, with a modern
+                                        look and feel.<br/><br/>
+                                        We hope you like it. For any questions, suggestions, feedbacks, or comments please send an e-mail
+                                        to the <a href="community.html">mailing list</a> !
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <p><a class="btn btn-large btn-success" href="/">Download</a>&nbsp; &nbsp; &nbsp;<a href="">Release Notes</a></p>
+                        </center>
                     </div>
-                </section>
-                <section class="news" style="display: block;">
-                    <h2 class="news--title">Karaf 4.0.2</h2>
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
 
-                    <div class="banner--text">
-                        <div class="container-fluid">
-                            Karaf 4.0.2 has been released!
-                            This is an update patch for Apache Karaf 4.0.x, containing many bug fixes, dependency updates, and improvements.
-                        </div>
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>Karaf Container 2.4.4 has been released! (25/1/16)</b><br/>
+                                        <b>WARNING</b>: this is the last release on the 2.x series. This serie is now in "Non Active" mode. We encourage users to upgrade to more recent Karaf Container versions.
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-large btn-success" href="download.html">Download</a>&nbsp; &nbsp;
+                                    &nbsp;<a href="javascript:var w = window.open('https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332989&projectId=12311140')">Release Notes</a></p>
+                            </div>
+                        </center>
                     </div>
-                    <p><a class="btn btn-large btn-success" href="/">Release notes</a></p>
-                </section>
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
+
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>Karaf Container 2.3.12 has been released! (25/1/16)</b><br/>
+                                        <b>WARNING</b>: this is the last release on the 2.3.x serie. This serie is now in "Non Active" mode. We encourage users to upgrade to more recent Karaf Container versions.
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-large btn-success" href="download.html">Download</a>&nbsp; &nbsp;
+                                    &nbsp;<a href="javascript:var w = window.open('https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12329877')">Release Notes</a></p>
+                            </div>
+                        </center>
                     </div>
-                <div class="blockarrows">
-                    <a href=""><b>Previous</b></a> | <a href=""><b>Next</b></a>
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
+
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>Karaf Container 4.0.4 has been released! (13/1/16)</b><br/>
+                                        This is an update patch for Apache Karaf Container 4.0.x serie, containing many bug fixes, dependency updates, and improvements.
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-large btn-success" href="download.html">Download</a>&nbsp; &nbsp;
+                                    &nbsp;<a href="javascript:var w = window.open('https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12334047')">Release Notes</a></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
+
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>Karaf Decanter 1.0.1 has been released! (16/11/15)</b><br/>
+                                        This is a fix version on the 1.x serie. It also brings new features like the
+                                        file collector.
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-large btn-success" href="javascript:var w = window.open('decanter_installation.html')">Installation</a>&nbsp; &nbsp;
+                                    &nbsp;<a href="javascript:var w = window.open('https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12333858')">Release Notes</a></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
+
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>Karaf Container 4.0.3 has been released! (10/11/15)</b><br/>
+                                        This is an update patch for Apache Karaf 4.0.x, containing many bug fixes,
+                                        dependency updates, and improvements.
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-large btn-success" href="download.html">Download</a>&nbsp; &nbsp;
+                                    &nbsp;<a href="javascript:var w = window.open('https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12333640')">Release Notes</a></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
+
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>Karaf Container 4.0.2 has been released! (13/10/15)</b><br/>
+                                        This is an update patch for Apache Karaf 4.0.x, containing many bug fixes,
+                                        dependency updates, and improvements.
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-large btn-success" href="download.html">Download</a>&nbsp; &nbsp;
+                                    &nbsp;<a href="javascript: var w = window.open('https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12333259')">Release Notes</a></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
+
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>Karaf Container 3.0.5 has been released! (7/10/15)</b><br/>
+                                        This is an update patch for Apache Karaf 3.0.x, containing many bug fixes,
+                                        dependency updates, and improvements.
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-large btn-success" href="download.html">Download</a>&nbsp; &nbsp;
+                                    &nbsp;<a href="">Release Notes</a></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <div class="banner--text">
+                                <br/>
+
+                                <div class="banner--text">
+                                    <div class="container-fluid">
+                                        <b>Karaf Cellar 4.0.0 has been released! (19/8/15)</b><br/>
+                                        This release of Apache Karaf Cellar is the first one of the 4.0.x series.<br/>
+                                        Apache Karaf Cellar 4.0.0 is a major new release of Cellar designed to work with
+                                        Karaf 4.0.x versions.
+                                    </div>
+                                </div>
+                                <p><a class="btn btn-large btn-success" href="download.html">Download</a>&nbsp; &nbsp;
+                                    &nbsp;<a href="">Release Notes</a></p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <div>
+                    <center><a href="news.html">All News</a></center>
                 </div>
             </section>
-            <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-            <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-            <script type="text/javascript" src="slick/slick.min.js"></script>
-            <script type="text/javascript">
-    $(document).ready(function(){
-      $('.slick').slick({
-        setting-name: setting-value
-      });
-    });
-            </script>
             <section class="offset-feature--wrapper">
                 <div class="offset-feature--container feature-guides">
                     <div class="container-fluid">
                         <div class="row-fluid feature--content">
                             <div class="span8 mobile-left-pane">
-                                <div class="offset-feature--title">Documentation</div>
+                                <div class="offset-feature--title">Apache & OpenSource</div>
                                 <div class="offset-feature--text">
-                                    Ready, efficient, and productive with Karaf in a minute !
-                                    You will find the user guides and developer guide, but also several tutorials,
-                                    articles and resources about Karaf usage and extension.
+                                    Karaf is your project !
+                                    Karaf is an <a href="http://www.apache.org">Apache Software Foundation</a> project,
+                                    available under the Apache v2 license.<br/>
+                                    It's a complete open community, always listening proposals and comments.<br/>
+                                    <a href="community.html">Sources</a>, <a href="community.html">mailing lists</a>, <a
+                                        href="community.html">issue tracker</a>: it's fully open, you can access
+                                    directly.<br/>
+                                    We also love contributions: don't hesitate to <a
+                                        href="community.html">contribute</a>.
                                 </div>
-                                <a class="offset-feature--link" href="">
-                                    Browse the Documentation
-                                </a>
+                                <a class="offset-feature--link" href="community.html">Be Involved In The Community</a> |
+                                <a class="offset-feature--link" href="contribute.html">How To Contribute</a>
+                            </div>
+                            <div class="offset8">
+                                <img src="images/apache.png"/>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="offset-feature--container feature-sts">
+                <div class="offset-feature--container">
                     <div class="container-fluid">
                         <div class="row-fluid feature--content">
-
+                            <div class="span4">
+                                <img src="images/puzzle.png"/>
+                            </div>
+                            <div class="offset4 mobile-left-pane">
+                                <div class="offset-feature--title">Projects</div>
+                                <div class="offset-feature--text">
+                                    Karaf provides projects, answering the enterprise needs:<br/><br/>
+                                    <ul style="list-style-position: inside">
+                                        <li>Run your applications in <a href="projects.html#container">Karaf Container</a></li>
+                                        <li>Easily develop and bootstrap your applications with <a href="projects.html#boot">Karaf
+                                            Boot</a></li>
+                                        <li>Manage bunch of clustered instances with <a href="projects.html#cellar">Karaf
+                                            Cellar</a></li>
+                                        <li>Manage your artifacts repositories with <a href="projects.html#cave">Karaf
+                                            Cave</a></li>
+                                        <li>Monitoring, alerting, and BAM with <a href="projects.html#decanter">Karaf
+                                            Decanter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="offset-feature--container feature-sts desktop-only">
+                <div class="offset-feature--container">
                     <div class="container-fluid">
                         <div class="row-fluid feature--content">
-                            <div class="tool-suite span8 offset4 mobile-left-pane">
-                                <div class="offset-feature--title">SubProjects</div>
+                            <div class="span8 mobile-left-pane">
+                                <div class="offset-feature--title">Documentation</div>
                                 <div class="offset-feature--text">
-                                    Karaf is composed by multiple projects, answering some specific enterprise needs: Karaf Container as a modern container and runtime, Karaf Boot
-                                    to easily develop and bootstrap your applications, Karaf Cellar for clustering, Karaf Decanter for monitoring and alerting, Karaf Cave for
-                                    applications and artifacts repository.
+                                    Ready, efficient, and productive with Karaf in a minute !<br/>
+                                    <br/>
+                                    Find all you need to start with Karaf ...
                                 </div>
-                                <a class="offset-feature--link" href="">
-                                    Explore the Projects
-                                </a>
+                                <a class="offset-feature--link" href="documentation.html">Read Documentation</a>
+                            </div>
+                            <div class="offset8">
+                                <img src="images/book.png"/>
                             </div>
                         </div>
                     </div>
@@ -196,14 +354,35 @@
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span12">
-                    &copy; <span>2015</span> <a href="http://www.apache.org">Apache Software Foundation</a> - <a href="">Privacy Policy</a><br/>
-                    Apache Karaf, Karaf, Apache, the Apache feather logo, and the Apache Karaf project logo are trademarks of The Apache Software Foundation.
+                    &copy; <span>2015</span> <a href="http://www.apache.org">Apache Software Foundation</a> - <a
+                        href="privacy.html">Privacy Policy</a><br/>
+                    Apache Karaf, Karaf, Apache, the Apache feather logo, and the Apache Karaf project logo are
+                    trademarks of The Apache Software Foundation.
                 </div>
             </div>
         </div>
     </footer>
     <div id="scrim"></div>
 </div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.single-item').slick({
+            infinite: true,
+            arrows:false,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    });
+
+</script>
+
 </body>
 
 </html>

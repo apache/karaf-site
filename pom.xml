@@ -22,6 +22,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+    <parent>
+        <groupId>org.apache.karaf</groupId>
+        <artifactId>karaf</artifactId>
+        <version>4.0.4</version>
+    </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>site</artifactId>
@@ -30,40 +36,11 @@
 
     <properties>
         <jetty-port>8080</jetty-port>
-        <jetty-war-dir>${project.build.directory}/webapp/</jetty-war-dir>
         <maven.wagon.version>1.0-beta-6</maven.wagon.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>fusesource</id>
-            <name>Fusesource Maven Repository</name>
-            <url>http://repo.fusesource.com/nexus/content/repositories/snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <build>
         <plugins>
-            <plugin>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <webResources>
-                        <resource>
-                            <directory>${project.build.directory}/webapp/</directory>
-                        </resource>
-                    </webResources>
-                    <archive>
-                        <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
-                    </archive>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
@@ -73,7 +50,7 @@
                         mvn jetty:run
                        to have a live web site
                     -->
-                    <webAppSourceDirectory>${jetty-war-dir}</webAppSourceDirectory>
+                    <webAppSourceDirectory>src/main/webapp</webAppSourceDirectory>
                 </configuration>
             </plugin>
             <plugin>
@@ -83,13 +60,27 @@
                 <configuration>
                     <checkinComment>[scm-publish] Updating main website contents</checkinComment>
                     <pubScmUrl>scm:svn:https://svn.apache.org/repos/asf/karaf/site/production</pubScmUrl>
-                    <content>${project.build.directory}/sitegen</content>
+                    <content>src/main/webapp</content>
                     <ignorePathsToDelete>
                         <ignorePathToDelete>docs/**</ignorePathToDelete>
                     </ignorePathsToDelete>
                     <tryUpdate>true</tryUpdate>
 		    <skipDeletedFiles>true</skipDeletedFiles>
                 </configuration>
+            </plugin>
+            <plugin>
+               <groupId>org.apache.rat</groupId>
+               <artifactId>apache-rat-plugin</artifactId>
+               <configuration>
+                 <excludes>
+                    <exclude>**/*.page</exclude>
+                    <exclude>**/*.html</exclude>
+                    <exclude>**/*.css</exclude>
+                    <exclude>**/*.rb</exclude>
+                    <exclude>**/*slick*</exclude>
+                    <exclude>**/target/**/*</exclude>
+                 </excludes>
+               </configuration>
             </plugin>
         </plugins>
     </build>
