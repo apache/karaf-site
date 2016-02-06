@@ -552,6 +552,10 @@ li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
         text-align: center;
     }
 
+    .homepage--body .hero--banner {
+        max-height: none;
+    }
+
 }
 
 .community li{
