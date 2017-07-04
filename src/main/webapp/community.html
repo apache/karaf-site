@@ -75,6 +75,7 @@
             <li><a href="https://builds.apache.org/view/H-L/view/Karaf/">Jenkins</a></li>
             <li><a href="irc://irc.freenode.net/apache-karaf">#apache-karaf on Freenode</a></li>
         </ul>
+        
         <h2 id="contribute">Contribute</h2>
         There are many ways you can help make Karaf a better piece of software - please dive in and help!<br/>
         <br/>
@@ -84,9 +85,48 @@
         <br/>
         <a href="https://github.com/apache/karaf">Browse the source code</a>. Got an itch to scratch, want to tune some operation or add some feature ?<br/>
         <br/>
-        Want to do some hacking on Karaf? Try surfing the our <a href="https://issues.apache.org/jira/browse/KARAF">issue tracker</a> for open issues or features that need to be implemented. Take ownership of an issue and try fix it.<br/>
-        <br/>
         If you'd rather have a more gentle introduction to working on the Karaf project, try looking at the test coverage report and help us get it even more green by supplying more test cases to get us closer to 100% coverage.
+        
+        <h3 id="issue">Report bugs and feature requests</h3>
+        
+        <p>Did you find a bug or want something implemented? Please report an issue in our <a href="https://issues.apache.org/jira/browse/KARAF">issue tracker</a>. When creating a bug make sure you document the steps to reproduce the issue and provide all necessary information like OS, versions your use, logs. When creating a feature request document your requirements first. Try to not directly describe the solution.<p>
+        
+        <p>If you want to dive into development yourself then you can also browse for open issues or features that need to be implemented. Take ownership of an issue and try fix it. Before doing a bigger change describe the concept/design of what you plan to do. If unsure if the design is good or will be accepted discuss it on the dev list.</p>
+        
+        <h3 id="pull-request">Provide changes in a pull request</h3>
+        
+        The best way to provide changes is to fork karaf repo on github and provide a pull request with your changes. To make it easy to apply your changes please use the following conventions:
+        <ul class="community">
+          <li>Every pull request should have a matching jira issue</li>
+          <li>Do the change in a branch that is named like the jira issue id e.g KARAF-1234</li>
+          <li>Every commit in the branch should start with the jira issue id like this "[KARAF-123] More details"</li>
+          <li>You can squash your commits into one and force push your branch (not mandatory)</li>
+          <li>Test that your change works by adapting or adding tests</li>
+          <li><a href="http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule">Follow the boy scout rule to "Always leave the campground cleaner than you found it."</a></li>
+          <li>Make sure you do a build before doing a PR</li>
+          <li>If your PR has conflicts with the master then rebase the branch. PRs with conflicts are unlikely to be applied</li>
+          <li>Do not change too much in a PR. The smaller the PR the easier it is to apply and the faster it will be done</li>
+          <li>Sometimes PRs get lost. Do not hesitate to ask on the dev list if your PR seems to be ignored</li>
+        </ul>
+        
+        <h3 id="review-pull-request">Review pull requests</h3>
+        
+        Anyone can review pull requests. If you want to review a PR then comment with R:@yourgithubid. This marks that you will do the review and also apply if you are a committer.
+        When reviewing check if the changes are done in a clean way and are tested with a unit and possibly integration test. Check that the build does not report more test failures than before. If you are not a committer then write a comment if you recommend a merge or not. Provide good instructions for the contributor how to improve his PR if it is not yet ok. Make sure you do a review timely. By commenting that you do a review you kind of block others from applying the change.
+        
+        <h3 ir="apply-pull-request">Apply pull requests</h3>
+        
+        This can obviously only be done by a committer. Do the following steps:
+        
+        <ul class="community">
+          <li>Add the remote repository. git remote add otheruser git:path to repo</li>
+          <li>Fetch the remote repo. git fetch otheruser</li>
+          <li>Check the PR. git checkout branch. Do a build</li>
+          <li>Merge into master. git checkout master. git merge otheruser/branch. Do a build. git push</li>
+          <li>Eventually backport to bugfix branches using git cherry-pick</li>
+          <li>Make sure you document the fix in jira by adding the fix versions and resolve the jira issue</li>
+        </ul>
+        
         <h2 id="support">Support</h2>
         If you are experiencing problems using Karaf then please report your problem to our <a href="https://issues.apache.org/jira/browse/KARAF">issue tracker</a>.
         You may also find it useful to discuss your issues with the community on the mailing lists or IRC.<br/>
