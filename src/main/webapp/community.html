@@ -98,12 +98,27 @@
         The best way to provide changes is to fork karaf repo on github and provide a pull request with your changes. To make it easy to apply your changes please use the following conventions:
         <ul class="community">
           <li>Every pull request should have a matching jira issue</li>
-          <li>Do the change in a branch that is named like the jira issue id e.g KARAF-1234</li>
+          <li>Do the change in a branch that is named like the jira issue id e.g KARAF-1234. To create this branch you can use:<br/>
+		<code>
+git clone http://github.com/apache/karaf<br/>
+git fetch --all<br/>
+git checkout -b my-branch origin/master<br/>
+		</code>
+             Don't forget to periodically rebase your branch:<br/>
+                <code>
+git pull --rebase<br/>
+git push GitHubUser my-branch --force<br/>
+                </code>
+          </li>
           <li>Every commit in the branch should start with the jira issue id like this "[KARAF-123] More details"</li>
-          <li>You can squash your commits into one and force push your branch (not mandatory)</li>
-          <li>Test that your change works by adapting or adding tests</li>
+          <li>You can squash your commits into one and force push your branch (not mandatory) using <code>git rebase -i apache/master</code></li>
+          <li>Test that your change works by adapting or adding tests.</li>
           <li><a href="http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule">Follow the boy scout rule to "Always leave the campground cleaner than you found it."</a></li>
-          <li>Make sure you do a build before doing a PR</li>
+          <li>Make sure you do a build before doing a PR. The build has to be successfull:<br/>
+		<code>
+mvn clean verify -Prelease -fae -T 1C
+		</code>
+	  </li>
           <li>If your PR has conflicts with the master then rebase the branch. PRs with conflicts are unlikely to be applied</li>
           <li>Do not change too much in a PR. The smaller the PR the easier it is to apply and the faster it will be done</li>
           <li>Sometimes PRs get lost. Do not hesitate to ask on the dev list if your PR seems to be ignored</li>
@@ -111,20 +126,64 @@
         
         <h3 id="review-pull-request">Review pull requests</h3>
         
-        Anyone can review pull requests. If you want to review a PR then comment with R:@yourgithubid. This marks that you will do the review and also apply if you are a committer.
-        When reviewing check if the changes are done in a clean way and are tested with a unit and possibly integration test. Check that the build does not report more test failures than before. If you are not a committer then write a comment if you recommend a merge or not. Provide good instructions for the contributor how to improve his PR if it is not yet ok. Make sure you do a review timely. By commenting that you do a review you kind of block others from applying the change.
+        Anyone can review pull requests but the merge can be done only by a committer.<br/>
+        If you want to review a PR then comment with <code>R:@yourgithubid</code>. This marks that you will do the review and also apply if you are a committer.<br/>
+        When reviewing check if the changes are done in a clean way and are tested with a unit and possibly integration test. Check that the build does not report more test failures than before. If you are not a committer then write a comment if you recommend a merge or not. Provide good instructions for the contributor how to improve his PR if it is not yet ok. Make sure you do a review timely. By commenting that you do a review you kind of block others from applying the change.<br/>
+        NB: Jenkins performs a build for each pull request. You can trigger a new build on a pull request using "retest this please" in a PR comment.
         
         <h3 ir="apply-pull-request">Apply pull requests</h3>
         
         This can obviously only be done by a committer. Do the following steps:
         
         <ul class="community">
-          <li>Add the remote repository. git remote add otheruser git:path to repo</li>
-          <li>Fetch the remote repo. git fetch otheruser</li>
-          <li>Check the PR. git checkout branch. Do a build</li>
-          <li>Merge into master. git checkout master. git merge otheruser/branch. Do a build. git push</li>
-          <li>Eventually backport to bugfix branches using git cherry-pick</li>
+          <li>
+          <li>As one time config, you can rename your git remote and add apache one:
+		<code>
+git remote add apache https://git-wip-us.apache.org/repos/asf/karaf.git<br/>
+		</code>
+              We recommand renaming <code>origin</code> as <code>github</code>:<br/>
+<code>
+git remote rename origin github<br/>
+</code>
+	     For <code>github</code> remote, add an additional fetch reference, which will cause every pull request to be made available as a remote branch in your workspace.<br/>
+<code>
+git config --local --add remote.github.fetch '+refs/pull/*/head:refs/remotes/github/pr/*'
+</code>
+	     You can confirm your configuration with the following command:
+<code>
+git remote -v<br/>
+apache	https://git-wip-us.apache.org/repos/asf/karaf.git (fetch)<br/>
+apache	https://git-wip-us.apache.org/repos/asf/karaf.git (push)<br/>
+github	https://github.com/apache/karaf.git (fetch)<br/>
+github	https://github.com/apache/karaf.git (push)<br/>
+username	git@github.com:username/karaf.git (fetch)<br/>
+username	git@github.com:username/karaf.git (push)<br/>
+</code>
+	  </li>
+          <li>Checkout the PR:<br/>
+<code>
+git fetch --all
+git checkout -b pr-xxx github/pr/xxx
+</code>
+	  </li>
+          <li>
+		Review the PR, amend, squash the commits, requesting changes, ... When done, add <code>LGTM</code> comment to approve the PR (or click on the "Approve" button on GitHub):<br/>
+<code>
+git rebase -i apache/master
+</code>
+	  </li>
+          <li>
+		Merge the PR (it automatically closes the PR):<br/>
+<code>
+git fetch --all<br/>
+git checkout apache/master<br/>
+git merge --no-ff -m "[KARAF-nnnn] This closes #xxx" pr-xxx
+git push apache HEAD:master
+</code>
+          </li>
+          <li>Eventually backport commits to bugfix branches using <code>git cherry-pick</code></li>
           <li>Make sure you document the fix in jira by adding the fix versions and resolve the jira issue</li>
+	  <li>You can delete the PR branch: <code>git branch -D pr-xxx</code>.</li>
         </ul>
         
         <h2 id="support">Support</h2>
