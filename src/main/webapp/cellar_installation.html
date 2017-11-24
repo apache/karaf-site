@@ -18,37 +18,85 @@
 </head>
 <body>
 <div class="viewport">
+    <header class="navbar header--navbar">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <div class="karaf-logo--container">
+                    <a class="karaf-logo" href="index.html"><span></span></a>
+                </div>
+                <ul class="nav pull-right">
+                    <li class="navbar-link">
+                        <a href="download.html">Download</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="documentation.html">Documentation</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="community.html">Community</a>
+                    </li>
+                    <li class="navbar-link">
+                        <a href="http://www.apache.org"><img src="images/apache-feather-tm.svg"/></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
-    <h2>Apache Karaf Cellar Installation</h2>
+    <div class="container">
+        <div id="content">
+            <div class="content--panel">
 
-    Apache Karaf Cellar is a complete clustering solution for Apache Karaf Container.
-    <br/>
-    Cellar can be directly installed on running Karaf Container instances. Take a look on the <a href="documentation.html">Karaf Cellar documentation</a> for details.
+                <h2>Apache Karaf Cellar Installation</h2>
 
-    <h3>On Karaf Container 4.x (Cellar 4.x)</h3>
-    <div class="code">
-        <pre>
-            feature:repo-add cellar
-            feature:install cellar
-        </pre>
+                Apache Karaf Cellar is a complete clustering solution for Apache Karaf Container.
+                <br/>
+                Cellar can be directly installed on running Karaf Container instances. Take a look on the <a href="documentation.html">Karaf Cellar documentation</a> for details.<br/><br/>
+
+                <h3>On Karaf Container 4.x (Cellar 4.x)</h3>
+                <div class="code">
+                    <pre>
+                        feature:repo-add cellar
+                        feature:install cellar
+                    </pre>
+                </div>
+
+                <h3>On Karaf Container 3.x (Cellar 3.x)</h3>
+                <div class="code">
+                    <pre>
+                        feature:repo-add cellar 3.x
+                        feature:install cellar
+                    </pre>
+                </div>
+
+                <h3>On Karaf Container 2.x (Cellar 2.x)</h3>
+                <div class="code">
+                    <pre>
+                        features:chooseUrl cellar 2.x
+                        features:install cellar
+                    </pre>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <h3>On Karaf Container 3.x (Cellar 3.x)</h3>
-    <div class="code">
-        <pre>
-            feature:repo-add cellar 3.x
-            feature:install cellar
-        </pre>
-    </div>
-
-    <h3>On Karaf Container 2.x (Cellar 2.x)</h3>
-    <div class="code">
-        <pre>
-            features:chooseUrl cellar 2.x
-            features:install cellar
-        </pre>
-    </div>
-
+    <div class="body--container container-fluid "></div>
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <div class="footer-documentation--text">
+                    &copy; <span>2017</span> <a href="http://www.apache.org">Apache Software Foundation</a> - <a
+                        href="privacy.html">Privacy Policy</a><br/>
+                    Apache Karaf, Karaf, Apache, the Apache feather logo, and the Apache Karaf project logo are
+                    trademarks of The Apache Software Foundation.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="scrim"></div>
 </div>
 </body>
 </html>
