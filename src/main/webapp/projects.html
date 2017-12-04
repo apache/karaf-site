@@ -44,8 +44,9 @@
             </div>
         </div>
     </header>
-<br/>
+
     <div class="container">
+
         <div id="menu" class="desktop-only">
             <h1>Projects</h1>
             <ul>
@@ -55,66 +56,282 @@
                 <li><a href="#decanter">Karaf Decanter</a></li>
             </ul>
         </div>
+
         <div id="content">
-        <h2 id="container">Karaf Container</h2>
-        Karaf Container is a modern and polymorphic container.<br/>
-        It's a lightweight, powerful, and enterprise ready container powered by OSGi.<br/>
-        By polymorphic, it means that Karaf can host any kind of applications: OSGi, Spring, WAR, and much more.<br/>
-        <br/>
-        Karaf can be use as a standalone container, or in a bootstrap way using Karaf Boot.<br/>
-        <center><img src="images/karaf_architecture.png" width="300px"/></center>
-        <ul>
-            <li><b>Hot deployment</b>: you can directly drop your applications in the Karaf deploy folder, they will be directly deployed for you. You can also create your own deployer.</li>
-            <li><b>Dynamic configuration</b>: all configurations (for Karaf itself and applications) are located in the Karaf etc folder. All changes in the configuration files are taken on the fly: no need to restart.</li>
-            <li><b>Logging system</b>: Karaf uses a centralized logging back end, supporting popular frameworks (log4j, slf4j, logback, ...).</li>
-            <li><b>Provisioning</b>: Karaf provides a very convenient way to provision applications: the Karaf Features.</li>
-            <li><b>Shell Console</b>: Karaf provides a complete Unix like shell console, allowing to manage your container and applications. This shell supports completion, contextual help, key bindings, and much more.</li>
-            <li><b>Remote management</b>: Karaf embeds a SSH server allowing you to remotely access the shell using any SSH client. On the other hand, Karaf also provides JMX MBean server allowing to manage the container using any JMX client.</li>
-            <li><b>WebConsole</b>: in addition of ssh and JMX, you can also manage Karaf Container using a simple browser thanks to the Karaf WebConsole.</li>
-            <li><b>Security</b>: Karaf fully supports JAAS based security framework. It also supports a complete RBAC system for shell commands and JMX objects. You can directly use this security layer in your own applications.</li>
-            <li><b>Instances management</b>: You can manage several children instances inside the Karaf Container root instance. It's a very convenient way to test applications or configurations without impacting your existing running instances.</li>
-        </ul>
-        [<a href="download.html">download</a> | <a href="documentation.html">documentation</a>]
-        <h2 id="cellar">Karaf Cellar</h2>
-        You have bunch of Karaf Container instances running ? You want to manage those instances as one, spreading the configuration, deployment, etc ? Karaf Cellar is for you.<br/>
-        Karaf Cellar is a clustering solution for Karaf. It allows you to manage multiple instances, with synchronization between the instances.<br/>
-        <center><img src="images/cellar_architecture.png" width="300px"/></center>
-        <ul>
-            <li><b>Discovery</b>: each Karaf node is discovered automatically by the others, supporting different mechanisms (multicast, unicast, whiteboard, ...).</li>
-            <li><b>Cluster groups</b>: you can target the synchronization on a subset of nodes using cluster groups.</li>
-            <li><b>Sync and distribute resources</b>: Cellar is able to synchronize and distribute applications (features, bundles, non-OSGi application), configuration, or local event.</li>
-            <li><b>DOSGi</b>: Cellar support DOSGi (Distributed OSGi), allowing you to implement remote call between your applications.</li>
-        </ul>
-        [<a href="download.html">download</a> | <a href="documentation.html">documentation</a>]
-        <h2 id="cave">Karaf Cave</h2>
-        Karaf Cave is an implementation of OSGi Repository specification. It can be used by the Karaf Features Resolver to provide resources, dealing with the requirements and capabilities of artifacts.<br/>
-        <ul>
-            <li><b>Storage</b>: Cave includes a pluggable storage back end.</li>
-            <li><b>Repository metadata</b>: Cave is able to generate the metadata for a complete repository.</li>
-            <li><b>Maven support</b>: Cave provides a complete Maven repository support.</li>
-            <li><b>Repository proxy and populate</b>: in addition of a complete repository, Cave is able to proxy an existing repository, adding the metadata.</li>
-        </ul>
-        [<a href="download.html">download</a> | <a href="documentation.html">documentation</a>]
-        <h2 id="decanter">Karaf Decanter</h2>
-        You need a monitoring solution for Karaf and related ? You need a BAM (Business Activity Monitoring) platform for your application ? Karaf Decanter can be very convenient for you !<br/>
-        Decanter provides ready to use monitoring solution. It's also completely extensible and customizable.
-        <center><img src="images/decanter_screenshot.png" width="300px"/></center>
-        <ul>
-            <li>The collectors harvest the monitored data (JMX metrics, log messages, ...).</li>
-            <li>A dispatcher (powered by OSGi EventAdmin) forwarding the collected data to the appenders and SLA.</li>
-            <li>The appenders receive the collected data and store data into a back end (elasticsearch, cassandra, JDBC, ...).</li>
-            <li>SLA (Service Level Agreement) is a special kind of appender, checking the collected data, and eventually raising an alert (to a back end).</li>
-        </ul>
-        [<a href="download.html">download</a> | <a href="documentation.html">documentation</a>]
+            <div class="content--panel">
+                <h2 id="container">Karaf Container</h2>
+                [<a href="download.html">download</a> | <a href="documentation.html">documentation</a>]
+                <br/><br/>
+                Karaf Container is a modern and polymorphic container.<br/>
+                It's a lightweight, powerful, and enterprise ready container powered by OSGi.<br/>
+                By polymorphic, it means that Karaf can host any kind of applications: OSGi, Spring, WAR, and much more.<br/>
+                <br/>
+                Karaf can be use as a standalone container, or in a bootstrap way using Karaf Boot.<br/><br/>
+
+                <center><div class="project-feature--title">Architecture</div></center>
+                
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="row-fluid">
+                            <div class="span12 project--architecture-square-top">
+                                Enterprise Features
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span12 project--architecture-square-top">
+                                WebContainer (Pax Web)
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span3 project--architecture-square-middle">
+                                Instance
+                            </div>
+                            <div class="span3 project--architecture-square-middle">
+                                JMX
+                            </div>
+                            <div class="span3 project--architecture-square-middle">
+                                ConfigAdmin
+                            </div>
+                            <div class="span3 project--architecture-square-middle">
+                                Security
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span3 project--architecture-square-middle">
+                                Shell / SSH
+                            </div>
+                            <div class="span3 project--architecture-square-middle">
+                                Logging
+                            </div>
+                            <div class="span3 project--architecture-square-middle">
+                                Deployers
+                            </div>
+                            <div class="span3 project--architecture-square-middle">
+                                Provisioning
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span12 project--architecture-square-program">
+                                Programming Model (Spring / BluePrint / DeclarativeService)
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span12 project--architecture-square-osgi">
+                                OSGi Framework (Apache Felix / Eclipse Equinox)
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="span12 project--architecture-square-jvm">
+                                JVM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><div class="content--panel--separator"></div><br>
+
+                <center><div class="project-feature--title">Key features</div></center>
+
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h3>Hot deployment</h3>
+                        <div class="project-feature--separator"></div>
+                        You can directly drop your applications in the Karaf deploy folder, they will be directly deployed for you. You can also create your own deployer.
+                    </div>
+                    <div class="span4">
+                        <h3>Dynamic configuration</h3>
+                        <div class="project-feature--separator"></div>
+                        All configurations (for Karaf itself and applications) are located in the Karaf etc folder. All changes in the configuration files are taken on the fly: no need to restart.
+                    </div>
+                    <div class="span4">
+                        <h3>Logging system</h3>
+                        <div class="project-feature--separator"></div>
+                        Karaf uses a centralized logging back end, supporting popular frameworks (log4j, slf4j, logback, ...).
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h3>Provisioning</h3>
+                        <div class="project-feature--separator"></div>
+                        Karaf provides a very convenient way to provision applications: the Karaf Features.
+                    </div>
+                    <div class="span4">
+                        <h3>Shell Console</h3>
+                        <div class="project-feature--separator"></div>
+                        Karaf provides a complete Unix like shell console, allowing to manage your container and applications. This shell supports completion, contextual help, key bindings, and much more.
+                    </div>
+                    <div class="span4">
+                        <h3>Remote management</h3>
+                        <div class="project-feature--separator"></div>
+                        Karaf embeds a SSH server allowing you to remotely access the shell using any SSH client. On the other hand, Karaf also provides JMX MBean server allowing to manage the container using any JMX client.
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row-fluid">
+                    <div class="span4">
+                        <h3>WebConsole</h3>
+                        <div class="project-feature--separator"></div>
+                        In addition of ssh and JMX, you can also manage Karaf Container using a simple browser thanks to the Karaf WebConsole.
+                    </div>
+                    <div class="span4">
+                        <h3>Security</h3>
+                        <div class="project-feature--separator"></div>
+                        Karaf fully supports JAAS based security framework. It also supports a complete RBAC system for shell commands and JMX objects. You can directly use this security layer in your own applications.
+                    </div>
+                    <div class="span4">
+                        <h3>Instances management</h3>
+                        <div class="project-feature--separator"></div>
+                        You can manage several children instances inside the Karaf Container root instance. It's a very convenient way to test applications or configurations without impacting your existing running instances.
+                    </div>
+                </div>                
             </div>
+
+            <div class="content--panel">
+                <h2 id="cellar">Karaf Cellar</h2>
+                [<a href="download.html">download</a> | <a href="documentation.html">documentation</a>]<br><br>
+                You have bunch of Karaf Container instances running ? You want to manage those instances as one, spreading the configuration, deployment, etc ? Karaf Cellar is for you.<br/>
+                Karaf Cellar is a clustering solution for Karaf. It allows you to manage multiple instances, with synchronization between the instances.<br/><br>
+
+                <center><div class="project-feature--title">Architecture</div></center>
+
+                <center><img src="images/cellar_architecture.png" width="300px"/></center>
+                
+                <br><div class="content--panel--separator"></div><br>
+
+                <center><div class="project-feature--title">Key features</div></center>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h3>Discovery</h3>
+                        <div class="project-feature--separator"></div>
+                        Each Karaf node is discovered automatically by the others, supporting different mechanisms (multicast, unicast, whiteboard, ...).
+                    </div>
+                    <div class="span6">
+                        <h3>Cluster groups</h3>
+                        <div class="project-feature--separator"></div>
+                        You can target the synchronization on a subset of nodes using cluster groups.
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h3>Sync and distribute resources</h3>
+                        <div class="project-feature--separator"></div>
+                        Cellar is able to synchronize and distribute applications (features, bundles, non-OSGi application), configuration, or local event.
+                    </div>
+                    <div class="span6">
+                        <h3>DOSGi</h3>
+                        <div class="project-feature--separator"></div>
+                        Cellar support DOSGi (Distributed OSGi), allowing you to implement remote call between your applications.
+                    </div>
+                </div>
+
+                <br><div class="content--panel--separator"></div><br>
+
+                <div class="row-fluid">
+                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Q-lreKSZMCs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></center>
+                </div>
+            </div>
+
+            <div class="content--panel">
+                <h2 id="cave">Karaf Cave</h2>
+                [<a href="download.html">download</a> | <a href="documentation.html">documentation</a>]<br><br>
+                Karaf Cave is an implementation of OSGi Repository specification. It can be used by the Karaf Features Resolver to provide resources, dealing with the requirements and capabilities of artifacts.<br>
+                
+                <br><div class="content--panel--separator"></div><br>
+
+                <center><div class="project-feature--title">Key features</div></center>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h3>Storage</h3>
+                        <div class="project-feature--separator"></div>
+                        Cave includes a pluggable storage back end.
+                    </div>
+                    <div class="span6">
+                        <h3>Repository metadata</h3>
+                        <div class="project-feature--separator"></div>
+                        Cave is able to generate the metadata for a complete repository.
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h3>Maven support</h3>
+                        <div class="project-feature--separator"></div>
+                        Cave provides a complete Maven repository support.
+                    </div>
+                    <div class="span6">
+                        <h3>Repository proxy and populate</h3>
+                        <div class="project-feature--separator"></div>
+                        In addition of a complete repository, Cave is able to proxy an existing repository, adding the metadata.
+                    </div>
+                </div>
+            </div>
+
+            <div class="content--panel">
+                <h2 id="decanter">Karaf Decanter</h2>
+                [<a href="download.html">download</a> | <a href="documentation.html">documentation</a>]<br><br>
+                You need a monitoring solution for Karaf and related ? You need a BAM (Business Activity Monitoring) platform for your application ? Karaf Decanter can be very convenient for you !<br/>
+                Decanter provides ready to use monitoring solution. It's also completely extensible and customizable.<br><br>
+                
+                <center><img src="images/decanter_screenshot.png" width="600px"/></center>
+
+                <br><div class="content--panel--separator"></div><br>
+
+                <center><div class="project-feature--title">Key features</div></center>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h3>Collectors</h3>
+                        <div class="project-feature--separator"></div>
+                        The <strong>collectors</strong> harvest the monitored data (JMX metrics, log messages, ...).
+                    </div>
+                    <div class="span6">
+                        <h3>Dispatcher</h3>
+                        <div class="project-feature--separator"></div>
+                        A <strong>dispatcher</strong> (powered by OSGi EventAdmin) forwarding the collected data to the appenders and SLA.
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h3>Appenders</h3>
+                        <div class="project-feature--separator"></div>
+                        The <strong>appenders</strong> receive the collected data and store data into a back end (elasticsearch, cassandra, JDBC, ...).
+                    </div>
+                    <div class="span6">
+                        <h3>SLA</h3>
+                        <div class="project-feature--separator"></div>
+                        <strong>SLA</strong> (Service Level Agreement) is a special kind of appender, checking the collected data, and eventually raising an alert (to a back end).
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
     <div class="body--container container-fluid "></div>
+    
     <footer class="footer">
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span12">
-                    &copy; <span>2016</span> <a href="http://www.apache.org">Apache Software Foundation</a> - <a href="privacy.html">Privacy Policy</a><br/>
-                    Apache Karaf, Karaf, Apache, the Apache feather logo, and the Apache Karaf project logo are trademarks of The Apache Software Foundation.
+                    <div class="footer-documentation--text">
+                    &copy; <span>2017</span> <a href="http://www.apache.org">Apache Software Foundation</a> - <a
+                        href="privacy.html">Privacy Policy</a><br/>
+                    Apache Karaf, Karaf, Apache, the Apache feather logo, and the Apache Karaf project logo are
+                    trademarks of The Apache Software Foundation.</div>
                 </div>
             </div>
         </div>
