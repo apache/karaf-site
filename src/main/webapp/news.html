@@ -76,10 +76,10 @@
             <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-success"><i class="fas fa-rocket"></i> Announce</strong>
               <h3 class="mb-0">
-                <a class="text-dark">Karaf Container 4.2.0</a>
+                <a class="text-dark">Karaf Container 4.2.1</a>
               </h3>
-              <div class="mb-1 text-muted">April 9, 2018</div>
-              <p class="card-text mb-auto">Ths is the first GA release on the 4.2.x series. We invite all users to upgrade to this new stable series, bringing a lot of fixes, improvements and new features.</p>
+              <div class="mb-1 text-muted">August 21, 2018</div>
+              <p class="card-text mb-auto">This is an update patch for Apache Karaf 4.2.x series. We invite all users to upgrade to this new stable series, bringing a lot of fixes, improvements and dependency upgrades.</p>
               <a href="#">Learn more</a>
             </div>
           </div>
@@ -96,47 +96,229 @@
       <div class="container">
 
         <div class="row mb-5 mt-5">
-            <div class="col-md-8">
+            <div class="col-md-10">
               <h2 class="pb-3 mb-4 font-italic border-bottom"><i class="fas fa-bullhorn"></i> Fresh news</h2>
+
+              <div class="pb-4 mb-3 border-bottom">
+                <h3 class="text-dark">Karaf Container 4.2.1 has been released ! <span class="text-muted">August 21, 2018</span></h3>
+                <p>This is an update patch for Apache Karaf 4.2.x, containing bug fixes, improvements and dependency upgrades.</p>
+                <p>Among this new features, we have:</p>
+                <ul>
+                  <dt>Docker</dt><dd>The docker feature allow users to manage their docker containers from the Karaf shell console with new commands <code>docker:xxx</code>. For example, you can create a Docker container using the current running Karaf instance with the command <code>docker:provision my-karaf</code>. You can learn more on the <a href="https://karaf.apache.org/manual/latest/#_docker" target="_blank">user guide</a></dd>
+                  <dt>Examples</dt><dd>The Apache Karaf Examples provide different starting point showing how to implement concrete use cases leveraging Apache Karaf capabilities. There is a list of the examples on the <a href="https://karaf.apache.org/documentation" target="_blank">documentation page</a></dd>
+                  <dt>Test support</dt><dd>A new <code>KarafTestSupport</code> class is available in order to help developers for writing the itests of their bundles, features and custom distribution. You can take a look on the <a href="https://github.com/apache/karaf/tree/master/itests/test/src/test/java/org/apache/karaf/itests/examples" target="_blank">itests module</a> of the project to see how it's easy to use !</dd>
+                  <dt>JDK compatibility</dt><dd>We have improved the compatibility with the versions 9 / 10 / 11 of the JDK.</dd>
+                  <dt>Dependency upgrades</dt><dd>A bunch of librairies have been upgraded:</dd>
+                </ul>
+                <div class="pl-5 pb-3">
+                <table class="table table-striped table-sm w-75">
+                    <thead class="thead-dark">
+                      <th>Name</th>
+                      <th>Versions</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <td><strong>Aries JPA</strong></td>
+                          <td>2.7.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Aries Proxy</strong></td>
+                          <td>Java 10 compliant</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Aries Proxy Impl </strong></td>
+                          <td>1.1.2</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Aries Transaction Blueprint </strong></td>
+                          <td>2.2.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>ASM</strong></td>
+                          <td>6.2.1</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Awaitility</strong></td>
+                          <td>3.1.2</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Commons-compress</strong></td>
+                          <td>1.17</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Easymock</strong></td>
+                          <td>3.6</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Eclipselink</strong></td>
+                          <td>2.7.3</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Equinox</strong></td>
+                          <td>3.12.100</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix Gogo Runtime / Jline</strong></td>
+                          <td>1.0.12</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix Resolver</strong></td>
+                          <td>1.16.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix EventAdmin</strong></td>
+                          <td>1.5.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix Metatype</strong></td>
+                          <td>1.2.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix Connect</strong></td>
+                          <td>0.2.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix Gogo</strong></td>
+                          <td>1.1.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix ConfigAdmin</strong></td>
+                          <td>1.9.4</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix SCR</strong></td>
+                          <td>2.1.2</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Felix Utils</strong></td>
+                          <td>1.11.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Hibernate Validator</strong></td>
+                          <td>6.0.12.Final</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Jansi</strong></td>
+                          <td>1.17.1</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Jline</strong></td>
+                          <td>3.9.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Jolokia</strong></td>
+                          <td>1.5.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Maven API</strong></td>
+                          <td>3.5.4</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Maven Wagon</strong></td>
+                          <td>3.1.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Narayana</strong></td>
+                          <td>5.9.0.Final</td>
+                      </tr>
+                      <tr>
+                          <td><strong>OpenJPA</strong></td>
+                          <td>3.0.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Pax JMS</strong></td>
+                          <td>1.0.1</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Pax JDBC</strong></td>
+                          <td>1.3.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Pax Exam</strong></td>
+                          <td>4.12.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Pax Transx</strong></td>
+                          <td>0.4.0</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Pax Web</strong></td>
+                          <td>7.2.3</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Jetty</strong></td>
+                          <td>9.4.11.v20180605</td>
+                      </tr>
+                      <tr>
+                          <td><strong>ServiceMix Spec Locator</strong></td>
+                          <td>2.10</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Spring</strong></td>
+                          <td>4.3.18.RELEASE</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Spring</strong></td>
+                          <td>5.0.8.RELEASE</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Tagsoup</strong></td>
+                          <td>1.2.1</td>
+                      </tr>
+                      <tr>
+                          <td><strong>XBean</strong></td>
+                          <td>4.8</td>
+                      </tr>
+                      <tr>
+                          <td><strong>Xerces</strong></td>
+                          <td>2.12.0</td>
+                      </tr>
+
+                    </tbody>
+                </table>
+                </div>
+                <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
+                <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12342748" target="_blank">Release Notes &raquo;</a>
+              </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 4.1.6 has been released ! <span class="text-muted">August 6, 2018</span></h3>
-                <p>Ths is an update patch for Apache Karaf 4.1.x, containing bug fixes and improvements.</p>
+                <p>This is an update patch for Apache Karaf 4.1.x, containing bug fixes and improvements.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12342748" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 4.2.0 has been released ! <span class="text-muted">April 9, 2018</span></h3>
-                <p>Ths is the first GA release on the 4.2.x series. We invite all users to upgrade to this new stable series, bringing a lot of fixes, improvements and new features.</p>
+                <p>This is the first GA release on the 4.2.x series. We invite all users to upgrade to this new stable series, bringing a lot of fixes, improvements and new features.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12342076" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 3.0.9 has been released ! <span class="text-muted">March 2, 2018</span></h3>
-                <p>Ths is an update patch for Apache Karaf 3.0.x, containing minor bug fixes and dependency upgrades.</p>
+                <p>This is an update patch for Apache Karaf 3.0.x, containing minor bug fixes and dependency upgrades.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12338081" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 4.1.5 has been released ! <span class="text-muted">February 15, 2018</span></h3>
-                <p>Ths is an update patch for Apache Karaf 4.1.x, containing bug fixes and improvements.</p>
+                <p>This is an update patch for Apache Karaf 4.1.x, containing bug fixes and improvements.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12342294" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 4.2.0.M2 has been released ! <span class="text-muted">January 2, 2018</span></h3>
-                <p>Ths is the second technical preview for the 4.2.x series. This is not a GA. The purpose is to continue the test campaign in preparation for the 4.2.0.GA release. Compared to 4.2.0.M1, 4.2.0.M2 contains bug fixes and improvements, especially around the Java 9 support.</p>
+                <p>This is the second technical preview for the 4.2.x series. This is not a GA. The purpose is to continue the test campaign in preparation for the 4.2.0.GA release. Compared to 4.2.0.M1, 4.2.0.M2 contains bug fixes and improvements, especially around the Java 9 support.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12342357" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Cave 4.1.0 has been released ! <span class="text-muted">January 2, 2018</span></h3>
-                <p>Ths is the first release in the Cave 4.1.x series. It brings bug fixes, improvements, and the new Deployer feature.</p>
+                <p>This is the first release in the Cave 4.1.x series. It brings bug fixes, improvements, and the new Deployer feature.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12340462" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
@@ -147,14 +329,14 @@
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 4.1.4 has been released ! <span class="text-muted">December 19, 2017</span></h3>
-                <p>Ths is an update patch for Apache Karaf 4.1.x, containing bug fixes and improvements.</p>
+                <p>This is an update patch for Apache Karaf 4.1.x, containing bug fixes and improvements.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12341702" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Cellar 4.1.1 has been released ! <span class="text-muted">September 28, 2017</span></h3>
-                <p>Ths is the first GA release on the 4.2.x series. We invite all users to upgrade to this new stable series, bringing a lot of fixes, improvements and new features.</p>
+                <p>This is the first GA release on the 4.2.x series. We invite all users to upgrade to this new stable series, bringing a lot of fixes, improvements and new features.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12340615" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
@@ -396,7 +578,7 @@
                 <h3 class="text-dark">Karaf Container 2.4.3 has been released ! <span class="text-muted">July 12, 2015</span></h3>
                 <p>
                 The Karaf team is pleased to announce the availability of Karaf 2.4.3.<br/>
-                This is an update patch for Apache Karaf 2.4.x, containing many bug fixes, dependency updates, and improvements. New feature highlights include: Support for Karaf 4 feature repositories in degraded mode, support for Pax-web 4.x, and updates to Felix FileInstall 3.5.0 and Felix ConfigAdmin 1.8.4.</p>
+                This is an update patch for Apache Karaf 2.4.x, containing many bug fixes, dependency updates, and improvements. New feature highlights include: Support for Karaf 4 feature repositories in degraded mode, support for Pax-web 4.x, and updates to FelixFileInstall 3.5.0 and FelixConfigAdmin 1.8.4.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12332072" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
@@ -498,7 +680,7 @@
                 The Karaf team is pleased to announce the availability of Karaf 4.0.0.M2.<br/>
                 <b>This is a technology preview release of Apache Karaf, and should NOT be considered production ready.</b>
                 Apache Karaf 4.0.0.M2 represents a major refactoring of the project, and includes numerous new features. We ask that users provide the community with their feed back so that the full Apache Karaf 4.0.0 release can be as feature complete and stable as possible.<br/>
-                The 4.0.x line will ship with OSGi Rev5 support via Felix 4.4.1 and Equinox 3.9.1-v20140110-1610, and a completely refactored internal framework without Blueprint for internal usage. From a users point of view these changes will yield a smaller, more efficient Karaf core. There will be a Blueprint feature present in Karaf so that you can easily install Blueprint based applications. You will always be capable of using Blueprint in Karaf. So the main difference from a user perspective is that you’d need to depend on the Blueprint service if you need it. New features since the M1 release include: Support for custom command parsers, a verify-features goal to validate the feature with a real OSGi resolution, and a backing engine serivce for org.apache.karaf.jaas.modules.publickey.PublickeyLoginModule.</p>
+                The 4.0.x line will ship with OSGi Rev5 support via Felix4.4.1 and Equinox 3.9.1-v20140110-1610, and a completely refactored internal framework without Blueprint for internal usage. From a users point of view these changes will yield a smaller, more efficient Karaf core. There will be a Blueprint feature present in Karaf so that you can easily install Blueprint based applications. You will always be capable of using Blueprint in Karaf. So the main difference from a user perspective is that you’d need to depend on the Blueprint service if you need it. New features since the M1 release include: Support for custom command parsers, a verify-features goal to validate the feature with a real OSGi resolution, and a backing engine serivce for org.apache.karaf.jaas.modules.publickey.PublickeyLoginModule.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12329322" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
@@ -561,7 +743,7 @@
                 <p>The Karaf team is pleased to announce the availability of Karaf 4.0.0.M1.<br/>
                 <b>This is a technology preview release of Apache Karaf, and should NOT be considered production ready.</b>
                 Apache Karaf 4.0.0.M1 represents a major refactoring of the project, and includes numerous new features. We ask that users provide the community with their feed back so that the full Apache Karaf 4.0.0 release can be as feature complete and stable as possible.<br/>
-                The 4.0.x line will ship with OSGi Rev5 support via Felix 4.4.1 and Equinox 3.9.1-v20140110-1610, and a completely refactored internal framework without Blueprint for internal usage. From a users point of view these changes will yield a smaller, more efficient Karaf core. There will be a Blueprint feature present in Karaf so that you can easily install Blueprint based applications. You will always be capable of using Blueprint in Karaf. So the main difference from a user perspective is that you’d need to depend on the Blueprint service if you need it.</p>
+                The 4.0.x line will ship with OSGi Rev5 support via Felix4.4.1 and Equinox 3.9.1-v20140110-1610, and a completely refactored internal framework without Blueprint for internal usage. From a users point of view these changes will yield a smaller, more efficient Karaf core. There will be a Blueprint feature present in Karaf so that you can easily install Blueprint based applications. You will always be capable of using Blueprint in Karaf. So the main difference from a user perspective is that you’d need to depend on the Blueprint service if you need it.</p>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12328820" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
 
@@ -626,14 +808,14 @@
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 2.3.5 has been released ! <span class="text-muted">May 13, 2014</span></h3>
-                <p>This is an update patch for Apache Karaf 2.3.4, containing many bug fixes, dependency updates, and improvements. New feature highlights include: monitoring etc/user.properties with Felix fileInstall, and adding MSSQL datasource type.</p>
+                <p>This is an update patch for Apache Karaf 2.3.4, containing many bug fixes, dependency updates, and improvements. New feature highlights include: monitoring etc/user.properties with FelixfileInstall, and adding MSSQL datasource type.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12325886" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 3.0.1 has been released ! <span class="text-muted">May 13, 2014</span></h3>
-                <p>This is an update patch for Apache Karaf 3.0.0, containing many bug fixes, dependency updates, and improvements. New feature highlights include: the addition of Pax CDI to Karaf enterprise feature, monitoring etc/user.properties with Felix fileInstall, and adding MSSQL datasource type.</p>
+                <p>This is an update patch for Apache Karaf 3.0.0, containing many bug fixes, dependency updates, and improvements. New feature highlights include: the addition of Pax CDI to Karaf enterprise feature, monitoring etc/user.properties with FelixfileInstall, and adding MSSQL datasource type.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12316945" target="_blank">Release Notes &raquo;</a>
               </div><!-- /.blog-post -->
@@ -753,7 +935,7 @@
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 2.2.10 has been released ! <span class="text-muted">December 21, 2012</span></h3>
                 <p>The Karaf team is pleased to announce the availability of Karaf 2.2.10.<br/>
-                This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.9. It contains bug fixes identified in the prior release, and introduces improvements including; Making pom.xml eclipse 3.7 m2e friendly, updating Spring to 2.5.6.SEC03, improved terminal behavior when sshing from windows to unix, and improved lock logic to wait while start level change occurs. Several dependencies were also updated, bringing Felix Webconsole to 4.0.0, pax-logging to 1.6.10, pax-web to 1.0.12, and the Apache pom to version 12.</p>
+                This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.9. It contains bug fixes identified in the prior release, and introduces improvements including; Making pom.xml eclipse 3.7 m2e friendly, updating Spring to 2.5.6.SEC03, improved terminal behavior when sshing from windows to unix, and improved lock logic to wait while start level change occurs. Several dependencies were also updated, bringing FelixWebconsole to 4.0.0, pax-logging to 1.6.10, pax-web to 1.0.12, and the Apache pom to version 12.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12322541" target="_blank">Release Notes &raquo;</a>
               </div>
@@ -769,7 +951,7 @@
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 2.3.0 has been released ! <span class="text-muted">October 15, 2012</span></h3>
                 <p>The Karaf team is pleased to announce the availability of Karaf 2.3.0.<br/>
-                This release of Apache Karaf sets the stage for the 3.0.x line, introducing OSGi rev 4.3 support, new commands, features, improvements, and a mulititude of dependency updates. At Karaf's core you'll find Equinox 3.8.0.v20120529-1548 and Apache Felix framework 4.0.3. New additions such as Karaf-pax-exam, commands back ported from Karaf 3.x, and command aliases to help make migrating betwen 2.3.x and 3.x easier.</p>
+                This release of Apache Karaf sets the stage for the 3.0.x line, introducing OSGi rev 4.3 support, new commands, features, improvements, and a mulititude of dependency updates. At Karaf's core you'll find Equinox 3.8.0.v20120529-1548 and Apache Felixframework 4.0.3. New additions such as Karaf-pax-exam, commands back ported from Karaf 3.x, and command aliases to help make migrating betwen 2.3.x and 3.x easier.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12320554" target="_blank">Release Notes &raquo;</a>
               </div>
@@ -783,7 +965,7 @@
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 2.2.9 has been released ! <span class="text-muted">August 18, 2012</span></h3>
                 <p>The Karaf team is pleased to announce the availability of Karaf 2.2.9.<br/>
-                This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.8. It contains bug fixes identified in the prior release, and introduces improvements including; An update to fix a NullPointerException when using JDK 6 update 33 or JDK 7 update5, a new JDBC lock implementation for Postgres, a fix for using version with the wrap protocol, and renaming command-watch to watch. Several dependences were also updated, bringing Felix Framework to 3.2.2, pax-logging to 1.6.9, slf4j to 1.6.6, xbean to 3.11.1, aries proxy to 0.3.1, and a multitude of updates to maven plugins.</p>
+                This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.8. It contains bug fixes identified in the prior release, and introduces improvements including; An update to fix a NullPointerException when using JDK 6 update 33 or JDK 7 update5, a new JDBC lock implementation for Postgres, a fix for using version with the wrap protocol, and renaming command-watch to watch. Several dependences were also updated, bringing FelixFramework to 3.2.2, pax-logging to 1.6.9, slf4j to 1.6.6, xbean to 3.11.1, aries proxy to 0.3.1, and a multitude of updates to maven plugins.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12321741" target="_blank">Release Notes &raquo;</a>
               </div>
@@ -791,7 +973,7 @@
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 2.2.8 has been released ! <span class="text-muted">June 25, 2012</span></h3>
                 <p>The Karaf team is pleased to announce the availability of Karaf 2.2.8.<br/>
-                This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.7. It contains bug fixes identified in the prior release, and introduces improvements including; A command that can not be loaded no longer breaks the whole completion, removing a KAR now uninstalls the shipped features, and SSH keystore is now compatible with IBM JDK. Several dependences were also updated, bringing ServiceMix Specs to version 2.0, pax-logging to 1.6.7, Jansi to 1.9, JLine to 2.7, Felix Utils to 1.2.0, Felix FileInstall to 3.2.4, and sshd to 0.7.0.</p>
+                This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.7. It contains bug fixes identified in the prior release, and introduces improvements including; A command that can not be loaded no longer breaks the whole completion, removing a KAR now uninstalls the shipped features, and SSH keystore is now compatible with IBM JDK. Several dependences were also updated, bringing ServiceMix Specs to version 2.0, pax-logging to 1.6.7, Jansi to 1.9, JLine to 2.7, FelixUtils to 1.2.0, FelixFileInstall to 3.2.4, and sshd to 0.7.0.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12320756" target="_blank">Release Notes &raquo;</a>
               </div>
@@ -848,7 +1030,7 @@
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 2.2.4 has been released ! <span class="text-muted">October 16, 2011</span></h3>
                 <p>The Karaf team is pleased to announce the availability of Karaf 2.2.4.<br/>
-                This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.3. It contains bug fixes identified in the prior release, and introduces improvements including; significant improvements to KAR support, and new MBeans (such as Dev, HTTP, Log, OBR, Bundles, Services and System). Several dependencies were also updated, bringing Apache Felix Gogo to version 0.10.0, and Pax Web to 1.0.7.</p>
+                This release of Apache Karaf is based off of the 2.2.x series branch, representing an update to Apache Karaf 2.2.3. It contains bug fixes identified in the prior release, and introduces improvements including; significant improvements to KAR support, and new MBeans (such as Dev, HTTP, Log, OBR, Bundles, Services and System). Several dependencies were also updated, bringing Apache FelixGogo to version 0.10.0, and Pax Web to 1.0.7.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12317342" target="_blank">Release Notes &raquo;</a>
               </div>
@@ -897,7 +1079,7 @@
               <div class="pb-4 mb-3">
                 <h3 class="text-dark">Karaf Container 2.1.5 has been released ! <span class="text-muted">April 30, 2011</span></h3>
                 <p>The Karaf team is pleased to announce the availability of Karaf 2.1.5.<br/>
-                This release of Apache Karaf is based off of the 2.1.x series branch, representing an update to Apache Karaf 2.1.4. It contains several bug fixes identified in the prior release, including; improved Eclipse console karaf shell output, handling TAB characters in feature repository to avoid resoultion errors when adding features to repo, and multiple fixes to the config shell. IMPORTANT: This patch release also updates the Felix Framework from version 3.0.2 to 3.0.9.</p>
+                This release of Apache Karaf is based off of the 2.1.x series branch, representing an update to Apache Karaf 2.1.4. It contains several bug fixes identified in the prior release, including; improved Eclipse console karaf shell output, handling TAB characters in feature repository to avoid resoultion errors when adding features to repo, and multiple fixes to the config shell. IMPORTANT: This patch release also updates the FelixFramework from version 3.0.2 to 3.0.9.</p>
                 <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
                 <a class="btn btn-outline-primary" href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12311140&version=12316170" target="_blank">Release Notes &raquo;</a>
               </div>
@@ -971,7 +1153,7 @@
 
             </div><!-- /.blog-main -->
 
-            <aside class="col-md-4">
+            <aside class="col-md-2">
               <div class="p-3">
                 <h4 class="font-italic">Archives</h4>
                 <ol class="list-unstyled mb-0">
