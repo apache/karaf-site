@@ -42,9 +42,9 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.mortbay.jetty</groupId>
+                <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>8.1.4.v20120524</version>
+                <version>9.4.12.v20180830</version>
                 <configuration>
                     <!-- When editing the conf files, you can comment this line to run
                         mvn jetty:run
@@ -56,7 +56,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-scm-publish-plugin</artifactId>
-                <version>1.0-beta-2</version>
+                <version>3.0.0</version>
                 <configuration>
                     <checkinComment>[scm-publish] Updating main website contents</checkinComment>
                     <pubScmUrl>scm:svn:https://svn.apache.org/repos/asf/karaf/site/production</pubScmUrl>
