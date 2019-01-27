@@ -135,7 +135,7 @@
       <div class="container">
 
         <!-- karaf-container -->
-        <div class="row pb-5 border-bottom">
+        <div class="row pb-5">
             <div class="col-md-12">
               <h5 class="project-heading">Run your applications in <span class="text-muted">Karaf Runtime</span></h5>
 
@@ -283,6 +283,266 @@
               </div>
             </div>
         </div><!-- karaf-container -->
+
+        <!-- karaf-comparator -->
+
+        <div class="row mb-5 mt-2 pb-3 border-bottom">
+          <div class="col">
+            <h2 class="pb-3 mb-4 font-italic"><i class="fas fa-thumbs-up"></i> Apache Karaf Runtime is what you need!</h2>
+
+            <h4 class="pb-3 mb-4">10 good reasons to use Apache Karaf as your runtime</h4>
+            <dl>
+              <dt>It’s extremely modular:</dt><dd>think Tomcat is to web applications but with *just* the stuff you need nothing more.
+                But if your needs grow over time you can easily add whatever you need.</dd>
+              <dt>It can be small:</dt><dd>Karaf has a minimal distribution that basically is an equivalent of a minimal Linux distribution.
+                You just start it and install what you need using an internet connection.</dd>
+              <dt>It’s an Apache project:</dt><dd>you know it is a truly independent and is backed by a foundation that has more than proven
+                it can deliver high quality and reliable software infrastructure, while being completely transparent at the same time.</dd>
+              <dt>It promotes software development best practice:</dt><dd>by using OSGi at its core, developing applications in this runtime
+                promotes loose coupling of software services that will make maintenance and evolution much easier. Always remember that
+                shortcuts in software development are usually something you end up paying for in the long term.
+                It is better to start with a good software architecture from the start and Karaf will provide you with exactly that.</dd>
+              <dt>Don’t let OSGi scare you:</dt><dd>you can use Karaf even if you don’t know how to build an OSGi bundle because you can deploy
+                WAR files as you would on a Tomcat install or even using Spring as a container (although this is not the best practice as
+                it does add some unnecessary overhead).</dd>
+              <dt>It can really scale:</dt><dd>some large IoT installations of Apache Karaf have over 17000 instances, and if you have clustering
+                needs you can use Apache Karaf Cellar to have inter-node communication as well as deployment.</dd>
+              <dt>It works will all the technologies you know and love:</dt><dd>if can work with all the Java EE libraries or more modern one such
+                as GraphQL. And it’s relatively easy to add a new one if it’s not available out of the box.</dd>
+              <dt>It supports bundle hot deployment:</dt><dd>basically you can setup watching on a bundle on a local Maven repository,
+                which means that if you just rebuild your module in your source code it will automatically re-deploy your changes,
+                without needing to restart anything. This makes development highly productive, in similar ways to what exists on NodeJS servers.</dd>
+              <dt>It has a powerful built-in SSH shell command line console:</dt><dd>this console is very useful for developers as well as DevOps
+                working with Karaf. You can either remotely or locally connect to the shell using any SSH client and then use auto-completion,
+                color highlighting, command history and even scripting to perform whatever operations you need. It is also very easy to implement
+                your own shell commands with just a few annotations on a Java bean.</dd>
+              <dt>It has a proven track record:</dt><dd>Apache Karaf is used by many companies, ranging from small to large, to deliver solutions
+                ranging from embedded IOT implementations to large clusters delivering mission critical services.</dd>
+            </dl>
+
+            <h4 class="pt-4 pb-3">You have to migrate to Apache Karaf!</h4>
+
+            <p class="lead">you’re an Apache Felix user</p>
+            <p>You’ll probably end up re-inventing Apache Karaf at some point because you’ll need:</p>
+            <ul>
+              <li>Logging</li>
+              <li>Startup / shutdown scripts / OS native integration (Windows, Linux)</li>
+              <li>Docker integration</li>
+              <li>A more powerful and more secure (SSH) shell</li>
+              <li>Proper app provisioning (Apache Karaf features)</li>
+              <li>Clustering (Apache Karaf Cellar)</li>
+              <li>Java EE technologies integration (JPA, Web Applications, etc)</li>
+              <li>Proper injection support such as Blueprint, DS with annotations and CDI</li>
+              <li>JMX integration</li>
+            </ul>
+            <p>...too much more to list them all</p>
+
+            <p class="lead">you’re a Spring Boot/Spring Framework user</p>
+            <ul>
+              <li>You want a cleaner (in terms of modularity and separation of concerns) framework to write your applications with.</li>
+              <li>You want to make sure your modules are independent from one another.</li>
+              <li>You want to be able to put more functionality into a JVM, instead of adding more containers that each up more resources.</li>
+              <li>You want to be able to iterate fast by hot-deploying code instead of restarting the whole application for each change.</li>
+              <li>You want to use a framework coming from an independant foundation, that is not highly dependant on a company’s livelihood.</li>
+              <li>You want to have a lightweight application archive.</li>
+              <li>You don’t want to embedded bunch of jar dependencies.</li>
+              <li>You want to have more flexibility about dependencies upgrade.</li>
+              <li>You want to choose the JSR implementation framework at runtime and don’t make your code locked by one.</li>
+            </ul>
+
+            <p class="lead">you’re a NodeJS user</p>
+            <ul>
+              <li>You want to switch to a Java platform.</li>
+              <li>You want to keep some of the dynamic advantages of Javascript while working in Java.</li>
+              <li>You want to have an proven application runtime based on proven standards (OSGi).</li>
+              <li>You want to benefit from the type safety and protection that Java Virtual Machines offer.</li>
+              <li>You want to be able to use fine-grained authorization and authentication standards (JAAS).</li>
+            </ul>
+
+            <h4 class="pt-4 pb-3">You want to compare?</h4>
+
+            <table class="table table-striped table-sm">
+              <thead class="thead-dark">
+                <th></th>
+                <th>Apache Karaf</th>
+                <th>Spring</th>
+                <th>NodeJS</th>
+                <th>Notes</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>License</strong></td>
+                  <td>Apache 2.0</td>
+                  <td>Apache 2.0</td>
+                  <td>MIT</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>VM</strong></td>
+                  <td>Java</td>
+                  <td>Java</td>
+                  <td>Javascript</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Exists since</strong></td>
+                  <td>2010</td>
+                  <td>2003</td>
+                  <td>2009</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Backed by an independent foundation</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td>Spring proprietary vendor by Pivotal</td>
+                </tr>
+                <tr>
+                  <td><strong>Has a "boot" project</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Supports modules</strong></td>
+                  <td>Dynamic</td>
+                  <td>Static</td>
+                  <td>Dynamic</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Classloaders to isolate modules & dependencies</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Module hotdeployment</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Run in docker container</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Has a built-in webserver</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Has a built-in SSH shell</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Can expose runtime metrics</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Is an Apache project</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Is built on published standards</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Cluster support</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>App provisioning</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td>NodeJS: provisioning through NPM, Karaf: through Maven repositories, Features, Cave, OBR, etc...</td>
+                </tr>
+                <tr>
+                  <td><strong>OSGi support</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Annotation-based injection</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td>Spring: specific, Karaf: OSGi DS annotations or custom</td>
+                </tr>
+                <tr>
+                  <td><strong>Micro services development</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Has an initializer web tool</strong></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Annotations support for assembly/packaging</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Dynamic configuration</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>Support both immutable and mutable distribution</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-check-circle text-warning"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td>Spring: only immutable</td>
+                </tr>
+                <tr>
+                  <td><strong>Hot deploy code modifications</strong></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td><i class="fas fa-times-circle text-danger"></i></td>
+                  <td><i class="fas fa-check-circle text-success"></i></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div><!-- /.blog-main -->
+        </div>
 
         <!-- karaf-cellar -->
         <div class="row pb-5 pt-5 border-bottom">
