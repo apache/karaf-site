@@ -159,8 +159,8 @@
               <h4 class="pb-3 mb-4">Provide changes in a Pull Request</h4>
               <p>The best way to provide changes is to fork karaf repo on github and provide a pull request with your changes. To make it easy to apply your changes please use the following conventions :</p>
               <ul class="community">
-                    <li>Every pull request should have a matching jira issue</li>
-                    <li>Do the change in a branch that is named like the jira issue id e.g KARAF-1234.<br/>To create this branch you can use :<br/>
+                    <li>Every pull request should have a matching jira issue.</li>
+                    <li>Do the change in a branch that is named like the jira issue id e.g KARAF-1234.<br/>To create this branch you can use:<br/>
                         <code>git clone http://github.com/apache/karaf</code><br/>
                         <code>git fetch --all</code><br/>
                         <code>git checkout -b my-branch origin/master</code><br/>
@@ -168,18 +168,19 @@
                         <code>git pull --rebase</code><br/>
                         <code>git push GitHubUser my-branch --force</code>
                     </li>
+                    <li>PRs should be based on master. We are taking care of cherry picking the PR commits on target branches if needed.</li>
                     <li>Every commit in the branch should start with the jira issue id like this "[KARAF-123] More details"</li>
-                    <li>You can squash your commits into one and force push your branch (not mandatory) using <code>git rebase -i apache/master</code></li>
+                    <li>If you have a group of commits related to the same change, please squash your commits into one and force push your branch using <code>git rebase -i apache/master</code></li>
                     <li>Test that your change works by adapting or adding tests.</li>
                     <li><a href="http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule">Follow the boy scout rule to "Always leave the campground cleaner than you found it."</a></li>
                     <li>Make sure you do a build before doing a PR. The build has to be successfull :<br/>
                         <code>
-                            mvn clean verify -Prelease -fae -T 1C
+                            mvn clean verify -Prat
                         </code>
                     </li>
                     <li>If your PR has conflicts with the master then rebase the branch. PRs with conflicts are unlikely to be applied</li>
                     <li>Do not change too much in a PR. The smaller the PR the easier it is to apply and the faster it will be done</li>
-                    <li>Sometimes PRs get lost. Do not hesitate to ask on the dev list if your PR seems to be ignored</li>
+                    <li>Even if we are monitoring closely the PR, if you think your PR doesn't move forward fast enough, do not hesitate to ping in a PR comment to get some update.</li>
               </ul>
             </div>
         </div>
