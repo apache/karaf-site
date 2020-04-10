@@ -1,6 +1,9 @@
-target
-.classpath
-.project
+_site
+.sass-cache
+.jekyll-metadata
+.jekyll-cache
+*.gem
+.bundle
+Gemfile.lock
 .idea
-*.i??
-.DS_Store
+target

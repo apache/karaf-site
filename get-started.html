@@ -1,0 +1,234 @@
+---
+layout: page
+title: Apache Karaf - Get started
+permalink: /get-started
+---
+
+<main role="main">
+
+    <div class="container pt-5 pb-3">
+      <div class="jumbotron p-3 p-md-5 text-white bg-primary">
+        <div class="col-md-12 px-0">
+          <h1 class="display-4 font-italic">Get started with Apache Karaf is very easy!</h1>
+        </div>
+      </div>
+    </div>
+
+    <main role="main">
+
+      <div class="container">
+
+        <!-- Easy to install -->
+        <div class="row mb-2 mt-3">
+            <div class="col">
+              <h2 class="pb-3 mb-4 font-italic border-bottom"><i class="fas fa-box"></i> Easy to install</h2>
+              <p>The only prerequisite to start with Karaf is a Java SE 8 / 9 / 10 / 11 environment to run.
+                Refer to <a target="_blank" href="https://www.oracle.com/technetwork/java/javase">https://www.oracle.com/technetwork/java/javase</a> for details on how to download and install Java SE 1.8 or greater.</p>
+            </div>
+        </div>
+
+        <div class="row mb-2 mt-2">
+            <div class="col">
+              <h4 class="pb-3 mb-1">Download and extract</h4>
+              <ol>
+                <li>Open a Web browser and access the following URL: <a target="_blank" href="https://karaf.apache.org/download">
+                  https://karaf.apache.org/download.html</a>.</li>
+                <li>Download the binary distribution of Karaf Runtime that matches your system (zip for windows, tar.gz for unixes).</li>
+                <li>Extract the archive to a new folder on your hard drive. For example in <code>/opt/karaf</code>, from now on this directory will be
+                  referenced as <code>$KARAF_HOME</code>.</li>
+              </ol>
+            </div>
+        </div>
+
+        <div class="row mb-5 mt-2">
+          <div class="col">
+            <h4 class="pb-3 mb-1">Start and connect</h4>
+            <ol>
+              <li>Open a command line console and change the directory to <code>$KARAF_HOME</code>.</li>
+              <li>To start the server, run the following command on Unix:
+                <pre class="alert alert-primary"><code>$KARAF_HOME/bin/karaf</code></pre>
+                Respectively on Windows:
+                <pre class="alert alert-primary"><code>$KARAF_HOME\bin\karaf.bat</code></pre>
+              </li>
+              <li>You are now connected to the Karaf shell!</li>
+            </ol>
+
+            <p>
+              <pre class="alert alert-primary"><code>
+        __ __                  ____
+       / //_/____ __________ _/ __/
+      / ,<  / __ `/ ___/ __ `/ /_
+     / /| |/ /_/ / /  / /_/ / __/
+    /_/ |_|\__,_/_/   \__,_/_/
+
+  Apache Karaf (4.2.0)
+
+Hit '<tab>' for a list of available commands
+and '[cmd] --help' for help on a specific command.
+Hit '<ctrl-d>' or type 'system:shutdown' or 'logout' to shutdown Karaf.
+
+karaf@root()>
+              </code></pre>
+            </p>
+            <p><i class="fa fa-info-circle"></i> If you want to launch your Karaf instance in background, run on Unix:
+              <pre class="alert alert-primary"><code>$KARAF_HOME/bin/start</code></pre>
+            </p>
+            <p>Respectively on Windows:
+              <pre class="alert alert-primary"><code>$KARAF_HOME\bin\start.bat</code></pre>
+            </p>
+          </div>
+        </div>
+
+        <!-- Easy to manage -->
+        <div class="row mb-2 mt-3">
+          <div class="col">
+            <h2 class="pb-3 mb-4 font-italic border-bottom"><i class="fas fa-laptop"></i> Easy to manage</h2>
+            <p>You can manage your Karaf instance with the shell console to a local instance or to a remote instance using the ssh client.</p>
+          </div>
+        </div>
+
+        <div class="row mb-2 mt-2">
+          <div class="col">
+            <h4 class="pb-3 mb-1">Connect to the shell console</h4>
+            <ol>
+              <li>Open a command line console and change the directory to <code>$KARAF_HOME</code>.</li>
+              <li>To connect to the local instance, run in Unix:
+                <pre class="alert alert-primary"><code>$KARAF_HOME/bin/client</code></pre>
+                Respectively on Windows:
+                <pre class="alert alert-primary"><code>$KARAF_HOME\bin\client.bat</code></pre>
+                </li>
+            </ol>
+            <p><i class="fa fa-info-circle"></i> To connect to a remote instance, run:</p>
+            <pre class="alert alert-primary"><code>$KARAF_HOME/bin/client -a "IP" -p "PORT"</code></pre>
+            <p>You can also use any regular <code>ssh</code> client.</p>
+          </div>
+        </div>
+
+        <div class="row mb-2 mt-2">
+          <div class="col">
+            <h4 class="pb-3 mb-1">Shell console basics</h4>
+            <p>
+              You can now run your first command. Simply type the <code>tab</code> key in the console.
+            </p>
+            <pre class="alert alert-primary"><code>
+karaf@root()>
+karaf: do you wish to see to see all 356 possibilities (219 lines)?
+karaf@root()> Display all 294 possibilities? (y or n)
+...
+shell:logout                        shell:more                          shell:new                           shell:printf                        shell:sleep                         shell:sort                          shell:source
+shell:stack-traces-print            shell:tac                           shell:tail                          shell:threads                       shell:watch                         shell:wc                            shell:while
+shutdown                            sleep                               sort                                source                              ssh                                 ssh                                 ssh-host-change
+ssh-port-change                     ssh:ssh                             stack-traces-print                  start                               start-level                         status                              stop
+su                                  sudo                                system                              system:framework                    system:name                         system:property                     system:shutdown
+system:start-level                  system:version                      tac                                 tail                                threads                             tree-show                           uninstall
+update                              user-add                            user-delete                         user-list                           version                             version-list                        wait
+watch                               wc                                  while
+            </code></pre>
+            <p>You can then grab more specific help for a given command using the <code>--help</code> option for this command:</p>
+            <pre class="alert alert-primary"><code>
+karaf@root()> bundle:list --help
+DESCRIPTION
+        bundle:list
+
+        Lists all installed bundles.
+
+SYNTAX
+        bundle:list [options] [ids]
+
+ARGUMENTS
+        ids
+                The list of bundle (identified by IDs or name or name/version) separated by whitespaces
+
+OPTIONS
+        -name, -n
+                Show bundle name
+        -u
+                Shows the update locations
+        -r
+                Shows the bundle revisions
+        --no-ellipsis
+
+        -l
+                Show the locations
+        -s
+                Shows the symbolic name
+        --context, -c
+                Use the given bundle context
+                (defaults to 0)
+        --help
+                Display this help message
+        -t
+                Specifies the bundle threshold; bundles with a start-level less than this value will not get printed out.
+        --no-format
+                Disable table rendered output
+            </code></pre>
+            <p>
+              Note that the console supports tab completion so if you start typing a command it will show all possible completions and also auto
+              complete if there is only one completion.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mb-2 mt-2">
+          <div class="col">
+            <h4 class="pb-3 mb-1">Stop</h4>
+            You have multiple options for shuting down your Karaf instance:
+            <ul>
+              <li>For a background running instance, run the command on Unix:
+                <pre class="alert alert-primary"><code>$KARAF_HOME/bin/stop</code></pre>
+                Respectively on Windows:
+                <pre class="alert alert-primary"><code>$KARAF_HOME\bin\stop.bat</code></pre>
+              </li>
+              <li>To stop Karaf from the console, enter <code>Ctrl+D</code>.</li>
+              <li>Alternatively, you can also run the following command:
+                <pre class="alert alert-primary"><code>
+karaf@root()> feature:install system
+karaf@root()> system:shutdown
+Confirm: halt instance root (yes/no): yes
+karaf@root()>
+                </code></pre>
+              </li>
+            </ul>
+            <p><i class="fa fa-info-circle"></i> Halt is also an alias for <code>system:shutdown</code>
+              <pre class="alert alert-primary"><code>karaf@root()> halt</code></pre>
+            </p>
+          </div>
+        </div>
+
+        <!-- Easy to develop -->
+        <div class="row mb-2 mt-3">
+          <div class="col">
+            <h2 class="pb-3 mb-4 font-italic border-bottom"><i class="fas fa-code"></i> Easy to develop</h2>
+            <p>You are now ready to develop your first application!</p>
+            <p>A list of examples are packaged in the distribution (<code>$KARAF_HOME/examples</code>).
+              You can have an overview of this examples in the documentation page <a href="/documentation.html">here</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mb-2 mt-2">
+          <div class="col">
+            <h4 class="pb-3 mb-1">Tips for developers</h4>
+            <p>You can activate debug mode by adding the parameter <code>debug</code> to the command line:
+                <pre class="alert alert-primary"><code>$KARAF_HOME/bin/karaf debug</code></pre></li>
+              Then you can connect to the instance from remote with your IDE on the port <code>5005</code>.
+            </p>
+            <p>After building your bundle with maven, you can install it from the console:</p>
+            <pre class="alert alert-primary"><code>karaf@root()> bundle:install -s mvn:groupId/artifactId/1.0.0-SNAPSHOT</code></pre>
+            <p>The <code>bundle:watch</code> command enables watching the local Maven repository for updates on bundles. If the bundle file changes on the Maven repository,
+              Apache Karaf will automatically update the bundle.</p>
+            <pre class="alert alert-primary"><code>karaf@root()> bundle:watch *</code></pre>
+            <p>From now, your bundle will automatically update by Karaf after each local build.</p>
+          </div>
+        </div>
+
+        <!-- Want more -->
+        <div class="row mb-2 mt-3">
+          <div class="col">
+            <h2 class="pb-3 mb-4 font-italic border-bottom"><i class="far fa-comments"></i> What? You thought it was difficult to develop with Karaf?</h2>
+            <p>You want more! Ok, let's going deeper with the manual <a href="/manual/latest" target="_blank">here</a>.</p>
+          </div>
+        </div>
+
+      </div>
+</main>
