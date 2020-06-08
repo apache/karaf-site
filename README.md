@@ -13,29 +13,21 @@ Clone:
 git clone https://github.com/apache/karaf-site.git
 ```
 
-## Build
+## Building
 
-You need a machine with Maven to build the website.
+Karaf website uses jekyll to build (generate the HTML resources).
 
-Checkout:
+To install Jekyll, refer to https://jekyllrb.com/docs/
 
-```
-http://svn.apache.org/repos/asf/karaf/site/trunk/ karaf-site
-```
-
-## Development
-
-Installation of dev environment, follow official instructions:
-
-https://jekyllrb.com/docs/
-
-## Run
-
-To start Jekyll local server, just run:
+Once Jekyll is installed, you can build website using:
 
 ```
 bundle exec jekyll serve
 ```
+
+This command builds website and start the local Jekyll server on http://localhost:4000
+
+NB: your local Jekyll installation might need additional modules required by Apache Karaf website. Just run `bundle install` to install these modules.
 
 ## Deploy
 
