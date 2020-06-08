@@ -1,0 +1,16 @@
+- name: Home
+  link: /
+- name: News
+  link: /news.html
+- name: Get started
+  link: /get-started.html
+- name: Projects
+  link: /projects.html
+- name: Download
+  link: /download.html
+- name: Documentation
+  link: /documentation.html
+- name: Community
+  link: /community.html
+- name: Stories
+  link: /stories.html

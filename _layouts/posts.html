@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+	{{ content }}
+
+    {% include footer.html %}
+  </body>
+</html>

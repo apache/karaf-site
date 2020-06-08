@@ -23,15 +23,41 @@ Checkout:
 http://svn.apache.org/repos/asf/karaf/site/trunk/ karaf-site
 ```
 
-Run Build:
+## Development
+
+Installation of dev environment, follow official instructions:
+
+https://jekyllrb.com/docs/
+
+## Run
+
+To start Jekyll local server, just run:
+
+```
+bundle exec jekyll serve
+```
+
+## Deploy
+
+Build the site for production:
+
+```
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+Package the war:
 
 ```
 mvn clean install
 ```
 
-## Publish
+You can test the war with Jetty embedded and visit http://localhost:8080/ :
 
-To publish the local website to the production location (https://karaf.apache.org), you have to use:
+```
+mvn jetty:run
+```
+
+Deploy on scm
 
 ```
 mvn install scm-publish:publish-scm
