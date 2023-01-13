@@ -29,7 +29,7 @@ This command builds website and start the local Jekyll server on http://localhos
 
 NB: your local Jekyll installation might need additional modules required by Apache Karaf website. Just run `bundle install` to install these modules.
 
-## Deploy
+## Deploy
 
 Build the site for production:
 
