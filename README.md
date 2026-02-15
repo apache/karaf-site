@@ -25,6 +25,12 @@ Once Jekyll is installed, you can build website using:
 bundle exec jekyll serve
 ```
 
+You can also use Jekyll Docker image to server:
+
+```
+docker run --rm --volume="$PWD:/srv/jekyll:Z" --publish 4000:4000 jekyll/jekyll jekyll serve
+```
+
 This command builds website and start the local Jekyll server on http://localhost:4000
 
 NB: your local Jekyll installation might need additional modules required by Apache Karaf website. Just run `bundle install` to install these modules.
@@ -35,6 +41,12 @@ Build the site for production:
 
 ```
 JEKYLL_ENV=production bundle exec jekyll build
+```
+
+You can also use Jekyll Docker image to build:
+
+```
+docker run --rm --volume="$PWD:/srv/jekyll:Z" jekyll/jekyll jekyll build
 ```
 
 Package the war:
