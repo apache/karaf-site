@@ -35,6 +35,12 @@ This command builds website and start the local Jekyll server on http://localhos
 
 NB: your local Jekyll installation might need additional modules required by Apache Karaf website. Just run `bundle install` to install these modules.
 
+## Building with Docker
+
+```
+docker run --rm --volume="$PWD:/srv/jekyll:Z" -it jekyll/jekyll jekyll build
+```
+
 ## Deploy
 
 Build the site for production:
