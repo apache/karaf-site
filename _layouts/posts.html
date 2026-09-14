@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
+---
+layout: default
+---
 
-  <body>
-    {% include header.html %}
+<div class="content-page container">
+  <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
-	{{ content }}
-
-    {% include footer.html %}
-  </body>
-</html>
+  {{ content }}
+</div>

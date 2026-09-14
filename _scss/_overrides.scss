@@ -1,0 +1,59 @@
+// Bootstrap variable overrides for the Karaf brand.
+// These are evaluated before `@import "bootstrap/scss/bootstrap"`, so magic defaults
+// in the framework pick them up.
+
+// Karaf / Apache brand accent (a warm Apache red).
+$brand:     #df2a2a;
+$brand-600: #c22020;
+$brand-700: #a81c1c;
+
+// Fonts: modern pairing replacing Open Sans + Montserrat.
+$font-family-sans-serif:
+  "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace:
+  "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+// Semantic colors mapped to the brand.
+$primary:       $brand;
+$danger:        $brand;
+$link-color:    $brand-600;
+$link-shade-percentage: 20%;
+
+// Body surfaces (overridden by CSS tokens at runtime for dark/light).
+$body-bg:       #ffffff;
+$body-color:    #1f2328;
+
+// Rounded, modern corners.
+$border-radius-base:  0.375rem;
+$border-radius:      0.375rem;
+$border-radius-lg:   0.5rem;
+$border-radius-sm:   0.25rem;
+$border-radius-pill: 50rem;
+
+// Enable smooth shadows for a modern, elevated look.
+$enable-shadows:  true;
+$enable-gradients: false;
+$card-border-width: 1px;
+$card-spacer-y: 1.25rem;
+$card-spacer-x: 1.25rem;
+$card-border-radius: 0.5rem;
+
+// Navbar height / styling feel.
+$navbar-padding-y: 0.75rem;
+$navbar-light-color:  $body-color;
+$navbar-light-hover-color: $brand-600;
+$navbar-light-active-color: $brand-600;
+
+// Typography scale.
+$font-size-base: 1rem;
+$headings-font-weight: 600;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2.0rem;
+$h3-font-size: 1.5rem;
+$paragraph-margin-bottom: 1rem;
+$line-height-base: 1.6;
+
+// Links.
+$link-hover-color: $brand-700;
+$link-decoration: none;
+$link-hover-decoration: underline;

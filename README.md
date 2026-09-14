@@ -15,11 +15,40 @@ git clone https://github.com/apache/karaf-site.git
 
 ## Building
 
-Karaf website uses jekyll to build (generate the HTML resources).
+Karaf website uses Jekyll to build (generate the HTML resources) and npm/sass to build the CSS assets (Bootstrap 5 based theme).
 
 To install Jekyll, refer to https://jekyllrb.com/docs/
 
-Once Jekyll is installed, you can build website using:
+Install the node dependencies and the Ruby modules required by the site:
+
+```
+npm install
+bundle install
+```
+
+Build the site for the first time, then start the local development server on http://localhost:4000 with auto-regeneration (this also recompiles the CSS):
+
+```
+npm start
+```
+
+To produce a one-shot static build (CSS + HTML) into `_site/`, without serving:
+
+```
+npm run build
+```
+
+### Lower-level steps
+
+`npm start` and `npm run build` both run the CSS build automatically. If you only need the individual steps:
+
+```
+npm run build:css   # compile the Bootstrap 5 theme (_scss/) to assets/css/karaf.css
+npm run watch:css   # rebuild CSS continuously while styling
+npm run optimize:svg # minify the SVG assets (logos) after editing any images/*.svg
+```
+
+Once Jekyll is installed, you can also run Jekyll directly (it will not recompile CSS) :
 
 ```
 bundle exec jekyll serve
