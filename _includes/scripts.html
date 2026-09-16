@@ -9,8 +9,12 @@
     var root = document.documentElement;
     var toggle = document.getElementById('theme-toggle');
 
-    function applyTheme(theme) {
+    function setTheme(theme) {
       root.setAttribute('data-bs-theme', theme);
+    }
+
+    function applyTheme(theme) {
+      setTheme(theme);
       try { localStorage.setItem('karaf-theme', theme); } catch (e) {}
     }
 
@@ -25,7 +29,7 @@
       window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
         var saved = null;
         try { saved = localStorage.getItem('karaf-theme'); } catch (err) {}
-        if (!saved) { applyTheme(e.matches ? 'dark' : 'light'); }
+        if (!saved) { setTheme(e.matches ? 'dark' : 'light'); }
       });
     }
   })();

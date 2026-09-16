@@ -60,6 +60,10 @@ h1, h2, h3, h4, h5, h6 { color: var(--k-text); }
 // Navbar
 // ---------------------------------------------------------------------------
 
+:root {
+  --k-nav-height: 61px; // .k-nav min-height (60px) + border-bottom (1px)
+}
+
 .k-nav {
   background-color: var(--k-bg);
   border-bottom: 1px solid var(--k-border);
@@ -431,8 +435,10 @@ img.k-github {
 // Content page top spacing
 // ---------------------------------------------------------------------------
 
-.content-page { padding-top: 2rem; }
+.content-page { padding-top: calc(var(--k-nav-height) + 2rem); }
 .content-page .container h2:first-child { margin-top: 0; }
+
+[id] { scroll-margin-top: var(--k-nav-height); }
 
 main[role="main"] { min-height: 60vh; }
 
