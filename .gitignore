@@ -10,3 +10,4 @@ package-lock.json
 target
 node_modules
 _sass/vendor
+assets/css/karaf.css

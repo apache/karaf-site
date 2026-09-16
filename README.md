@@ -48,9 +48,7 @@ npm run watch:css   # rebuild CSS continuously while styling
 npm run optimize:svg # minify the SVG assets (logos) after editing any images/*.svg
 ```
 
-`assets/css/karaf.css` is committed to the repository, not gitignored: the production deploy below only runs `bundle exec jekyll build`, which cannot resolve the Bootstrap 5 Sass imports in `_scss/` (that requires `node_modules` via the `sass` CLI). Whenever you change anything under `_scss/`, run `npm run build:css` and commit the regenerated `assets/css/karaf.css` together with your source change.
-
-Once Jekyll is installed, you can also run Jekyll directly (it will not recompile CSS) :
+`assets/css/karaf.css` is generated and gitignored — it is not committed. Once you have run `npm start`, `npm run build`, or `npm run build:css` at least once, the file exists on disk and you can also run Jekyll directly:
 
 ```
 bundle exec jekyll serve
@@ -74,15 +72,13 @@ docker run --rm --volume="$PWD:/srv/jekyll:Z" -it jekyll/jekyll jekyll build
 
 ## Deploy
 
-Build the site for production:
+Build the site for production (this also compiles the CSS and optimizes the SVGs, see note above):
 
 ```
-JEKYLL_ENV=production bundle exec jekyll build
+JEKYLL_ENV=production npm run build
 ```
 
-This step does not compile CSS (see note above) — make sure `assets/css/karaf.css` in the repository is already up to date with `_scss/` before building/publishing.
-
-You can also use Jekyll Docker image to build:
+You can also use Jekyll Docker image to build (run `npm run build:css` first, since the Docker image cannot resolve the Bootstrap 5 Sass imports):
 
 ```
 docker run --rm --volume="$PWD:/srv/jekyll:Z" jekyll/jekyll jekyll build
