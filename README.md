@@ -48,6 +48,8 @@ npm run watch:css   # rebuild CSS continuously while styling
 npm run optimize:svg # minify the SVG assets (logos) after editing any images/*.svg
 ```
 
+`assets/css/karaf.css` is committed to the repository, not gitignored: the production deploy below only runs `bundle exec jekyll build`, which cannot resolve the Bootstrap 5 Sass imports in `_scss/` (that requires `node_modules` via the `sass` CLI). Whenever you change anything under `_scss/`, run `npm run build:css` and commit the regenerated `assets/css/karaf.css` together with your source change.
+
 Once Jekyll is installed, you can also run Jekyll directly (it will not recompile CSS) :
 
 ```
@@ -77,6 +79,8 @@ Build the site for production:
 ```
 JEKYLL_ENV=production bundle exec jekyll build
 ```
+
+This step does not compile CSS (see note above) — make sure `assets/css/karaf.css` in the repository is already up to date with `_scss/` before building/publishing.
 
 You can also use Jekyll Docker image to build:
 
