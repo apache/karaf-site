@@ -1,0 +1,18 @@
+{
+  "name": "karaf-site",
+  "version": "1.0.0",
+  "description": "Apache Karaf website - asset build",
+  "private": true,
+  "scripts": {
+    "build:css": "sass --no-source-map --quiet-deps --silence-deprecation=import --load-path=node_modules _scss/karaf.scss:assets/css/karaf.css",
+    "watch:css": "sass --watch --quiet-deps --silence-deprecation=import --load-path=node_modules _scss/karaf.scss:assets/css/karaf.css",
+    "optimize:svg": "svgo --config svgo.config.js images/*.svg",
+    "build": "npm run build:css && npm run optimize:svg && bundle exec jekyll build",
+    "start": "npm run build:css && npm run optimize:svg && bundle exec jekyll serve"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.0",
+    "svgo": "^4.1.0"
+  }
+}

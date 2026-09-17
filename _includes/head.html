@@ -1,21 +1,31 @@
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
-<meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+<meta content="width=device-width, initial-scale=1" name="viewport">
 <meta content="" name="keywords">
-<meta content="" name="description">
+<meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="description">
 
 <!-- jekyll-seo-tag plugin -->
 {% seo %}
 
 <!-- Favicons -->
-<link href="../images/favicon.png" rel="icon">
+<link href="/images/favicon.ico" rel="icon">
+<link rel="icon" type="image/svg+xml" href="/images/feather.svg">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-<!-- Bootstrap CSS File -->
-<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap 5 + FontAwesome + Karaf theme -->
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" rel="stylesheet">
+<link href="/assets/css/karaf.css" rel="stylesheet">
 
-<!-- Libraries CSS Files -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<link href="/assets/css/styles.css" rel="stylesheet">
+<!-- Set theme before paint to avoid flash -->
+<script>
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('karaf-theme'); } catch (e) {}
+    var theme = saved || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-bs-theme', theme);
+  })();
+</script>

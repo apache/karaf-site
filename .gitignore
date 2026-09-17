@@ -5,5 +5,9 @@ _site
 *.gem
 .bundle
 Gemfile.lock
+package-lock.json
 .idea
 target
+node_modules
+_sass/vendor
+assets/css/karaf.css
