@@ -1,0 +1,451 @@
+// Karaf component styles
+// Keep custom CSS to theme-specific components; lean on Bootstrap for layout/utilities.
+
+// ---------------------------------------------------------------------------
+// Base surface / typography
+// ---------------------------------------------------------------------------
+
+body {
+  background-color: var(--k-bg);
+  color: var(--k-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--k-accent);
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--k-accent-strong);
+  }
+}
+
+.text-muted { color: var(--k-muted) !important; }
+.text-secondary { color: var(--k-text-soft) !important; }
+.text-dark { color: var(--k-text) !important; }
+.bg-dark { background-color: var(--k-bg-subtle) !important; }
+.bg-secondary { background-color: var(--k-surface-muted) !important; }
+.thead-dark th {
+  background-color: var(--k-bg-subtle);
+  color: var(--k-text);
+}
+
+code,
+code.highlighter-rouge {
+  background-color: var(--k-code-bg);
+  color: var(--k-code-text);
+  padding: 0.15em 0.35em;
+  border-radius: 0.25em;
+  font-size: 0.875em;
+  font-family: var(--bs-font-monospace);
+}
+
+pre {
+  background-color: var(--k-bg-subtle);
+  color: var(--k-text);
+  border: 1px solid var(--k-border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow: auto;
+
+  code { background: none; color: inherit; padding: 0; }
+}
+
+h1, h2, h3, h4, h5, h6 { color: var(--k-text); }
+
+::selection { background: var(--k-accent-soft); color: var(--k-text); }
+
+// ---------------------------------------------------------------------------
+// Navbar
+// ---------------------------------------------------------------------------
+
+:root {
+  --k-nav-height: 61px; // .k-nav min-height (60px) + border-bottom (1px)
+}
+
+.k-nav {
+  background-color: var(--k-bg);
+  border-bottom: 1px solid var(--k-border);
+  box-shadow: var(--k-shadow-sm);
+  min-height: 60px;
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img { height: 36px; width: auto; max-height: 36px; }
+
+    .k-brand-name {
+      color: var(--k-text);
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: -0.01em;
+    }
+
+    &:hover .k-brand-name { color: var(--k-accent); }
+  }
+  .asf-logo { height: 24px; width: auto; }
+  .k-logo-light { display: none; }
+  .k-logo-dark { display: inline-block; }
+  .nav-link {
+    color: var(--k-text-soft);
+    font-weight: 500;
+    &:hover { color: var(--k-accent); }
+  }
+  .nav-link.active { color: var(--k-accent); font-weight: 600; }
+
+  .navbar-toggler { border-color: var(--k-border-strong); color: var(--k-text); }
+  .navbar-toggler-icon {
+    background-image: none;
+    position: relative;
+    width: 1.25em;
+    height: 1.25em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+  }
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: var(--k-text);
+    border-radius: 2px;
+  }
+  .navbar-toggler-icon::before { box-shadow: 0 -4px 0 var(--k-text); }
+}
+
+[data-bs-theme="dark"] {
+  .k-nav {
+    .k-logo-light { display: inline-block; }
+    .k-logo-dark { display: none; }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Theme toggle
+// ---------------------------------------------------------------------------
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--k-border);
+  border-radius: 50rem;
+  background: var(--k-surface);
+  color: var(--k-text);
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+
+  &:hover { border-color: var(--k-accent); color: var(--k-accent); }
+  .icon-sun { display: none; }
+  .icon-moon { display: block; }
+}
+
+[data-bs-theme="dark"] .theme-toggle {
+  .icon-sun { display: block; }
+  .icon-moon { display: none; }
+}
+
+// ---------------------------------------------------------------------------
+// Hero
+// ---------------------------------------------------------------------------
+
+.k-hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--k-hero-text);
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--k-hero-overlay);
+  }
+
+  .k-hero-inner { position: relative; z-index: 1; }
+  h1 { color: var(--k-hero-text); }
+  .lead { color: rgba(255, 255, 255, 0.85); }
+}
+
+// Releases strip replacing the old carousel.
+.k-releases {
+  background-color: var(--k-bg-subtle);
+  border-block: 1px solid var(--k-border);
+
+  .k-release-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    align-items: flex-start;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--k-border);
+    font-size: 0.875rem;
+
+    strong { color: var(--k-text); font-size: 0.95rem; }
+    span { color: var(--k-text-soft); }
+    a { white-space: nowrap; }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Featurettes
+// ---------------------------------------------------------------------------
+
+.featurette { margin-bottom: 2.5rem; }
+.featurette-divider { margin: 4rem 0; border-color: var(--k-border); }
+.featurette-heading { font-weight: 600; letter-spacing: -0.02em; }
+
+.k-pill {
+  display: block;
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--k-border);
+  background-color: var(--k-surface-muted);
+  color: var(--k-text);
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  &.k-pill-accent { background-color: var(--k-accent); color: #fff; border-color: var(--k-accent); }
+  &.k-pill-strong { background-color: var(--k-bg-subtle); }
+}
+
+// ---------------------------------------------------------------------------
+// Value props (the three columns)
+// ---------------------------------------------------------------------------
+
+.k-value {
+  text-align: center;
+  .k-value-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 0.75rem;
+    background-color: var(--k-accent-soft);
+    color: var(--k-accent);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  h3 { font-size: 1.25rem; }
+}
+
+// ---------------------------------------------------------------------------
+// Doc cards (documentation page)
+// ---------------------------------------------------------------------------
+
+.k-doc-card {
+  height: 100%;
+  border: 1px solid var(--k-border);
+  border-radius: 0.6rem;
+  background-color: var(--k-surface);
+  box-shadow: var(--k-shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover { transform: translateY(-2px); box-shadow: var(--k-shadow-md); }
+
+  .k-doc-title {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--k-text);
+    .k-doc-icon {
+      color: var(--k-accent);
+      width: 1.3rem;
+      text-align: center;
+    }
+  }
+
+  .k-doc-series { margin-bottom: 0.6rem; }
+  .k-series-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--k-muted);
+    margin-right: 0.5rem;
+  }
+}
+
+// Doc format pills (online | html | pdf)
+.k-format {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+  border-radius: 50rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: var(--k-surface-muted);
+  color: var(--k-text-soft);
+  border: 1px solid var(--k-border);
+  text-decoration: none;
+
+  &:hover { background-color: var(--k-accent-soft); color: var(--k-accent); border-color: var(--k-accent); }
+}
+
+// ---------------------------------------------------------------------------
+// Section headers
+// ---------------------------------------------------------------------------
+
+.k-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--k-border);
+
+  .k-section-icon {
+    color: var(--k-accent);
+    width: 1.4rem;
+    text-align: center;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Admonition / security advisories
+// ---------------------------------------------------------------------------
+
+.k-admonition {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  padding: 1rem 1.1rem;
+  margin-bottom: 0.9rem;
+  border: 1px solid var(--k-border);
+  border-left: 4px solid var(--k-accent);
+  border-radius: 0.5rem;
+  background-color: var(--k-surface);
+  box-shadow: var(--k-shadow-sm);
+
+  .k-admonition-icon { color: var(--k-accent); font-size: 1.1rem; margin-top: 0.15rem; }
+  p { margin-bottom: 0.55rem; }
+  .btn-outline-primary {
+    color: var(--k-accent);
+    border-color: var(--k-accent);
+    &:hover { background-color: var(--k-accent); color: #fff; }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Link lists (articles, tutorials, books, bloggers)
+// ---------------------------------------------------------------------------
+
+.k-link-list .k-link-item {
+  display: block;
+  padding: 0.35rem 0;
+  color: var(--k-text-soft);
+
+  &:hover { color: var(--k-accent); }
+}
+.k-link-list + .k-link-list { margin-top: 0.25rem; }
+
+// ---------------------------------------------------------------------------
+// GitHub icon
+// ---------------------------------------------------------------------------
+
+img.k-github {
+  width: 20px;
+  height: 20px;
+  filter: var(--k-github-icon-filter);
+}
+
+// ---------------------------------------------------------------------------
+// Tables
+// ---------------------------------------------------------------------------
+
+.table {
+  --bs-table-bg: transparent;
+  color: var(--k-text);
+  border-color: var(--k-border);
+  thead th { border-bottom-width: 2px; border-color: var(--k-border-strong); font-weight: 600; }
+  tbody td, tbody th { color: var(--k-text); }
+  &.table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-color: var(--k-text);
+    background-color: var(--k-surface-muted);
+  }
+  &.table-hover > tbody > tr:hover > * {
+    --bs-table-color: var(--k-text);
+    background-color: var(--k-accent-soft);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Cards (generic, e.g. download / projects)
+// ---------------------------------------------------------------------------
+
+.card {
+  background-color: var(--k-surface);
+  border: 1px solid var(--k-border);
+  border-radius: 0.6rem;
+  box-shadow: var(--k-shadow-sm);
+  color: var(--k-text);
+
+  .card-title, h3, h4, h5 { color: var(--k-text); }
+  .text-primary { color: var(--k-accent) !important; }
+}
+
+// ---------------------------------------------------------------------------
+// Buttons
+// ---------------------------------------------------------------------------
+
+.btn-primary {
+  --bs-btn-bg: var(--k-accent);
+  --bs-btn-border-color: var(--k-accent);
+  --bs-btn-hover-bg: var(--k-accent-strong);
+  --bs-btn-hover-border-color: var(--k-accent-strong);
+  --bs-btn-active-bg: var(--k-accent-strong);
+  --bs-btn-active-border-color: var(--k-accent-strong);
+}
+
+// ---------------------------------------------------------------------------
+// Footer
+// ---------------------------------------------------------------------------
+
+.k-footer {
+  background-color: var(--k-bg-subtle);
+  color: var(--k-text-soft);
+  border-top: 1px solid var(--k-border);
+  font-size: 0.9rem;
+
+  h2 { color: var(--k-text); }
+  a:not(.btn) { color: var(--k-accent); &:hover { color: var(--k-accent-strong); } }
+  .k-footer-legal { color: var(--k-muted); font-size: 0.8rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--k-border); }
+  .k-back-top { color: var(--k-text-soft); text-decoration: none; &:hover { color: var(--k-accent); } }
+}
+
+// ---------------------------------------------------------------------------
+// Content page top spacing
+// ---------------------------------------------------------------------------
+
+.content-page { padding-top: calc(var(--k-nav-height) + 2rem); }
+.content-page .container h2:first-child { margin-top: 0; }
+
+[id] { scroll-margin-top: var(--k-nav-height); }
+
+main[role="main"] { min-height: 60vh; }
+
+// ---------------------------------------------------------------------------
+// Reduced motion
+// ---------------------------------------------------------------------------
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

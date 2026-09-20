@@ -1,0 +1,14 @@
+// Apache Karaf theme
+// Built from Bootstrap 5.3 source + Karaf design tokens.
+
+// 1. Bootstrap variable overrides (evaluated before bootstrap so !defaults respect these)
+@import "overrides";
+
+// 2. Bootstrap core
+@import "bootstrap/scss/bootstrap";
+
+// 3. Karaf design tokens as CSS custom properties (light + dark)
+@import "karaf-tokens";
+
+// 4. Karaf component/page custom styles
+@import "karaf-components";

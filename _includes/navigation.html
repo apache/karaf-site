@@ -1,33 +1,48 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-	<div class="container">
-		<a class="navbar-brand" href="/"><img src="/images/karaf-logo-new.png"/></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-			<div>
-				<ul class="navbar-nav mr-auto align-items-center text-uppercase">
-				  {% for item in site.data.navigation %}
+<nav class="navbar navbar-expand-md fixed-top k-nav">
+  <div class="container">
+    <a class="navbar-brand" href="/" aria-label="Apache Karaf">
+      <img class="k-logo k-logo-dark" src="/images/karaf-logo.svg" alt="">
+      <img class="k-logo k-logo-light" src="/images/karaf-logo-light.svg" alt="">
+      <span class="k-brand-name">Apache Karaf</span>
+    </a>
 
-					{% if item.hassubfolder %}
-						{% assign subselected = item.subfolderitems | where:"link", page.url  | first %}
-						<li class="drop-down {% if page.url == subselected.link %}active{% endif %}"><a href="#">{{ item.name }}</a>
-							<ul>
-								{% for subitem in item.subfolderitems %}
-									<li class="nav-item"><a class="nav-link" href="{{ subitem.link }}">{{ subitem.name }}</a></li>
-								{% endfor %}
-							</ul>
-						  </li>
-					{% else %}
-						<li {% if page.url == item.link %}class="nav-item active"{% endif %}><a class="nav-link" href="{{ item.link }}">{{ item.name }}</a></li>
-					{% endif %}
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-				  {% endfor %}
-					<li class="nav-item">
-						<a class="nav-link" href="https://www.apache.org"><img src="/images/asf_logo_wide.png" style="width: 60px"/></a>
-					</li>
-				</ul>
-			<div>
-		</div>
-	</div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+      <ul class="navbar-nav align-items-md-center">
+        {% for item in site.data.navigation %}
+          {% if item.hassubfolder %}
+            {% assign subselected = item.subfolderitems | where: "link", page.url | first %}
+            <li class="nav-item dropdown {% if page.url == subselected.link %}active{% endif %}">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">{{ item.name }}</a>
+              <ul class="dropdown-menu">
+                {% for subitem in item.subfolderitems %}
+                  <li><a class="dropdown-item {% if page.url == subitem.link %}active{% endif %}" href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="nav-item {% if page.url == item.link %}active{% endif %}">
+              <a class="nav-link {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.apache.org" aria-label="Apache Software Foundation">
+            <img class="asf-logo" src="/images/asf_logo_wide.png" alt="ASF">
+          </a>
+        </li>
+        <li class="nav-item ms-md-2">
+          <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <i class="fa-solid fa-sun icon-sun"></i>
+            <i class="fa-solid fa-moon icon-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
