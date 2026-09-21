@@ -176,6 +176,24 @@ h1, h2, h3, h4, h5, h6 { color: var(--k-text); }
   .lead { color: rgba(255, 255, 255, 0.85); }
 }
 
+// Homepage hero: a token-driven gradient + dot texture instead of a stock
+// photo, so it stays legible and on-brand in both themes with no extra
+// image request.
+.k-hero-home {
+  color: var(--k-text);
+  background-color: var(--k-bg-subtle);
+  background-image:
+    radial-gradient(circle at 1px 1px, var(--k-border) 1px, transparent 0),
+    linear-gradient(135deg, var(--k-accent-soft) 0%, transparent 60%);
+  background-size: 24px 24px, auto;
+  background-position: -12px -12px, 0 0;
+
+  &::before { background-color: transparent; }
+
+  h1 { color: var(--k-text); }
+  .lead { color: var(--k-text-soft); }
+}
+
 // Releases strip replacing the old carousel.
 .k-releases {
   background-color: var(--k-bg-subtle);
@@ -205,19 +223,77 @@ h1, h2, h3, h4, h5, h6 { color: var(--k-text); }
 .featurette-heading { font-weight: 600; letter-spacing: -0.02em; }
 
 .k-pill {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   padding: 0.6rem 1rem;
   margin-bottom: 0.5rem;
   border-radius: 0.375rem;
   border: 1px solid var(--k-border);
   background-color: var(--k-surface-muted);
   color: var(--k-text);
-  text-align: center;
   font-weight: 600;
   font-size: 0.9rem;
 
-  &.k-pill-accent { background-color: var(--k-accent); color: #fff; border-color: var(--k-accent); }
+  i { color: var(--k-accent); }
+
+  &.k-pill-accent {
+    background-color: var(--k-accent);
+    color: #fff;
+    border-color: var(--k-accent);
+    i { color: #fff; }
+  }
   &.k-pill-strong { background-color: var(--k-bg-subtle); }
+}
+
+// ---------------------------------------------------------------------------
+// Terminal mockup (shell console preview)
+// ---------------------------------------------------------------------------
+
+.k-terminal {
+  border: 1px solid var(--k-border);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  background-color: var(--k-bg-subtle);
+  box-shadow: var(--k-shadow-md);
+}
+
+.k-terminal-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 0.9rem;
+  background-color: var(--k-surface-muted);
+  border-bottom: 1px solid var(--k-border);
+
+  span:not(.k-terminal-title) {
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    background-color: var(--k-border-strong);
+    display: inline-block;
+  }
+
+  .k-terminal-title {
+    margin-left: 0.5rem;
+    font-family: var(--bs-font-monospace);
+    font-size: 0.8rem;
+    color: var(--k-muted);
+  }
+}
+
+.k-terminal-body {
+  margin: 0;
+  padding: 1.25rem;
+  border: none;
+  border-radius: 0;
+  background: none;
+  color: var(--k-text-soft);
+  font-size: 0.85rem;
+  line-height: 1.6;
+
+  .k-cmd { color: var(--k-accent); font-weight: 600; }
 }
 
 // ---------------------------------------------------------------------------
