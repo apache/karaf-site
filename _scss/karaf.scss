@@ -7,8 +7,22 @@
 // 2. Bootstrap core
 @import "bootstrap/scss/bootstrap";
 
-// 3. Karaf design tokens as CSS custom properties (light + dark)
+// 3. Font Awesome, self-hosted: the ASF-enforced CSP on *.apache.org only
+// allows style/font requests from 'self' (plus a few apache.org domains), so
+// loading it from a CDN (cdn.jsdelivr.net) gets silently blocked by the
+// browser and every icon on the site disappears. Bundle it into karaf.css
+// instead and serve the webfonts from /assets/webfonts (see package.json's
+// build:icons script, which copies them out of node_modules).
+$fa-font-path: "../webfonts";
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/regular";
+
+// 4. Self-hosted Inter + JetBrains Mono (same CSP reasoning as Font Awesome above)
+@import "fonts";
+
+// 5. Karaf design tokens as CSS custom properties (light + dark)
 @import "karaf-tokens";
 
-// 4. Karaf component/page custom styles
+// 6. Karaf component/page custom styles
 @import "karaf-components";

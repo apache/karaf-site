@@ -6,11 +6,13 @@
   "scripts": {
     "build:css": "sass --no-source-map --quiet-deps --silence-deprecation=import --load-path=node_modules _scss/karaf.scss:assets/css/karaf.css",
     "watch:css": "sass --watch --quiet-deps --silence-deprecation=import --load-path=node_modules _scss/karaf.scss:assets/css/karaf.css",
+    "build:icons": "mkdir -p assets/webfonts && cp node_modules/@fortawesome/fontawesome-free/webfonts/* assets/webfonts/",
     "optimize:svg": "svgo --config svgo.config.js images/*.svg",
-    "build": "npm run build:css && npm run optimize:svg && bundle exec jekyll build",
-    "start": "npm run build:css && npm run optimize:svg && bundle exec jekyll serve"
+    "build": "npm run build:icons && npm run build:css && npm run optimize:svg && bundle exec jekyll build",
+    "start": "npm run build:icons && npm run build:css && npm run optimize:svg && bundle exec jekyll serve"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "bootstrap": "^5.3.3",
     "sass": "^1.77.0",
     "svgo": "^4.1.0"

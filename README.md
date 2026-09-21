@@ -17,6 +17,8 @@ git clone https://github.com/apache/karaf-site.git
 
 Karaf website uses Jekyll to build (generate the HTML resources) and npm/sass to build the CSS assets (Bootstrap 5 based theme).
 
+The `Content-Security-Policy` enforced on `*.apache.org` only allows script/style/font requests from `'self'` and a short list of apache.org domains, so any asset loaded from a third-party CDN (jsdelivr, Google Fonts, etc.) is silently blocked by the browser. Bootstrap's JS and Font Awesome must stay self-hosted: Font Awesome is bundled into `assets/css/karaf.css` via `_scss/karaf.scss` (with its webfonts copied by `npm run build:icons`), and Bootstrap's JS bundle is committed at `assets/js/vendor/bootstrap.bundle.min.js` — refresh it from `node_modules/bootstrap/dist/js/bootstrap.bundle.min.js` whenever the `bootstrap` npm version is bumped.
+
 To install Jekyll, refer to https://jekyllrb.com/docs/
 
 Install the node dependencies and the Ruby modules required by the site:
@@ -45,10 +47,11 @@ npm run build
 ```
 npm run build:css   # compile the Bootstrap 5 theme (_scss/) to assets/css/karaf.css
 npm run watch:css   # rebuild CSS continuously while styling
+npm run build:icons # copy the Font Awesome webfonts to assets/webfonts
 npm run optimize:svg # minify the SVG assets (logos) after editing any images/*.svg
 ```
 
-`assets/css/karaf.css` is generated and gitignored — it is not committed. Once you have run `npm start`, `npm run build`, or `npm run build:css` at least once, the file exists on disk and you can also run Jekyll directly:
+`assets/css/karaf.css` and `assets/webfonts/` are generated and gitignored — they are not committed. Once you have run `npm start`, `npm run build`, or `npm run build:css`/`npm run build:icons` at least once, they exist on disk and you can also run Jekyll directly:
 
 ```
 bundle exec jekyll serve
@@ -78,7 +81,7 @@ Build the site for production (this also compiles the CSS and optimizes the SVGs
 JEKYLL_ENV=production npm run build
 ```
 
-You can also use Jekyll Docker image to build (run `npm run build:css` first, since the Docker image cannot resolve the Bootstrap 5 Sass imports):
+You can also use Jekyll Docker image to build (run `npm run build:css` and `npm run build:icons` first, since the Docker image cannot resolve the Bootstrap 5 Sass imports or copy the Font Awesome webfonts):
 
 ```
 docker run --rm --volume="$PWD:/srv/jekyll:Z" jekyll/jekyll jekyll build
