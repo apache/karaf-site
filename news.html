@@ -11,9 +11,9 @@ permalink: /news
             <div class="card-body d-flex flex-column">
               <strong class="d-inline-block mb-2 text-primary"><i class="fas fa-rocket"></i> Announce</strong>
               <h3 class="mb-0">
-                <a>Karaf OSGi runtime 4.4.11</a>
+                <a>Karaf OSGi runtime 4.4.12</a>
               </h3>
-              <div class="mb-1 text-secondary">April 30, 2026</div>
+              <div class="mb-1 text-secondary">September 27, 2026</div>
               <p class="card-text mb-auto">Apache Karaf 4.4.x series brings OSGi R8 support, Pax Web 8.0.x, Pax Logging 2.3.x, and a lot of other improvements and updates.</p>
               <a href="#">Learn more</a>
             </div>
@@ -44,6 +44,25 @@ permalink: /news
         <div class="row g-5 mt-4">
             <div class="col-lg-10">
               <h2 class="k-section-heading"><i class="fas fa-bullhorn k-section-icon"></i> Fresh news</h2>
+
+              <div class="pb-4 mb-4">
+                <h3>Karaf OSGi runtime 4.4.12 has been released! <span class="text-secondary">September 27, 2026</span></h3>
+                <p>Apache Karaf runtime 4.4.12 is a maintenance release on the 4.4.x series, bringing hardening and fixes, especially:
+                <ul>
+                  <li>Fix WebConsole MemoryPlugin and hardening of WebConsole</li>
+                  <li>Avoid injection issues in the JDBC datasource</li>
+                  <li>Dynamic imports configuration option</li>
+                  <li>Ensure configuration files are written within ${karaf.etc}</li>
+                  <li>Restrict config:install, feature:repo-add -i, and feature:repo-remove -u to the admin role</li>
+                  <li>Command ACL for jdbc and jms scopes</li>
+                  <li>JMX RBAC guard for MBean lifecycle operations</li>
+                  <li>Escaping for %u/%dn/%fqdn LDAP search filter substitutions</li>
+                  <li>Clean up shading of Felix WebConsole</li>
+                  <li>A lot of dependencies updates</li>
+                </ul>
+                <a class="btn btn-outline-primary" href="archives.html">Archives &raquo;</a>
+                <a class="btn btn-outline-primary" href="https://github.com/apache/karaf/releases/tag/karaf-4.4.12" target="_blank">Release Notes &raquo;</a>
+              </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-4">
                 <h3>Karaf OSGi runtime 4.4.11 has been released! <span class="text-secondary">April 30, 2026</span></h3>
