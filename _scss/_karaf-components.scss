@@ -158,6 +158,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--k-text); }
 
 .k-hero {
   position: relative;
+  background-color: var(--k-surface-muted);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -183,10 +184,12 @@ h1, h2, h3, h4, h5, h6 { color: var(--k-text); }
   color: var(--k-text);
   background-color: var(--k-bg-subtle);
   background-image:
-    radial-gradient(circle at 1px 1px, var(--k-border) 1px, transparent 0),
-    linear-gradient(135deg, var(--k-accent-soft) 0%, transparent 60%);
-  background-size: 24px 24px, auto;
-  background-position: -12px -12px, 0 0;
+    radial-gradient(ellipse 70% 60% at 50% 38%, var(--k-hero-glow) 0%, transparent 75%),
+    linear-gradient(135deg, var(--k-hero-gradient) 0%, transparent 50%),
+    radial-gradient(circle at 1px 1px, var(--k-border) 1px, transparent 0);
+  background-size: auto, auto, 24px 24px;
+  background-position: center, 0 0, -12px -12px;
+  background-repeat: no-repeat, no-repeat, repeat;
 
   &::before { background-color: transparent; }
 
