@@ -11,9 +11,9 @@ permalink: /news
             <div class="card-body d-flex flex-column">
               <strong class="d-inline-block mb-2 text-primary"><i class="fas fa-rocket"></i> Announce</strong>
               <h3 class="mb-0">
-                <a>Karaf OSGi runtime 4.4.12</a>
+                <a>Karaf OSGi runtime 4.4.13</a>
               </h3>
-              <div class="mb-1 text-secondary">September 27, 2026</div>
+              <div class="mb-1 text-secondary">November 23, 2026</div>
               <p class="card-text mb-auto">Apache Karaf 4.4.x series brings OSGi R8 support, Pax Web 8.0.x, Pax Logging 2.3.x, and a lot of other improvements and updates.</p>
               <a href="#">Learn more</a>
             </div>
@@ -44,6 +44,28 @@ permalink: /news
         <div class="row g-5 mt-4">
             <div class="col-lg-10">
               <h2 class="k-section-heading"><i class="fas fa-bullhorn k-section-icon"></i> Fresh news</h2>
+
+              <div class="pb-4 mb-4">
+                <h3>Karaf OSGi runtime 4.4.13 has been released! <span class="text-secondary">November 23, 2026</span></h3>
+                <p>Apache Karaf runtime 4.4.13 is a maintenance release on the 4.4.x series, bringing hardening and fixes, especially:
+                <ul>
+                  <li>Enforce sftpRole RBAC check on SFTP and SCP access</li>
+                  <li>Command ACL for the groovy scope</li>
+                  <li>Restrict feature:requirement-add and feature:requirement-remove to the admin role</li>
+                  <li>Reject shell metacharacters in instance names and locations</li>
+                  <li>Escape the connection factory name in JMS service filters</li>
+                  <li>Ensure a configuration is only written to its own file, and harden configuration writes to an existing backing file</li>
+                  <li>Don't lose configuration properties while FileInstall writes the file back</li>
+                  <li>Save the features state and the region digraph atomically</li>
+                  <li>Fix state of features with a leading zero in a version segment</li>
+                  <li>Fix JSON feature file conditionals</li>
+                  <li>Fix Java version check for java.security.manager=allow in karaf.bat</li>
+                  <li>New example packaging the project bundle in a kar</li>
+                  <li>A lot of dependencies updates (Felix SCR 2.3.0, Felix ConfigAdmin 1.10.0, Felix Gogo Runtime 1.2.0, SSHD 2.20.1, CXF 3.6.13, Jackson 2.23.0, ...)</li>
+                </ul>
+                <a class="btn btn-outline-primary" href="archives.html">Archives &raquo;</a>
+                <a class="btn btn-outline-primary" href="https://github.com/apache/karaf/releases/tag/karaf-4.4.13" target="_blank">Release Notes &raquo;</a>
+              </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-4">
                 <h3>Karaf OSGi runtime 4.4.12 has been released! <span class="text-secondary">September 27, 2026</span></h3>
