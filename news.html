@@ -11,10 +11,10 @@ permalink: /news
             <div class="card-body d-flex flex-column">
               <strong class="d-inline-block mb-2 text-primary"><i class="fas fa-rocket"></i> Announce</strong>
               <h3 class="mb-0">
-                <a>Karaf OSGi runtime 4.4.13</a>
+                <a>Karaf OSGi runtime 4.5.0</a>
               </h3>
-              <div class="mb-1 text-secondary">November 23, 2026</div>
-              <p class="card-text mb-auto">Apache Karaf 4.4.x series brings OSGi R8 support, Pax Web 8.0.x, Pax Logging 2.3.x, and a lot of other improvements and updates.</p>
+              <div class="mb-1 text-secondary">November 26, 2026</div>
+              <p class="card-text mb-auto">Apache Karaf 4.5.x series brings Java 21+ &amp; Java 25 support, Jakarta EE &amp; Pax Web 11.1.x, native Karaf services (logging, url, web), simple feature resolver, Karaf Light distribution, and a lot of other improvements and updates.</p>
               <a href="#">Learn more</a>
             </div>
           </div>
@@ -24,10 +24,10 @@ permalink: /news
             <div class="card-body d-flex flex-column">
               <strong class="d-inline-block mb-2 text-primary"><i class="fas fa-rocket"></i> Announce</strong>
               <h3 class="mb-0">
-                <a>Karaf OSGi runtime 4.3.10</a>
+                <a>Karaf OSGi runtime 4.4.13</a>
               </h3>
-              <div class="mb-1 text-secondary">September 20, 2023</div>
-              <p class="card-text mb-auto">This is an important update patch for Apache Karaf runtime 4.3.x series, containing many fixes and dependency updates.</p>
+              <div class="mb-1 text-secondary">November 23, 2026</div>
+              <p class="card-text mb-auto">Apache Karaf 4.4.x series brings OSGi R8 support, Pax Web 8.0.x, Pax Logging 2.3.x, and a lot of other improvements and updates.</p>
               <a href="#">Learn more</a>
             </div>
           </div>
@@ -44,6 +44,26 @@ permalink: /news
         <div class="row g-5 mt-4">
             <div class="col-lg-10">
               <h2 class="k-section-heading"><i class="fas fa-bullhorn k-section-icon"></i> Fresh news</h2>
+
+              <div class="pb-4 mb-4">
+                <h3>Karaf OSGi runtime 4.5.0 has been released! <span class="text-secondary">November 26, 2026</span></h3>
+                <p>Apache Karaf runtime 4.5.0 is the first release of the new 4.5.x series, bringing major improvements, new features, and updates, especially:
+                <ul>
+                  <li>Lift minimum JDK version to 21, remove SecurityManager, and full Java 25 support</li>
+                  <li>Jakarta EE migration and upgrade to Pax Web 11.1.4 / Jetty 12.1.15 (Servlet 6.1)</li>
+                  <li>Support for Jakarta RESTful Web Services (JAX-RS) Whiteboard</li>
+                  <li>New lightweight native Karaf services: <code>karaf-logging</code>, <code>karaf-url</code> (<code>mvn:</code> and <code>wrap:</code>), and <code>karaf-web</code> (web container based on Apache Tomcat 11)</li>
+                  <li>New <code>simple</code> features resolver bypassing OSGi capabilities resolution</li>
+                  <li>New <code>apache-karaf-light</code> distribution using the simple feature resolver and native Karaf services</li>
+                  <li>Decouple features service from Pax URL</li>
+                  <li>Clean the OSGi bundle cache automatically on JDK version change</li>
+                  <li>Security hardening and fixes (SFTP/SCP RBAC enforcement, command ACLs, configuration write hardening, atomic features state and region digraph saves)</li>
+                  <li>Require Maven 3.9 or later and allow Maven 4 in Karaf tooling</li>
+                  <li>A lot of dependency updates (OSGi R8 / Felix Framework 8.0.0, Equinox 3.24.300, Pax Web 11.1.4, Jetty 12.1.15, Tomcat 11.0.29, CXF 4.2.4, Camel 4.18.4, ActiveMQ 6.4.0, Hibernate 7.4.16.Final, JLine 4.7.0, Bnd 7.5.0, ...)</li>
+                </ul>
+                <a class="btn btn-outline-primary" href="download.html">Download &raquo;</a>
+                <a class="btn btn-outline-primary" href="https://github.com/apache/karaf/releases/tag/karaf-4.5.0" target="_blank">Release Notes &raquo;</a>
+              </div><!-- /.blog-post -->
 
               <div class="pb-4 mb-4">
                 <h3>Karaf OSGi runtime 4.4.13 has been released! <span class="text-secondary">November 23, 2026</span></h3>
