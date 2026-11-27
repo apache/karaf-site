@@ -35,3 +35,10 @@ plugins:
 exclude:
   - pom.xml
   - README.md
+  - target
+  - package.json
+  - package-lock.json
+  - svgo.config.js
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
